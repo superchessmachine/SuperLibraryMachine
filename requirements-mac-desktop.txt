@@ -1,2 +1,5 @@
 pywebview>=4.4
 pyobjc-framework-WebKit>=9.0
+
+# Packaging tools (optional, for .app bundle)
+pyinstaller>=6.6

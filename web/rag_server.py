@@ -30,6 +30,12 @@ model = SentenceTransformer(EMBED_MODEL)
 # Helper Functions
 # ----------------------------
 
+def reset_openai_client():
+    """Clear the cached OpenAI client so new credentials take effect."""
+    global _client
+    _client = None
+
+
 def _get_openai_client():
     global _client
     if _client is None:

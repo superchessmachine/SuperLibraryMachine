@@ -11,7 +11,10 @@ processed RAG database (i.e. a folder containing `faiss_index.idx` and
 1. Create and activate a virtual environment (recommended).
 2. Install dependencies: `pip install --upgrade pip && pip install -r requirements-mac.txt` (tested on macOS
    13+/Apple Silicon and Intel).
-3. Export your OpenAI API key: `export OPENAI_API_KEY=sk-...`.
+3. Provide your OpenAI API key:
+   - Command line: `export OPENAI_API_KEY=sk-...` before running the server, or
+   - Desktop shell: launch it once and paste the key into the built-in Settings
+     window (it is stored locally and reused).
 4. (Optional) Point the app at a different database root:
    `export RAG_DB_ROOT=/path/to/your/databases`.
 5. Start the server from the project root: `python web/app.py`.
@@ -24,12 +27,36 @@ them.
 
 To run the site inside a lightweight desktop window instead of a browser:
 
-1. Ensure the web dependencies above are installed and your OpenAI key is exported.
+1. Ensure the web dependencies above are installed.
 2. Install the optional desktop extras: `pip install -r requirements-mac-desktop.txt`.
-3. Launch the shell: `python mac_app/launcher.py`.
+3. Launch the shell: `python mac_app/launcher.py`. The app works even without an API key;
+   use the Settings menu (or floating button) whenever you are ready to add one.
 
 The script spins up the Flask app in the background and opens a macOS WebKit view that
-points at the local site. Set `SLM_HOST`/`SLM_PORT` to override the defaults.
+points at the local site. Set `SLM_HOST`/`SLM_PORT` to override the defaults. On systems
+where the native menu is unavailable, a small “Settings” button appears in the top-right
+corner of the window instead.
+
+#### Turn it into a dockable macOS app
+
+1. Inside the `rag` environment run `pip install pyinstaller` (already included in
+   `requirements-mac-desktop.txt`).
+2. Execute `bash mac_app/build_app.sh` from the project root (the script sets
+   `PYINSTALLER_NO_CODESIGN=1` so PyInstaller skips its auto-sign step).
+3. Move `dist/SuperLibraryMachine.app` into `/Applications` (or wherever you keep apps).
+4. Double-click the app once to trust it, then pin it to the Dock for one-click launches.
+
+The bundled app stores your key under
+`~/Library/Application Support/SuperLibraryMachine/config.json`, so it persists across
+launches and Dock usage.
+
+> If the build script reports `No module named PyInstaller`, re-run
+> `pip install -r requirements-mac-desktop.txt` inside the `rag` environment to pull in
+> the optional packaging tools.
+
+> Need a signed bundle? After building, run
+> `codesign --force --deep --sign - --timestamp=none dist/SuperLibraryMachine.app`
+> (or use a real signing identity) before moving it into `/Applications`.
 
 > ℹ️  On Apple Silicon Macs, if `sentence-transformers` does not pull in a compatible
 > PyTorch wheel automatically, install it manually with
