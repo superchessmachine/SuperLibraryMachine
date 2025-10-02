@@ -1,0 +1,609 @@
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+HHS Public Access Author manuscript Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Published in final edited form as:
+Cell Chem Biol. 2022 April 21; 29(4): 544–554.e4. doi:10.1016/j.chembiol.2021.12.004.
+Potent macrocycle inhibitors of the human SAGA deubiquitinating module
+Michael Morgan1, Tatsuya Ikenoue2, Hiroaki Suga2,*, Cynthia Wolberger1,*,§ 1Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, Baltimore, MD 21205 USA
+2Graduate School of Science, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo 113-0033, Japan
+Summary
+The SAGA transcriptional coactivator contains a four-protein subcomplex called the DUB module that removes ubiquitin from histone H2B-K120. The human DUB module contains the catalytic subunit, USP22, which is overexpressed in a number of cancers that are resistant to available therapies. We screened a massive combinatorial library of cyclic peptides and identified potent inhibitors of USP22. The top hit was highly specific for USP22 as compared to a panel of 44 other human DUBs. Cells treated with peptide had increased levels of H2B monoubiquitination, demonstrating the ability of the cyclic peptides to enter human cells and inhibit H2B deubiquitination. These macrocycle inhibitors are, to our knowledge, the first reported inhibitors of USP22/SAGA DUB module and show promise for development.
+Graphical Abstract
+Corresponding authors: Cynthia Wolberger, cwolberg@jhmi.edu; Hiroaki Suga, hsuga@chem.s.u-tokyo.ac.jp. §Lead contact: Cynthia Wolberger, cwolberg@jhmi.edu AUTHOR CONTRIBUTIONS M.M. conceived the study, expressed and purified enzyme complexes, designed and performed the biochemical and biophysical experiments, analyzed the data, interpreted the results, and wrote the manuscript. T.I performed screening experiments, analyzed the data, interpreted the results, designed and synthesized molecules and wrote the manuscript. C.W. and H.S. conceived the study, interpreted results, wrote the manuscript, supervised and funded the study. All authors read, edited, and approved the final manuscript. Publisher's Disclaimer: This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final form. Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.
+DECLARATION OF INTERESTS H. Suga is on the board of directors of MiraBiologics. Cynthia Wolberger is on the scientific advisory board of Thermo Fisher Scientific.
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+eTOC
+USP22 deubiquitinates histone H2B and is overexpressed in cancers with poor prognoses. Morgan et al. have identified the first inhibitors of USP22 by screening a huge combinatorial library of cyclic peptides. The macrocycles are potent and specific inhibitors of USP22 in vitro and increase H2B ubiquitination in cells.
+Introduction
+Histone ubiquitination serves a non-degradative role in regulating transcription (Henry et al., 2003; Turner et al., 2002; Zhang, 2003), DNA repair (Moyal et al., 2011), DNA replication (Hung et al., 2017; Somasagara et al., 2017), and chromatin condensation (Fierz et al., 2011). Monoubiquitination of histone H2B (H2B-Ub) at lysine 120 in humans and lysine 123 (Robzyk et al., 2000) in yeast is a hallmark of actively transcribed genes (Weake and Workman, 2008). H2B-Ub plays a variety of roles in transcription, including promoting assembly of the pre-initiation complex (PIC) (Kao et al., 2004; Turner et al., 2002) and stimulating nucleosome reassembly by the histone chaperone, FACT (Fleming et al., 2008; Pavri et al., 2006). H2B-Ub also stimulates H3K4 methylation by human MLL1 and yeast COMPASS (Dover et al., 2002; Kim et al., 2009; Sun and Allis, 2002; Xue et al., 2019), and H3K79 methylation by human Dot1L and yeast Dot1 (Briggs et al., 2002; McGinty et al., 2008; Ng et al., 2002a; Ng et al., 2002b; Steger et al., 2008). H2B-Ub is distributed throughout gene bodies and is particularly enriched at transcription start sites (TSSs),
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 2
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+(Kao et al., 2004; Schulze et al., 2011). An intriguing aspect of H2B-Ub is that it is a transient mark that is rapidly turned over during transcription, with both ubiquitination and deubiquitination of H2B important for maintaining wild type levels of transcription (Batta et al., 2011; Henry et al., 2003; Kao et al., 2004). Deubiquitination of histone H2B plays a role in promoting phosphorylation of the RNA polymerase II CTD by Ctk1, thereby promoting the elongation phase of transcription (Wyce et al., 2007). Studies have shown that genes with low H2B-Ub levels are expressed at higher levels than those with high H2B-Ub (Hahn et al., 2012; Prenzel et al., 2011; Shema et al., 2008). Consistent with findings in yeast, surveys of gene expression in primary human cancer cells found that loss of USP22 resulted in changes in transcription at SAGA regulated genes (Atanassov et al., 2016).
+Altered levels of the enzymes that both attach and remove H2B-Ub are implicated in oncogenesis. Ubiquitin is covalently linked to H2B-K120 in human cells by the E2 ubiquitin conjugating enzyme, hRAD6A/B (Koken et al., 1991) and the E3 ubiquitin ligase, RNF20/40 (Kim et al., 2005). Misregulation of both the E2 and E3 enzymes that monoubiquitinate H2B have been shown to result in overexpression of genes that drive cell proliferation (Hung et al., 2017; Shema et al., 2008; Somasagara et al., 2017). A number of different deubiquitinating enzymes (DUBs) remove ubiquitin from H2B at distinct subsets of genes, including USP22, USP51, USP27x, USP36, and USP44 (Atanassov et al., 2016; DeVine et al., 2018; Fuchs et al., 2012). Of these DUBs, altered expression of USP22 has been implicated in a variety of tumor types (Melo-Cardenas et al., 2016). USP22 overexpression has been identified as part of an 11- gene “death by cancer” signature of gene expression – a pattern observed over diverse tissue types that is characteristic of metastatic cancers that respond poorly to existing therapies (Glinsky et al., 2005). USP22 overexpression correlates with poor clinical outcomes in tumors of the brain (Li et al., 2013), breast (Zhang et al., 2011), stomach (Yang et al.,2011), liver (Liao et al., 2019; Wen et al., 2020), and colon (Liu et al., 2010; Liu et al.,2012), although its mechanistic role in oncogenesis is poorly understood. In addition, reduced expression of USP22 is associated with chromosomal instability (CIN), since efficient chromosome compaction during mitosis requires USP22 deubiquitination of H2B in metaphase (Jeusset et al., 2021). Silencing of USP22 expression results in aberrant chromosomal segregation and phenotypes consistent with CIN, including polyploid daughter cells (Jeusset et al., 2021). Taken together, these findings suggest that appropriate USP22 activity is a critical regulator of major cellular events, and its misregulation is correlated with oncogenesis and genomic heterogeneity.
+Because of its role in cancer, USP22 is an attractive target for drug discovery. USP22 is the enzymatic DUB subunit of the SAGA transcriptional coactivator complex, a 1.8 MDa complex comprising 19 subunits that are organized into functional modules (Soffers and Workman, 2020; Zhang et al., 2008). The SAGA complex is conserved from yeast to humans and binds to promoter regions, where SAGA facilitates assembly of the transcriptional pre-initiation complex (Grant et al., 1998a; Grant et al., 1998b; Massari et al., 1999; Sterner et al., 1999), acetylates histone H3 and deubiquitinates histone H2B (reviewed in (Soffers and Workman, 2020)). The deubiquitinating activity of SAGA resides in a four-protein subcomplex called the DUB module (Ingvarsdottir et al., 2005; Kohler et al., 2006; Kohler et al., 2008; Lang et al., 2011; Lee et al., 2009). As first shown in yeast, the catalytic subunit alone is inactive unless incorporated into a complex containing the
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 3
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+other three DUB module subunits (Ellisdon et al., 2010; Ingvarsdottir et al., 2005; Kohler et al., 2008; Rodriguez-Navarro et al., 2004). The yeast DUB module comprises the catalytic subunit, Ubp8, in complex with Sgf73, Sgf11, and Sus1 (Henry et al., 2003; Ingvarsdottir et al., 2005; Kohler et al., 2010; Rodriguez-Navarro et al., 2004; Samara et al., 2010). Crystal structures of the yeast DUB module revealed a remarkably intertwined subunit arrangement in which each subunit contacts the other three (Kohler et al., 2010; Samara et al., 2010). Deletion or disruption of the interface between Ubp8 and the zinc finger domain of Sgf11, which anchors the DUB module to the nucleosome acidic patch (Morgan et al., 2016), destabilizes intersubunit interactions and abrogates enzymatic activity (Kohler et al., 2010; Morgan et al., 2016; Samara et al., 2012; Wang et al., 2020; Yan and Wolberger, 2015). The human DUB module contains the catalytic subunit, USP22, in complex with ATXN7 (homologue of Sgf73), ATXN7L3 (homologue of Sgf11), and ENY2 (homologue of Sus1) (Zhang et al., 2008; Zhao et al., 2008). Like its yeast homologue, USP22 depends on its partner subunits for full activity (Atanassov et al., 2016), which makes it necessary to utilize the full human DUB module in screens for inhibitors.
+We report here the results of a screen for macrocyclic peptide inhibitors that target USP22. We took advantage of the RaPID (Random non-standard Peptides Integrated Discovery) system, which comprises a massive combinatorial library of structurally unique cyclic peptides that can be screened in a high-throughput manner based on binding affinity. Using the human SAGA DUB module containing USP22 bound to its three partner proteins, we identified six cyclic peptides that bind tightly to the DUB module and inhibit DUB module activity at sub-micromolar concentrations on both fluorogenic and nucleosomal substrates. The most potent peptide inhibitor, which has an apparent Ki of about 20 nM on the human DUB module, did not inhibit 45 other human DUBs, indicating that it is highly specific for USP22. Remarkably, this inhibitor also showed greater activity on USP22 than on two other DUBs, USP27x and USP51, that also deubiquitinate histone H2B and form complexes with two of the SAGA DUB module adaptor subunits. Cells treated with the cyclic peptide inhibitors had increased H2B-Ub levels, indicating that the peptides can also inhibit USP22 in vivo. These compounds are promising leads as treatments for cancers in which USP22 overexpression may be a factor.
+RESULTS
+Screen for macrocyclic peptides that inhibit the DUB module
+We employed the RaPID system to screen libraries of over 1012 unique macrocyclic peptides (Hipolito and Suga, 2012; Ito et al., 2015) to identify candidate inhibitors based on their ability to bind tightly to the human DUB module (hDUBm) or yeast DUB modules (yDUBm) (Figure 1A). A puromycin-ligated mRNA library was constructed to encode peptides with N-chloroacetyl-L-Tyrosine (LY-library) or N-chloroacetyl-D-Tyrosine (DY-library) as the initiator amino acid, followed by a random peptide region consisting of 6–15 residues, a cysteine and ending with a short linker peptide. Upon translation of these mRNAs, the chloroacetyl group on N-terminus of the linear peptides spontaneously cyclizes with the downstream cysteine to form thioether-macrocyclic peptides. The cyclic scaffold ensured that the LY-library and the DY-library diversified three-dimensional structures.
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 4
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+Each cyclic peptide was covalently linked to its corresponding mRNA template via the puromycin linker for later amplification and DNA sequencing. These libraries were applied to streptavidin-conjugated magnetic beads to which a N-terminally biotinylated hDUBm or yDUBm was immobilized for selection of ligands against each enzyme complex.
+Following four or five rounds of selection, the recovery rate of peptide–mRNA fusion molecules was significantly increased (Figure S1), suggesting that the population of cyclic peptides binding hDUBm or yDUBm were selectively enriched. Sequence analysis of the respective enriched libraries yielded unique sequences for the peptides. We selected the six most enriched cyclic peptides for hDUBm and two sequences targeting yDUBm on the basis of the hit frequency for further analysis.
+Peptides are potent inhibitors of the human DUB module
+The cyclic peptides that constituted potential inhibitors were chemically synthesized by solid phase peptide synthesis and tested for their effectiveness and specificity as inhibitors in vitro. We assayed hDUBm activity using the fluorogenic substrate, ubiquitin-amino methyl coumarin (Ub-AMC) over a range of inhibitor concentrations. As shown in Figures 2A-2F, all six peptides that were identified based on tight binding to the human DUB module were also potent inhibitors of DUB activity. All peptides had sub-micromolar Ki values, with the hL1, hD1, hD2, and hD3 peptides exhibiting values of < 100 nM. The most potent inhibitor as judged by RaPID screening and Ki approximation (Kuzmic et al., 2000), hD1, had an apparent Ki of 20 nM.
+The two peptides targeting the yeast DUB module were not pursued as inhibitors, as yL1 was insoluble in aqueous conditions and yD1 did not inhibit activity of the yeast DUB module (Figure S2A). Since yD1 also did not inhibit the human DUBm (Figure S2B), nor was it enriched in the screen for peptides that bind tightly to the human DUBm, this peptide was used for control experiments.
+To test the effectiveness of the inhibitors on a native-like substrate, we assayed the ability of each cyclic peptide to inhibit DUB activity on nucleosomes ubiquitinated at H2B-K120. A denaturing gel was used to monitor cleavage of H2B-Ub, releasing H2B and Ub (Figure 2G). With the exception of hD4, all of the cyclic peptide leads were potent inhibitors of nucleosomal H2B-Ub cleavage by the human DUB module (Figures 2G and 2H). Each cyclic peptide sufficiently inhibited hDUB module activity such that no substantial activity was detected over the time course examined. The peptide with the highest Ki on Ub-AMC, hD4 (805 nM) (Figure 2E), also showed very weak inhibition of hDUBm on nucleosomal H2B-Ub. These results confirm the ability of cyclic peptides hL1, hD1, hD2, hD3, and hD5 to inhibit the enzymatic activity of USP22/DUB module on a native substrate.
+Characterization of inhibition mechanism
+There are a variety of possible mechanisms by which the macrocycles could potentially inhibit the USP22/DUB module. We analyzed the inhibition kinetics of the most potent inhibitor, hD1, to determine the mode of inhibition (Fig. 3A). DUBm activity as a function of substrate concentration was assayed in the presence of several different concentrations of hD1 and then fit the data to competitive, non-competitive, and uncompetitive models of
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 5
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+inhibition. We obtained the best fit with a non-competitive model, suggesting that hD1 does not compete for ubiquitin binding, but instead exerts its effect on the catalytic step of the reaction. Data from these experiments indicate that the Ki of hD1 is ~180 nM, while Km was calculated to be 35 μM and k cat was 2.8 s−1, matching previous experiments.
+A rationale for using small, cyclized peptides as inhibitors is that cyclization constrains the conformation of the peptide backbone, thus reducing the unfavorable entropic penalty upon formation of a complex with the target enzyme. To test the importance of peptide cyclization, we tested the ability of a linear hD1 peptide to inhibit USP22. As shown in figure 3B, linear hD1 inhibits USP22 at a ~4-fold higher concentration, indicating the constraining the peptide does not play a major role in the effectiveness of this inhibitor. To verify that the peptide sequence itself is important, rather than overall amino acid composition, we tested a peptide of the same length but with a scrambled amino acid sequence and showed that it failed to inhibit DUB activity, even at very high peptide concentrations (Fig. 3B).
+Most inhibitors disrupt activity by binding directly to the catalytic domain either in or near the enzyme active site. Since USP22 is only active when bound to the other DUB module proteins (Atanassov et al., 2016; Lang et al., 2011), another possible mechanism by which the cyclic peptides inhibit USP22 activity could be by altering the interactions between USP22 and the three other subunits, ATXN7, ATXN7L3, and ENY2. Studies of the yeast DUB module showed that deletion of the Sgf11 zinc-finger leads to an inactive domain-swapped dimer of DUB modules (Samara et al., 2012), while mutations made at the interface between Ubp8 and the Sgf11 zinc finger significantly reduce enzyme activity (Kohler et al., 2010). Similarly, disruption of intersubunit interactions between the catalytic subunit, Ubp8 (yeast homologue of USP22), and Sgf73 (homologue of ATXN7) cause a loss of DUB activity (Yan and Wolberger, 2015). To see if the USP22 inhibitors altered the overall organization of human DUB module subunits, we used small-angle x-ray scattering (SAXS) to determine whether the DUB module undergoes a large-scale change to its shape in the presence each respective cyclic peptides. Since there is no structure of the human DUB module, we compared the results to predicted SAXS data calculated from the crystal structure of the yeast DUB module (PDB ID: 3MHH) (Samara et al., 2010).
+SAXS data were measured with the human DUB module incubated with each respective peptide inhibitor, using DMSO as a vehicle control. The Kratky plot (Fig. 4A) and p(r) distribution (Figure 4B) of the human DUB module in the presence of the hD1 inhibitor are very similar to those of the yeast complex, consistent with the idea that the two complexes adopt a similar tertiary and quaternary structure. A similar trend is seen in SAXS data collected on the human DUB module in the presence of the other cyclic peptides (Figure S3), suggesting that the peptides appear to bind the DUB module at discrete surfaces, rather than disrupting the complex. Consistent with this conclusion, ab initio density maps calculated for the human and yeast DUB modules in the presence and absence of hD1 using DENSS analysis (Grant, 2018) indicated minor changes in the molecular envelope. Interestingly, binding of each cyclic peptide slightly increased the long axis of the complex (Figure 4C). The greatest difference in molecular envelope due to peptide binding occurs in the region of the Sgf11/ATXN7L3 zinc finger, which is located at one end of the
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 6
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+long axis (Figure 4C). We conclude from these data that all the peptide-bound human DUB module complexes largely maintain their fold at peptide concentrations that inhibit enzymatic activity.
+hD1 is highly selective for USP22
+The human genome encodes about 80 active DUBs (Clague et al., 2015), 55 of which belong to the same USP structural family as USP22, thus presenting a challenge to the development of specific DUB inhibitors. To probe the relative specificity of hD1, we screened a panel of 44 human DUBs for inhibition, including 27 USP DUBs (DUBprofiler™; Ubiquigent). The activity of each DUB was tested in the presence of a single concentration of inhibitor and compared with enzyme activity in the absence of compound. We chose 1 μM as the concentration of hD1 to test, as the USP22/DUB module has no detectable activity under these conditions (Figure 2B). As shown in Figure 5A, hD1 is strikingly specific: it did not significantly affect the activity of any of the enzymes tested except for USP27x, whose activity was reduced by ~50%. Interestingly, USP27x has been reported to deubiquitinate histone H2B-K120 in vivo and in vitro as part of a complex with ATXN7L3 and ENY2 (Atanassov et al., 2016), two of the three adapter proteins that are part of the USP22 DUB module. In this screen, however, USP27x alone was tested in the absence of other subunits.
+We next compared the relative specificity of hD1 on USP22, USP27x, and USP51 in the context of their native complexes. We purified heterotrimeric complexes containing USP27x and USP51, respectively, in complex with ENY2 and ATXN7L3. The activity of these complexes on Ub-AMC was compared to that of the human DUBm, which contains USP22, ENY2, ATXN7L3, and a fourth subunit, ATXN7, that anchors the DUBm to the rest of the SAGA complex (Herbst et al., 2021; Kohler et al., 2008). As shown in Figure 5B, hD1 inhibits the USP27x complex at >25-fold higher inhibitor concentrations and modestly inhibits the USP51 complex only at >2500-fold higher concentration than that needed to inhibit the human DUB module. The high specificity of hD1 for USP22 as compared to USP27x and USP51 is all the more notable given that all three complexes deubiquitinate nucleosomal histone H2B-K120Ub. In addition, the finding that hD1 inhibits USP27x alone as well as the USP27x/ENY2/ATXN7L3 complex suggest that hD1 inhibits DUB activity by binding directly to the catalytic domain, rather than to the ENY2 and ATXN7L3 subunits. We note that an analogous comparison with USP22 and USP51 was not feasible because the two proteins are poorly behaved in solution when expressed on their own.
+Cyclic peptide inhibitor increases H2B ubiquitination in cells
+We next asked whether each inhibitor could increase levels of H2B ubiquitination in cells, which would be consistent with inhibition of USP22. We introduced each cyclic peptide as a supplement to the growth medium of HEK293T cells, extracted the histones from each culture after two hours of exposure, and quantitated levels of H2B-Ub by immunoblot. Levels of H2B-Ub were compared to control cells that were treated with DMSO, the yD1 cyclic peptide that has no effect on USP22 activity, or the broad-spectrum cell permeable DUB inhibitor, PR-619. The relative abundance of histone H3 was used to control for differences in nuclear extraction. As shown in Figure 6A, treatment with five of the six inhibitors significantly increased H2B-Ub levels as compared to the controls. The most
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 7
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+Discussion
+dramatic results were observed for hD1 and hD3, which increased H2B-Ub levels in excess of 15-fold, followed by hD4 and hD5, which increased H2B-Ub levels by about 12-fold (Figure 6B). The hD2 and hL1 peptides resulted in a minor increase of H2B-Ub on the scale seen with the yD1 control peptide and the DUB inhibitor, PR-619. The robust effect of hD4 in the cell-based assay is interesting given that this was the least effective inhibitor in the Ub-AMC cleavage assay, with an apparent Ki of ~800 nM. Overall, the accumulation of H2B-Ub indicates that the inhibitors can enter cells and inhibit DUB module activity. While we cannot rule out an effect on other DUBs that are specific for H2B-Ub, such as USP27x and USP51 (Atanassov et al., 2016), our results are consistent with the ability of these inhibitors to inhibit USP22 in cells.
+Specifically targeting one of the ~80 human DUBs with inhibitors is difficult because of the high degree of structural similarity within each superfamily. Identifying specific inhibitors of the USP family is particularly challenging because there are 55 USP DUBs that share a structurally conserved catalytic domain and active site (Clague et al., 2013). Using in vitro selection with a library of cyclic peptides, we identified highly specific inhibitors of USP22, a subunit of the heterotetrameric SAGA deubiquitinating module, whose overexpression is part of an 11-gene “death by cancer” signature (Glinsky et al., 2005). The most potent inhibitor, hD1, inhibits USP22 in vitro with a Ki of 180 nM (Figure 3A). Importantly, hD1 is remarkably specific for USP22 and has little to no effect on the activity of 44 other human DUBs, with the notable exception of USP27x (Figure 5). The ability of the peptide inhibitors to increase ubiquitination in cells (Figure 6) indicates that the inhibitor is able to cross the outer cell membrane and enter the nucleus. To our knowledge, the cyclic peptides discussed in this work are the first inhibitors of the human DUB module, potentially offering opportunities for therapeutics and future insights into the roles of USP22 and H2B-Ub signaling in cancer and differentiation.
+The selectivity of hD1 among DUB complexes specific for histone H2B-K120Ub is particularly striking. In addition to the SAGA DUB module, which contains USP22 in complex with ENY2, ATXN7L3 and ATXN7, two other DUB complexes have been identified that contain two of the three non-catalytic SAGA subunits and also deubiquitinate histone H2B-K120Ub (Atanassov et al., 2016). Both USP27x and USP51 form heterotrimeric complexes with ENY2 and ATXN7L3 (Atanassov et al., 2016), but lack the ATXN7 subunit that anchors the SAGA DUB module to the remainder of the SAGA complex (Herbst et al., 2021). Since hD1 inhibits USP27x whether or not it is in complex with the other SAGA subunits, the inhibitor likely binds directly to the catalytic USP domain. Out of the 55 human USP family DUBS, USP27x is most similar to USP22, with 82% sequence identify. USP51, which is only modestly inhibited by hD1 at very high concentrations, is 70% identical in sequence to USP22. The other human DUBs, including the USP DUBs tested here, are less than 40% identical in sequence to USP22. It is likely that some of the contacts formed by hD1 with the USP domain involve residues that differ among the three enzymes, with the remaining contacts involving conserved residues. Since hD1 was only active on DUBs closely related to USP22, it is likely that hD1 does not inhibit the other human DUBs that were not tested in this study.
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 8
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+The inhibitors tested here likely act by disrupting or occluding the active site, or by interfering with ubiquitin binding. Structural studies of the yeast DUB module showed that the USP domain contacts the ubiquitin moiety only, while the Sgf11 subunit (homologue of ATXN7L3) contacts the nucleosome acidic patch via its arginine-rich zinc finger (Kohler et al., 2010; Morgan et al., 2016; Samara et al., 2010). Substitutions of the contacting Sgf11 zinc finger arginine residues therefore abrogate DUB module activity on nucleosomes but not on Ub-AMC or diubiquitin (Morgan et al., 2016). Since the cyclic peptides we identified inhibit cleavage of both Ub-AMC and nucleosome substrates (Figure 2), the inhibitors most likely act by interfering with ubiquitin binding or catalysis. Full catalytic activity of the DUB module depends upon incorporation of the catalytic domain into the heterotetrameric complex, so an inhibitor could also potentially act by disrupting the quaternary organization of the four subunits, thereby abrogating USP22 activity (Ingvarsdottir et al., 2005; Rodriguez-Navarro et al., 2004). However, SAXS studies of the human DUB module (Figure 4) in the presence of inhibitory peptide showed no evidence of a gross conformational change of the type observed for the yeast DUB module upon deletion of the Sgf11 zinc finger (Samara et al., 2012). Structural information will be needed to determine the binding location and mechanism of action of the DUB peptide inhibitors, as well as highlight which macrocycle residues are most important for binding to USP22. A majority of the peptides that show inhibitory activity (Figure 2A-F) contain the sequence, SYRG (hD1, hD2, hD4) or SWRG (hD5) (Figure 1); however hD3, which contains only SY, is still a potent inhibitor (Figure 2C). The macrocycle hL1, which contains an L-amino acid, rather than D-, at the N-terminal cyclization residue is unrelated in sequence to the others yet is also a potent inhibitor (Figure 2F).
+Our cell-based experiments demonstrated the effectiveness of each macrocycle in enriching H2B-Ub in HEK293T cells (Figure 6). Interestingly, the effect in cells was not strictly correlated with the relative potency of each inhibitor in vitro; the weakest inhibitor of the peptides tested, hD4, enriched H2B-Ub in cells to a similar extent as the most potent inhibitor, hD1 (Figures 2 and 6A). A possible explanation is that each peptide enters cells with a different efficiency, although further study will be needed to assess peptide uptake in cells and in tissues. The mechanism by which the macrocyclic peptides described in this work enter the cells, and whether they permeate cells passively or actively, is as yet unknown. We have previously reported similar cases where the thioether-macrocyclic peptides did enter cells and actively inhibit enzyme or protein functions (Kawamura et al., 2017; Nawatha et al., 2019; Rogers et al., 2021). Most importantly, because of the potent activity of our peptide (Ki < 200 nM) and remarkable specificity for the target, even if only a small fraction of peptide added to media could permeate to cells, they might exhibit expected cellular activity. Nevertheless, it is encouraging that treatment with macrocyclic peptide clearly enriched H2B-Ub in cells, suggesting that the inhibitor is active in cells and is membrane permeable. These results provide strong incentive to further engineer the macrocycles to improve inhibitory activity against USP22, as well as cell permeability. We note that, while the effect on cellular H2B-Ub levels observed most likely stem from inhibition of USP22, we cannot rule out a contribution from inhibiting USP27x, whose IC50 for hD1 is about 25-fold higher than for USP22. It is yet unclear the mechanism of how the
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 9
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+macrocyclic peptides described in this work enter the cells, i.e. whether they permeate cells passively or actively, at this point.
+In addition to its role in maintaining H2B-Ub levels, USP22 deubiquitinates several other proteins, including TRF1 (Atanassov et al., 2009), FBP1 (Atanassov and Dent, 2011), and SIRT1 (Lin et al., 2012), complicating the current understanding of how USP22 overexpression impacts cellular events. In mice, USP22 knockout is embryonic lethal, and hypermorphic alleles designed to reduce USP22 expression significantly altered signal transduction for agonists of several receptor tyrosine kinases, resulting in a phenotype that includes developmental aberrations in the placenta and embryo (Koutelou et al., 2019). Misregulated expression of developmental genes driving differentiated cells toward pluripotency can result in cancer progression. However the interplay between the DUB module’s roles in chromatin maintenance, transcription factor regulation, and the gene- specific consequences of those combined effects makes it difficult to attribute biological outcomes to any particular USP22 deubiquitination target (Wang and Dent, 2014). The inhibitors we have identified provide tools to probe the role of USP22 in targeting all its cellular substrates.
+STAR★Methods
+RESOURCE AVAILABILITY
+Lead contact—Further information and requests for resources and reagents should be directed to and will be fulfilled by the lead contact, Cynthia Wolberger (cwolberg@jhmi.edu).
+Materials availability—The cyclic peptide inhibitors described in this study will be made available on request following the completion of a materials transfer agreement (MTA).
+Data and code availability
+Raw data reported in this paper from macrocycle selection, enzyme kinetics, small-angle x-ray scattering (SAXS), or quantitative western blotting will be shared by the lead contact upon request.
+This paper does not report original code.
+Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request.
+EXPERIMENTAL MODEL AND SUBJECT DETAILS
+Cell lines—Human Embryonic Kidney 293T/17 cells (RRID: CVCL_1926) originating from a female embryo were obtained from ATCC and cultured in 75 cm2 flasks with DMEM supplemented with 5% fetal bovine serum (FBS) at 37°C and 5% CO2 in an air atmosphere. 293T/17 cells were adapted to media conditions for a minimum of 5 passages before use. Cells were tested for mycoplasma contamination and authenticated by ATCC.
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 10
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+Sf9 insect cells originating from ovarian tissue in Spodoptera frugiperda were grown in suspension in Sf-900 media (Gibco) at 27°C and infected with baculovirus for protein complex expression using a multiplicity of infection (MOI) of 1.
+METHOD DETAILS
+Protein expression and purification—For library screening, Ubp8 and USP22 constructs with N-terminal 6xHis were cloned into expression vectors, extending the N-terminus with an Avi-tag (GLNDIFEAQKIEWHE), an amino acid sequence that can be specifically biotinylated by the enzyme BirA during expression or in a reconstituted biochemical reaction. The yeast DUB module was expressed and purified as previously described (Samara et al., 2010). Briefly, bacterial cells (BL21-Rosetta2-pLysS) were transformed with three separate plasmids bearing the following coding sequences: Ubp8 (pET32a), Sgf11 and Sgf73 1-105 (CDFDuet), and Sus1 (pRSF). Cells were harvested, resuspended in lysis buffer (50 mM HEPES pH 7.8, 500 mM NaCl, 20 mM imidazole, 50 μM ZnCl2, 5% glycerol, 15 mM betamercaptoethanol, and 1 mM PMSF) and lysed using a microfludizer (Microfluidics, Inc.) followed by passage over a HisTrap column (GE Healthcare) and elution with a 20-400 mM imidazole gradient in lysis buffer. Peak fractions were collected and dialyzed into IEX buffer (20 mM HEPES pH 7.6, 50 mM NaCl, 20 μM ZnCl2, 15 mM betamercaptoethanol, and 5% glycerol), followed by further purification with a Q-SP column (GE Healthcare) using a 0.05-1 M salt gradient in the same buffer. Fractions containing the yeast DUB module were then pooled, concentrated, and injected onto a Superdex 200 10/300 column (GE Healthcare) equilibrated with storage buffer (20 mM HEPES pH 7.6, 150 mM NaCl, 20 μM ZnCl2, 5 mM DTT, and 5% glycerol). Peak fractions were pooled, concentrate/ed and flash-frozen in aliquots.
+The human DUBm was expressed using a baculovirus plasmid construct containing all four subunits, USP22, ATXN7(75-172), ATXN7L3(3-151), and ENY2, using the Bac2Bac system (Thermo), which we used to transfect Sf9 insect cells in order to amplify the resultant baculovirus. High Five cells were infected with the hDUBm baculovirus for two days, harvested, lysed, and purified in the same buffers used for yDUBm. After purification, recombinant BirA was added to the purified complexes in the presence of 50 mM biotin to produce the biotinylated complex, which was suitable for immobilization and mRNA display screening.
+All biochemical and biophysical assays used yDUBm, hDUBm, USP27x/ENY2/ ATXN7L3(3-151), or USP51/ENY2/ATXN7L3(3-151) constructs lacking the Avi tag, which were purified essentially as described for their Avi-tagged counterparts, with the exception that the 6xHis affinity tag was cleaved from Ubp8 and USP22 by addition of TEV protease following HisTrap purification and repassage of the ensuing product over the HisTrap column to remove the cleaved tag and protease.
+Screening of DUBm binding macrocyclic peptides with the RaPID system—In vitro selections of DUBm binding macrocyclic peptides using RaPID system was performed as previously reported (Ito et al., 2015) with slight modification. Briefly, the initial random mRNA library was transcribed and ligated to a puromycin linker primer via T4 ligase
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 11
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+for 30 min at 25°C and extracted with phenol/chloroform and ethanol precipitated. A 150 μL translation reaction using the methionine-deficient FIT system ( Goto et al., 2011) and a 50 μM concentration of CIAc-L-Tyr-tRNA fMet CAU were used to convert the mRNA library into a library of peptide-mRNA fusions. The translation was performed at 37°C for 30 min followed by a 25°C step for 12 min to enhance the formation of the peptide-mRNA fusions. Thirty microliters of 100 mM EDTA was added to dissociate ribosomes and the peptide-mRNA fusions were incubated at 37°C for 30 min to allow the thioether cyclization to approach completion. The fused peptide–mRNA was subsequently reverse transcribed using MMLV RT RNase H- (Promega) for 1 h at 42 °C and 0.5 μL aliquot of the peptide-mRNA fusions was taken from the mixture and saved for the determination of the total amount of inputted mRNA. The peptide–mRNA fusions were then incubated with human and yeast DUBm-immobilized on Dynabeads M-280 streptavidin (Invitrogen) for 30 min at 37 °C. The resultant complementary DNAs were eluted by mixing with 1 × PCR reaction buffer and heating at 95 °C for 5 min, followed by immediate separation of the supernatant from the beads. A small fraction of the cDNA and input were allocated to real-time PCR quantification using a LightCycler 2.0 (Roche); the remainder was amplified by PCR. The resulting duplex DNAs were purified by phenol–chloroform extraction and ethanol precipitation, and transcribed into mRNAs for the next round of selection. From the second round of selection, the translation was performed at 5 μL scale, and six times of pre-clear steps were added as negative selection preceding the positive selection steps using 1 μL each of untreated and biotin bound Dynabeads. Finally, the observed enrichments appearing at fifth and sixth round were subjected to further DNA deep sequencing using the MiSeq sequencing system (Ilumina).
+CAU and ClAc-D-Tyr-tRNAfMet
+Chemical synthesis of peptides—Macrocyclic peptides were synthesized by standard Fmoc solid-phase peptide synthesis (SPPS) using a Syro Wave automated peptide synthesizer (Biotage). The resulting peptide–resin (25 μmol scale) was treated with a solution of 92.5% trifluoroacetic acid (TFA), 2.5% water, 2.5% triisopropylsilane and 2.5% ethanedithiol, to yield the free linear N-CIAc-peptide. Following diethyl ether precipitation, the pellet was dissolved in 10 ml triethylamine containing DMSO and incubated for 1 h at 25 °C, to yield the corresponding macrocycle. The peptide suspensions were then acidified by addition of TFA to quench the macrocyclization reaction. The macrocycle was purified by RP-HPLC, using a Prominence HPLC system (Shimadzu) under linear gradient conditions. Mobile phase A (comprising water with 0.1% TFA) was mixed with mobile phase B (0.1% TFA in acetonitrile). Purified peptides were lyophilized in vacuo and molecular mass was confirmed by MALDI MS, using an AutoFlex II instrument (Bruker Daltonics).
+Ub-AMC deubiquitination assay—A working stock mixture of either yDUBm or hDUBm was prepared in the presence of either DMSO (mock) or a dilution series of the cyclic peptide. Before making the stock mix, the enzyme complex was diluted in reaction buffer (50 mM HEPES, pH 7.5, 150 mM NaCl, 1 μM ZnCl2, and 5 mM DTT), and each cyclic peptide was serially diluted with DMSO from 1.6 mM in 2-fold increments to make 15x stocks of each desired final peptide concentration (so as to keep DMSO concentration constant in all reactions), then diluted in buffer before mixing with enzyme.
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 12
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+Each enzyme:peptide mixture was incubated for 30 min at 30°C in the case of yDUBm, and 37°C in the case of hDUBm, with each enzyme complex at 1.033x the desired concentration (207 nM). We added 29 μM of the enzyme:peptide mixture to 1 mL of 30 μM Ub-AMC (7- amino-4-methylcoumarin) (Boston Biochem), for a final concentration of 200 nM DUBm, the indicated cyclic peptide concentration, and 1 μM Ub-AMC. DUB activity was measured by observing the increase in AMC fluorescence in a plate reader, and the initial rate of fluorescence increase was calculated and plotted as a function of inhibitor concentration (Figure 2A-F). The Ki values were determined using the Morrison approximation of enzyme inhibition equilibria (Kuzmic et al., 2000) within Prism (Graphpad).
+Deubiquitination of nucleosomal H2B—Recombinant human mononucleosomes containing histone H2B ubiquitinated at K120 (H2B-Ub) were obtained from Epicypher (dNuc, 16-0370) and diluted to 2 μM with reaction buffer. Both hDUBm and inhibitor peptides were diluted from concentrated stocks with reaction buffer (10 mM HEPES pH 7.5, 150 mM NaCl, 1 μM ZnCl2, and 0.2 mM TCEP) to a final concentration of 400 nM DUB module and 2 μM cyclic peptide and incubated at 37°C for 20 minutes. Reactions were initiated by combining equal volumes of the enzyme-peptide mixture and nucleosomes, resulting in final concentrations of 200 nM hDUBm, 1 μM cyclic peptide, and 1 μM H2B-Ub nucleosome. Time points of the reaction were quenched with SDS sample buffer, separated by SDS-PAGE (Invitrogen, Bolt gels), and stained with Sypro Ruby (Life Technologies). Gels were imaged and quantitated (BioRad product info), using the H3 band as an independent load control to normalize the band intensities of H2B-Ub. Experiments were done in triplicate and analyzed using Prism (GraphPad).
+Small-angle x-ray scattering—Small angle x-ray scattering data (SAXS) were collected on a Rigaku BioSAXS 2000 instrument mounted on a Rigaku FRE-Super Bright rotating anode x-ray generator. The yeast and human DUBm and DUBm were diluted to concentrations of 1 mg/mL (6 μM) in reaction buffer (see H2B-Ub DUB assay) and scattering data recorded with a Pilatus-6M detector. To record SAXS data from each DUBm in the presence of cyclic peptide, both peptide and DUBm were incubated at equimolar concentration (6 μM). Data were analyzed using the ATSAS suite of SAXS analysis software to obtain p(r) curves (Manalastas-Cantos et al., 2021). These data were then processed further using the DENSS algorithm to produce electron density maps. Maps were then further analyzed using UCSF Chimera.
+DUB specificity assays—Ubiquitin-rhodamine(110)-glycine cleavage rates were measured for all DUBs available in the DUBprofiler™ panel (44 in total; Ubiquigent). Enzyme activity was measured in the presence of a constant concentration of 1 μM hD1. USP22 was not included in the panel, and is not represented in Fig 5A. Activity of purified DUB complexes targeting FI2B that coopt ATXN7L3 and ENY2 was tested in the presence of a range of concentrations of hD1. Initial cleavage rates of each complex were measured on a fixed concentration of 5 μM Ub-AMC.
+Cell-based Assays—HEK293T cells were purchased from ATCC (CRL-3216) and cultures were expanded for at least 10 passages in Dulbecco’s Modified Eagle Medium
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 13
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+(DMEM) supplemented with 10% fetal bovine serum (FBS) in T75 flasks incubated in a 37°C and 5% CO2 cabinet before any manipulation. Once cells were mature, HEK293T cells were grown to 80% confluence in 6-well plates, the media were aspirated, and media with reduced FBS (DMEM, 2% FBS) and 5 μM cyclic peptide were introduced. After two hours, the media were aspirated, and the cells were collected by scraping (~1x106 cells per well). The cells were then washed in 1x PBS twice followed by histone extraction (Active Motif). The extracted histones were then western blotted for H2B-Ub levels (Cell Signaling, 5546S), using H3 western blotting (Abcam, ab1791) to normalize loading.
+QUANTIFICATION AND STATISTICAL METHODS
+All data were quantitated by taking the average and standard deviation of three experimental replicates. In cases where the significance of differences between two datasets was determined by p-value, Welch’s t-test (two-tailed) was used with a significance threshold of p < 0.05.
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+ACKNOWLEDGEMENTS
+We thank Xiangbin Zhang for assistance in expressing and purifying the human DUB module and the USP27x complex. This work was supported by National Institute of General Medical Sciences grant GM130393 (C.W.) and by Grant-in-Aid for Specially Promote Research JP20H05618 (H.S.) from the Japan Society for the Promotion of Science.
+REFERENCES
+Atanassov BS, and Dent SY (2011). USP22 regulates cell proliferation by deubiquitinating the
+transcriptional regulator FBP1. EMBO Rep 12, 924–930. [PubMed: 21779003]
+Atanassov BS, Evrard YA, Multani AS, Zhang Z, Tora L, Devys D, Chang S, and Dent SY (2009).
+Gcn5 and SAGA regulate shelterin protein turnover and telomere maintenance. Mol Cell 35, 352– 364. [PubMed: 19683498]
+Atanassov BS, Mohan RD, Lan X, Kuang X, Lu Y, Lin K, McIvor E, Li W, Zhang Y, Florens L, et al. (2016). ATXN7L3 and ENY2 Coordinate Activity of Multiple H2B Deubiquitinases Important for Cellular Proliferation and Tumor Growth. Mol Cell 62, 558–571. [PubMed: 27132940] Batta K, Zhang Z, Yen K, Goffman DB, and Pugh BF (2011). Genome-wide function of H2B
+ubiquitylation in promoter and genic regions. Genes Dev 25, 2254–2265. [PubMed: 22056671]
+Briggs SD, Xiao T, Sun ZW, Caldwell JA, Shabanowitz J, Hunt DF, Allis CD, and Strahl BD
+(2002). Gene silencing: trans-histone regulatory pathway in chromatin. Nature 418, 498. [PubMed: 12152067]
+Clague MJ, Barsukov I, Coulson JM, Liu H, Rigden DJ, and Urbe S (2013). Deubiquitylases from
+genes to organism. Physiol Rev 93, 1289–1315. [PubMed: 23899565]
+Clague MJ, Heride C, and Urbe S (2015). The demographics of the ubiquitin system. Trends Cell Biol
+25, 417–426. [PubMed: 25906909]
+DeVine T, Sears RC, and Dai MS (2018). The ubiquitin-specific protease USP36 is a conserved histone H2B deubiquitinase. Biochem Biophys Res Commun 495, 2363–2368. [PubMed: 29274341]
+Dover J, Schneider J, Tawiah-Boateng MA, Wood A, Dean K, Johnston M, and Shilatifard A (2002). Methylation of histone H3 by COMPASS requires ubiquitination of histone H2B by Rad6. J Biol Chem 277, 28368–28371. [PubMed: 12070136]
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 14
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+Ellisdon AM, Jani D, Kohler A, Hurt E, and Stewart M (2010). Structural basis for the interaction
+between yeast Spt-Ada-Gcn5 acetyltransferase (SAGA) complex components Sgf11 and Sus1. J Biol Chem 285, 3850–3856. [PubMed: 20007317]
+Fierz B, Chatterjee C, McGinty RK, Bar-Dagan M, Raleigh DP, and Muir TW (2011). Histone H2B
+ubiquitylation disrupts local and higher-order chromatin compaction. Nat Chem Biol 7, 113–119. [PubMed: 21196936]
+Fleming AB, Kao CF, Hillyer C, Pikaart M, and Osley MA (2008). H2B ubiquitylation plays a role in nucleosome dynamics during transcription elongation. Mol Cell 31, 57–66. [PubMed: 18614047] Fuchs G, Shema E, Vesterman R, Kotler E, Wolchinsky Z, Wilder S, Golomb L, Pribluda A, Zhang F, Haj-Yahya M, et al. (2012). RNF20 and USP44 regulate stem cell differentiation by modulating H2B monoubiquitylation. Mol Cell 46, 662–673. [PubMed: 22681888]
+Glinsky GV, Berezovska O, Glinskii AB, Glinsky GV, Berezovska O, and Glinskii AB (2005).
+Microarray analysis identifies a death-from- cancer signature predicting therapy failure in patients with multiple types of cancer Find the latest version : Microarray analysis identifies a death-from- cancer signature predicting therapy failure in patients with multiple types of cancer, pp. 1503– 1521.
+Goto Y, Katoh T, and Suga H (2011). Flexizymes for genetic code reprogramming. Nat Protoc 6,
+779–790. [PubMed: 21637198]
+Grant PA, Schieltz D, Pray-Grant MG, Steger DJ, Reese JC, Yates JR 3rd, and Workman JL (1998a). A subset of TAF(II)s are integral components of the SAGA complex required for nucleosome acetylation and transcriptional stimulation. Cell 94, 45–53. [PubMed: 9674426]
+Grant PA, Schieltz D, Pray-Grant MG, Yates JR 3rd, and Workman JL (1998b). The ATM-related cofactor Tra1 is a component of the purified SAGA complex. Mol Cell 2, 863–867. [PubMed: 9885573]
+Grant TD (2018). Ab initio electron density determination directly from solution scattering data. Nat
+Methods 15, 191–193. [PubMed: 29377013]
+Hahn MA, Dickson KA, Jackson S, Clarkson A, Gill AJ, and Marsh DJ (2012). The tumor
+suppressor CDC73 interacts with the ring finger proteins RNF20 and RNF40 and is required for the maintenance of histone 2B monoubiquitination. Hum Mol Genet 21, 559–568. [PubMed: 22021426]
+Henry KW, Wyce A, Lo WS, Duggan LJ, Emre NC, Kao CF, Pillus L, Shilatifard A, Osley MA,
+and Berger SL (2003). Transcriptional activation via sequential histone H2B ubiquitylation and deubiquitylation, mediated by SAGA-associated Ubp8. Genes Dev 17, 2648–2663. [PubMed: 14563679]
+Herbst DA, Esbin MN, Louder RK, Dugast-Darzacq C, Dailey GM, Fang Q, Darzacq X, Tjian R, and Nogales E (2021). Structure of the human SAGA coactivator complex: The divergent architecture of human SAGA allows modular coordination of transcription activation and co-transcriptional splicing. bioRxiv, 2021.2002.2008.430339.
+Hipolito CJ, and Suga H (2012). Ribosomal production and in vitro selection of natural product-like peptidomimetics: the FIT and RaPID systems. Curr Opin Chem Biol 16, 196–203. [PubMed: 22401851]
+Hung SH, Wong RP, Ulrich HD, and Kao CF (2017). Monoubiquitylation of histone H2B contributes to the bypass of DNA damage during and after DNA replication. Proc Natl Acad Sci U S A 114, E2205–E2214. [PubMed: 28246327]
+Ingvarsdottir K, Krogan NJ, Emre NC, Wyce A, Thompson NJ, Emili A, Hughes TR, Greenblatt JF, and Berger SL (2005). H2B ubiquitin protease Ubp8 and Sgf11 constitute a discrete functional module within the Saccharomyces cerevisiae SAGA complex. Mol Cell Biol 25, 1162–1172. [PubMed: 15657441]
+Ito K, Sakai K, Suzuki Y, Ozawa N, Hatta T, Natsume T, Matsumoto K, and Suga H (2015). Artificial human Met agonists based on macrocycle scaffolds. Nat Commun 6, 6373. [PubMed: 25758345]
+Jeusset LM, Guppy BJ, Lichtensztejn Z, McDonald D, and McManus KJ (2021). Reduced USP22
+Expression Impairs Mitotic Removal of H2B Monoubiquitination, Alters Chromatin Compaction and Induces Chromosome Instability That May Promote Oncogenesis. Cancers 13.
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 15
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+Kao CF, Hillyer C, Tsukuda T, Henry K, Berger S, and Osley MA (2004). Rad6 plays a role
+in transcriptional activation through ubiquitylation of histone H2B. Genes Dev 18, 184–195. [PubMed: 14752010]
+Kawamura A, Munzel M, Kojima T, Yapp C, Bhushan B, Goto Y, Tumber A, Katoh T, King
+ONF, Passioura T, et al. (2017). Highly selective inhibition of histone demethylases by de novo macrocyclic peptides. Nature Communications 8.
+Kim J, Guermah M, McGinty RK, Lee JS, Tang Z, Milne TA, Shilatifard A, Muir TW, and Roeder
+RG (2009). RAD6-Mediated transcription-coupled H2B ubiquitylation directly stimulates H3K4 methylation in human cells. Cell 137, 459–471. [PubMed: 19410543]
+Kim J, Hake SB, and Roeder RG (2005). The human homolog of yeast BRE1 functions as a
+transcriptional coactivator through direct activator interactions. Mol Cell 20, 759–770. [PubMed: 16337599]
+Kohler A, Pascual-Garcia P, Llopis A, Zapater M, Posas F, Hurt E, and Rodriguez-Navarro S (2006). The mRNA export factor Sus1 is involved in Spt/Ada/Gcn5 acetyltransferase-mediated H2B deubiquitinylation through its interaction with Ubp8 and Sgf11. Mol Biol Cell 17, 4228–4236. [PubMed: 16855026]
+Kohler A, Schneider M, Cabal GG, Nehrbass U, and Hurt E (2008). Yeast Ataxin-7 links histone deubiquitination with gene gating and mRNA export. Nat Cell Biol 10, 707–715. [PubMed: 18488019]
+Kohler A, Zimmerman E, Schneider M, Hurt E, and Zheng N (2010). Structural basis for assembly and
+activation of the heterotetrameric SAGA histone H2B deubiquitinase module. Cell 141, 606–617. [PubMed: 20434206]
+Koken MH, Reynolds P, Jaspers-Dekker I, Prakash L, Prakash S, Bootsma D, and Hoeijmakers JH
+(1991). Structural and functional conservation of two human homologs of the yeast DNA repair gene RAD6. Proc Natl Acad Sci U S A 88, 8865–8869. [PubMed: 1717990]
+Koutelou E, Wang L, Schibler AC, Chao HP, Kuang X, Lin K, Lu Y, Shen J, Jeter CR, Salinger A, et
+al. (2019). USP22 controls multiple signaling pathways that are essential for vasculature formation in the mouse placenta. Development 146.
+Kuzmic P, Sideris S, Cregar LM, Elrod KC, Rice KD, and Janc JW (2000). High-throughput screening of enzyme inhibitors: automatic determination of tight-binding inhibition constants. Anal Biochem 281, 62–67. [PubMed: 10847611]
+Lang G, Bonnet J, Umlauf D, Karmodiya K, Koffler J, Stierle M, Devys D, and Tora L (2011). The tightly controlled deubiquitination activity of the human SAGA complex differentially modifies distinct gene regulatory elements. Mol Cell Biol 31, 3734–3744. [PubMed: 21746879] Lee KK, Swanson SK, Florens L, Washburn MP, and Workman JL (2009). Yeast Sgf73/Ataxin-7
+serves to anchor the deubiquitination module into both SAGA and Slik(SALSA) HAT complexes. Epigenetics Chromatin 2, 2. [PubMed: 19226466]
+Li ZH, Yu Y, Du C, Fu H, Wang J, and Tian Y (2013). RNA interference-mediated USP22 gene
+silencing promotes human brain glioma apoptosis and induces cell cycle arrest. Oncol Lett 5, 1290–1294. [PubMed: 23599781]
+Liao Y, Liang X, Liang W, Li Z, Wang Y, Wang L, Zhen S, Tang B, and Wang Z (2019). High
+expression of ubiquitin carboxyl-terminal hydrolase 22 is associated with poor prognosis in hepatitis B virus-associated liver cancer. Oncol Lett 17, 5159–5168. [PubMed: 31186731]
+Lin Z, Yang H, Kong Q, Li J, Lee SM, Gao B, Dong H, Wei J, Song J, Zhang DD, et al. (2012). USP22
+antagonizes p53 transcriptional activation by deubiquitinating Sirt1 to suppress cell apoptosis and is required for mouse embryonic development. Mol Cell 46, 484–494. [PubMed: 22542455] Liu Y, Yang Y, Xu H, and Dong X (2010). Implication of USP22 in the regulation of BMI-1, c-Myc, p16INK4a, p14ARF, and cyclin D2 expression in primary colorectal carcinomas. Diagn Mol Pathol 19, 194–200. [PubMed: 21052002]
+Liu YL, Jiang SX, Yang YM, Xu H, Liu JL, and Wang XS (2012). USP22 acts as an oncogene by the activation of BMI-1-mediated INK4a/ARF pathway and Akt pathway. Cell Biochem Biophys 62, 229–235. [PubMed: 21928107]
+Manalastas-Cantos K, Konarev PV, Hajizadeh NR, Kikhney AG, Petoukhov MV, Molodenskiy DS, Panjkovich A, Mertens HDT, Gruzinov A, Borges C, et al. (2021). ATSAS 3.0: expanded
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 16
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+functionality and new tools for small-angle scattering data analysis. J Appl Crystallogr 54, 343– 355. [PubMed: 33833657]
+Massari ME, Grant PA, Pray-Grant MG, Berger SL, Workman JL, and Murre C (1999). A conserved
+motif present in a class of helix-loop-helix proteins activates transcription by direct recruitment of the SAGA complex. Mol Cell 4, 63–73. [PubMed: 10445028]
+McGinty RK, Kim J, Chatterjee C, Roeder RG, and Muir TW (2008). Chemically ubiquitylated
+histone H2B stimulates hDot1L-mediated intranucleosomal methylation. Nature 453, 812–816. [PubMed: 18449190]
+Melo-Cardenas J, Zhang Y, Zhang DD, and Fang D (2016). Ubiquitin-specific peptidase 22 functions
+and its involvement in disease. Oncotarget 7, 44848–44856. [PubMed: 27057639]
+Morgan MT, Haj-Yahya M, Ringel AE, Bandi P, Brik A, and Wolberger C (2016). Structural basis
+for histone H2B deubiquitination by the SAGA DUB module. Science 351, 725–728. [PubMed: 26912860]
+Moyal L, Lerenthal Y, Gana-Weisz M, Mass G, So S, Wang SY, Eppink B, Chung YM, Shalev G,
+Shema E, et al. (2011). Requirement of ATM-dependent monoubiquitylation of histone H2B for timely repair of DNA double-strand breaks. Mol Cell 41, 529–542. [PubMed: 21362549] Nawatha M, Rogers JM, Bonn SM, Livneh I, Lemma B, Mali SM, Vamisetti GB, Sun H, Bercovich
+B, Huang YC, et al. (2019). De novo macrocyclic peptides that specifically modulate Lys48-linked ubiquitin chains. Nat Chem 11, 644–652. [PubMed: 31182821]
+Ng HH, Feng Q, Wang H, Erdjument-Bromage H, Tempst P, Zhang Y, and Struhl K (2002a). Lysine
+methylation within the globular domain of histone H3 by Dot1 is important for telomeric silencing and Sir protein association. Genes Dev 16, 1518–1527. [PubMed: 12080090]
+Ng HH, Xu RM, Zhang Y, and Struhl K (2002b). Ubiquitination of histone H2B by Rad6 is required
+for efficient Dot1-mediated methylation of histone H3 lysine 79. J Biol Chem 277, 34655–34657. [PubMed: 12167634]
+Pavri R, Zhu B, Li G, Trojer P, Mandal S, Shilatifard A, and Reinberg D (2006). Histone H2B
+monoubiquitination functions cooperatively with FACT to regulate elongation by RNA polymerase II. Cell 125, 703–717. [PubMed: 16713563]
+Prenzel T, Begus-Nahrmann Y, Kramer F, Hennion M, Hsu C, Gorsler T, Hintermair C, Eick D, Kremmer E, Simons M et al. (2011). Estrogen-dependent gene transcription in human breast cancer cells relies upon proteasome-dependent monoubiquitination of histone H2B. Cancer Res 71, 5739–5753. [PubMed: 21862633]
+Robzyk K, Recht J, and Osley MA (2000). Rad6-dependent ubiquitination of histone H2B in yeast.
+Science 287, 501–504. [PubMed: 10642555]
+Rodriguez-Navarro S, Fischer T, Luo MJ, Antunez O, Brettschneider S, Lechner J, Perez-Ortin JE,
+Reed R, and Hurt E (2004). Sus1, a functional component of the SAGA histone acetylase complex and the nuclear pore-associated mRNA export machinery. Cell 116, 75–86. [PubMed: 14718168]
+Rogers JM, Nawatha M, Lemma B, Vamisetti GB, Livneh I, Barash U, Vlodavsky I, Ciechanover A, Fushman D, Suga H, et al. (2021). In vivo modulation of ubiquitin chains by N-methylated non-proteinogenic cyclic peptides (vol 2, pg 513, 2021). Rsc Chem Biol 2, 944–944. [PubMed: 34458819]
+Samara NL, Datta AB, Berndsen CE, Zhang X, Yao T, Cohen RE, and Wolberger C (2010). Structural insights into the assembly and function of the SAGA deubiquitinating module. Science 328, 1025– 1029. [PubMed: 20395473]
+Samara NL, Ringel AE, and Wolberger C (2012). A role for intersubunit interactions in maintaining SAGA deubiquitinating module structure and activity. Structure 20, 1414–1424. [PubMed: 22771212]
+Schulze JM, Hentrich T, Nakanishi S, Gupta A, Emberly E, Shilatifard A, and Kobor MS (2011).
+Splitting the task: Ubp8 and Ubp10 deubiquitinate different cellular pools of H2BK123. Genes Dev 25, 2242–2247. [PubMed: 22056669]
+Shema E, Tirosh I, Aylon Y, Huang J, Ye C, Moskovits N, Raver-Shapira N, Minsky N, Pirngruber J,
+Tarcic G, et al. (2008). The histone H2B-specific ubiquitin ligase RNF20/hBRE1 acts as a putative tumor suppressor through selective regulation of gene expression. Genes Dev 22, 2664–2676. [PubMed: 18832071]
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 17
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+Soffers JHM, and Workman JL (2020). The SAGA chromatin-modifying complex: the sum of its parts
+is greater than the whole. Genes Dev 34, 1287–1303. [PubMed: 33004486]
+Somasagara RR, Spencer SM, Tripathi K, Clark DW, Mani C, Madeira da Silva L, Scalici J,
+Kothayer H, Westwell AD, Rocconi RP, et al. (2017). RAD6 promotes DNA repair and stem cell signaling in ovarian cancer and is a promising therapeutic target to prevent and treat acquired chemoresistance. Oncogene 36, 6680–6690. [PubMed: 28806395]
+Steger DJ, Lefterova MI, Ying L, Stonestrom AJ, Schupp M, Zhuo D, Vakoc AL, Kim JE, Chen J, Lazar MA, et al. (2008). DOT1L/KMT4 recruitment and H3K79 methylation are ubiquitously coupled with gene transcription in mammalian cells. Mol Cell Biol 28, 2825–2839. [PubMed: 18285465]
+Sterner DE, Grant PA, Roberts SM, Duggan LJ, Belotserkovskaya R, Pacella LA, Winston F,
+Workman JL, and Berger SL (1999). Functional organization of the yeast SAGA complex: distinct components involved in structural integrity, nucleosome acetylation, and TATA-binding protein interaction. Mol Cell Biol 19, 86–98. [PubMed: 9858534]
+Sun ZW, and Allis CD (2002). Ubiquitination of histone H2B regulates H3 methylation and gene
+silencing in yeast. Nature 418, 104–108. [PubMed: 12077605]
+Turner SD, Ricci AR, Petropoulos H, Genereaux J, Skerjanc IS, and Brandl CJ (2002). The E2
+ubiquitin conjugase Rad6 is required for the ArgR/Mcm1 repression of ARG1 transcription. Mol Cell Biol 22, 4011–4019. [PubMed: 12024015]
+Wang H, Dienemann C, Stutzer A, Urlaub H, Cheung ACM, and Cramer P (2020). Structure of the
+transcription coactivator SAGA. Nature 577, 717–720. [PubMed: 31969703]
+Wang L, and Dent SY (2014). Functions of SAGA in development and disease. Epigenomics 6, 329–
+339. [PubMed: 25111486]
+Weake VM, and Workman JL (2008). Histone ubiquitination: triggering gene activity. Mol Cell 29,
+653–663. [PubMed: 18374642]
+Wen X, Ling S, Wu W, Shan Q, Liu P, Wang C, Wei X, Ding W, Teng X, and Xu X (2020).
+Ubiquitin-Specific Protease 22/Silent Information Regulator 1 Axis Plays a Pivotal Role in the Prognosis and 5-Fluorouracil Resistance in Hepatocellular Carcinoma. Dig Dis Sci 65, 1064–1073. [PubMed: 31587155]
+Wyce A, Xiao T, Whelan KA, Kosman C, Walter W, Eick D, Hughes TR, Krogan NJ, Strahl BD, and Berger SL (2007). H2B ubiquitylation acts as a barrier to Ctk1 nucleosomal recruitment prior to removal by Ubp8 within a SAGA-related complex. Mol Cell 27, 275–288. [PubMed: 17643376]
+Xue H, Yao T, Cao M, Zhu G, Li Y, Yuan G, Chen Y, Lei M, and Huang J (2019). Structural basis
+of nucleosome recognition and modification by MLL methyltransferases. Nature 573, 445–449. [PubMed: 31485071]
+Yan M, and Wolberger C (2015). Uncovering the role of Sgf73 in maintaining SAGA deubiquitinating
+module structure and activity. J Mol Biol 427, 1765–1778. [PubMed: 25526805]
+Yang DD, Cui BB, Sun LY, Zheng HQ, Huang Q, Tong JX, and Zhang QF (2011). The co-expression of USP22 and BMI-1 may promote cancer progression and predict therapy failure in gastric carcinoma. Cell Biochem Biophys 61, 703–710. [PubMed: 21735131]
+Zhang XY, Varthi M, Sykes SM, Phillips C, Warzecha C, Zhu W, Wyce A, Thorne AW, Berger SL,
+and McMahon SB (2008). The putative cancer stem cell marker USP22 is a subunit of the human SAGA complex required for activated transcription and cell-cycle progression. Mol Cell 29, 102– 111. [PubMed: 18206973]
+Zhang Y (2003). Transcriptional regulation by histone ubiquitination and deubiquitination. Genes Dev
+17, 2733–2740. [PubMed: 14630937]
+Zhang Y, Yao L, Zhang X, Ji H, Wang L, Sun S, and Pang D (2011). Elevated expression of USP22
+in correlation with poor prognosis in patients with invasive breast cancer. J Cancer Res Clin Oncol 137, 1245–1253. [PubMed: 21691749]
+Zhao Y, Lang G, Ito S, Bonnet J, Metzger E, Sawatsubashi S, Suzuki E, Le Guezennec X, Stunnenberg
+HG, Krasnov A, et al. (2008). A TFTC/STAGA module mediates histone H2A and H2B deubiquitination, coactivates nuclear receptors, and counteracts heterochromatin silencing. Mol Cell 29, 92–101. [PubMed: 18206972]
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 18
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+SIGNIFICANCE
+Deubiquitinating enzymes (DUBs) constitute an active area of drug development because they often serve to reverse proteasomal degradation and other important biological signals, such as H2B-Ub at genomic loci of inducible transcription. USP22 is the DUB subunit of the SAGA transcriptional coactivator complex that is often overexpressed in cancers with poor prognoses, likely relating to its role in licensing bursts of transcription. A challenge of inhibiting specific human DUBs that are overexpressed in cancer is that their active sites are typically highly similar. USP22 represents a unique opportunity for drug development, because unlike most other DUBs, it requires scaffold proteins for activity. To this end, we screened a platform of >1012 genetically-encoded cyclic peptides (RaPID screen) for the tightest binding sequences, and tested the best hits for their ability to inhibit USP22 in the context of the 4-protein human DUB module complex (DUBm). We found that each macrocycle potently inhibits DUBm activity, and that they do so without causing complex dissociation or destabilization. Furthermore, the inhibitors we identify in this work are incredibly specific for USP22, even relative to other DUBs targeting H2B, and that many of the inhibitors significantly alter H2B-Ub abundance in cellular assays, which suggests that the cyclic peptides are capable of entering cells and exerting their intended effect.
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 19
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+Highlights:
+Human USP22 deubiquitinating complex screened against >1012 library of cyclic peptides
+Top hits inhibit USP22 at nanomolar concentrations with high specificity
+Cyclic peptide inhibitors of USP22 cause accumulation of H2B-Ub in cells
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 20
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+Figure 1 –. RaPID cyclic peptide library screening: A) Schematic of Random nonstandard Peptide Integration Discovery platform used for targeting the SAGA DUB module for binding species. B) Sequences for each peptide selected from RaPID screen for further evaluation as inhibitors. Each peptide contains the indicated D- or L-amino acid at the N-terminus covalently linked to the C-terminal cysteine sulfhydryl group.
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 21
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+Figure 2 –. Inhibition of human DUB module activity inhibition by cyclic peptides. A-F) Each indicated cyclic peptide was tested for its ability to inhibit Ub-AMC cleavage in the presence of increasing amounts of the peptide into a reaction with a fixed amount of DUB (200 nM) and Ub-AMC (1 μM). Ki values were fitted using the Morrison approximation with a fixed Km value of 35 μM as determined in Figure 3A. G) Inhibition of human DUB module activity on H2B ubiquitinated nucleosomes. Effect of each cyclic peptide (1 uM) and DMSO control on hDUB module cleavage rates on ubiquitinated nucleosomes. H) Quantitation of the disappearance of the H2B-Ub band,
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 22
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+Figure 3 –. hD1 is a non-competitive inhibitor requiring the cyclized form for optimal USP22 targeting. A) hDUBm cleavage rates were measured at multiple substrate and hD1 concentrations to determine inhibitor equilibrium binding constant (Ki) and mode of inhibition. The data were best fit to a non-competitive model of enzyme inhibition, with a measured Km of 35 μM, k cat of 2.8 s−1, and Ki of 180 nM. B) Cleavage rates of 5 μM Ub-AMC by 200 nM hDUBm in the presence of the indicated concentration of either linear, scrambled, or cyclic hD1 peptide sequences fitted using IC50 analysis. IC50 values were calculated as 270 nM for the cyclic hD1, 1 μM for the linear version, and >1000 μM for the scrambled hD1 sequence.
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 23
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+Figure 4 –. Small angle x-ray scattering (SAXS) analysis of the DUB module in the presence and absence of cyclic peptide. A) Scattering intensities of 1 mg/mL (6 μM) hDUBm alone (black), hDUBm in the presence of 7uM hD1 (red), and theoretical scattering intensities calculated from the yDUBm crystal structure (PDB ID: 3MHH, cyan). The right y-axis describes raw measured intensities (upper curve), while the left y-axis is a plot of I*s values (Kratky plot). B) Frequency distribution (P(r)) of possible vectors between surfaces on the scattering sample. Experimental curves from hDUBm (black) and hDUBm plus hD1 inhibitor (red); calculated curve for yDUBm (cyan). Dmax is indicated by a colored arrow corresponding to each sample. C) Electron density maps derived from SAXS data of hDUBm alone (gray) and hDUBm in the presence of hD1 (red). Dashed line indicates Dmax. Correlations between the peptide-bound and apo complexes indicated by pseudocoloring (scale below). The yeast DUB module structure (green) was used to independently orient both density maps.
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 24
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+Figure 5 –. hD1 is specific for USP22. A) DUBProfiler assay of the effect of hD1 on a panel of 44 human DUBs. Cleavage of a ubiquitin-rhodamine(110)-glycine substrate was compared in the presence and absence of 1 μM hD1. B) Inhibition of H2B DUB complexes as a function of hD1 concentration. Cleavage rates of 5 μM Ub-AMC were assayed for 75 nM USP22/ATXN7L3/ENY2/ATXN7 (hDUBm), 100 nM USP27x/ATXN7L3/ENY2, or 1000 nM USP51/ATXN7L3/ENY2. Rates were normalized to the uninhibited reaction in each case to determine the fraction of apparent activity. IC50 values of hD1 were 100 nM for USP22, 3 μM for USP27x, and >250 μM for USP51.
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 25
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+Figure 6 - Cyclic peptide inhibitors of hDUBm increase cellular H2B-Ub levels. A) HEK293T cells incubated with 5 μM of each cyclic peptide for 2 hours. Histone proteins were extracted, and samples analyzed by western blot with anti-H2BK120ub antibody. Bottom: anti-histone H3 loading control. B) Quantitation of western replicate results indicates significant enrichment of H2B-Ub when normalized to H3 abundance. Bars labeled with two asterisks indicate p < 0.01 (hD1 and hD5), and a single asterisk indicates p < 0.05 (hD2, hD3, hD4, and PR-619) when each measurement is compared with untreated cells.
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 26
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+KEY RESOURCES TABLE
+REAGENT or RESOURCE
+SOURCE
+Antibodies
+Rabbit monoclonal anti-H3, ChIP grade
+Abcam
+Rabbit monoclonal anti-H2BK120ub
+Cell Signaling
+Bacterial and virus strains
+DH10Bac chemically competent E. coli cells
+Thermo-Fisher
+Chemicals, peptides, and recombinant proteins
+Macrocyclic peptides (hD1, hD2, hD3, hD4, hD5, yL1, yD1, hL1, linear hD1, and scrambled hD1)
+This paper
+PR-619
+APExBIO
+Ubiquitin-AMC
+South Bay Bio
+Recombinant nucleosome dNuc-H2BK120ub
+Epicypher
+Critical commercial assays
+DUBprofiler™
+Ubiquigent
+Deposited data
+PDB ID 3MHH
+(Samara, et al. 2010)
+Experimental models: Cell lines
+Human Embryonic Kidney 293T/17 cells
+ATCC
+Oligonucleotides
+mRNA library: 5′-AUG-(NNK)6–15-UGC-(GGC-AGC)3-UAG-3′
+This paper
+Puromycin construct: 5′-pCTCCCGCCCCCCGTCC–PEG linker– CC–puromycin-3′
+Gene Design Inc, Osaka, Japan
+PCR primers used for RaPID system CGS3an13.R39: 5′- TTTCCGCCCCCCGTCC TAGCTGCCGCTGCCGCTGCCGCA-3′
+Eurofins Genomics
+PCR primers used for RaPID system T7g10M.F46: 5′- TAATACGACTC ACTATAGGGTTAACTTTAAGAAG GAGATATACATA-3′
+Eurofins Genomics
+Recombinant DNA
+pET32a-Ubp8
+(Samara, et al. 2010)
+pRSF-Sus1
+(Samara, et al. 2010)
+pCDFDuet-Sgf11/Sgf73
+(Samara, et al. 2010)
+pFastBac-USP22/ENY2/ATXN7(75-172)/ATXN7L3(3-151)
+This paper
+pFastBac-USP27x/ENY2/ATXN7L3(3-151)
+This paper
+pFastBac-USP51/ENY2/ATXN7L3(3-151)
+This paper
+Software and algorithms
+Prism 9.0
+GraphPad
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+Page 27
+IDENTIFIER
+Cat#ab1791; RRID:AB_302613
+Cat# 5546, RRID:AB_10693452
+Cat#10361012
+N/A
+Cat#A8212; Pubchem CID: 2817763
+Cat#SBB-PS0043
+N/A
+N/A
+PDB: 3MHH
+Cat#CRL-11268; RRID: CVCL_1926
+N/A
+N/A
+N/A
+N/A
+Addgene plasmid #26965
+Addgene plasmid #26961
+Addgene plasmid #26964
+http://www.graphpad.com/ RRID:SCR_002798
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Morgan et al.
+REAGENT or RESOURCE
+ATSAS
+Image Lab
+SOURCE
+(Manalastas-Cantos, et al. 2021)
+Bio-Rad
+Cell Chem Biol. Author manuscript; available in PMC 2023 April 21.
+IDENTIFIER
+https://www.embl-hamburg.de/ biosaxs/software.html RRID:SCR_015648
+http://www.bio-rad.com/en-us/sku/ 1709690-image-lab-software RRID:SCR_014210
+Page 28

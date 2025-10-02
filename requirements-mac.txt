@@ -1,0 +1,14 @@
+# Core web application
+Flask>=2.3,<3.0
+openai>=1.40.0
+sentence-transformers>=2.7.0
+
+# Vector search dependencies
+faiss-cpu>=1.11,<1.13
+numpy>=1.24
+
+# Pipeline utilities
+pandas>=2.0
+tiktoken>=0.6
+tqdm>=4.65
+unstructured[pdf]>=0.14

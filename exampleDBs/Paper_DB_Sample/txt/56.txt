@@ -1,0 +1,254 @@
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+HHS Public Access Author manuscript Nat Chem Biol. Author manuscript; available in PMC 2013 September 01.
+Published in final edited form as:
+Nat Chem Biol. 2013 March ; 9(3): 154–156. doi:10.1038/nchembio.1159.
+A conserved asparagine plays a structural role in ubiquitin- conjugating enzymes
+Christopher E. Berndsen‡, Reuven Wiener, Ian W. Yu, Alison E. Ringel, and Cynthia Wolberger* Department of Biophysics and Biophysical Chemistry, Howard Hughes Medical Institute, Johns Hopkins University School of Medicine, Baltimore, MD 21205
+Abstract
+It is widely accepted that ubiquitin conjugating enzymes (E2) contain an active site asparagine that serves as an oxyanion hole, thereby stabilizing a negatively charged transition state intermediate and promoting ubiquitin transfer. Using structural and biochemical approaches to study the role of the conserved asparagine to ubiquitin conjugation by Ubc13/Mms2, we conclude that the importance of this residue stems primarily from its structural role in stabilizing an active site loop.
+Ubiquitination of lysine side chains occurs in a cascade of enzymatic reactions catalyzed by an ubiquitin activating enzyme (E1), a ubiquitin conjugating enzyme (E2) and a ubiquitin ligase (E3) 1, 2. A key step in ubiquitin transfer is the attack of the acceptor lysine on the E2~ubiquitin thioester to yield an isopeptide linkage between the ε-amine of lysine and the ubiquitin C terminus 3–7. RING family E3 ligases stimulate this reaction by binding to the E2~Ub conjugate and positioning the ubiquitin in a “closed” conformation that favors catalysis 8–10.By analogy with other ester-cleaving enzymes, the ubiquitination reaction was proposed to proceed through a tetrahedral intermediate with partial negative charge on the carbonyl oxygen that is stabilized by an “oxyanion hole” in the E2 active site 3. Structures of E2 enzymes showed a highly conserved active site asparagine (N79 in Ubc13, N77 in UBCH5B, N85 in Ubc9) as the only residue that could plausibly stabilize the oxyanion 3, 11, although it has also been noted that this asparagine side chain may also play a structural role 4, 12. While substitutions of the asparagine residue give rise to catalytic defects in E2 enzymes 3, 4, 6, 7, these experiments do not differentiate between a structural role and a catalytic role for the asparagine in ubiquitin transfer. Moreover, the many structures of E2
+Users may view, print, copy, download and text and data- mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use: http://www.nature.com/authors/editorial_policies/license.html#terms *corresponding author: cwolberg@jhmi.edu. ‡Current address: James Madison University, Department of Chemistry and Biochemistry, Harrisonburg, VA 22807 Accession codes: The coordinates for Ubc13N79A, C87S are deposited in the Protein Data Bank with ID 4FH1. Author Contributions C.E.B., R.W. and C.W. planned experiments; C.E.B., R.W., A.E.R., and I.Y. performed biochemical analysis of ubiquitin conjugation; C.E.B. and R.W. crystallized and determined the structure of Ubc13N79A; C.E.B. and C.W. wrote the manuscript. All authors have read and approved the manuscript.
+Competing Financial Interests Statement The Authors declare no competing financial interests.
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Berndsen et al.
+enzymes reported since the initial proposal for the role of the asparagine show a nearly identical set of backbone contacts 3, 4, 6, 7, 12–14 (Supplementary Results, Supplementary Fig. 1) as does the structure of the SUMO E2, Ubc9, with glutamine in place of the conserved asparagine (N85Q) 4. Thus, while the importance of the conserved active site asparagine to E2 activity is undisputed, there is no direct evidence for its involvement in stabilizing a negative charge on the oxygen in the proposed tetrahedral intermediate.
+We revisited the role of the conserved asparagine in ubiquitin transfer by studying the yeast E2 enzyme, Ubc13. Ubc13 catalyzes synthesis of K63-linked polyubiquitin by forming a heterodimer with a noncatalytic subunit Mms2 15, which positions the substrate ubiquitin with its K63 side chain at the Ubc13 active site 12. Ubc13/Mms2 catalyzes synthesis of unanchored K63 polyubiquitin in the absence of an E3 15 but the RING domain of the E3 ligase, Rad5, stimulates this activity 16, thus making it possible to compare the E2-catalyzed reaction in the absence and presence of an E3. In light of recent reports that several RING E2 ligases stimulate E2 enzymes by a mechanism of conformational selection 8–10, 17, we first verified that the Rad5 E3 has a corresponding effect on ubiquitination by the Ubc13/ Mms2 heterodimer. We first identified a minimal well-behaved fragment containing the Rad5 RING domain (846–1169) that can stimulate free polyubiquitin chain synthesis by Ubc13/Mms2 to a degree comparable to the wild-type protein 16(Supplementary Fig. 2a, b). To address whether the RING domain of Rad5 promotes a catalytically competent conformation of charged Ubc13, we used a modification of the substrate partitioning experiment 18, 19. Single-discharge assays were performed by mixing charged Ubc13~Ub/ Mms2 with free acceptor ubiquitin in the presence of a large excess of DTT and cysteine, thus ensuring that the diubiquitin formed is only from a single encounter between the acceptor ubiquitin and Ubc13~Ub/Mms2. The results (Fig. 1a) show that ~30% of Ubc13~Ub/Mms2 formed diubiquitin on the first encounter, while the RING domain increases the active fraction of Ubc13~Ub/Mms2 to ~90%, consistent with the proposed role of the RING E3 in promoting the active E2~Ub conformation 8–10. We also confirmed that the Rad5 RING binds 59-fold more tightly to Ubc13~Ub than to uncharged Ubc13 (Supplementary Fig. 3). These results are consistent with a role for the Rad5 RING domain in favoring a catalytically competent conformation of the charged Ubc13/Mms2 complex.
+To explore the contribution of N79 to catalysis, we assayed diubiquitin formation by Ubc13/ Mms2 in the presence and absence of Rad5 RING for Ubc13 mutants N79A, N79D, H79H, N79S and N79Q. While Ubc13 substitutions N79H, N79S and N79Q significantly decrease activity (Fig. 1b), the Rad5 RING-stimulated activity for these mutants was apparently similar to that of the wild-type enzyme under the conditions tested (Fig. 1b). The substitutions N79A and N79D have a particularly severe effect on Ubc13 activity, as previously reported 20. However, Ubc13 with either of these substitutions is stimulated to comparable levels by the RING domain, although there is still a noticeable defect in chain formation. The N79A and N79D Ubc13 mutations exhibited significantly decreased catalytic rates in both the presence and absence of the Rad5 RING (Table 1), with both substitutions resulting in comparable values for kcat/KM in the presence of Rad5 (3 M−1 s−1 for N79A and 4 M−1 s−1 for N79D as compared to 22 M−1 s−1 for the wild-type enzyme). By contrast, the kinetic parameters for the conservative N79Q mutant were similar to the
+Nat Chem Biol. Author manuscript; available in PMC 2013 September 01.
+Page 2
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Berndsen et al.
+wild-type Ubc13, with a 6-fold decrease in the kcat for the unstimulated reaction and a less than 2-fold decrease in the kcat for the stimulated reaction (Table 1). The surprising similarity in the rates of diubiquitin formation between the alanine and aspartate substitutions is inconsistent with the proposed role for this residue in oxyanion stabilization, since the negatively charged side chain of aspartate should be more detrimental than alanine to transition state formation.
+To explore whether the effects of N79 mutations on ubiquitin chain formation could be explained by a structural role for this residue, we determined the crystal structure of Ubc13 with an N79A substitution at a resolution of 2.65 Å (Fig. 2a and Supplementary Table 1). The overall structures of wild type (PDB code: 2GMI) and mutant Ubc13 N79A are similar, with an RMSD in Cα positions of 0.9 Å. Strikingly, there is no electron density corresponding to residues 119–122, indicating that they are disordered (Fig. 2b). In addition, residues 116–118 are not well-ordered, with an absence of clear side chain density for N116 and N118 and high B factors for backbone atoms (Fig. 2b). The global changes in the active site loop that result from the N79A mutation are consistent with a structural role for the N79 side chain in maintaining the structure of the active site loop by hydrogen bonding to backbone atoms of N116 (Fig. 2a and Supplementary Fig. 1) in the loop. Consistent with this, a recently reported structure of the BIRC7 RING bound to a UBCH5B~Ub oxyester in which UBCH5B contains the corresponding alanine substitution (N77A) showed that this loop has incomplete electron density and high B factors, indicating that it is similarly not well-ordered 10, whereas this loop is well-ordered in structure of wild-type UBCH5B 6, 21.
+The structural effect of the N79A mutation in Ubc13 raised the possibility that the decrease in enzymatic activity may derive from the disruption of the active site loop structure. In the structure of the RNF4 RING bound to a UBCH5A~Ub conjugate 8, this loop forms one side of a groove where the ubiquitin C-terminal tail lies (Supplementary Fig. 1). Mutations in this loop have previously been shown to disrupt activity of other E2 enzymes: substitutions of the residue corresponding to D119 significantly disrupts activity of Ubc9 4 and UBCH5A 8, while N114 of UBCH5A (N116 in Ubc13) is also important for activity due to its direct hydrogen bonding interaction with the donor ubiquitin 8. We tested the contributions of Ubc13 loop residues to activity and found that N116A, N116L, D119N or L121S substitutions markedly decrease diubiquitin formation (Fig. 2c and Supplementary Fig. 5), whereas S114A, P117A or N123A substitutions showed no significant defects (Fig. 2c)12. Since the region of the loop containing N116 is displaced from its wild-type position (Fig. 2a,b) and D119 and L121 are completely disordered in the structure of Ubc13N79A, these structural defects can account for the loss of enzymatic activity due to the N79A mutation without the need to invoke a catalytic role for this residue. We note that our results do not exclude the possibility that the amino group of N79 may also hydrogen bond with the carbonyl of the ubiquitin C-terminal residue G76 in the thioester or in the product complex, as has been observed in the structure of Ubc9 bound to a SUMO-RanGAP product 14 and in the RNF4-UBCH5AC88K~Ub structure 8.
+The nature of the transition state and how it is stabilized by the E2 during the ubiquitin transfer reaction remain open questions. However, we note that immobilization of the thioester alone can provide significant rate enhancement. Bruice and Pandit22, 23 showed
+Nat Chem Biol. Author manuscript; available in PMC 2013 September 01.
+Page 3
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Berndsen et al.
+that reducing the conformational freedom of an ester and the nucleophile increased the rate of ester hydrolysis nearly 53,000-fold. In the case of E2~Ub conjugates, the E3-induced binding of the donor ubiquitin to the E2 positions the donor ubiquitin tail in the active site groove and thereby immobilizes the E2~Ub thioester 8, 10. The increased rate of E2~Ub oxyester and thioester hydrolysis in the presence of the RING domain 17, 24 can similarly be accounted for by the immobilization of the thioester or ester bond. By stabilizing the loop flanking the donor ubiquitin tail (Supplementary Fig. 1e), the conserved asparagine may indirectly aid in immobilizing the thioester. Consistent with this, the C-terminal tail of the donor ubiquitin is well ordered in the structure of UBCH5A~Ub bound to RNF48, whereas the two C-terminal glycines of the donor ubiquitin in the UBCH5BN77A~Ub conjugate have high B factors10. The additional proposed role of an aspartate in the active site loop in suppressing the pKa of the attacking lysine 4 provides further rate enhancement. The role of the conserved asparagine in maintaining the structure of the active site loop is thus critical to E2 activity.
+Online Methods
+Experimental Procedures
+Cloning and mutagenesis—Mutations in the sequence of yeast Ubc13 were introduced using standard mutagenesis techniques on either of two plasmids: a pET32a construct an N- terminal fusion with a cleavable thioredoxin (TRX)-6xHis tag or pST39 plasmid encoding TEV cleavable 6x-His tag Mms2 and untagged Ubc1325.
+Protein expression and purification—Mms2 was expressed and purified as described26. Ubc13N79A, C87S and Ubc13L121S were expressed as an N-terminal fusion with a cleavable thioredoxin (TRX)-6xHis tag. Ubc13 was transformed into BL21(DE3)pLysS cells and grown in LB medium at 37 °C to an A600 nm of ~0.8. Cells were induced with 0.1 mM IPTG overnight at 16 °C before harvesting by centrifugation. Cells were lysed by sonication in 50 mM sodium phosphate and 300 mM sodium chloride at pH 8.0, and clarified by centrifugation. The protein was purified by nickel affinity chromatography in PBS buffer and then incubated with Tobacco Etch Virus (TEV) protease to remove the TRX-6xHis-tag. Ubc13 was then passed over the nickel affinity column to remove remaining uncleaved fusion protein and the His-tagged TEV protease. Fractions containing Ubc13N79A, C87S were pooled, concentrated and then stored at −80°C.
+Recombinant human E1 and both wild type and mutant ubiquitin were expressed and purified as previously described27,28.
+Yeast Ubc13 and Mms2 were coexpressed from a pST39 plasmid encoding TEV cleavable 6x-His tag Mms2 and untagged Ubc13, and was provided by Dr. James Hurley. This construct was used to express protein for all biochemical studies except for Ubc13L121S. The protein was expressed in E. coli using BL21(DE3)pLysS cells containing the Rosetta2 plasmid (Novagen). Cells were grown at 37°C in LB medium to an absorbance A600 nm of ~0.8 and protein expression was induced by addition of 0.1 mM IPTG. Cells were then grown at 20 °C for 16 hours and harvested by centrifugation. Cells were resuspended in 20 mM HEPES pH 7.2, 30 mM imidazole, 0.2 mM TCEP, and 2 % (v/v) glycerol and were
+Nat Chem Biol. Author manuscript; available in PMC 2013 September 01.
+Page 4
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Berndsen et al.
+lysed by sonication. The soluble fraction (~ 25mL) was incubated with 5 mL Nickel Sepharose beads (GE Healthcare) for 40 minutes and the beads were then washed with 100 mL of lysis buffer. Protein was eluted with lysis buffer plus 250 mM Imidazole and then dialyzed overnight at 4 °C into 20 mM HEPES pH 7.2, 25 mM NaCl, and 1 mM EDTA with 0.5 mg of TEV protease to remove the 6x-His tag. Significant precipitation is observed after dialysis and consists mostly of Mms2 that is not bound to Ubc13. The precipitate was removed by centrifugation and the soluble fraction loaded onto Q Sepharose resin (GE Healthcare). Ubc13-Mms2 was eluted with a linear gradient of 25 mM to 500 mM NaCl in 10 column volumes. The protein is ~95% pure after the final purification step. Fractions containing equal amounts Ubc13-Mms2 as judged by Coomassie-stained polyacrylamide gels were concentrated and dialyzed in 20 mM HEPES pH 7.2, 100 mM NaCl. Protein was aliquoted and stored at −80 °C. Truncated Rad5 constructs were expressed and purified as previously described(Berndsen & Wolberger, 2011).
+Full-length Rad5 from S. cerevisiae was purified according to the method of Gangavarapu29.
+Synthesis of Fluorescent Ubiquitin—UbiquitinK63C was labeled with fluorescein-5- maleimide (Thermo Scientific) in 10 mM sodium phosphate, 137 mM sodium chloride, 2.7 mM potassium chloride, 2 mM potassium phosphate at pH 7.4 for two hours at room temperature in the dark. Labeling reactions were then dialyzed overnight into two liters of 20 mM HEPES pH 7.5, 1 mM EDTA at 4 °C. The labeled ubiquitin, UbFL, was further purified by cation exchange chromatography as described27. Fractions containing ubiquitin were pooled and dialyzed overnight into two liters of 20 mM HEPES pH 7.5. The concentration of ubiquitin was determined using the BCA assay kit (Thermo Scientific) following the manufacturer’s protocol. Labeled ubiquitin was stored at 4 °C wrapped in foil.
+Single-discharge assays of Ubc13 and Ubc13 mutants—In single turnover assays assaying transfer of UbFL from Ubc13 to ubiquitin, 20 μM Ubc13/Mms2 or Ubc13/Mms2 mutants were charged using 1 μM E1 and 25 μM Ub FL for 10 minutes at 37 °C. Reaction buffer contained 10 mM MgCl2, 100 mM NaCl, 1 mM ATP, and 20 mM HEPES pH 7.6. 500 milliUnits of Apyrase (New England Biolabs) was then added to deplete the ATP. The charged Ubc13-Mms2 was added to a reaction containing 110 μM ubiquitin Δ75, Δ76 Reaction aliquots were then quenched into SDS-loading buffer plus dye. Reactions were separated by PAGE and imaged on a Typhoon 9410 (GE Healthcare) to visualize UbFL.
+.
+Values for kcat and KM were calculated from single discharge assays at increasing concentrations of acceptor ubiquitin. Assays were performed at 15 °C to slow the discharge reaction for easier manual quenching with the buffer conditions and procedure described in 846–1196. the previous paragraph. Reactions contained 15 μM Ubc13/Mms2 and 16 μM Rad Reactions were separated by PAGE and imaged on a Typhoon 9410 (GE Healthcare) to visualize UbFL. UbFL standards were used to convert intensity to concentration. Data were plotted as rate versus concentration of acceptor ubiquitin and fitted to the Michaelis-Menten equation to calculate kcat and KM values.
+Substrate partitioning experiments—Ubc13 or Ubc13N79Q was charged with UbFL and ATP depleted as described above. Aliquots were taken from charging assays and added
+Nat Chem Biol. Author manuscript; available in PMC 2013 September 01.
+Page 5
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Berndsen et al.
+Page 6
+to a solution of 20 mM DTT and 100 mM cysteine in 20 mM HEPES, pH 7.6, 100 mM NaCl and 0, 20, 40, 75, 190, 260, or 370 μM ubiquitin Δ75, Δ76 Ubc13-Mms2 was 10 μM. Reactions were incubated at 37 °C for 30 seconds and then quenched into SDS-PAGE loading buffer with dye. As a control for diubiquitin formation that occurs after the first encounter, a second set of reactions pre-incubated charged Ubc13/ Mms2 with 20 mM DTT and 100 mM cysteine for 10 seconds before addition of ubiquitin. To determine the maximum amount of diubiquitin that could be formed in 30 seconds, an aliquot of the charging reaction was incubated with 370 μM ubiquitin Δ75, Δ76 and then quenched into SDS-PAGE loading buffer with dye. Reactions were separated by PAGE and imaged on a Typhoon 9410 (GE Healthcare) to visualize UbFL. Peak intensity values were measured using Quantity One software (Bio-Rad) and the values from the control reaction subtracted from the partitioning reactions. Intensity values were normalized and converted to percentage diubiquitin formed by dividing the intensity of diubiquitin formed at each concentration by the intensity of the maximum amount of diubiquitin that could form.
+. The final concentration of
+for 30 seconds
+Crystal Structure of Ubc13N79A—Ubc13N79A,C87S was dialyzed into 20 mM HEPES pH 7.4, 50 mM NaCl and concentrated to 17 mg/mL for crystallization trials. Protein was crystallized by hanging drop vapor diffusion in a 1:1 drop with 100 mM CHES, pH 10.3, 20% PEG 8000. Crystals appeared within 16 hours at room temperature (23 +/− 2°C) and formed as thin needles that were fully grown by 3 days. Crystals were harvested from the drop and cryoprotected in 25% ethylene glycol before freezing in liquid nitrogen. Diffraction data were collected at the Advanced Photon Source GM/CA-CAT beamline 23- ID-B using a 10 μm X 10 μm beam at a wavelength of 1.033 Å. The crystals formed in space group P3121 with unit cell dimensions a=b=77.03 Å and c= 68.35 Å. A single data set was collected using 15 second exposures for each 1° oscillation frame and scaled with HKL2000. While higher resolution data was evident to at least 2.4 ÅA resolution, data beyond 2.65 Å resolution were not included due to poor Rsym values. The structure was determined by molecular replacement using coordinates of the Ubc13 monomer (PDB ID: 1JBB) lacking residues 114 to 123 as a search model in Phaser within CCP430. The model was then refined using RefMac5 and PHENIX ver 1.72.2–86931–33. WinCoot (ver 0.6.2) was used to manually rebuild the structure in several rounds of rebuilding and refinement34. The MolProbity server and WinCoot were used to identify and correct Ramachandran outliers35–37. In the final model, 95.7% of residues are in the Ramachandran favored region and 4.3% are in the Ramachandran acceptable region. Data collection and refinement statistics are given in Table I. Figures were made using PyMOL. The coordinates for Ubc13N79A, C87S have been deposited in the World-wide Protein Data Bank as 4FH1.
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+Acknowledgments
+We thank Dr. James Hurley for the Ubc13-Mms2 coexpression plasmid and Xiangbin Zhang for human E1 protein. We also thank Drs. James Stivers, Alvan Hengge and Leo Spyracopoulos for helpful discussions. This work was supported in part by a grant from the National Science Foundation (MCB-0920082). C.E.B. was supported in part
+Nat Chem Biol. Author manuscript; available in PMC 2013 September 01.
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Berndsen et al.
+References
+by a Ruth Kirchstein Fellowship from the National Institute of General Medical Science (F32GM089037). GM/CA CAT has been funded in whole or in part with Federal funds from the National Cancer Institute (Y1-CO-1020) and the National Institute of General Medical Sciences (Y1-GM-1104). Use of the Advanced Photon Source was supported by the U.S. Department of Energy, Basic Energy Sciences, Office of Science, under contract No. DE- AC02-06CH11357.
+1. Pickart CM, Eddins MJ. Ubiquitin: structures, functions, mechanisms. Biochim Biophys Acta. 2004; 1695:55–72. [PubMed: 15571809]
+2. Kerscher O, Felberbaum R, Hochstrasser M. Modification of proteins by ubiquitin and ubiquitin- like proteins. Annu Rev Cell Dev Biol. 2006; 22:159–80. [PubMed: 16753028]
+3. Wu PY, et al. A conserved catalytic residue in the ubiquitin-conjugating enzyme family. EMBO J. 2003; 22:5241–50. [PubMed: 14517261]
+4. Yunus AA, Lima CD. Lysine activation and functional analysis of E2-mediated conjugation in the SUMO pathway. Nat Struct Mol Biol. 2006; 13:491–9. [PubMed: 16732283]
+5. Wenzel DM, Stoll KE, Klevit RE. E2s: structurally economical and functionally replete. Biochem J. 2010; 433:31–42. [PubMed: 21158740]
+6. Sakata E, et al. Crystal structure of UbcH5b~ubiquitin intermediate: insight into the formation of the self-assembled E2~Ub conjugates. Structure. 2010; 18:138–47. [PubMed: 20152160]
+7. Kamadurai HB, et al. Insights into ubiquitin transfer cascades from a structure of a UbcH5B approximately ubiquitin-HECT(NEDD4L) complex. Mol Cell. 2009; 36:1095–102. [PubMed: 20064473]
+8. Plechanovova A, Jaffray EG, Tatham MH, Naismith JH, Hay RT. Structure of a RING E3 ligase and ubiquitin-loaded E2 primed for catalysis. Nature. 2012; 489:115–20. [PubMed: 22842904]
+9. Pruneda JN, et al. Structure of an E3:E2 approximately Ub Complex Reveals an Allosteric Mechanism Shared among RING/U-box Ligases. Mol Cell. 2012; 47:933–42. [PubMed: 22885007]
+10. Dou H, Buetow L, Sibbet GJ, Cameron K, Huang DT. BIRC7-E2 ubiquitin conjugate structure reveals the mechanism of ubiquitin transfer by a RING dimer. Nat Struct Mol Biol. 2012; 19:876– 83. [PubMed: 22902369]
+11. Bernier-Villamor V, Sampson DA, Matunis MJ, Lima CD. Structural basis for E2-mediated SUMO conjugation revealed by a complex between ubiquitin-conjugating enzyme Ubc9 and RanGAP1. Cell. 2002; 108:345–56. [PubMed: 11853669]
+12. Eddins MJ, Carlile CM, Gomez KM, Pickart CM, Wolberger C. Mms2-Ubc13 covalently bound to ubiquitin reveals the structural basis of linkage-specific polyubiquitin chain formation. Nat Struct Mol Biol. 2006; 13:915–20. [PubMed: 16980971]
+13. VanDemark AP, Hofmann RM, Tsui C, Pickart CM, Wolberger C. Molecular insights into polyubiquitin chain assembly: crystal structure of the Mms2/Ubc13 heterodimer. Cell. 2001; 105:711–20. [PubMed: 11440714]
+14. Reverter D, Lima CD. Insights into E3 ligase activity revealed by a SUMO-RanGAP1-Ubc9- Nup358 complex. Nature. 2005; 435:687–92. [PubMed: 15931224]
+15. Hofmann RM, Pickart CM. Noncanonical MMS2-encoded ubiquitin-conjugating enzyme functions in assembly of novel polyubiquitin chains for DNA repair. Cell. 1999; 96:645–53. [PubMed: 10089880]
+16. Carlile CM, Pickart CM, Matunis MJ, Cohen RE. Synthesis of free and proliferating cell nuclear antigen-bound polyubiquitin chains by the RING E3 ubiquitin ligase Rad5. J Biol Chem. 2009; 284:29326–34. [PubMed: 19706603]
+17. Saha A, Lewis S, Kleiger G, Kuhlman B, Deshaies RJ. Essential role for ubiquitin-ubiquitin- conjugating enzyme interaction in ubiquitin discharge from cdc34 to substrate. Mol Cell. 2011; 42:75–83. [PubMed: 21474069]
+18. Wilkinson KD, Rose IA. Study of crystalline hexokinase-glucose complexes by isotope trapping. The Journal of biological chemistry. 1981; 256:9890–4. [PubMed: 7024273]
+Nat Chem Biol. Author manuscript; available in PMC 2013 September 01.
+Page 7
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Berndsen et al.
+19. Wilkinson KD, Rose IA. Isotope trapping studies of yeast hexokinase during steady state catalysis. A combined rapid quench and isotope trapping technique. The Journal of biological chemistry. 1979; 254:12567–72. [PubMed: 387789]
+20. Wu PY, et al. A conserved catalytic residue in the ubiquitin-conjugating enzyme family. The EMBO journal. 2003; 22:5241–50. [PubMed: 14517261]
+21. Ozkan E, Yu H, Deisenhofer J. Mechanistic insight into the allosteric activation of a ubiquitin- conjugating enzyme by RING-type ubiquitin ligases. Proc Natl Acad Sci U S A. 2005; 102:18890– 5. [PubMed: 16365295]
+22. Bruice TC, Pandit UK. Intramolecular Models Depicting the Kinetic Importance of “Fit” in Enzymatic Catalysis. Proceedings of the National Academy of Sciences of the United States of America. 1960; 46:402–4. [PubMed: 16590620]
+23. Jencks, WP. Catalysis in chemistry and enzymology. Dover; New York: 1987. 24. Plechanovova A, et al. Mechanism of ubiquitylation by dimeric RING ligase RNF4. Nature structural & molecular biology. 2011; 18:1052–9.
+25. Liu H, Naismith JH. An efficient one-step site-directed deletion, insertion, single and multiple-site plasmid mutagenesis protocol. BMC biotechnology. 2008; 8:91. [PubMed: 19055817]
+26. Eddins MJ, Carlile CM, Gomez KM, Pickart CM, Wolberger C. Mms2-Ubc13 covalently bound to ubiquitin reveals the structural basis of linkage-specific polyubiquitin chain formation. Nature structural & molecular biology. 2006; 13:915–20.
+27. Berndsen CE, Wolberger C. A spectrophotometric assay for conjugation of ubiquitin and ubiquitin- like proteins. Analytical biochemistry. 2011; 418:102–10. [PubMed: 21771579]
+28. Pickart CM, Raasi S. Controlled synthesis of polyubiquitin chains. Methods in enzymology. 2005; 399:21–36. [PubMed: 16338346]
+29. Gangavarapu V, et al. Mms2-Ubc13-dependent and -independent roles of Rad5 ubiquitin ligase in postreplication repair and translesion DNA synthesis in Saccharomyces cerevisiae. Molecular and cellular biology. 2006; 26:7783–90. [PubMed: 16908531]
+30. McCoy AJ, et al. Phaser crystallographic software. Journal of applied crystallography. 2007; 40:658–674. [PubMed: 19461840]
+31. Murshudov GN, et al. REFMAC5 for the refinement of macromolecular crystal structures. Acta crystallographica Section D, Biological crystallography. 2011; 67:355–67.
+32. Zwart P, Afonine P. Automated structure solution with the PHENIX suite. METHODS IN …. 2008; 426:419–435.
+33. Afonine PV, et al. Towards automated crystallographic structure refinement with phenix. refine. Acta crystallographica Section D, Biological crystallography. 2012; 68:352–67.
+34. Emsley P, Lohkamp B, Scott WG, Cowtan K. Features and development of Coot. Acta crystallographica Section D, Biological crystallography. 2010; 66(Pt 4):486–501.10.1107/ S0907444910007493
+35. Read RJ, et al. A new generation of crystallographic validation tools for the protein data bank. Structure. 2011; 19:1395–1412. [PubMed: 22000512]
+36. Chen VB, et al. MolProbity: all-atom structure validation for macromolecular crystallography. Acta crystallographica Section D, Biological crystallography. 2010; 66:12–21.
+37. Davis IW, Murray LW, Richardson JS, Richardson DC. MOLPROBITY: structure validation and all-atom contact analysis for nucleic acids and their complexes. Nucleic acids research. 2004; 32:W615–9. [PubMed: 15215462]
+Nat Chem Biol. Author manuscript; available in PMC 2013 September 01.
+Page 8
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Berndsen et al.
+Figure 1. Polyubiquitin chain formation by Ubc13/Mms2 in the presence and absence of Rad5 (a) Substrate partitioning experiments showing active fraction of Ubc13~Ub thioester as a function of acceptor ubiquitin concentration. Plot of percentage diubiquitin formed versus concentration of ubiquitin (Ub)Δ 75,Δ76 Mms2 with the Rad5 RING domain (open circles). Points represent the average of 3 to 4 separate measurements with the standard deviation shown by the error bars. (b) Single discharge assays of diubiquitin formation by Ubc13-Mms2 containing wild-type Ubc13 or mutants with substitutions at N79, performed in the presence and absence of the Rad5 RING fragment. Full gels in Supplementary Figure 4.
+for Ubc13N79Q-Mms2 (filled circles) or Ubc13N79Q-
+Nat Chem Biol. Author manuscript; available in PMC 2013 September 01.
+Page 9
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Berndsen et al.
+Figure 2. Crystal structure of Ubc13N79A (a) Alignment of the structure of Ubc13N79A (salmon) with wild-type Ubc13 from 2GMI (yellow). Residue names are colored to match the coloring of the N79A or wild-type structures. (b) Electron density 2F0-Fc map contoured at 1.0σ showing the density for the active site loop in Ubc13N79A. The backbone Cα trace of wild-type Ubc13 from 2GMI is shown in green. (c) Single discharge assay for the Ubc13 active site loop mutants using ubiquitinΔ75,Δ76
+(Ub) as the ubiquitin acceptor.
+Nat Chem Biol. Author manuscript; available in PMC 2013 September 01.
+Page 10
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Berndsen et al.
+Table 1
+Kinetic values for Ubc13/-Mms2 and Ubc13 N79 and active site loop substituted enzymes
+Enzyme
+kcat, s−1
+KM, μM
+kcat/KM, M−1 s−1
+WT
+(6 ± 0.8) × 10−3
+275 ± 83
+22 ± 7
+WT + Rad5
+(2 ± 0.8) × 10−2
+128 ± 12
+156 ± 64
+N79Q
+(1 ± 0.2) × 10−3
+53 ± 25
+19 ± 10
+N79Q + Rad5
+(1.1 ± 0.8) × 10−2
+175 ± 36
+63 ± 14
+N79A
+(7 ± 4) × 10−6
+75 ± 8
+0.1 ± 0.06
+N79A + Rad5
+(2.3 ± 0.2) × 10−4
+68 ± 24
+3 ± 1
+N79D
+(2 ± 0.4) × 10−4
+97 ± 57
+2 ± 1
+N79D + Rad5
+(3.4 ± 0.4) × 10−4
+87 ± 33
+4 ± 2
+L121S
+(9 ± 0.8) × 10−5
+65 ± 29
+1 ± 0.6
+L121S + Rad5
+(5 ± 0.3) × 10−4
+51 ± 12
+10 ± 2
+D119N
+(3 ± 1) × 10−4
+179 ± 160
+2 ± 1.6
+D119N + Rad5
+(5 ± 0.7) × 10−3
+106 ± 52
+47 ± 24
+Kinetic values calculated by fitting data to nonessential activation equation (Online methods).
+Nat Chem Biol. Author manuscript; available in PMC 2013 September 01.
+Page 11

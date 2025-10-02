@@ -1,0 +1,292 @@
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+NIH Public Access Author Manuscript J Mass Spectrom. Author manuscript; available in PMC 2014 May 01.
+Published in final edited form as:
+J Mass Spectrom. 2013 May ; 48(5): . doi:10.1002/jms.3198.
+A quantitative analysis of histone methylation and acetylation isoforms from their deuteroacetylated derivatives: application to a series of knockout mutants
+Katherine L. Fiedlera,*, Poonam Bhedab,§, Junbiao Daic,¶, Jef D. Boekec, Cynthia Wolbergerb,d, and Robert J. Cottera,† aMiddle Atlantic Mass Spectrometry Laboratory, Department of Pharmacology and Molecular Sciences, Johns Hopkins University School of Medicine, 725 N. Wolfe Street, Baltimore, MD, 21205, USA
+bDepartment of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, 725 North Wolfe Street, Baltimore, MD, 21205, USA
+cDepartment of Molecular Biology and Genetics and High Throughput Biology Center, Johns Hopkins University School of Medicine, 733 North Broadway, Baltimore, MD, 21205, USA
+dHoward Hughes Medical Institute, Johns Hopkins University School of Medicine, 725 North Wolfe Street, Baltimore, MD, 21205, USA
+Abstract
+The core histones, H2A, H2B, H3 and H4, undergo post-translational modifications (PTMs) including lysine acetylation, methylation and ubiquitylation, arginine methylation and serine phosphorylation. Lysine residues may be mono-, di- and trimethylated, the latter resulting in an addition of mass to the protein that differs from acetylation by only 0.03639 Da, but that can be distinguished either on high-performance mass spectrometers with sufficient mass accuracy and mass resolution or via retention times. Here we describe the use of chemical derivatization to quantify methylated and acetylated histone isoforms by forming deuteroacetylated histone derivatives prior to tryptic digestion and bottom-up liquid chromatography-mass spectrometric analysis. The deuteroacetylation of unmodified or mono-methylated lysine residues produces a chemically identical set of tryptic peptides when comparing the unmodified and modified versions of a protein, making it possible to directly quantify lysine acetylation. In this work, the deuteroacetylation technique is used to examine a single histone H3 peptide with methyl and acetyl modifications at different lysine residues and to quantify the relative abundance of each modification in different deacetylase and methylase knockout yeast strains. This application demonstrates the use of the deuteroacetylation technique to characterize modification ‘cross-talk’ by correlating different PTMs on the same histone tail.
+Keywords
+histone; acetylation; methylation; deuteroacetylation; histone deacetylase; mass accuracy
+© 2013 John Wiley & Sons, Ltd. * Correspondence to: Katherine L. Fiedler, Middle Atlantic Mass Spectrometry Laboratory, Department of Pharmacology and Molecular Sciences, Johns Hopkins University School of Medicine, 725 N. Wolfe Street, Baltimore, MD 21205, USA. kstampe2@live.johnshopkins.edu. §IGBMC, Strasbourg, France ¶Tsinghua University, Beijing, China †Deceased
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fiedler et al.
+Introduction
+The histone proteins that organize and package DNA into chromatin are subject to a wide array of reversible post-translational modifications. The fundamental building block of chromatin is the nucleosome, which consists of approximately 146 base pairs of DNA wrapped around an octameric histone core comprising two copies each of histones H2A, H2B, H3 and H4. Histone modifications play a key role in most biological processes involving DNA, including DNA repair, replication, transcription and maintenance of the boundaries between actively transcribed euchromatin and transcriptionally silent heterochromatin.[1] It has been hypothesized that regulation of these events is controlled by multiple histone post-translational modifications or ‘marks’, collectively referred to as the histone code.[2] Post-translational modifications (PTMs) are chemical moieties covalently attached to a protein[3] that are used to regulate cellular processes by altering a protein’s structure, function, activity, localization, stability and/or interactions.[4] The core histone proteins are heavily modified, especially on their N- and C-terminal ‘tails’, which extend out from the nucleosome core. Neighboring modifications can work collectively in either a synergistic, antagonistic or sequential manner. This is known as modification ‘cross-talk’.[5] A direct link between aberrations in histone PTM profiles and a number of human cancers and diseases has been established.[6] A goal of epigenetic research is to fully characterize these signatures and understand how they define cell-specific patterns of gene regulation.[7] Once the mechanisms behind diverse patterns of histone modification are better understood, the alterations that occur during cancer or disease can be identified.[8] This knowledge can then be applied to screening, detection, prognosis predictions, treatment and therapeutic monitoring.[7]
+Mass spectrometry provides a particularly effective way to identify histone marks by monitoring the changes in mass that accompany these modifications. Indeed, there are now numerous reports using both top-down analyses of intact histones[9–11] and bottom-up methods that sequence tryptic fragments.[12] Mass spectrometry has been used to provide a global analysis of histone acetylation,[13] to distinguish isomeric forms[12] and to identify new marks.[14] The analysis of lysine modifications using trypsin-based bottom-up methods is complicated by the fact that trypsin cleaves C-terminally to lysine residues unless they are modified, leaving peptides of varying lengths and chemical characteristics so that the modified and unmodified forms of the protein cannot be directly compared in the mass spectrometer. However, the chemical derivatization of unmodified lysine residues by deuteroacetylation[15] or propionylation[16] can be used to overcome this limitation for effective qualitative and quantitative characterization of lysine PTMs using bottom-up analysis of the tryptic peptides resulting from subsequent enzymatic cleavage at arginine residues.
+The deuteroacetylation reaction labels any unmodified or monomethylated lysine with a deuteroacetyl tag.[12,15] The advantages of chemical derivatization of unmodified lysine residues with a stable isotope of the endogenous modification are threefold. First, it prevents tryptic cleavage at lysine residues resulting in the equivalent of an Arg-C digestion (an endopeptidase that cleaves C-terminally to arginine residues) albeit employing the more reliable trypsin enzyme. This produces chemically identical peptides from the modified and unmodified forms of the protein. In contrast, trypsin digestion without derivatization would result in cleavage at unmodified lysines, yielding different sets of peptides for the unmodified versus modified histones. The use of alternative peptidases alone (without lysine derivatization), such as Arg-C, is not as satisfactory since lysine and its ε-amino derivatives tend to have very different basicities. The ‘mock Arg-C’ digestion produced via a tryptic digestion of lysine-derivatized histone samples also provides longer peptides which are sufficient for mass spectrometric analysis since histones are lysine rich and trypsin digestion
+J Mass Spectrom. Author manuscript; available in PMC 2014 May 01.
+Page 2
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fiedler et al.
+without derivatization produces many small peptides that are unobservable with a mass spectrometer.[11] In addition, the longer peptides provide an opportunity to correlate modifications on multiple lysines within the same peptide and to determine whether the presence of a particular modification has an effect on another modification elsewhere on the peptide. Second, the deuteroacetylation technique maintains a distinction between the naturally and artificially modified lysines since deuteroacetylated lysines are 3 Da higher in mass than the naturally acetylated lysines. MS/MS analysis of the different isoforms can be used to determine the location of the naturally occurring acetyl-lysine residues. Third, the deuteroacetylation method provides a means for relative quantitation since the isoforms are chemically equivalent. The ratio of the mass spectrometric signal from the acetylated and deuteroacetylated peptides can be used to determine the level of endogenous lysine acetylation.[15] Proprionylation prior to tryptic digestion is an alternative chemical derivatization method used by Garcia and others.[17–19] However, since the propionyl label is a structural analog of the acetyl modification (compared to the deuteroacetyl label, which is a stable isotope analog), additional steps are required for accurate quantitation. For example, in the propionylation approach, an additional D0 or D3 ethyl ester derivative of the carboxy terminus or heavy/ light propionylation of the N-termini after tryptic digestion is used to quantify the difference between the two samples. The deuteroacetylation approach combines blocking cleavage at lysines with quantitation in a single derivatization step. The use of stable isotope analogs produces species with identical retention times and ionization efficiencies, thus making it is possible to obtain accurate and reliable ratios between isoforms containing other modifications but differing only in acetylation. These ratios can then be compared with those from other samples, for example to assess the effects of specific enzyme inhibitors or knockouts.
+In this work, we illustrate the use of the deuteroacetylation technique to quantify methylated and acetylated isoforms in which methyl and acetyl marks are found on the same tryptic peptide. A specific example reported herein compares the acetylation of histone H3K27 and the methylation (mono-, di- and trimethylation) on H3K36, in the tryptic peptide K27SAPSTGGVK36K37PHR, from a series of histone deacetylase (HDAC) and methylase knockouts, with and without HDAC inhibitors. We also demonstrate how the deuteroacetyl derivative can be used as a chromatographic retention time marker for the acetylated isoforms to aid in the assignment of acetylation versus trimethylation. This work illustrates how the deuteroacetylation method can be used to elucidate relationships between histone marks, also known as modification ‘cross-talk.’
+Experimental methods
+Histone H3 purification from yeast
+The data in Figs. 1 and 2 were obtained from histones isolated from a S. cerevisiae strain with a BY background (genotype - MATa his3Δ200 leu2Δ0 lys2Δ0 trp1Δ63 ura3Δ0 met15Δ0 hht1-hhf1::NatMX4 can1:: MFA1pr-HIS3 hht2-hhf2::HygMX4), which has the chromosomal copies of the histones deleted. A plasmid (pJD205 CEN URA3 FLAGHis- HHT1) was transformed into the strain as the sole source of histone H3, which was FLAG- and His-tagged and expressed from its native promoter. The remaining data were obtained from histones isolated from the following strains of S. cerevisiae, wild type (BY4741), and its kanMX knockout derivatives dot1, hst2, dot1 hst2, sir2, dot1 sir2 (the latter two genotypes were also evaluated with and without HDAC inhibitor treatment). The genotypes of these strains are as previously described.[22] These strains contained the pRS416 plasmid that contained FLAG- and His-tagged histone H3. Yeast cells were grown to a late log phase liquid culture (with an A600 of approximately 1), harvested and frozen at −80 °C, and then histone H3 was purified as previously described.[25] Briefly, cells were boiled in the presence of SDS, and the protein was purified under denaturing conditions using Nickel-
+J Mass Spectrom. Author manuscript; available in PMC 2014 May 01.
+Page 3
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fiedler et al.
+NTA agarose beads and elution with a buffer containing imidazole. All eluates were diluted with LDS sample buffer and separated on a 1.0 mm thick NuPAGE 4–12% Bis-Tris gel (Invitrogen) using MES SDS running buffer. The gels were stained with Coomassie Brilliant Blue R-250 staining solution (Bio-Rad) for 1 h at room temperature. The bands were visualized by destaining with a solution of 7% acetic acid and 12% methanol overnight.
+In-gel derivatization and trypsin digestion of histone H3
+Gel bands corresponding to histone H3 were excised and cut into pieces approximately 1 mm in size and destained with a solution of 50% acetonitrile (ACN), 50% 50 mM ammonium bicarbonate at room temperature.[26] The in-gel derivatization of histone was carried out prior to trypsin digestion as previously described.[12,20] The gel bands were incubated with 50 µl deuterated acetic acid (d4) and 10 µl deuterated acetic anhydride (d6) (Sigma) for 5 h at room temperature. The reaction was quenched with multiple washes with 200 mM ammonium bicarbonate and then with water. ACN was used to dehydrate the gel bands for 10 min at room temperature, and then the gel bands were dried in a SpeedVac at 60°C for 20 min. A solution of 0.33 µg trypsin (Sigma) in 50 µl 50 mM ammonium bicarbonate was added to each gel band, which was kept on ice for 1 h. The samples were then incubated overnight at 37 °C. Tryptic peptides were extracted from the gel bands with a solution of 50% ACN, 25 mM ammonium bicarbonate and 1% trifluoroacetic acid.[20] The histone peptides were then dried and stored at −20 °C for future analysis.
+LCMS-IT-TOF analysis
+A Shimadzu LCMS-IT-TOF mass spectrometer equipped with a Prominence UFLCXR HPLC system (Shimadzu) was used for LC-MS analysis of the histone samples. Samples were resuspended in 0.1% formic acid and injected via the autosampler onto a Shim-pack XR-ODS II (2.0 mm i.d. × 150 mm) column, which was kept at 40 °C in an oven. HPLC solvents were 0.1% formic acid (Solvent A) and 0.1% formic acid in ACN (Solvent B). The tryptic peptides were separated by a linear gradient from 3 to 50% B over 60 min with a flow rate of 0.3 mL/min. The CDL was set at 200 °C, the nebulizing gas flow was at 1 L/ min, and the heat block was set to 200 °C.
+The data in Figs. 1 and 2 were obtained using a ‘Top 3’ method which involved a MS1 precursor scan from 200–2000 Da with Automatic Sensitivity Control (ASC) set at 70% BPC. ASC is used to automatically adjust the ion accumulation time to avoid signal saturation and is determined by the intensity of the base peak, where the percentage setting corresponds to the full scale of the detector. The maximum amount of time allowed for ion accumulation was set to 10 ms. The data in Figs. 3, 4 and 5 were obtained using a different ‘Top 3’ method. The precursor scan in this method was also from 200 to 2000 Da but did not have ASC activated; instead, the ion accumulation time was set to 15 ms. The three data- dependent MS/MS scans for both methods had acquisition ranges from 50 to 2000 Da with ion accumulation times of 30–50 ms. Dynamic exclusion was enabled and set to 15 ms. The collision energy and collision gas were set to 20%, and the q (frequency) was set to 0.251 (45.0 kHz) for each MS/MS event. Each MS/MS event had an execution trigger of 10 000 for the intensity of the base peak. Only ions with +2, +3 or unknown charge states were selected for fragmentation analysis. A preferred ion list with masses corresponding to the +2 and +3 m/z values for the modified K79 peptide was included since this was the original purpose of the study. If not present, the method would then automatically select ions to fragment based on intensity. Quantification was achieved using the multiple ion chromatogram table feature of the software. The extracted ion chromatogram(XIC) of each peptide isoform was the sum of all the charge states observed (+2, +3 and +4) using a ±50 ppm window around the calculated m/z value of each. The standard smoothing method was used with a smoothing iteration of 2 and a width of 3 s. Integration was performed
+J Mass Spectrom. Author manuscript; available in PMC 2014 May 01.
+Page 4
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fiedler et al.
+automatically by the software with the number of peaks set to 5, a width of 1 s and a minimum area/height of 0 counts. To determine the percent of acetylation, the area of the acetylated peptide was divided by the sum of the areas from the acetylated peptide and the deuteroacetylated peptide. The areas of the deuteroacetylated peptides were corrected as previously described.[20] In summary, the percent contribution of the fourth isotope from the acetylated peptide was multiplied by the AUC for the acetylated peptide. This value was then subtracted from the AUC for the deuteroacetylated peptide, and the corrected area was used in the quantitation calculations as the actual amount of endogenously unmodified isoform in the sample.
+Results and discussion
+K27SAPSTGGVK36K37PHR: LC-MS of deuteroacetylated digests
+The ability to distinguish lysine acetylation and trimethylation using mass spectrometry requires high mass resolution and high mass accuracy as these modifications have the same nominal mass and differ from one another by only 0.03639 Da.[21] However, it is also possible to distinguish acetylated and methylated isoforms (including positional isoforms) using chromatographic retention times since the trimethylated species retains the basicity of the unmodified lysine form and elutes at an earlier time than the acetylated species.[18,23,24] Here we demonstrate how the deuteroacetylated peptide can serve as a retention time marker for the acetylated peptide since they are equivalent with respect to chromatography and mass spectrometry behavior.
+Histone H3 isolated from wild-type S. cerevisiae was deuteroacetylated in-gel, digested with trypsin and subjected to LC-MS analysis. Figures 1a–c show the XICs for the doubly charged molecular ions from the modified forms of the H3 peptide, K27SAPSTGGVK36K37PHR. Figure 1a monitors the m/z of the fully deuteroacetylated peptide that had not been modified endogenously. In the latter two chromatograms, the m/z values monitored assume a single modification on any one of the three lysine residues, with deuteroacetyl groups on the other two lysines. Figure 1b corresponds to either a trimethylated or acetylated peptide within the ±50 ppm mass window used by the program to extract the data. Figure 1c shows the XIC for a dimethylated peptide. In this case, dimethylation occurs at a single residue and is not monomethylation at two different lysines, which would result in the addition of three deuteroacetyl groups after derivatization, and a different mass. There are two peaks with distinct retention times in Fig. 1b; the first peak at 11.9 min matches the retention time of another methylated version of the peptide, whereas the second peak at 14.1 min matches the retention time of the deuteroacetylated peptide. Therefore, the first peak is likely to represent the trimethylated peptide, and the second peak must be from the acetylated peptide. To confirm these assignments, MS1 spectra were obtained for each chromatographic peak by averaging the data collected during the elution of each peak (Figs. 2a–b). The peak observed at 11.9 min had a doubly charged m/z value of 791.4705, an error of 0.25 ppm compared with the calculated mass of the trimethylated peptide and 22.74 ppm from the calculated mass of the acetylated peptide (Fig. 2a). The peak observed at 14.1 min had a doubly charged m/z value of 791.4528, a mass difference of 22.62 ppm from the calculated mass of the trimethylated peptide, but only 0.38 ppm away from the calculated mass of the acetylated peptide (Fig. 2b). Thus, high mass accuracy measurement, in combination with chromatographic retention times, makes it possible to differentiate between the methylated and acetylated species.
+Location of methylation and acetylation sites on K27SAPSTGGVK36K37PHR
+Beyond a single site of endogenous modification, we observed other isoforms of the histone H3 peptide, K27SAPSTGGVK36K37PHR, in another histone H3 sample isolated from yeast,
+J Mass Spectrom. Author manuscript; available in PMC 2014 May 01.
+Page 5
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fiedler et al.
+in which multiple methylations and acetylations occurred on different lysines. Figure 3a displays the XICs for all of the modified forms of the H3 peptide observed, including mono-, di- and trimethylation, as well as acetylation and combinations of each methylation modification with acetylation. As we have noted, the deuteroacetylation reaction modifies monomethylated lysines, so that both monomethylated species (Me/Ac and Me/dAc) are observed at a later retention time of 14.2 min. Figures 3b–d are averaged MS1 spectra of the different peptide forms at 14.2 min, 11.3 min and 13.5 min, respectively. Again, high mass accuracy was used to confirm the PTMassignment as trimethylation or acetylation (see below).
+Figures 4a–h are MS/MS spectra from the triply charged molecular ions of the H3 peptides isolated from wild-type yeast (BY4741). Figure 4a is the product ion mass spectrum of the monomethylated form of the peptide (RT 14.2 min). Even though there is not extensive fragmentation, the fragment ions observed are consistent with methylation at either K36 or K37 and not K27. A search of the UniProt Knowledgebase (UniProtKB) shows that to date no PTMs have been observed on K37.[27] Therefore, it is most likely that the methylation modification is present on K36; although due to the lack of fragmentation, we cannot rule out amino acid mutations that equal the mass of a methyl modification such as an S to T, G to A or V to I/L. However, it is well established in the literature that K36 is methylated in S. cerevisiae[27] and the di- and trimethylated K36 peptides were also observed, providing further evidence for monomethylated K36. Figure 4b is the MS/MS spectrum for the dimethylated peptide (RT 11.3 min), and the masses of the observed fragment ions correspond to dimethylated K36. Figure 4c is the MS/MS spectrum of the trimethylated peptide, also observed at 11.3 min with an m/z value of 527.9809 (Fig. 3c). This corresponds to a mass accuracy of 3.79 ppm compared to the calculated mass of the trimethylated peptide and 19.13 ppm from the acetylated peptide. The ions observed in this MS/MS spectrum show that K36 is trimethylated, and there are no other observable isoforms including those in which the methylation is distributed.
+Figure 4d is the product ion mass spectrum from the acetylated peptide observed at 13.5 min with a triply charged m/z value of 527.9686 (Fig. 3d), a mass accuracy of 4.17 ppm with respect to the calculated mass of the acetylated peptide and 27.08 ppm from the trimethylated peptide. The assignment of the acetyl group to K27 is hindered somewhat by the 3 Da isolation window which also selects for some of the triply charged precursor ion of the deuteroacetylated peptide (which is by far the most abundant of the isoforms). Most of the fragment ions observed are y-ions. Because K27 is the first residue in the peptide, all the y-ions of the deuteroacetylated peptide and the acetylated peptide are the same, leaving only the single b3-ion to distinguish the two modifications. In the inset, the peak at 329.1761 belongs to the peptide when K27 is acetylated (within 17.62 ppm), and the peak at 332.1994 corresponds to deuteroacetylated K27 (within 4.21 ppm). The b3-ion from the acetylated K27 peptide has a higher than normal mass accuracy because of the low intensity, and therefore low signal-to-noise ratio, of the peak. Additionally, we note that all of the y-ions are consistent with deuteroacetylation on K36 and K37, again confirming acetylation on K27. Figure 4e is the MS/MS spectrum of the fully deuteroacetylated H3 peptide. All of the y-ions in the spectrum are identical to those in Fig. 4d, as K36 and K37 are both deuteroacetylated.
+Figure 4f is the MS/MS spectrum of the H3 peptide with both trimethylation and acetylation present simultaneously at the retention time of 11.3 min. Again, the high mass accuracy of the fragment ions allows the distinction between the K27Ac/ K36Me3 (3.34 ppm) and K27Me3/K36Ac (24.88 ppm). Figure 4g is an MS/MS spectrum of the H3 peptide that is both dimethylated and acetylated, with a retention time again at 11.3 min. The doubly charged fragment ions locate the dimethyl modification to K36 and the acetyl modification
+J Mass Spectrom. Author manuscript; available in PMC 2014 May 01.
+Page 6
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fiedler et al.
+to K27. Figure 4h is an MS/MS spectrum of the H3 peptide that is both monomethylated and acetylated, at a retention time of 14.2 min. Again, the fragment ions observed in this MS/MS spectrum localize the acetyl modification to K27, but for the first time, they also specify that the monomethyl modification is present on K36 versus K37. The difference between the singly charged y4- and y3-ions, that represent the K37 residue, is approximately 173 m/z, which is the sum of a lysine residue (128 Da) plus a deuteroacetyl tag (45 Da). Whereas, the difference between the singly charged y5- and y4-ions, that represent the K36 residue, is approximately 187 m/z which equals a lysine residue (128 Da), a deuteroacetyl tag (45 Da) and a monomethyl modification (14 Da). Therefore, it is most likely that in all cases, acetylation occurs on K27 with all of the methylated isoforms occurring on K36.
+Quantitation and the interplay between K27 acetylation and K36 methylation
+The deuteroacetylation technique can be used to study histone modification ‘cross-talk’ by providing a quantitative assessment of similar isoforms, even those containing multiple modifications. In this work, we quantified the degree of methylation on H3K36 with respect to the amount of acetylation present on H3K27. To do so, we used the AUC measurements from the XIC peaks shown in Fig. 3a, after correcting these areas for overlaps from contributions from the isotopic distribution of another species. This correction has been described previously.[20] The results found in Figs. 3b and 3c show that the extent of acetylation on K27 decreases as the level of methylation on K36 increases. Approximately 20.17% of the monomethylated form is acetylated, 13.65% of the dimethylated form is acetylated, whereas only 10.39% of the trimethylated form is acetylated. Also in agreement with this trend, the data in Fig. 3d shows that 27.54% of the H3 peptide was acetylated, compared to the completely unmodified peptide when no methylation is present. These data suggest that the degree of methylation on K36 might control the acetylation status of K27. Indeed, this relationship has been noted in the literature: phosphorylation of the C-terminal domain of the elongating RNA polymerase II (RNAPII) recruits both the H3K36 methyltransferase, Set2, and the deacetylase, Rpd3S, to regions of active transcription.[28,29] Set2 then methylates the K36 residue[29], and that in turn is recognized by the Eaf3 component of Rpd3S, which contains a chromodomain that preferentially binds di- or trimethylated K36.[28] This results in Rpd3S-mediated deacetylation of nucleosomes.[30] Thus, in the body of transcribed genes, histone H3 is methylated at K36 and deacetylated at K27. Conversely, H3K27 remains acetylated in the absence of K36 methylation at enhancers and promoters of actively transcribed genes.[31–34] Unfortunately, the extent of all these modifications with respect to the total amount of peptide cannot be determined since the methylated and acetylated forms are not chemically equivalent.
+Data from other mutant yeast strains are summarized in Fig. 5, which plots the percent acetylation on K27 versus the number of methylations on K36. Similar to the trend observed in the wild-type yeast strain (BY4741), the percent of acetylation on K27 decreases as the level of methylation increases from unmethylated to trimethylated on K36 in all of the yeast mutant strains. In addition, the data indicate that the K79 methyltransferase Dot1[22] does not methylate K36 since deletion of Dot1 does not appear to affect methylation on that site. This observation also agrees with the report that the methyltransferase Set2 methylates K36.[29] In other strains available to us, the HDACs, Hst2 and Sir2, were also knocked out either alone or in combination with Dot1. In these yeast strains, the K27 acetylation patterns did not deviate much from the wild-type yeast strain, suggesting that these HDACs do not deacetylate K27. It has been reported that the yeast HDAC complex Rpd3 is responsible for deacetylating K27,[35] while our laboratory has demonstrated specificity of Sir2 for acetylated K79.[22] Interestingly, when the HDAC inhibitors nicotinamide and sodium butyrate were used, the percent of acetylation did increase, but only slightly.
+J Mass Spectrom. Author manuscript; available in PMC 2014 May 01.
+Page 7
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fiedler et al.
+Conclusions
+The deuteroacetylation technique was used to describe an inverse relationship between an acetyl mark and a methyl mark on neighboring lysine residues within a single peptide of the H3 tail. It was observed that the level of acetylation on K27 decreased as the methylation status of K36 increased from unmodified to mono-, di-and finally trimethylated. High mass accuracy of unique fragment ions in the MS/MS spectra was used to localize the acetyl and methyl modifications on the K27 and K36 residues, respectively. The correlation observed between these two histone marks has been documented in the literature; however, in this work, we were able to provide a quantitative analysis of the histone isoforms. Additionally, we showed that the deuteroacetylated peptide acts as a chromatographic retention time marker for an acetyl modification compared to a trimethyl modification. In summary, by using the deuteroacetylation technique to describe the ‘crosstalk’ that occurs between a methylation site and an acetylation site on the same histone tail, we extended the scope of this method to include the study of methylation, as well as acetylation, and demonstrated how it can be used as an effective epigenetic research tool for elucidating histone modification patterns.
+Acknowledgments
+We thank the Mid-Atlantic Regional Office of Shimadzu Scientific Instruments, Inc. (Columbia, MD) for use of the Shimadzu LCMS-IT-TOF. Analyses were carried out in the Middle Atlantic Mass Spectrometry Laboratory.
+This project was supported by grant U54 RR020839 (J.D.B. and R.J.C.) from NIH and by grant MCB-0920082 from the National Science Foundation (C.W.). The LTQ-Orbitrap used in this work was purchased with grant S10 RR0023025 (R.J.C.) also from NIH and the High End Instrumentation Program.
+We dedicate this paper to the memory of the senior author (R.J.C.).
+References
+1. Kurdistani SK, Grunstein M. Histone acetylation and deacetylation in yeast. Nat. Rev. Mol. Cell Biol. 2003; 4(4):276–284. [PubMed: 12671650]
+2. Strahl BD, Allis CD. The language of covalent histone modifications. Nature. 2000; 403(6765):41–
+45. [PubMed: 10638745]
+3. Mann M, Jensen ON. Proteomic analysis of post-translational modifications. Nat. Biotechnol. 2003; 21(3):255–261. [PubMed: 12610572]
+4. Jensen ON. Modification-specific proteomics: Characterization of post-translational modifications by mass spectrometry. Curr. Opin. Chem. Biol. 2004; 8(1):33–41. [PubMed: 15036154]
+5. Taverna SD, Ueberheide BM, Liu Y, Tackett AJ, Diaz RL, Shabanowitz J, Chait BT, Hunt DF, Allis CD. Long-distance combinatorial linkage between methylation and acetylation on histone H3 N termini. Proc. Natl. Acad. Sci. 2007; 104(7):2086–2091. [PubMed: 17284592]
+6. Yost JM, Korboukh I, Liu F, Gao C, Jin J. Targets in epigenetics: Inhibiting the methyl writers of the histone code. Curr Chem Genomics. 2011; 5(Suppl 1):72–84. [PubMed: 21966347]
+7. Brait M, Sidransky D. Cancer epigenetics: Above and beyond. Toxicol. Mech. Methods. 2011; 21(4):275–288. [PubMed: 21495866]
+8. Wang GG, Allis CD, Chi P. Chromatin remodeling and cancer, part I: Covalent histone modifications. Trends Mol. Med. 2007; 13(9):363–372. [PubMed: 17822958]
+9. Boyne MT II, Pesavento JJ, Mizzen CA, Kelleher NL. Precise characterization of human histones in the H2A gene family by top down mass spectrometry. J. Proteome Res. 2006; 5(2):248–253. [PubMed: 16457589]
+10. Siuti N, Kelleher NL. Decoding protein modifications using top-down mass spectrometry. Nat. Methods. 2007; 4(10):817–821. [PubMed: 17901871]
+J Mass Spectrom. Author manuscript; available in PMC 2014 May 01.
+Page 8
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fiedler et al.
+11. Garcia BA, Shabanowitz J, Hunt DF. Characterization of histones and their post-translational modifications by mass spectrometry. Curr. Opin. Chem. Biol. 2007; 11(1):66–73. [PubMed: 17157550]
+12. Hersman E, Nelson DM, Griffith WP, Jelinek C, Cotter RJ. Analysis of histone modifications from tryptic peptides of deuteroacetylated isoforms. International Journal of Mass Spectrometry. 2012; 312:5–16. [PubMed: 22389584]
+13. Kim SC, Sprung R, Chen Y, Xu Y, Ball H, Pei J, Cheng T, Kho Y, Xiao H, Xiao L, Grishin NV, White M, Yang XJ, Zhao Y. Substrate and functional diversity of lysine acetylation revealed by a proteomics survey. Mol. Cell. 2006; 23(4):607–618. [PubMed: 16916647]
+14. Tan M, Luo H, Lee S, Jin F, Yang JS, Montellier E, Buchou T, Cheng Z, Rousseaux S, Rajagopal N. Identification of 67 histone marks and histone lysine crotonylation as a new type of histone modification. Cell. 2011; 146(6):1016–1028. [PubMed: 21925322]
+15. Smith CM, Gafken PR, Zhang Z, Gottschling DE, Smith JB, Smith DL. Mass spectrometric quantification of acetylation at specific lysines within the amino-terminal tail of histone H4. Anal. Biochem. 2003; 316(1):23–23. [PubMed: 12694723]
+16. Van Damme P, Van Damme J, Demol H, Staes A, Vandekerckhove J, Gevaert K. A review of COFRADIC techniques targeting protein N-terminal acetylation. BMC proceedings; BioMed Central Ltd. 2009
+17. Garcia BA, Busby SA, Shabanowitz J, Hunt DF, Mishra N. Resetting the epigenetic histone code in the MRL-lpr/lpr mouse model of lupus by histone deacetylase inhibition. J. Proteome Res. 2005; 4(6):2032–2034. [PubMed: 16335948]
+18. Garcia BA, Mollah S, Ueberheide BM, Busby SA, Muratore TL, Shabanowitz J, Hunt DF. Chemical derivatization of histones for facilitated analysis by mass spectrometry. Nat. Protoc. 2007; 2(4):933–938. [PubMed: 17446892]
+19. Plazas-Mayorca MD, Zee BM, Young NL, Fingerman IM, LeRoy G, Briggs SD, Garcia BA. One- pot shotgun quantitative mass spectro-metry characterization of histones. J. Proteome Res. 2009; 8(11):5367. [PubMed: 19764812]
+20. Celic I, Masumoto H, Griffith WP, Meuh P, Cotter RJ, Boeke JD, Verreault A. The sirtuins Hst3 and Hst4p preserve genome integrity by controlling histone H3 lysine 56 deacetylation. Curr. Biol. 2006; 16(13):1280–1289. [PubMed: 16815704]
+21. Mischerikow N, Heck AJR. Targeted large-scale analysis of protein acetylation. Proteomics. 2011; 11(4):571–589. [PubMed: 21246731]
+22. Bheda P, Swatkoski S, Fiedler KL, Boeke JD, Cotter RJ, Wolberger C. Biotinylation of lysine method identifies acetylated histone H3 lysine 79 in saccharomyces cerevisiae as a substrate for Sir2. Proc. Natl. Acad. Sci. 2012; 109(16):916–925.
+23. Young NL, DiMaggio PA, Plazas-Mayorca MD, Baliban RC, Floudas CA, Garcia BA. High throughput characterization of combinatorial histone codes. Mol. Cell. Proteomics. 2009; 8(10): 2266–84. [PubMed: 19654425]
+24. Yang L, Tu S, Ren C, Bulloch EMM, Liao CL, Tsai MD, Freitas MA. Unambiguous determination of isobaric histone modifications by reversed-phase retention time and high-mass accuracy. Anal. Biochem. 2010; 396(1):13. [PubMed: 19699711]
+25. Masumoto H, Hawke D, Kobayashi R, Verreault A. A role for cell-cycle-regulated histone H3 lysine 56 acetylation in the DNA damage response. Nature. 2005; 436(7048):294–298. [PubMed: 16015338]
+26. Shevchenko A, Henrik Tomas JH, Olsen JV, Mann M. In-gel digestion for mass spectrometric characterization of proteins and proteomes. Nat. Protoc. 2007; 1(6):2856–2860. [PubMed: 17406544]
+27. The UniProt Consortium. The universal protein resource (UniProt). Nucleic Acids Res. 2008; 36(Suppl 1):190–195.
+28. Smith E, Shilatifard A. The chromatin signaling pathway: Diverse mechanisms of recruitment of histone-modifying enzymes and varied biological outcomes. Mol. Cell. 2010; 40(5):689–701. [PubMed: 21145479]
+J Mass Spectrom. Author manuscript; available in PMC 2014 May 01.
+Page 9
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fiedler et al.
+29. Kizer KO, Phatnani HP, Shibata Y, Hall H, Greenleaf AL, Strahl BD. A novel domain in Set2 mediates RNA polymerase II interaction and couples histone H3 K36 methylation with transcript elongation. Mol. Cell. Biol. 2005; 25(8):3305–3316. [PubMed: 15798214]
+30. Li B, Gogol M, Carey M, Lee D, Seidel C, Workman JL. Combined action of PHD and chromo domains directs the Rpd3S HDAC to transcribed chromatin. Science. 2007; 316(5827):1050– 1054. [PubMed: 17510366]
+31. Cotney J, Leng J, Oh S, DeMare LE, Reilly SK, Gerstein MB, Noonan JP. Chromatin state signatures associated with tissue-specific gene expression and enhancer activity in the embryonic limb. Genome Res. 2012; 22(6):1069–1080. [PubMed: 22421546]
+32. Rada-Iglesias A, Bajpai R, Swigut T, Brugmann SA, Flynn RA, Wysocka J. A unique chromatin signature uncovers early developmental enhancers in humans. Nature. 2010; 470(7333):279–283. [PubMed: 21160473]
+33. Zentner GE, Tesar PJ, Scacheri PC. Epigenetic signatures distinguish multiple classes of enhancers with distinct cellular functions. Genome Res. 2011; 21(8):1273–1278. [PubMed: 21632746] 34. Creyghton MP, Cheng AW, Welstead GG, Kooistra T, Carey BW, Steine EJ, Hanna J, Lodato MA, Frampton GM, Sharp PA. Histone H3K27ac separates active from poised enhancers and predicts developmental state. Proc. Natl. Acad. Sci. 2010; 107(50):21931–21936. [PubMed: 21106759]
+35. Suka N, Suka Y, Carmen AA, Wu J, Grunstein M. Highly specific antibodies determine histone acetylation site usage in yeast heterochromatin and euchromatin. Mol. Cell. 2001; 8(2):473–479. [PubMed: 11545749]
+J Mass Spectrom. Author manuscript; available in PMC 2014 May 01.
+Page 10
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fiedler et al.
+Figure 1. XICs for the H3 peptide, K27SAPSTGGVK36K37PHR, after deuteroacetylation. The deuteroacetylated peptide marks the retention time of the acetylated peptide compared to the retention time of the methylated peptide.
+J Mass Spectrom. Author manuscript; available in PMC 2014 May 01.
+Page 11
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fiedler et al.
+Figure 2. High mass accuracy is used to confirm the assignment of modifications. (a) Doubly charged peaks of the di- and trimethylated H3 pep-tide (27–40) at 11.9 min. (b) Doubly charged peaks of the acetylated and deuteroacetylated H3 peptide (27–40) at 14.1 min.
+J Mass Spectrom. Author manuscript; available in PMC 2014 May 01.
+Page 12
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fiedler et al.
+Figure 3. (a) XICs of all the modified forms of the H3 peptide, K27SAPSTGGVK36K37PHR, after deuteroacetylation (with a window of ±50 ppm). Numbers in parentheses are AUCs; numbers above the right side of each trace are the triply charged masses. (b) Integrated MS1 spectrum around 14.2 min; 20.17% of the monomethylated form is acetylated. (c) Integrated MS1 spectrum around 11.3 min. The dimethylated form is acetylated 13.65% of the time whereas only 10.39% of the trimethylated form is acetylated. (d) Integrated MS1 spectrum around 13.5 min. About 27.54% of the H3 peptide has one acetylation compared to the unmodified version of the peptide.
+J Mass Spectrom. Author manuscript; available in PMC 2014 May 01.
+Page 13
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fiedler et al.
+J Mass Spectrom. Author manuscript; available in PMC 2014 May 01.
+Page 14
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fiedler et al.
+Figure 4. Tandem mass spectrometry is used to localize each modification to a specific lysine residue. (a) MS/MS spectrum of the monomethylated form of the peptide. The fragment ions observed show the modification is located at K36. (b) MS/MS spectrum of the dimethylated form of the peptide. The fragment ions observed show the modification is again located at K36. (c) MS/MS spectrum of the trimethylated form of the peptide. The fragment ions observed show the modification is located at K36. (d) MS/MS spectrum of the acetylated form of the peptide. Fragment ions observed include those from the deuteroacetylated peptide which was included in the isolation window. However, the b3-ion shown in the inset is unique to the acetylated form and localizes the acetyl modification to K27. (e) MS/MS
+J Mass Spectrom. Author manuscript; available in PMC 2014 May 01.
+Page 15
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fiedler et al.
+spectrum of the deuteroacetylated peptide which represents the unmodified version of the peptide. (f) MS/MS spectrum of the doubly modified peptide. The fragments determine the location of the two PTMs to be K27Ac and K36Me3. (g) MS/MS spectrum of the doubly modified peptide with K27Ac and K36Me2. (h) MS/MS spectrum of the doubly modified peptide with K27Ac and K36Me.
+J Mass Spectrom. Author manuscript; available in PMC 2014 May 01.
+Page 16
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fiedler et al.
+Figure 5. The degree of acetylation on K27 when various levels of methylation are present on K36. The extent of K27 acetylation decreases as the level of methylation on K36 increases in all of the mutant yeast strains.
+J Mass Spectrom. Author manuscript; available in PMC 2014 May 01.
+Page 17

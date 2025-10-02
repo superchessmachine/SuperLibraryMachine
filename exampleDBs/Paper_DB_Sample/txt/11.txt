@@ -1,0 +1,530 @@
+BI8SCH16-Lin ARI = 9May2016 9:34
+ANNUAL
+anes Further Click here to view this article's online features:
+Download figures as PPT slides * Navigate linked references
+Download citations
+Explore related articles
+Search keywords
+Annu. Rev. Biochem. 2016. 85:405-29
+First published online as a Review in Advance on April 18, 2016
+The Annual Review of Biochemistry is online at biochem.annualreviews.org
+This article’s doi: 10.1146/annurev-biochem-060815-014537
+Copyright © 2016 by Annual Reviews. All rights reserved
+The Substrate Specificity
+of Sirtuins
+Poonam Bheda,!? Hui Jing,? Cynthia Wolberger,* and Hening Lin?
+'Institut de Génétique et de Biologie Moléculaire et Cellulaire, Ilkirch 67404, France
+2Institute of Functional Epigenetics, Helmholtz Zentrum Miinchen, Neuherberg 85764, Germany
+3 Department of Chemistry and Chemical Biology, Cornell University, Ithaca, New York 14850
+‘Department of Biophysics and Biophysical Chemistry, The Johns Hopkins University School of Medicine, Baltimore, Maryland 21205-2185; email: ewolberg@jhmi.edu
+SHoward Hughes Medical Institute, Cornell University, Ithaca, New York 14850; email: h1379@cornell.edu
+Keywords
+deacylation, succinylation, myristoylation, palmitoylation, ADP-ribosylation
+Abstract
+Sirtuins are NAD*-dependent enzymes universally present in all organisms, where they play central roles in regulating numerous biological processes. Although early studies showed that sirtuins deacetylated lysines in a reaction that consumes NAD*, more recent studies have revealed that these enzymes can remove a variety of acyl-lysine modifications. The specificities for varied acyl modifications may thus underlie the distinct roles of the different sirtuins within a given organism. This review summarizes the structure, chemistry, and substrate specificity of sirtuins with a focus on how different sirtuins recognize distinct substrates and thus carry out specific functions.
+BI85CH16-Lin
+ARI
+9May 2016 9:34
+Contents INTRODUCTION ......... 0000 teen eee ee 406 THE CHEMISTRY AND STRUCTURE OF SIRTUINS.............00.000000005 407 The Evolving View of Sirtuin Chemistry: From ADP-Ribosylation to Deacylation......00... ccc cece ccc eee e nee teense teen nee ee 407 The Mechanism of NAD*-Dependent Deacylation . 408 Structures of Sirtuins . . 409 SPECIFICITY FOR DIFFERENT ACYL GROUBS . 413 Propionyl Group 413 Negatively Charged Acyl Groups: Succinyl, Malonyl, and Glutaryl................ 413 Long-Chain Fatty Acyl Modifications ..............0 0000 cc ecee eee eeee eee e eee e ee 415 Lipoyl Modification 416 Other Acyl Modifications 416 SPECIFICITY FOR PEPTIDE SEQUENCES 417 THE IN VIVO SUBSTRATE SPECIFICITY OF SIRTUINS .. 418 THE ADP-RIBOSYLATION ACTIVITY OF SIRTUINS.... . 420 Caveats Regarding the Observed ADP-Ribosyltransferase Activity of Sirtuins...... 420 A New Class of Sirtuins with Efficient ADP-Ribosyltransferase Activity ........... 421 REFLECTIONS AND OUTLOOK ON SIRTUINS’ ENZYMATIC FUNCTIONS..............0.00 cece eee eee cece cece eeeeeeeeee The Significance of Removing Other Acyl Modifications How Does Acylation Occur and What Is the Relative Abundance? .... What Are the Functions of Different Acyl-Lysine Modifications? .. CONCLUSION
+INTRODUCTION
+Sirtuins comprise a universally conserved family of NAD*t-dependent enzymes (1) that play central roles in a vast array of biological processes, including transcriptional regulation, fat mobilization, apoptosis, maintaining genomic integrity, metabolism, circadian clock regulation, autophagy, and life span extension. We refer the reader to several excellent reviews that summarize these im- ortant functions (2-8). The founding member, Sir2, regulates transcriptional silencing in yeast by deacetylating histone H4 in a reaction that consumes NAD* (9-11). The majority of sirtuins studied to date also have deacetylase activity but target a wide variety of substrates in addition to histones. The human SIRT1 enzyme, for example, deacetylates NF-«B (nuclear factor-«B) (12),
+53 (13, 14), PGC-1a (peroxisome proliferator-activated receptor y coactivator 1-«) (15), and the FOXO (16) proteins to regulate the inflammatory response, apoptosis, glucose homeostasis, and the cellular stress response, respectively. The clinical significance of sirtuins has become increas- ingly recognized as they have been implicated in age-related diseases in humans, such as cancer reviewed in (17)], neurodegeneration (18), obesity, and diabetes [reviewed in (19)], cardiovascular diseases, and dyslipidemia, as well as in other pathological contexts including the inflammatory response (20, 21), bacterial infection (22), and HIV-1 transcription [reviewed in (23)]. The im-
+ortant role of sirtuins in human diseases has made understanding the chemistry, structure, and
+substrate specificity of critical importance to drug discovery efforts focused on sirtuins (24). Sirtuins are an ancient family of enzymes found in all three domains of life (1). Whereas
+archaeal and bacterial species typically have one or two sirtuins, most eukaryotes have multiple
+Bheda et al.
+BI8SCH16-Lin ARI = 9May2016 9:34
+sirtuin homologs. Humans have seven sirtuins, SIRT 1-7 (1), whereas the budding yeast harbors five sirtuins, including Sir2 and four homologs of Sir2, Hst1—4 (25, 26). All of these enzymes share a conserved catalytic core domain (25) but differ in their variable N- and C-terminal extensions (1). The differences among sirtuins, particularly in organisms that have multiple homologs, may underlie differences in subcellular localization, regulation, and perhaps substrate selectivity. Although the roles that sirtuins play in biology have been largely ascribed to the deacetylase activities exhibited by most sirtuins, recent studies have revealed that some sirtuins can remove larger acyl moieties from lysines and that these deacylation activities underlie their in vivo functions (21, 27-32). These findings have paralleled discoveries from proteomic studies that have revealed that lysine acyl modifications, such as butyryl (18), crotonyl (33) and succinyl (34-37) lysine, are far more prevalent in cells than previously thought. These developments have broad implications for sirtuin biology and biochemistry, as well as for the development of small-molecule sirtuin regulators for treatment of pathologies involving sirtuins. Structures of a variety of sirtuins bound to NAD*, reaction intermediates, and products, as well as to peptides bearing different acyl modifications, have illuminated the mechanisms under- lying the complex sirtuin chemistry and driven new discoveries regarding the true substrates and biological roles of sirtuins. The reader is referred to several excellent reviews on sirtuin structure
+and chemistry (38, 39). In this review, we briefly summarize the structure and enzymatic activi- ties of sirtuins and then focus on the substrate specificity of sirtuins, the structural determinants underlying this substrate specificity, and the biological implications of substrate specificity.
+THE CHEMISTRY AND STRUCTURE OF SIRTUINS
+The Evolving View of Sirtuin Chemistry: From ADP-Ribosylation to Deacylation
+One of the most striking features of sirtuins is their NAD*-dependent chemistry, which distin- guishes these enzymes from all other known deacetylases that use simple hydrolysis to remove the acetyl group (Figure 1) (40). Yeast Sir2 (silent information regulator 2) was initially identified in a screen for genes that regulate transcriptional silencing (41). At the time Sir2 was first identified, the mechanism by which Sir2 silenced transcription was unclear. The finding that a bacterial sirtuin, CobB, could functionally rescue a deletion of an essential phosphoribosyltransferase in the cobalamin biosynthesis pathway (42) suggested that Sir2 might catalyze a similar reaction. In- deed, initial studies found that yeast Sir2, bacterial CobB, and human SIRT2 can ADP-ribosylate proteins in vitro (Figure 1) (43, 44). Shortly thereafter, it was unexpectedly discovered that yeast Sir2 could deacetylate histones in a reaction that consumed NAD* (9), cleaving the nicotinamide moiety and transferring the acetyl group from the lysine to ADP-ribose to generate the novel metabolite, 2’-O-acetyl-ADP-ribose (Figure 1) (9-11, 45). This reaction is unique to sirtuins and was not previously known to occur in biology. Subsequent studies of sirtuins then focused on this novel and more robust NAD*-dependent deacetylase activity. Although a number of sirtuins have been reported to ADP-ribosylate proteins (46-49), this activity is in most cases orders of
+magnitude slower than deacetylation, and its in vivo significance has therefore been questioned (50, 51).
+Although acetylation is by far the best-characterized and best-understood lysine acyl modifica- tion, it is now known that lysines are also modified with a variety of other acyl groups (Figure 1), most of which are presumably donated by the corresponding acyl coenzyme A (acyl-CoA) (52, 53). Deacylation of these lysines would involve the same underlying chemistry, but the sirtuin must be able to accommodate the different acyl groups (Figure 1). Evidence for these alternate
+.annualreviews.org © The Substrate Specificity of Sirtuins
+407
+BI85CH16-Lin
+ARI
+9May 2016 9:34
+a Deacylation reaction fe)
+Z NH hk — NHs < ; N peptide _ a peptide
+OH OH
+R includes cH ahs wets ane eNNeeEeeOEO
+Acetyl — Propionyl Butyryl Crotonyl Myristoyl oO oO oO CH oa aN aN a aN awa AK ST mr COX ™ ° ie) oO Succinyl Malonyl Glutaryl Palmitoyl
+b ADP-ribosylation reaction °
+Z NH, — ADP.
+a a, Protein/ peptide
+=, OH
+X: nucleophilic residue to be determined (possibly Arg or Glu/Asp)
+Figure 1
+Different enzymatic activities of sirtuins reported. (@) Deacylation reaction. (b) ADP-ribosylation reaction.
+deacylation activities began with findings that some sirtuins, such as CobB and SIRT1-3, can remove propionyl and butyryl groups, which are similar to acetyl, in vitro (54, 55). Interestingly, later studies revealed that some sirtuins could remove more chemically diverse acyl modifications from lysines (21, 27), such as succinyl, malonyl, myristoyl, and palmitoyl groups, and that this activity underlies their biological functions (21, 27). Lysine succinylation and malonylation have only recently been found in many bacterial and mammalian proteins (27, 31, 34, 35, 56). Although lysine myristoylation had been reported, its biological function was unknown until recently (21). The cumulative observations that multiple sirtuins can remove a variety of acyl modifications in biological contexts suggest that sirtuins can be referred to as deacylating enzymes (28), thus reflecting their broader specificity for different acyl groups.
+The discovery that sirtuins may also have specificity for particular acyl groups adds another factor that determines the overall specificity ofa sirtuin fora given substrate. The acyl modification, the flanking amino acid sequence, and other binding partners likely work together to determine the substrate specificity of sirtuins.
+The Mechanism of NAD*+-Dependent Deacylation
+The mechanism of NADt-dependent deacylation has been well studied (45, 57-63) and is unique in several aspects (Figure 2). The first step is essentially an ADP-ribosyltransferase reaction in which the amide bond of the acyl lysine serves as the nucleophile, attacking the anomeric position of the ribose in NAD*. Nicotinamide is released, and an ADP-ribosylated alkylamidate intermediate
+Bheda et al.
+BI85CH16-Lin
+ARI 9May2016 9:34 ° fo) ZA NH + [7 r NH), ADP ) ADP < ° ADP N to) N H30* ° =— oH Op =— 0 =— Sh OH (0 _ “Ss NH OH OH H A Ro RS NH
+$ e
+His residue in sirtuin active site
++ ADP NH; 0 0 3 ie) . ‘OH + HY —_— ° oo OH vent
+R O—-H CP) Protein or peptide
+Figure 2
+Sirtuin-catalyzed deacylation reaction mechanism.
+is formed. A conserved histidine residue in the sirtuin active site then serves as a general base to deprotonate the 2’-OH (possibly indirectly via the 3/-OH), and the 2’-O attacks the alkylamidate, forming a cyclic intermediate. Mutation of this histidine results in dramatically decreased sirtuin enzymatic activity, supporting its role in catalysis, although substitutions at this residue do not completely abolish activity in all sirtuins (62, 64). The cyclic intermediate then decomposes to form 2’-O-acyl-ADP-ribose, which can nonenzymatically isomerize to 3’-O-acyl-ADP-ribose.
+‘Two distinct mechanisms have been proposed for the initial nicotinamide cleavage step [re- viewed in (65)]: a dissociative, Sx 1-like mechanism that proceeds through an oxocarbenium in- termediate (45) and an associative Sx2-like mechanism in which the carbonyl oxygen of the acetyllysine participates in direct nucleophilic attack at the C1’ carbon of the nicotinamide ribose of NAD* (66). Kinetic studies that probed the structure of the transition state suggested that the Sy 1-like mechanism is more likely (67), although results from different structural studies described below have been adduced as evidence for either mechanism. Whether the reaction is strictly Sy 1, Sn2, or a mixed Sn 1-Sy2 type mechanism remains a matter of debate.
+Structures of Sirtuins
+The sirtuin structure has been covered in several reviews (38, 39, 68). In this section, we summa- rize the results of structural studies and describe their implications for the chemistry of sirtuin- catalyzed reactions. As of this writing, over 100 sirtuin structures have been reported in complex with various substrates, products, and ligands. These structures are summarized in Supplemen- tal Table 1. (Follow the Supplemental Material link from the Annual Reviews home page at http://www.annualreviews.org.)
+Sirtuin structure and binding to NAD* and peptide. Sirtuins share a conserved catalytic core, which is divided into two domains, of roughly 250 amino acids (Figure 3). The larger domain adopts a canonical Rossmann fold, a mononucleotide binding motif found in many enzymes that
+www.annualreviews.org » The Substrate Specificity of Sirtuins g t)
+©Supplemental Material
+409
+BI85CH16-Lin
+ARI
+9May 2016 9:34
+| Zinc-binding domain
+Rossmann domain
+Figure 3
+General structural features of sirtuins illustrated with structures of a Sir2 homolog from Thermotoga maritima (Sir2Tm, Protein Data Bank 2H4F). (a) Overall structure of sirtuins showing the two domains and the substrates’ binding site between the two domains. (b) The acyl peptide substrate forms a B-staple with the sirtuin enzyme. (c) Hydrogen bonding interactions between the peptide substrate and sirtuin. (d) A structure of Sir2Tm with both NAD* and the acetyl peptide bound. Abbreviation: AcLys, acetyllysine.
+binds to NAD*/NADH or NADP*/NADPH (69). The smaller domain arises from two insertions in the Rossmann fold, which pack together to forma single globular domain. One of the insertions binds zinc with four conserved cysteine residues and appears to play a purely structural role. Between the two domains is the substrate-binding cleft, where the acylated peptide and NAD* bind (70, 71). Upon substrate binding, the two domains are brought closer together (70). The main chain of the protein substrate surrounding the acyl lysine makes B-sheet contacts with both the FGE loop, a loop between the two sirtuin domains named for its highly conserved FGExL motif, and a loop in the Rossmann fold. The result is a three-stranded enzyme-substrate {-sheet, with the central substrate peptide strand flanked by B-strands contributed by the sirtuin to form the B-staple (70).
+The f-staple positions the aliphatic portion of acetyllysine in a hydrophobic tunnel, burying the acyl moiety deep within the active site. The hydrophobic tunnel is formed by conserved residues in the enzyme that make several van der Waals interactions with the aliphatic lysine side chain.
+Bheda et al.
+BI8SCH16-Lin ARI = 9May2016 9:34
+The lysine e-nitrogen forms a hydrogen bond with a conserved valine residue in the enzyme, and the acyl modification makes several van der Waals interactions with conserved residues in the sirtuin active site (70). Thermodynamic binding studies with Thermotoga maritima Sir2 (Sir2Tm) confirmed that interactions with the acyl modification are important for binding; unacylated versions of substrate peptides bind with at least 1,000-fold lower affinity (72). In addition, the sequence proximal to the acetyllysine on the substrate peptide contributes to binding. The residue just N-terminal to the acetyllysine (—1 position) forms hydrogen bonds with the enzyme, and two residues C-terminal to acetyllysine (+1 and +2 positions) form hydrophobic and van der Waals interactions. Mutation of the —1 position to arginine significantly increases the binding affinity between the substrate peptide and sirtuin (73).
+NAD* binds immediately adjacent to the acyl lysine-binding tunnel (71, 74-77) (Figure 3). Kinetic analyses demonstrated that acetyllysine and NAD* bind sequentially (78), with acetyllysine substrates binding to the enzyme first and inducing the formation of the hydrophobic tunnel and the closed conformation of the enzyme (70). This closed complex facilitates the subsequent binding of NAD* such that it binds in the productive conformation (74). Acetyllysine substrate binding facilitates the proper positioning of the nicotinamide into the highly conserved C pocket, and the nicotinamide makes van der Waals contacts with the invariant residues in this pocket (74).
+Structural insights into the sirtuin reaction. Snapshots of several steps in the sirtuin reaction have been captured in crystal structures. A Michaelis complex containing either a wild-type or catalytic mutant Sir2Tm bound to NAD* and acetylated peptide (62) showed that NAD* is po- sitioned in the productive conformation, with the nicotinamide ring buried in the C pocket and the nicotinamide ribose oriented with its x-face exposed to the acetyl oxygen, thereby permitting reaction of the acetyl oxygen with the C1’ of the ribose (Figure 4a). The unfavorable burial of the positively charged nicotinamide in the hydrophobic C pocket and the torsion on the glycosidic bond are predicted to cause strain, destabilizing NAD* and reducing the energetic barrier for NAD* cleavage. The attack by the acetyl moiety’s carbonyl oxygen at the Cl’ of the ribose of
+NAD* results in nicotinamide release and formation of the O-alkylamidate intermediate. How- ever, the distance between the acetyl oxygen and the Cl’ in the Michaelis complex is, at 3.2 A, somewhat long for a nucleophilic attack, and the acetyl oxygen also hydrogen bonds to the 2’ and 3 hydroxyls of the nicotinamide ribose (62), arguing for an Sy 1-type reaction in which an elon-
+gating glycosidic bond between the nicotinamide and the ribose would allow the acetyl oxygen to attack the developing ribosyl cation. Support for this mechanism comes from the structure of Sir2Tm, bound to an acetyl peptide and DADme-NAD*, a transition state analog in which the glycosidic bond is elongated by one methylene to mimic the dissociated state of nicotinamide (Figure 44) (61). In comparison to a ternary complex with wild-type NAD* (62), nicotinamide
+and the acetyllysine carbonyl occupy the same position while the nicotinamide ribose migrates toward the acetyllysine, consistent with a dissociative transition state.
+An alternative model for the initial NAD* cleavage reaction has also been proposed based on the structure of yeast Hst2 bound to an acetylated peptide and carba-NAD*, a noncleavable NAD* analog that contains a cyclopentane ring in place of the nicotinamide ribose (79). In that
+structure, the cyclopentane ring is in an alternative conformation that precludes a direct attack of the acetyl oxygen on the ribose C1’. Instead, the authors propose that a conserved asparagine activates a water molecule for attack on the glycosidic bond followed by a reorientation of the nicotinamide ribose for subsequent steps in the reaction.
+Subsequent intermediates in the reaction have been captured in crystal structures through
+the use of thioacyl peptides, which are mechanism-based inhibitors of sirtuins. Formation of the proposed alkylamidate intermediate is supported by a structure of Sir2Tm crystallized in
+www.annualreviews.org © The Substrate Specificity of Sirtuins
+BI85CH16-Lin
+ARI
+9May 2016 9:34
+Sir2Tm, PDB 3D4B
+ADP, 0.
+s OH Part
+Sir2Tm, PDB 3D81 SIRTS, PDB 4F56 Figure 4
+Structures that captured some complexes and intermediates of the sirtuin-catalyzed deacylation reactions. (a) Thermotoga maritima Sir2 (Sir2Tm) in a Michaelis complex with both an acetyl peptide and NAD*. (’) Sir2Tm in a complex with an acetyl peptide and DADme-NAD‘. (c) Sir2Tm in a complex with the S-alkylamidate intermediate. (d) SIRTS in a complex with the bicyclic intermediate. Abbreviations: DADme-NAD*, a mimic of nicotinamide-dissociated NAD*; PDB, Protein Data Bank; SIRTS, mammalian sirtuin 5.
+the presence of a thioacetyllysine peptide, which resulted in the capture of an S-alkylamidate intermediate in the crystal structure (Figure 4c) (45, 61). The downstream bicyclic amino ketal intermediate was captured in a structure of SIRTS, a mammalian Sir2 homolog (Figure 4d) (45, 80). Possible explanations for why the sulfur-containing intermediates are more stable include the following: (2) The sulfur atom is less electronegative than oxygen and thus makes the electrophilic
+carbon center less reactive, or (/) the sulfur atom is larger than oxygen and thus may place the electrophilic carbon center too far from the 2’-OH group or water, or (¢) the sulfur-containing intermediate is less susceptible to acid-catalyzed hydrolysis. The formation of the product, 2'- O-acetyl-ADP-ribose (45, 81), has been supported by several structures. These structures were obtained by crystallizing sirtuins in the presence of both peptide and NAD* substrates, resulting in the capture of this product in the crystal structures (62, 70, 75). Therefore, structural studies have provided strong support for the proposed enzymatic reaction mechanism of sirtuins’ NAD*- dependent deacylation.
+Nicotinamide inhibition/base exchange. The formation of an O-alkylamidate intermediate makes sirtuins sensitive to inhibition by the reaction product, nicotinamide, which serves as a phys- iological noncompetitive inhibitor of the sirtuin deacetylation reaction (82, 83). After nicotinamide
+Bheda et al.
+BI8SCH16-Lin ARI = 9May2016 9:34
+is cleaved from NAD* and the O-alkylamidate forms, exogenous nicotinamide can bind in the C pocket and react with the O-alkylamidate intermediate. This reversal of the initial reaction step reforms NAD* in a process referred to as base exchange and, in addition, regenerates the acetyllysine (57, 84). As seen in structural studies of the Sir2Af2 and Sir2T'm enzymes (85), free nicotinamide can bind in the C pocket. The reported ICs value of nicotinamide inhibition of yeast Sir2 ranges from 50 uM to 120 uM (57, 82, 84). The intracellular concentration of nicotinamide is approximately 10 4M, whereas the nuclear concentration is ~150 4M, within the range that can negatively regulate sirtuin activity in vivo (86).
+SPECIFICITY FOR DIFFERENT ACYL GROUPS
+The discovery that some sirtuins preferentially remove acyl groups other than acetyl was a sur- prising development in the sirtuin field. The initial focus on deacetylation was grounded in several lines of evidence. Because the founding member of the sirtuin family, yeast Sir2, was known to play a role in transcriptional silencing (41), the discovery of its deacetylase activity made sense in light of the known role of histone acetylation in transcriptional activation (87). Recent studies, however, have revealed a large spectrum of acyl modifications that some sirtuins could remove. The discovery that some sirtuins have broader deacylating activities have, in turn, driven discovery of novel biological functions of sirtuins.
+Propionyl Group
+The first demonstration that sirtuins have other deacylation activities that are biologically relevant came from studies of the Sa/monella CobB. This sirtuin was initially shown to regulate the activity of acetyl-CoA synthetase by deacetylating an active-site lysine (88). A subsequent study showed that this sirtuin also activates propionyl-CoA synthetase by depropionylating an active-site lysine, thereby enabling the bacterial cells to grow better on propionate (55). In an in vitro study, Smith & Denu (89) showed that several eukaryotic sirtuins can remove propionyl and butyryl groups from peptide lysine residues. At the same time, mass spectrometry studies showed that many proteins are propionylated or butyrylated (18, 90-92). Whereas some sirtuins, such as Sir2Tm, can accommodate both acetyl and propionyl lysines in their active sites (72, 85), thus far the depropionylation activity is generally slightly less efficient than the corresponding deacetylation activity.
+Negatively Charged Acyl Groups: Succinyl, Malonyl, and Glutaryl
+Recently, it has been demonstrated that lysines can also be modified by negatively charged acyl groups (27, 31, 34, 35, 56). Sirtuins that remove negatively charged acyl groups have now been discovered in all three domains of life.
+SIRTS. The finding that mammalian SIRTS preferentially removes succinyl and malonyl modi- fications from lysines (27) was driven by structural studies, which, in turn, led to the discovery that these acyl modifications are found in vivo. SIRTS had previously been shown to have deacety- lase activity that was relatively weak compared to SIRT1 and SIRT2 (77, 93). The discovery of more efficient desuccinylase and demalonylase activities was driven by a chance observation in the crystal structure of SIRTS in complex with a thioacetyl peptide (27). In this structure, Du and colleagues (27) found extra density corresponding to a negatively charged buffer molecule, CHES (N-cyclohexyl-2-aminoethanesulfonic acid), which interacted with Tyr102 and Arg105 of SIRTS
+.annualreviews.org © The Substrate Specificity of Sirtuins
+4B
+BI85CH16-Lin
+ARI
+9May2016 9:34
+414
+@ SIRTS (PDB 3RIY) b pfsir2A (PDB 3U31)
+C_ SIRT6 (PDB 3ZG6)
+Figure 5
+Structures of sirtuins bound to acylated peptides. (@) SIRTS active site showing negatively charged succinyl group of SucLys interacting with conserved arginine and tyrosine residues. ()) PfSir2A, (c) SIRT6, and
+(@) SIRT2 bound to MyrLys (b/we). Abbreviations: MyrLys, myristoyl lysine; PfSir2A, Plasmodium falciparum Sir2A; SIRT2, -5, and -6, mammalian sirtuins with varying preferences for different acyl groups; S-MyrLys, thiomyristoyl lysine; SucLys, succinyl lysine.
+with its negatively charged sulfonate group. The sulfonate group was also close to the thioacetyl group of the bound peptide. These two observations led to the hypothesis that SIRTS may rec- ognize negatively charged acyl groups, such as succinyl and malonyl. Indeed, SIRTS catalyzes the hydrolysis of succinyl- and malonyl-lysine peptides 29- to 1,000-fold more efficiently than acetyl peptides (27). An X-ray crystal structure of SIRTS in complex with a succinyl peptide has revealed that Tyr102 and Arg105 interact with the negatively charged carboxylate from succinyl lysine (Figure 5a). Mutating Tyr102 or Arg105 increases the K,, values for succinyl peptide signifi- cantly, confirming that these two residues confer the selectivity for succinyl and malonyl groups (27).
+It has been demonstrated that SIRTS5 regulates the activity of several metabolic enzymes, in- cluding carbamoyl phosphate synthetase 1 (CPS1) (27, 94), pyruvate dehydrogenase (PDH), and succinate dehydrogenase (SDH) (35) by desuccinylation of these enzymes. Interestingly, SIRTS
+Bheda et al.
+BI8SCH16-Lin ARI = 9May2016 9:34
+increases the activity of CPS1 but decreases the activity of PDH and SDH. SIRTS also regulates lysine malonylation, particularly of enzymes involved in glycolysis (95). Recently, lysine glutary- lation, another negatively charged acyl modification, was also discovered as a modification that can be reversed by SIRTS (32).
+Other sirtuins that remove negatively charged acyl groups. Among the seven human sirtuins tested, only SIRTS has efficient desuccinylase activity. However, SIRTS belongs to class III sir- tuins, which includes many sirtuins from bacteria (1). Sequence alignment (1) shows that Tyr102 and Arg105 of SIRTS, which are important for recognizing the negatively charged succinyl group, are conserved in most class III sirtuins. Thus, it is predicted that class III sirtuins with the con- served Tyr and Arg residues should have desuccinylase activity (27). This prediction has been confirmed by a recent study of Escherichia coli CobB, which also contains the conserved Tyr/Arg pair (36). However, in contrast to SIRTS, CobB has both efficient deacetylase and desuccinylase activity, suggesting that it is multifunctional. The archaeal sirtuin, Sir2Af2, which also contains the Tyr/Arg signature, is significantly more active in removing succinyl modifications from lysine as compared to its activity on acetyl, propionyl, or butyryl groups (96). A structure of Sir2Af2 bound to a succinyl peptide showed the same types of interactions seen in SIRTS that stabilize
+binding of the negatively charged acyl group. The biological role of this archaeal desuccinylase remains to be determined.
+The ability of some class III sirtuins to remove several acyl modifications raises interesting questions about the biological functions of these activities. Because E. coli has only one sirtuin (1), it is possible that E. coli CobB has evolved the capacity to remove several different types of acyl-lysine modifications. Interestingly, mutating the conserved Tyr or Arg residue of CobB significantly decreases the desuccinylase activity but has very little effect on the deacetylase activity of CobB (36). This observation suggests that it may be possible to use different mutants to dissect the contributions of the various activities of a multifunctional sirtuin to its overall biological function.
+Long-Chain Fatty Acyl Modifications
+SIRTS was the first sirtuin discovered to prefer other acyl-lysine modifications over acetyllysine (27). This finding pointed to the possibility that other sirtuins may also preferentially hydrolyze acyl-lysine modifications other than acetyllysine. Indeed, several sirtuins have now been reported to remove long-chain fatty acyl groups, such as myristoyl and palmitoyl, from lysine residues (21, 28). The first sirtuin discovered to have more efficient activity in removing long-chain fatty acyl groups was Plasmodium falciparum Sir2A (PfSir2A) (28). In contrast to its weak deacetylase activity, PfSir2A’s demyristoylase activity is >380-fold higher (28). This increased demyristoylase activity comes mainly from a decrease in the K,, (39 uM for acetyl peptides, but <1 uM for myristoyl peptides). The structure of PfSir2A in complex with a myristoyl peptide revealed that PfSir2A has a large hydrophobic pocket that accommodates the myristoyl group (Figure 55) (28). This hydrophobic pocket is in part occupied by a polyethylene glycol (PEG) molecule in a previous structure [Protein Data Bank (PDB) code 3JWP, unpublished].
+To date, the physiological relevance of sirtuin’s defatty-acylase activity has only been demon- strated for mammalian SIRT6 (21). SIRT6 was initially found to have ADP-ribosyltransferase activity (48) but was subsequently reported to have sequence-specific deacetylase activity (97— 100). SIRT6 can deacetylate histone H3K9 and K56 in vitro (97-99), and deletion or knockdown of SIRT6 increases the levels of H3K9 and K56 acetylation in cell lines and in mice (97-99, 101). However, the in vitro activity on the H3K9 acetyl peptide is weak (21, 97). Testing the ability
+of SIRT6 to remove larger hydrophobic acyl modifications reveals that its demyristoylase activity
+.annualreviews.org © The Substrate Specificity of Sirtuins
+415
+BI85CH16-Lin
+ARI
+9May 2016 9:34
+and depalmitoylase activity are 290- and 625-fold higher, respectively, than the deacetylase activity on the same peptide sequence (21). The structure of SIRT6 in complex with a myristoyl peptide reveals the presence of a large hydrophobic pocket that can accommodate the long-chain fatty acyl group (Figure 5c) (21). Importantly, this defatty-acylase activity of SIRT6 has been shown to have a physiological function in the regulation of tumor necrosis factor « (TNFa) secretion (21). TNFa is a cytokine that is important for immune response (102) and was reported to be myristoylated on K19 and K20 over 20 years ago (103), but whether this modification affected TNFa was not clear. It was also reported that SIRT6 can regulate the synthesis of TNF« without affecting the mRNA level of TNFa, but the mechanism was unknown (104). It has since been demonstrated that SIRT6 knockout or knockdown increases the fatty acylation level on K19 and K20 of TNFa, which, in turn, decreases the percentage of TNFa secreted (21).
+Recent studies have demonstrated that even sirtuins with robust deacetylation activity could also remove longer fatty acyl chains. Human SIRT1, SIRT2, and SIRT3, which have efficient deacetylase activities, can also remove long-chain fatty acyl groups efficiently (29, 30). Crystal structures of SIRT2 in complex with a thiomyristoyl peptide (105) or 2’-O-myristoyl-ADP-ribose (106) reveal a hydrophobic pocket similar to that of SIRT6 and PfSir2A (Figure 5d). Interestingly, hydrophobic residues in the SIRT2 active site that were previously thought to form the acetyl
+pocket can rotate away to create a much larger hydrophobic pocket to accommodate the myristoyl groups (105). An archaeal sirtuin, Sir2Af1, that previously was characterized as a deacetylase (70) has also been shown to have higher activity on propionyl, butyryl, and myristoyl peptides (96). A crystal structure of Sir2Af1 bound to a myristoylated peptide shows a mode of binding similar to that observed in PfSir2A (96).
+Lipoyl Modification
+An interesting recent development is the report that SIRT4 can remove lipoyl groups from pyru- vate dehydrogenase (107). SIRT4 had been shown to have weak ADP-ribosyltransferase activity and was implicated in ADP-ribosylating glutamate dehydrogenase in cells (46). The weak deacety- lase activity of SIRT4 (46, 49) and the precedent that ADP-ribosylation activity can be detected when the correct substrate is not available raise the possibility that the preferred acyl-lysine sub- strate of SIRT4 has simply not yet been identified. Lipoyl-modified lysine residues are present in enzymes that catalyze the oxidative decarboxylation of x-keto acids, such as «-ketoglutarate and pyruvate. These enzymes are large multisubunit complexes, and the lipoyl group is used to transfer electrons and acyl groups. SIRT4, by removing the lipoyl group from PDH, inhibits PDH activ- ity and decreases the carbon flow from pyruvate to acetyl-CoA (107). The in vitro delipoylation activity of SIRT is still rather weak (107), raising the question of whether it can remove other unidentified acyl-lysine modifications more efficiently.
+Other Acyl Modifications
+Among the seven mammalian sirtuins, there are no identified efficient in vitro enzymatic activities for SIRT4 and SIRT7, leaving open the possibility that they can remove other, yet undiscovered, acyl-lysine modifications. One common feature of the aforementioned acyl-lysine modifications is that they all use common metabolites as the acyl donors, such as acetyl-CoA, succinyl-CoA, and myristoyl-CoA (52). There are many other types of acyl-CoA molecules present in cells that could potentially be used to modify proteins, creating potential substrates for sirtuins. For example, it has been reported that histones can be crotonylated and that SIRT3 can remove these crotonyl groups, albeit with much lower catalytic efficiency as compared to its deacetylation activity
+(33, 108).
+Bheda et al.
+BI8SCH16-Lin ARI = 9May2016 9:34
+It is also possible that metabolites that are not acyl-CoA molecules could give rise to protein lysine modifications that could potentially be removed by sirtuins. Lysine formylation is known to occur in cells, especially when treated with certain DNA-damaging reagents (66, 109). It has been suggested that lysine formylation occurs through a nonenzymatic reaction with formyl! phosphate (66). Given that formyl groups are structurally similar to acetyl groups, it appears likely that some sirtuins can remove formyl groups from lysine residues. Similarly, it was recently demonstrated that 1,3-bisphosphoglycerate, an intermediate in glycolysis, can modify protein lysine residues to form 3-phosphoglyceryl lysine (110). It remains to be seen whether any sirtuin or other lysine deacylating enzyme can remove it.
+SPECIFICITY FOR PEPTIDE SEQUENCES
+The peptide substrate binds in the sirtuin substrate cleft via backbone hydrogen bonding interac- tions (Figure 6), which suggests that sirtuins may be relatively insensitive to the peptide sequence context (70). However, side chains flanking the acyl lysine also interact with the enzyme and could thus govern substrate specificity. A study of Sir2T'm showed that residues at the —1 and +2 positions relative to the acetyllysine, which also project into the substrate-binding cleft, govern peptide binding and deacetylation kinetics (73). For acyl groups that bind more tightly, however, additional favorable interactions with the acyl group within the enzyme active site have the poten- tial to reduce the relative contribution of the flanking peptide sequence to sirtuin specificity. For example, SIRTS and SIRT6 are able to remove succinyl or myristoyl lysine, respectively, within a variety of peptide sequence contexts (21, 27). By contrast, the deacetylase activity of SIRT6 seems to be sequence dependent (21), consistent with the hypothesis described above that the peptide context would have a greater impact on removal of acyl groups that have weaker binding affinities.
+Unbiased screens of peptide libraries have provided information on the sequence specificity of several sirtuins, although the results have not always been consistent or predictive of in vivo specificity. Early studies suggested that SIRT 1 showed little sequence specificity for acetyl peptides (111). Using microarrays containing ~6,800 reported acetyllysine sites, Steegborn and coworkers tested the sequence selectivity of all seven human sirtuins (112). According to this study, different
+sirtuins have overlapping but varying sequence selectivity. For example, SIRT6 was found to prefer uncharged residues near the acetyllysine and negatively charged residues at —4 and +2 sites. By contrast, SIRT1 was found to prefer positively charged residues at —1 and +1 sites, and hydrophobic residues at —2, +2, and +3 sites. The results for SIRT 1 specificity, however, differed from that found in a previous study that utilized bead-coupled peptide libraries, which found that SIRT had some preference for proline at the —1 position (113). It is important to note that in vitro sequence selectivity may not reflect in vivo physiological relevance. For example, the best- known deacetylation substrate of SIRT6 is H3K9 (97), which has an Arg at the —1 position, a residue that is not preferred at this position according to the work of Steegborn and colleagues (112). Most strikingly, a study on the substrate specificity of E. coli CobB showed that sequence selectivity determined by peptide substrates versus proteomic studies of CobB deletion strains (in comparison to the wild-type strain) showed opposite trends (114). However, in certain cases, data obtained from these two types of studies can be similar. For example, SIRT3 was shown to prefer R/W/K/Y at the +1 position using peptide substrates (115), whereas a proteomics study showed that SIRT3 prefers R/Q at the +1 position (116). Taken together, these results suggest that additional determinants beyond the immediate peptide sequence context of the acyl lysine may play an important role in substrate targeting.
+.annualreviews.org © The Substrate Specificity of Sirtuins
+417
+BI8SCH16-Lin ARI = 9May2016 9:34
+a fe)
+H bonding Jk ‘ «— Hydrophobic and/or
+HN R polar interactions
+Hydrophobic H bonding} H bonding;
+' ° ° N 7 or a Side chain 0 Side chain H bonding: N Side chains ,
+provide H bond
+Zr --
+--IZ
+Sir2Tm (PDB 2H4F)
+SIRTS (PDB 3RIY) SIRT6 (PDB 3ZG6)
+Figure 6
+Interactions between acyl lysine peptide substrates and sirtuins. (2) Scheme summarizing major interactions between peptide substrates and sirtuins. ()-e) Stick representations of hydrogen bonding between peptide substrates and four different sirtuins. Carbon atoms from peptide substrates are colored salmon, and carbon atoms from sirtuins are colored cyan. Abbreviations: CobB, a bacterial sirtuin; PDB, Protein Data Bank; Sir2Tm, Thermotoga maritima Sir2; SIRTS and -6, mammalian sirtuins with desuccinylase and demyristoylase activities, respectively.
+THE IN VIVO SUBSTRATE SPECIFICITY OF SIRTUINS
+Identifying bona fide substrates of sirtuins in living cells isa more complicated task than determin-
+©Supplemental Material ing their respective in vitro activities. In Supplemental Tables 2-4, we summarize the protein substrates of SIRT1-3 that have been identified to date. Only substrate proteins that have been biochemically confirmed are included in these tables, whereas potential substrates identified solely through proteomic studies, without biochemical validation, are not included. The tables also serve to illustrate the biological pathways that are regulated by different sirtuins.
+418 Bheda et al.
+BI8SCH16-Lin ARI = 9May2016 9:34
+a SIRT1 substrate sequence profil b SIRT2 substrate sequence profil C SIRT3 substrate sequence profile NK GA] JINLLKKE AN
+BLRKCAISEESE LGRAGIIAL ACL TA Hy BAPRBS VSELIE GSN KGELa TE eTEas M=—SAR Seep Rorennhsvseks Paoatel|eeors penove|\VEEEBM S0Me||SSERe
+= = sew 7 SS = = SSSeve|\WPhessl TeSoul sess SPT PETS TN MFM ew ym YT oH A mM sm N CN Cc
+Figure 7
+Sequence selectivity profiles of (@) SIRT1, (4) SIRT2, and (c) SIRT3 based on the biochemically confirmed substrates listed in Supplemental Tables 2-4. The graphs were generated using WebLogo (http://weblogo.berkeley.edu). Abbreviations: SIRT 1, -2, and -3, mammalian sirtuin 1, 2, and 3.
+SIRT1, the best-studied mammalian sirtuin, has the most deacetylation substrates identified. These substrates include histones, transcription factors, chromatin-modifying enzymes, DNA repair enzymes, and metabolic enzymes. Supplemental Table 2 also lists the residues adjacent to the lysines that are deacetylated by SIRT 1. An analysis of these sequences reveals that SIRT 1 has little sequence selectivity in cells, as each position near the acetyllysine can tolerate many different amino acids (Figure 7a). Supplemental Tables 3 and 4 list the peptide sequence adjacent to ©supplemental Material the lysine residues that are deacetylated by SIRT2 and SIRT3, respectively. An analysis of these sequences reveals that there is no clear consensus sequence for SIRT2 or SIRT3 (Figure 7),c).
+What governs substrate specificity in vivo? Because sirtuins must form f-sheet interactions with the peptide backbone of the acyl lysine and flanking residues (70), this portion of the sirtuin substrate must not be involved in peptide backbone interactions with other parts of the protein. Consistent with this, yeast Hst2 can recognize almost any peptide sequence but selectively deacety- lates residues in unstructured regions (117) that are free to form a B-staple, the three-stranded antiparallel B-sheet formed by backbone hydrogen bonding between the substrate peptide and two flanking strands in the sirtuin (Figure 35). An acyl lysine in a well-structured context that inhibits 8-staple formation would not bea good substrate. A survey of all biochemically confirmed deacetylation substrates for SIRT 1-3 shows that virtually all known sirtuin deacetylation sites are
+found either in loops or in «helices, and almost no deacetylation sites are present in B-sheets. This is consistent with the finding from a proteomics study that §-sheet structures are depleted in SIRT3 substrates (116). Loops are flexible and thus the easiest to disrupt to form f-staples with sirtuins. However, the fact that several reported lysine residues that are deacylated by sirtuins lie in x-helices is somewhat surprising given our structural understanding of sirtuin-peptide inter- actions (Supplemental Tables 2-4). Although it is possible that some of these x-helices may unfold readily to allow the backbone residues to hydrogen bond with the sirtuins, we speculate that some of these sites may not have been correctly identified. There have been cases in which the lysine residues that are regulated by sirtuins were identified incorrectly (118, 119) as well as
+examples, such as superoxide dismutase 2 (SOD2), in which the SIRT3 deacetylation sites iden- tified by different labs were not the same (Supplemental Table 4). Further studies will resolve whether the handful of sites identified within «-helices are indeed bona fide deacetylation targets and whether that portion of the substrate protein is in fact x-helical.
+Interactions with other proteins or with DNA may be an important factor in determining physiological sirtuin substrates. Many sirtuins bind tightly enough to their substrate proteins to coimmunoprecipitate. For example, SIRT1 can coimmunoprecipitate its substrate, p53 (13, 14),
+www.annualreviews.org © The Substrate Specificity of Sirtuins 419
+BI8SCH16-Lin ARI = 9May2016 9:34
+©sSupplemental Material
+and SIRT3 can coimmunoprecipitate its substrate, AceCS2 (120). In addition, sirtuins may be recruited to their substrate proteins (or vice versa) via interactions with other proteins. Notable examples of this include the recruitment of sirtuins by certain transcription factors. For example, SIRT6 binds to several transcription factors (HIF 1a, c-Myc, and NF-«B), which recruit SIRT6 to different chromatin regions and lead to deacetylation of H3K9 at specific target genes (121— 123). Similarly, SIRT7 can be recruited by specific transcription factors to deacetylate H3K18 at specific target genes (124).
+Subcellular localization of different sirtuins may provide another layer of control of substrate specificity in cells. For example, most SIRT 1 substrates are nuclear or cytosolic proteins, consistent with the subcellular localization of SIRT 1. By contrast, most SIRT3 substrates are mitochondrial proteins, consistent with SIRT3’s predominantly mitochondrial localization (see Supplemental Tables 2 and 4).
+THE ADP-RIBOSYLATION ACTIVITY OF SIRTUINS
+Caveats Regarding the Observed ADP-Ribosyltransferase Activity of Sirtuins
+Although NAD*-dependent deacylation is clearly the major activity of the vast majority of sirtuins, the biological relevance of the ADP-ribosylation activity has been debated. Several sirtuins have been reported to have ADP-ribosyltransferase activity (44, 46, 48, 125, 126). For example, yeast Sir2 was reported to ADP-ribosylate bovine serum albumin and histones in vitro (44) before the more efficient deacetylase activity was discovered (9-11). It is generally assumed that the deacylase activity underlies the biological functions of most sirtuins. However, for sirtuins that lacked effi- cient deacylase activity, the ADP-ribosyltransferase activity was often proposed to account for the sirtuins’ biological functions. For example, mammalian SIRT4 was thought to regulate glutamate dehydrogenase activity by ADP-ribosylation (46), and SIRT6 was reported to ADP-ribosylate poly(ADP-ribose) polymerase-1(47).
+Several concerns regarding the relevance of ADP-ribosyltransferase activity to the biological roles of sirtuins have been raised. First, it was reported that sirtuin-promoted ADP-ribosylation can occur through the deacylase activity of sirtuins (50, 126). The alkylamidate intermediate generated during the deacylation reaction can be captured by reactive protein side chains, leading to ADP-ribosylation (50, 126). ADP-ribosylation of peptides has also been observed in the absence of an acetyl substrate (51, 65, 127), presumably dependent on the NAD+ glycohydrolase activity of all sirtuins, which promotes dissociation of the nicotinamide ring (65). Another issue is that the ADP-ribosyltransferase activity is very weak in vitro (50, 51). Available quantitative information indicates that the reported ADP-ribosyltransferase activity of sirtuins is orders of magnitude lower than the deacetylase activity of human SIRT 1 (50, 51). Because of these issues, it is hard to rule out the possibility that a more efficient, yet undiscovered, deacylation activity underlies sirtuin biology, with ADP-ribosylation being an inefficient side reaction of the main enzymatic reaction.
+In principle, it is possible for sirtuins to be bona fide ADP-ribosyltransferases because the first step of the sirtuin-catalyzed deacylation reaction is an ADP-ribosylation reaction in which the ADP-ribosyl group is transferred to the amide group of acyl lysine. To fully establish the physiological relevance of the ADP-ribosyltransferase activity of sirtuins, more in vivo validation is needed. Residues that are ADP-ribosylated in vivo must be identified by mass spectrometry and validated by mutagenesis. It is also necessary to determine whether there are conditions or other protein partners that can increase the ADP-ribosylation activity of sirtuins to a level that is relevant in cells. This will not only address the concern regarding the weak in vitro ADP-ribosylation activity but will also provide insights into the regulatory function of ADP-ribosylation.
+Bheda et al.
+BI8SCH16-Lin ARI = 9May2016 9:34
+A New Class of Sirtuins with Efficient ADP-Ribosyltransferase Activity
+A recently characterized class of sirtuins does, however, appear to possess robust and physiolog- ically relevant ADP-ribosyltransferase activity. Efficient ADP-ribosylation activity was reported for a unique type of sirtuin found only in certain pathogenic bacteria and fungi, called SirTMs (class M or microbial sirtuins) (128). These sirtuins, which have no detectable deacylation activity, are found in the genome together with macrodomain proteins, which are known to hydrolyze ADP-ribose (129, 130). The SirTM and macrodomain proteins are typically found within the same operon or, in some fungi, as a fusion within a single open reading frame (128). The catalytic domains of SirTM proteins are similar in sequence and structure to other well-known sirtuins, but with a notable exception: The conserved catalytic histidine residue is replaced with glutamine (128). The glutamine residue is important for the ADP-ribosyltransferase activity, as mutating it to histidine eliminates this activity. Sir TM proteins were demonstrated to efficiently ADP-ribosylate another protein encoded in the same operon, GcvH-L, in a lipoylation-dependent manner. This ADP-ribosylation seems to occur on acidic residues, including aspartate and glutamate, and can be reversed by the macrodomain proteins. The ADP-ribosylation of GevH-L is hypothesized to regulate the interaction of GcvH-L with other proteins in response to oxidative stress.
+REFLECTIONS AND OUTLOOK ON SIRTUINS’ ENZYMATIC FUNCTIONS
+The last 15 years or so have witnessed tremendous progress in the sirtuin field. The remarkable breadth of enzymological and biological functions of these amazing enzymes could not have been anticipated from the initial discovery that yeast Sir2 regulated transcriptional silencing (41). The finding that certain sirtuins with weak deacetylase activity can efficiently remove other types of acyl-lysine modifications has important biological implications and has raised many interesting questions. Below we highlight some of the implications and questions that future studies may investigate.
+The Significance of Removing Other Acyl Modifications
+Studies of several sirtuins have established the precedent that weak deacetylase activity may be an indication that removal of other acyl modifications underlies the sirtuins’ true enzymatic activities. Examples we have described include human SIRTS, which was discovered to be an efficient desuccinylase/demalonylase (94) that regulates succinylation of many proteins (35), and SIRT6, whose defatty-acylase activity regulates TNF-a activity (21). It is important to determine whether this enzymatic activity of SIRT6 also underlies its important biological functions, such as regulating life span (131) and tumorigenesis (123). Before the defatty-acylase activity was known, most of the biological functions were ascribed to the histone H3K9 and K56 deacetylation activities (97, 99) and, in rare cases, to the ADP-ribosylation activity (48). The newly identified defatty-acylase activity could be important, especially when deacetylation does not fully explain the knockout phenotype. For example, SIRT6 was reported to regulate HIF1 «-dependent gene transcription in part by controlling histone acetylation (122), butit also regulates the level of HIF1 « by an unknown mechanism that seems to not involve HIF 1a acetylation (122). Further studies are needed to sort out the relative contributions of different SIRT6 enzymatic activities to the different pathways regulated by this enzyme. This is a general issue that needs to be addressed for other sirtuins that were originally characterized as deacetylases but have subsequently been shown to remove multiple types of acyl modifications that are known to occur in vivo.
+.annualreviews.org © The Substrate Specificity of Sirtuins
+BI85CH16-Lin
+ARI
+9May 2016 9:34
+8
+How Does Acylation Occur and What Is the Relative Abundance?
+A critical question in studying sirtuin function in vivo is to what degree different acyl-lysine mod- ifications occur enzymatically versus nonenzymatically. Nonenzymatic acylation can occur when proteins are incubated with high concentrations of acyl-CoA (132) because the acyl-CoA thioesters are intrinsically reactive, especially toward lysine residues that have lower pK, values owing to the local environment (133). However, the occurrence of nonenzymatic acylation does not mean that enzymatic acylation does not occur. Some sirtuin substrates are clearly enzymatically acetylated, such as phosphoenolpyruvate carboxykinase (PEPCK) (134) and histone H4 (135). Thus, the re- maining questions are whether there are enzymes that catalyze the formation of other acyl-lysine modifications and to what extent nonenzymatic acylation occurs, especially in the mitochondria, where acetylation and other forms of protein acylation are thought to occur nonenzymatically (132, 133). A recent report suggested that GCNSL1 (general control of amino acid synthesis 5-like 1) is a component of a mitochondrial acetyltransferase complex that may be responsible for acetylating some mitochondrial proteins (136). Acetyl-CoA acetyltransferase 1 (ACAT1) pro- motes the acetylation of pyruvate dehydrogenase and pyruvate phosphatase, thereby promoting glycolysis (137), and ACAT2 and dihydrolipoamide S-acetyltransferase (DLAT) can acetylate 6-phosphogluconate dehydrogenase (6PGD), increasing its activity (138). The «-ketoglutarate dehydrogenase complex was also reported to succinylate proteins (139). Follow-up studies are needed to confirm these findings and establish their generality.
+A better understanding of both enzymatic and nonenzymatic acylation would benefit from better estimates of the cellular concentrations of different acyl-CoA molecules, as high con- centrations of acyl-CoA molecules would drive both classes of modifications. Although liquid chromatography—mass spectrometry (LC-MS) methods for measuring the acyl-CoA concentra- tions have been reported (140-142), more systematic studies measuring acyl-CoA concentrations in different tissues, cell lines, and metabolic conditions are still lacking. Complementary mass spec- trometry studies examining acylated substrates in wild-type and sirtuin knockdowns are necessary to determine the roles of these enzymes in regulating these acyl modification sites.
+What Are the Functions of Different Acyl-Lysine Modifications?
+A key question in understanding the biological role of sirtuin deacylation activity centers on the consequences of various acyl-lysine modifications for protein function. An interesting possibility is that different acyl-lysine modifications can have varied effects on protein function. For example, it has been reported that acetylation of succinate dehydrogenase inhibits its activity (143, 144), anda more recent report suggests that succinylation activates its activity (35). In many studies, the functional investigation is done by mutating the acetylated lysine to Arg (mimicking deacetylated lysine) and Gln (mimicking acetyllysine). With the discovery of different acyl-lysine modifications, this mutagenesis method falls short for modifications without naturally occurring mimics. Methods of incorporating various acyl-lysine modifications into specific sites in proteins in vitro or in vivo will therefore be very useful. Chemical methods that install acyl-lysine modifications may be useful for in vitro studies (145, 146). However, methods that incorporate different acyl lysines using amber suppressor tRNAs are essential for in vivo studies and, indeed, are already being
+developed (147-151).
+CONCLUSION
+Progress in understanding the biology and biochemistry of sirtuins has taken exciting and un- expected turns over the past 15 years. Interest in these enzymes has continued to grow because
+Bheda et al.
+BI8SCH16-Lin ARI = 9May2016 9:34
+of the central roles that sirtuins play and their connections with diverse pathways. The link be- tween sirtuin activity and metabolism, first established by the discovery that these enzymes utilize NAD*(9), has turned out to be more profound than originally envisioned. The ability of sirtuins to control metabolism by either modulating the transcription of or directly deacylating metabolic enzymes (Supplemental Tables 2-4), as well as the ability to remove protein modifications that ©>supplemental Material result from metabolic intermediates, places sirtuins at the nexus of metabolic regulation. Although most of the recent focus has been on the functions of human sirtuins, the discovery of bacterial and archaeal sirtuins that also can remove a variety of acyl modifications indicates that broad deacylat- ing activities arose early in evolution. The common features among sirtuins in all three domains of life suggest that there may be fundamental pathways linking sirtuin activity and metabolism that are yet to be discovered. Whatever these connections may turn out to be, we are confident
+that there are many more exciting and important findings to come.
+DISCLOSURE STATEMENT
+The authors are not aware of any affiliations, memberships, funding, or financial holdings that might be perceived as affecting the objectivity of this review.
+ACKNOWLEDGMENTS
+This work is supported by National Science Foundation grant MCB-0920082 (C.W.) and National Institutes of General Medical Sciences grants GM-095822 (C.W.), GM-098596 (H.L.), and GM- 086703 (H.L.). P.B. is a Marie Curie International Incoming fellow and a European Molecular Biology Organization (EMBO) long-term fellow.
+LITERATURE CITED
+1. Frye RA. 2000. Phylogenetic classification of prokaryotic and eukaryotic Sir2-like proteins. Biochem. Biophys. Res. Commun. 273:793-98 . Bosch-Presegue L, Vaquero A. 2015. Sirtuin-dependent epigenetic regulation in the maintenance of genome integrity. FEBS 7. 282:1745-67 3. Masri S, Sassone-Corsi P. 2014. Sirtuins and the circadian clock: bridging chromatin and metabolism. Sci. Signal. 7:re6 4. Choi JE, Mostoslavsky R. 2014. Sirtuins, metabolism, and DNA repair. Curr. Opin. Genet. Dev. 26:24-32 5. Ng F, Tang BL. 2013. Sirtuins’ modulation of autophagy. 7. Cell. Physiol. 228:2262-70 6. Houtkooper RH, Pirinen E, Auwerx J. 2012. Sirtuins as regulators of metabolism and healthspan. Nat. Rev. Mol. Cell Biol. 13:225-38 7. Guarente L. 2011. Sirtuins, aging, and metabolism. Cold Spring Harb. Symp. Quant. Biol. 76:81-90
+N
+8. Haigis MC, Sinclair DA. 2010. Mammalian sirtuins: biological insights and disease relevance. Annu. Rev. Pathol. Mech. Dis. 5:253-95 9. Imai S, Armstrong CM, Kaeberlein M, Guarente L. 2000. Transcriptional silencing and longevity protein Sir2 is an NAD-dependent histone deacetylase. Nature 403:795-800 10. Tanner KG, Landry J, Sternglanz R, Denu JM. 2000. Silent information regulator 2 family of NAD- dependent histone/protein deacetylases generates a unique product, 1-O-acetyl-ADP-ribose. PNAS 97:14178-82 11. Landry J, Sutton A, Tafrov ST, Heller RC, Stebbins J, et al. 2000. The silencing protein SIR2 and its homologs are NAD-dependent protein deacetylases. PNAS 97:5807-11 12. Yeung F, Hoberg JE, Ramsey CS, Keller MD, Jones DR, et al. 2004. Modulation of NF-«B-dependent transcription and cell survival by the SIRT1 deacetylase. EMBO 7. 23:2369-80
+www.annualreviews.org © The Substrate Specificity of Sirtuins 423
+BI85CH16-Lin
+ARI
+9 May 2016
+4
+4
+13.
+14.
+15.
+16.
+17. 18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+934
+Luo J, Nikolaev AY, Imai S-I, Chen D, Su F, et al. 2001. Negative control of p53 by Sir2 « promotes cell survival under stress. Cell 107:137-48
+Vaziri H, Dessain SK, Eaton EN, Imai S-I, Frye RA, et al. 2001. BSIR2"®T! functions as an NAD- dependent p53 deacetylase. Cell 107:149-59
+Rodgers JT, Lerin C, Haas W, Gygi SP, Spiegelman BM, Puigserver P. 2005. Nutrient control of glucose homeostasis through a complex of PGC-1 «and SIRT1. Nature 434:113-18
+Brunet A, Sweeney LB, Sturgill JF, Chua KF, Greer PL, et al. 2004. Stress-dependent regulation of FOXO transcription factors by the SIRT1 deacetylase. Science 303:2011-15
+Hu J, Jing H, Lin H. 2014. Sirtuin inhibitors as anticancer agents. Future Med. Chem. 6:945-66
+Chen Y, Sprung R, Tang Y, Ball H, Sangras B, et al. 2007. Lysine propionylation and butyrylation are novel post-translational modifications in histones. Mol. Cell. Proteom. 6:812-19
+Metoyer CF, Pruitt K. 2008. The role of sirtuin proteins in obesity. Pathophysiology 15:103-8 Rajendrasozhan S$, Yang SR, Kinnula VL, Rahman I. 2008. SIRT1, an antiinflammatory and antiaging protein, is decreased in lungs of patients with chronic obstructive pulmonary disease. Am. 7. Respir. Crit. Care Med. 177:861-70
+Jiang H, Khan S, Wang Y, Charron G, He B, et al. 2013. SIRT6 regulates TNF-« secretion through hydrolysis of long-chain fatty acyl lysine. Nature 496:110-13
+Eskandarian HA, Impens F, Nahori MA, Soubigou G, Coppee JY, et al. 2013. A role for SIRT2- dependent histone H3K18 deacetylation in bacterial infection. Science 341:1238858
+Pinzone MR, Cacopardo B, Condorelli F, Di Rosa M, Nunnari G. 2013. Sirtuin-1 and HIV-1: an overview. Curr. Drug Targets 14:648-52
+Chakraborty C, Doss CG. 2013. Sirtuins family—recent development as a drug target for aging, metabolism, and age related diseases. Curr. Drug Targets 14:666-75
+Brachmann CB, Sherman JM, Devine SE, Cameron EE, Pillus L, Boeke JD. 1995. The SIR2 gene family, conserved from bacteria to humans, functions in silencing, cell cycle progression, and chromosome stability. Genes Dev. 9:2888-902
+Derbyshire MK, Weinstock KG, Strathern JN. 1996. HST1, a new member of the SIR2 family of genes. Yeast 12:631-40
+DuJ, Zhou Y, Su X, YuJ, Khan S, et al. 2011. SirtS is an NAD-dependent protein lysine demalonylase and desuccinylase. Science 334:806-9
+Zhu AY, Zhou Y, Khan S, Deitsch KW, Hao Q, Lin H. 2012. Plasmodium falciparum Sir2A preferentially hydrolyzes medium and long chain fatty acyl lysine. ACS Chem. Biol. 7:155-59
+Feldman JL, Baeza J, Denu JM. 2013. Activation of the protein deacetylase SIRT6 by long-chain fatty acids and widespread deacylation by mammalian sirtuins. 7. Biol. Chem. 288:31350-56
+He B, Hu J, Zhang X, Lin H. 2014. Thiomyristoyl peptides as cell-permeable Sirt6 inhibitors. Org. Biomol. Chem. 12:7498-502
+Peng C, Lu Z, Xie Z, Cheng Z, Chen Y, et al. 2011. The first identification of lysine malonylation substrates and its regulatory enzyme. Mol. Cell. Proteom. 10(12):M111.012658
+Tan M, Peng C, Anderson KA, Chhoy P, Xie Z, et al. 2014. Lysine glutarylation is a protein posttrans- lational modification regulated by SIRTS. Cell Metab. 19:605-17
+Tan M, Luo H, Lee §S, Jin F, Yang Jeong S, et al. 2011. Identification of 67 histone marks and histone lysine crotonylation as a new type of histone modification. Cell 146:1016-28
+Zhang Z, Tan M, Xie Z, Dai L, Chen Y, Zhao Y. 2011. Identification of lysine succinylation as a new post-translational modification. Nat. Chem. Biol. 7:58-63
+Park J, Chen Y, Tishkoff DX, Peng C, Tan M, et al. 2013. SIRT5-mediated lysine desuccinylation impacts diverse metabolic pathways. Mol. Cell 50:919-30
+Colak G, Xie Z, Zhu AY, Dai L, Lu Z, et al. 2013. Identification of lysine succinylation substrates and the succinylation regulatory enzyme CobB in Escherichia coli. Mol. Cell. Proteom. 12:3509-20
+Rardin MJ, He W, Nishida Y, Newman JC, Carrico C, et al. 2013. SIRTS regulates the mitochondrial lysine succinylome and metabolic networks. Cel] Metab. 18:920-33
+Sauve AA, Wolberger C, Schramm VL, Boeke JD. 2006. The biochemistry of sirtuins. Annu. Rev. Biochem. 75:435-65
+Bheda et al.
+BI85CH16-Lin
+39.
+40.
+41.
+43.
+44.
+45.
+46.
+47.
+48.
+49.
+50.
+51.
+53.
+54.
+55.
+56.
+57.
+58.
+59.
+60.
+61.
+ARI 9May2016 9:34
+Yuan H, Marmorstein R. 2012. Structural basis for sirtuin activity and inhibition. 7. Biol. Chem. 287:42428-35
+Marmorstein R. 2001. Structure of histone deacetylases: insights into substrate recognition and catalysis. Structure 9:1127-33
+Shore D, Squire M, Nasmyth KA. 1984. Characterization of two genes required for the position-effect control of yeast mating-type genes. EMBO 7. 3:2817-23
+. Tsang AW, Escalante-Semerena JC. 1998. CobB, a new member of the SIR2 family of eucary-
+otic regulatory proteins, is required to compensate for the lack of nicotinate mononucleotide:5,6- dimethylbenzimidazole phosphoribosyltransferase activity in cobT mutants during cobalamin biosyn- thesis in Salmonella typhimurium LT2. 7. Biol. Chem. 273:31788-94
+Frye RA. 1999. Characterization of five human cDNAs with homology to the yeast Sir2 gene: Sir2- like proteins (sirtuins) metabolize NAD and may have protein ADP-ribosyltransferase activity. Biochem. Biophys. Res. Commun. 260:273-79
+Tanny JC, Dowd GJ, Huang J, Hilz H, Moazed D. 1999. An enzymatic activity in the yeast Sir2 protein that is essential for gene silencing. Cel] 99:735-45
+Sauve AA, Celic I, Avalos J, Deng H, Boeke JD, Schramm VL. 2001. Chemistry of gene silencing: the mechanism of NAD*-dependent deacetylation reactions. Biochemistry 40:15456-63
+Haigis MC, Mostoslavsky R, Haigis KM, Fahie K, Christodoulou DC, et al. 2006. SIRT4 inhibits glutamate dehydrogenase and opposes the effects of calorie restriction in pancreatic cells. Cell 126:941- 54
+Mao Z, Hine C, Tian X, Van Meter M, Au M, et al. 2011. SIRT6 promotes DNA repair under stress by activating PARP1. Science 332:1443-46
+Liszt G, Ford E, Kurtev M, Guarente L. 2005. Mouse Sir2 homolog SIRT6 is a nuclear ADP- ribosyltransferase. 7. Biol. Chem. 280:21313-20
+Michishita E, Park JY, Burneskis JM, Barrett JC, Horikawa I. 2005. Evolutionarily conserved and non- conserved cellular localizations and functions of human SIRT proteins. Mol. Biol. Cell 16:4623-35 Kowieski TM, Lee S, Denu JM. 2008. Acetylation-dependent ADP-ribosylation by Trypanosoma brucei Sir2. 7. Biol. Chem. 283:5317-26
+Du J, Jiang H, Lin H. 2009. Investigating the ADP-ribosyltransferase activity of sirtuins with NAD analogs and 2P-NAD. Biochemistry 48:2878-90
+. Lin H, Su X, He B. 2012. Protein lysine acylation and cysteine succination by intermediates of energy
+metabolism. ACS Chem. Biol. 7:947-60
+Newman JC, He W, Verdin E. 2012. Mitochondrial protein acylation and intermediary metabolism: regulation by sirtuins and implications for metabolic disease. 7. Biol. Chem. 287:42436-43
+Smith BC, Denu JM. 2006. Sir2 protein deacetylases: Evidence for chemical intermediates and functions of a conserved histidine. Biochemistry 45:272-82
+Garrity J, Gardner JG, Hawse W, Wolberger C, Escalante-Semerena JC. 2007. N-lysine propionylation controls the activity of propionyl-CoA synthetase. 7. Biol. Chem. 282:30239-45
+Xie Z, Dai J, Dai L, Tan M, Cheng Z, et al. 2012. Lysine succinylation and lysine malonylation in histones. Mol. Cell. Proteom. 11:100-7
+Sauve AA, Schramm VL. 2003. Sir2 regulation by nicotinamide results from switching between base exchange and deacetylation chemistry. Biochemistry 42:9249-56
+Jackson MD, Denu JM. 2002. Structural identification of 2’- and 3’-O-acetyl-ADP-ribose as novel metabolites derived from the Sir2 family of B-NAD*-dependent histone/protein deacetylases. 7. Biol. Chem. 277:18535—-44
+Jackson MD, Schmidt MT, Oppenheimer NJ, Denu JM. 2003. Mechanism of nicotinamide inhibition and transglycosidation by Sir2 histone/protein deacetylases. 7. Biol. Chem. 278:50985-98
+Smith BC, DenuJM. 2007. Mechanism-based inhibition of Sir2 deacetylases by thioacetyl-lysine peptide. Biochemistry 46:14478-86
+Hawse WF, Hoff KG, Fatkins DG, Daines A, Zubkova OV, et al. 2008. Structural insights into inter- mediate steps in the Sir2 deacetylation reaction. Structure 16:1368-77
+. Hoff KG, Avalos JL, Sens K, Wolberger C. 2006. Insights into the sirtuin mechanism from ternary
+complexes containing NAD* and acetylated peptide. Structure 14:1231-40
+www.annualreviews.org © The Substrate Specificity of Sirtuins
+Bs
+BI85CH16-Lin
+ARI
+9 May 2016
+426
+63.
+64.
+65.
+66.
+67.
+68.
+69. 70.
+71.
+72.
+73.
+74.
+75.
+76.
+77.
+78.
+79.
+80.
+81.
+82.
+83.
+84.
+85.
+86.
+87. 88.
+934
+Zhao K, Chai X, Marmorstein R. 2003. Structure of the yeast Hst2 protein deacetylase in ternary complex with 2’-O-acetyl ADP ribose and histone peptide. Structure 11:1403-11
+Bedalov A, Gatbonton T, Irvine WP, Gottschling DE, Simon JA. 2001. Identification of a small molecule inhibitor of Sir2p. PNAS 98:15113-18
+French JB, Cen Y, Sauve AA. 2008. Plasmodium falciparum Sir2 is an NAD* -dependent deacetylase and an acetyllysine-dependent and acetyllysine-independent NAD* glycohydrolase. Biochemistry 47:10227-39 Jiang T, Zhou X, Taghizadeh K, Dong M, Dedon PC. 2007. N-formylation of lysine in histone proteins as a secondary modification arising from oxidative DNA damage. PNAS 104:60-65
+Cen Y, Sauve AA. 2010. Transition state of ADP-ribosylation of acetyllysine catalyzed by Archaeoglobus fulgidus Sir2 determined by kinetic isotope effects and computational approaches. 7. Am. Chem. Soc. 132:12286-98
+Sanders BD, Jackson B, Marmorstein R. 2010. Structural basis for sirtuin function: what we know and what we don’t. Biochim. Biophys. Acta 1804:1604-16
+Rossmann MG, Argos P. 1978. The taxonomy of binding sites in proteins. Mol. Cell. Biochem. 21:161-82 Avalos JL, Celic I, Muhammad S, Cosgrove MS, Boeke JD, Wolberger C. 2002. Structure of a Sir2 enzyme bound to an acetylated p53 peptide. Mol. Cell 10:523-35
+Min J, Landry J, Sternglanz R, Xu R-M. 2001. Crystal structure of a SIR2 homolog-NAD complex. Cell 105:269-79
+Bheda P, Wang JT, Escalante-Semerena JC, Wolberger C. 2011. Structure of Sir2Tm bound to a propionylated peptide. Protein Sci. 20:131-39
+Cosgrove MS, Bever K, Avalos JL, Muhammad S, Zhang X, Wolberger C. 2006. The structural basis of sirtuin substrate affinity. Biochemistry 45:7511-21
+Avalos J, Boeke JD, Wolberger C. 2004. Structural basis for the mechanism and regulation of Sir2 enzymes. Mol. Cell 13:639-48
+Fulco M, Schiltz RL, Iezzi S, King MT, Zhao P, et al. 2003. Sir2 regulates skeletal muscle differentiation as a potential sensor of the redox state. Mol. Cell 12:51-62
+Zhao K, Chai X, Marmorstein R. 2004. Structure and substrate binding properties of cobB, a Sir2 homolog protein deacetylase from Escherichia coli. 7. Mol. Biol. 337:731-41
+Schuetz A, Min J, Antoshenko T, Wang C-L, Allali-Hassani A, et al. 2007. Structural basis of inhibition of the human NAD*-dependent deacetylase SIRTS by suramin. Structure 15:377-89
+Borra MT, Langer MR, Slama JT, Denu JM. 2004. Substrate specificity and kinetic mechanism of the Sir2 family of NAD*-dependent histone/protein deacetylases. Biochemistry 43:9877-87
+Zhao K, Harshaw R, Chai X, Marmorstein R. 2004. Structural basis for nicotinamide cleavage and ADP-ribose transfer by NAD*-dependent Sir2 histone/protein deacetylases. PNAS USA 101:8563-68 Zhou Y, Zhang H, He B, Du J, Lin H, et al. 2012. The bicyclic intermediate structure provides insights into the desuccinylation mechanism of human sirtuin 5 (SIRTS). 7. Biol. Chem. 287:28307-14
+Bell SD, Botting CH, Wardleworth BN, Jackson SP, White MF. 2002. The interaction of Alba, a conserved archaeal chromatin protein, with Sir2 and its regulation by acetylation. Science 296:148-51 Anderson RM, Bitterman KJ, Wood JG, Medvedik O, Cohen H, et al. 2002. Manipulation of a nu- clear NAD* salvage pathway delays aging without altering steady-state NAD* levels. 7. Biol. Chem. 277:18881-90
+Schmidt MT, Smith BC, Jackson MD, DenuJM. 2004. Coenzyme specificity of Sir2 protein deacetylases: implications for physiological regulation. 7. Biol. Chem. 279:40122-29
+Denu JM. 2003. Linking chromatin function with metabolic networks: Sir2 family of NAD* -dependent deacetylases. Trends Biochem. Sci. 28:41-48
+Avalos JL, Bever KM, Wolberger C. 2005. Mechanism of sirtuin inhibition by nicotinamide: altering the NAD* cosubstrate specificity of a Sir2 enzyme. Mol. Cell 17:855-68
+Sauve AA, Moir RD, Schramm VL, Willis IM. 2005. Chemical activation of Sir2-dependent silencing by relief of nicotinamide inhibition. Mol. Cell 17:595-601
+Grunstein M. 1997. Histone acetylation in chromatin structure and transcription. Nature 389:349-52 Starai VJ, Celic I, Cole RN, Boeke JD, Escalante-Semerena JC. 2002. Sir2-dependent activation of acetyl-CoA synthetase by deacetylation of active lysine. Science 298:2390-92
+Bheda et al.
+BI85CH16-Lin
+89.
+90.
+91.
+94.
+95.
+96.
+97.
+98.
+99.
+100.
+101.
+103.
+104.
+105.
+106.
+107.
+108.
+109.
+110.
+111.
+113.
+ARI 9May2016 9:34
+Smith BC, Denu JM. 2007. Acetyl-lysine analog peptides as mechanistic probes of protein deacetylases. J. Biol. Chem. 282:37256-65
+Zhang K, Chen Y, Zhang Z, Zhao Y. 2008. Identification and verification of lysine propionylation and butyrylation in yeast core histones using PTMap software. 7. Proteome Res. 8:900-6
+Cheng Z, Tang Y, Chen Y, Kim S, Liu H, et al. 2009. Molecular characterization of propionyllysines in non-histone proteins. Mol. Cell. Proteom. 8:45-52
+. Liv, Lin Y, Darwanto A, Song X, Xu G, Zhang K. 2009. Identification and characterization of propi-
+onylation at histone H3 lysine 23 in mammalian cells. 7. Biol. Chem. 284:32288-95
+. Schlicker C, Gertz M, Papatheodorou P, Kachholz B, Becker CFW, Steegborn C. 2008. Substrates and
+regulation mechanisms for the human mitochondrial sirtuins Sirt3 and Sirt5. 7. Mol. Biol. 382:790-801 Nakagawa T, Lomb DJ, Haigis MC, Guarente L. 2009. SIRTS deacetylates carbamoyl phosphate syn- thetase 1 and regulates the urea cycle. Cell 137:560-70
+Nishida Y, Rardin MJ, Carrico C, He W, Sahu AK, et al. 2015. SIRTS regulates both cytosolic and mitochondrial protein malonylation with glycolysis as a major target. Mol. Cell 59:321-32
+Ringel AE, Roman C, Wolberger C. 2014. Alternate deacylating specificities of the archaeal sirtuins Sir2Af1 and Sir2Af2. Protein Sci. 23:1686-97
+Michishita E, McCord RA, Berber E, Kioi M, Padilla-Nash H, et al. 2008. SIRT6 is a histone H3 lysine 9 deacetylase that modulates telomeric chromatin. Nature 452:492-96
+Michishita E, McCord RA, Boxer LD, Barber MF, Hong T, et al. 2009. Cell cycle-dependent deacety- lation of telomeric histone H3 lysine K56 by human SIRT6. Cell Cycle 8:2664-66
+Yang B, Zwaans BMM, Eckersdorff M, Lombard DB. 2009. The sirtuin SIRT6 deacetylates H3 K56Ac in vivo to promote genomic stability. Cell Cycle 8:2662-63
+Kaidi A, Weinert BT, Choudhary C, Jackson SP. 2010. Human SIRT6 promotes DNA end resection through CtIP deacetylation. Science 329:1348-53
+Schwer B, Schumacher B, Lombard DB, Xiao C, Kurtev MV, et al. 2010. Neural sirtuin 6 (Sirt6) ablation attenuates somatic growth and causes obesity. PNAS 107:21790-94
+2. Wajant H, Pfizenmaier K, Scheurich P. 2003. Tumor necrosis factor signaling. Cell Death. Differ. 10:45—
+65
+Stevenson FT, Bursten SL, Locksley RM, Lovett DH. 1992. Myristyl acylation of the tumor necrosis factor « precursor on specific lysine residues. 7. Exp. Med. 176:1053-62
+Van Gool F, Galli M, Gueydan C, Kruys V, Prevot P-P, et al. 2009. Intracellular NAD levels regulate tumor necrosis factor protein synthesis in a sirtuin-dependent manner. Nat. Med. 15:206-10
+Teng Y-B, Jing H, Aramsangtienchai P, He B, Khan S, et al. 2015. Efficient demyristoylase activity of SIRT2 revealed by kinetic and structural studies. Sci. Rep. 5:8529
+Feldman JL, Dittenhafer-Reed KE, Kudo N, Thelen JN, Ito A, et al. 2015. Kinetic and structural basis for acyl-group selectivity and NAD* dependence in sirtuin-catalyzed deacylation. Biochemistry 54:3037-50 Mathias RA, Greco TM, Oberstein A, Budayeva HG, Chakrabarti R, et al. 2014. Sirtuin 4 isa lipoamidase regulating pyruvate dehydrogenase complex activity. Cell 159:1615-25
+Bao X, Wang Y, Li X, Li XM, Liu Z, et al. 2014. Identification of ‘erasers’ for lysine crotonylated histone marks using a chemical proteomics approach. eLife 3:e02999
+Wisniewski JR, Zougman A, Mann M. 2008. N¢ -formylation of lysine is a widespread post-translational modification of nuclear proteins occurring at residues involved in regulation of chromatin function. Nucl. Acids Res. 36:570-77
+Moellering RE, Cravatt BF. 2013. Functional lysine modification by an intrinsically reactive primary glycolytic metabolite. Science 341:549-53
+Blander G, Olejnik J, Krzymanska-Olejnik E, McDonagh T, Haigis M, et al. 2005. SIRT1 shows no substrate specificity in vitro. J. Biol. Chem. 280:9780-85
+2. Rauh D, Fischer F, Gertz M, Lakshminarasimhan M, Bergbrede T, et al. 2013. An acetylome peptide
+microarray reveals specificities and deacetylation substrates for all human sirtuin isoforms. Nat. Commun. 4:2327
+Garske AL, Denu JM. 2006. SIRT1 top 40 hits: use of one-bead, one-compound acetyl-peptide libraries and quantum dots to probe deacetylase specificity. Biochemistry 45:94-101
+www.annualreviews.org © The Substrate Specificity of Sirtuins
+27
+BI85CH16-Lin
+ARI
+9 May 2016
+114.
+115.
+116.
+117.
+118.
+119.
+120.
+121.
+122.
+123.
+124.
+125.
+126.
+127.
+128.
+129.
+130.
+131.
+132.
+133.
+134.
+135. 136.
+137.
+138.
+934
+AbouElfetouh A, Kuhn ML, Hu LI, Scholle MD, Sorensen DJ, et al. 2015. The E. coli sirtuin CobB shows no preference for enzymatic and nonenzymatic lysine acetylation substrate sites. MicrobiologyOpen 4:66-83
+Smith BC, Settles B, Hallows WC, Craven MW, DenuJM. 2011. SIRT3 substrate specificity determined by peptide arrays and machine learning. ACS Chem. Biol. 6:146-57
+Hebert AS, Dittenhafer-Reed KE, Yu W, Bailey DJ, Selen ES, et al. 2013. Calorie restriction and SIRT3 trigger global reprogramming of the mitochondrial protein acetylome. Mol. Cell 49:186-99
+Khan AN, Lewis PN. 2005. Unstructured conformations are a substrate requirement for the Sir2 family of NAD-dependent protein deacetylases. 7. Biol. Chem. 280:36073-78
+Hirschey MD, Shimazu T, Goetzman E, Jing E, Schwer B, et al. 2010. SIRT3 regulates mitochondrial fatty-acid oxidation by reversible enzyme deacetylation. Nature 464:121-25
+Bharathi SS, Zhang Y, Mohsen AW, Uppala R, Balasubramani M, et al. 2013. Sirtuin 3 (SIRT3) protein regulates long-chain acyl-CoA dehydrogenase by deacetylating conserved lysines near the active site. J. Biol. Chem. 288:33837-47
+Schwer B, Bunkenborg J, Verdin RO, Andersen JS, Verdin E. 2006. Reversible lysine acetylation controls the activity of the mitochondrial enzyme acetyl-CoA synthetase 2. PNAS 103:10224-29
+Kawahara TLA, Michishita E, Adler AS, Damian M, Berber E, et al. 2009. SIRT6 links histone H3 lysine 9 deacetylation to NF-KB-dependent gene expression and organismal life span. Cel 136:62-74 Zhong L, D’Urso A, Toiber D, Sebastian C, Henry RE, et al. 2010. The histone deacetylase Sirt6 regulates glucose homeostasis via Hifl x. Cell 140:280-93
+Sebastiin C, Zwaans BMM, Silberman DM, Gymrek M, Goren A, et al. 2012. The histone deacetylase SIRT6 is a tumor suppressor that controls cancer metabolism. Cell 151:1185-99
+Barber MF, Michishita-Kioi E, Xi Y, Tasselli L, Kioi M, et al. 2012. SIRT7 links H3K18 deacetylation to maintenance of oncogenic transformation. Nature 487:114-18
+Merrick CJ, Duraisingh MT. 2007. Plasmodium falciparum Sir2: An unusual sirtuin with dual histone deacetylase and ADP-ribosyltransferase activity. Eukaryot. Cell 6:2081-91
+Hawse WF, Wolberger C. 2009. Structure-based mechanism of ADP-ribosylation by sirtuins. 7. Biol. Chem. 284:33654-61
+Fahie K, Hu P, Swatkoski $, Cotter RJ, Zhang Y, Wolberger C. 2009. Side chain specificity of ADP- ribosylation by a sirtuin. FEBS 7. 276:7159-76
+Rack JGM, Morra R, Barkauskaite E, Kraehenbuehl R, Ariza A, et al. 2015. Identification of a class of protein ADP-ribosylating sirtuins in microbial pathogens. Mol. Cell 59:309-20
+Rosenthal F, Feijs KL, Frugier E, Bonalli M, Forst AH, et al. 2013. Macrodomain-containing proteins are new mono-ADP-ribosylhydrolases. Nat. Struct. Mol. Biol. 20:502-7
+Jankevicius G, Hassler M, Golia B, Rybin V, Zacharias M, et al. 2013. A family of macrodomain proteins reverses cellular mono-ADP-ribosylation. Nat. Struct. Mol. Biol. 20:508-14
+Kanfi Y, Naiman S, Amir G, Peshti V, Zinman G, et al. 2012. The sirtuin SIRT6 regulates lifespan in male mice. Nature 483:218-21
+Wagner GR, Payne RM. 2013. Widespread and enzyme-independent N*-acetylation and N*- succinylation of proteins in the chemical conditions of the mitochondrial matrix. 7. Biol. Chem. 288:29036-45
+Ghanta S, Grossmann RE, Brenner C. 2013. Mitochondrial protein acetylation as a cell-intrinsic, evo- lutionary driver of fat storage: chemical and metabolic logic of acetyl-lysine modifications. Crit. Rev. Biochem. Mol. Biol. 48:561-74
+Jiang W, Wang S, Xiao M, Lin Y, Zhou L, et al. 2011. Acetylation regulates gluconeogenesis by pro- moting PEPCK1 degradation via recruiting the UBRS ubiquitin ligase. Mol. Cell 43:33-44 Marmorstein R. 2001. Structure and function of histone acetyltransferases. Cell. Mol. Life Sci. 58:693-703 Scott I, Webster BR, Li JH, Sack MN. 2012. Identification of a molecular component of the mitochon- drial acetyltransferase programme: a novel role for GCNSL1. Biochem. J. 443:655-61
+Fan J, Shan C, Kang HB, Elf S, Xie J, et al. 2014. Tyr phosphorylation of PDP1 toggles recruitment between ACAT1 and SIRT3 to regulate the pyruvate dehydrogenase complex. Mol. Cell 53:534-48 Shan C, Elf S, Ji Q, Kang HB, Zhou L, et al. 2014. Lysine acetylation activates 6-phosphogluconate dehydrogenase to promote tumor growth. Mol. Cell 55:552-65
+Bheda et al.
+BI85CH16-Lin
+139.
+140.
+141.
+143.
+144.
+145.
+146.
+147.
+148.
+149.
+150.
+151.
+ARI 9May2016 9:34
+Gibson GE, Xu H, Chen HL, Chen W, Denton TT, Zhang S. 2015. Alpha-ketoglutarate dehydrogenase complex-dependent succinylation of proteins in neurons and neuronal cell lines. 7. Neurochem. 134:86-96 Hosokawa Y, Shimomura Y, Harris RA, Ozawa T. 1986. Determination of short-chain acyl-coenzyme Aesters by high-performance liquid chromatography. Anal. Biochem. 153:45-49
+King MT, Reiss PD. 1985. Separation and measurement of short-chain coenzyme-A compounds in rat liver by reversed-phase high-performance liquid chromatography. Anal. Biochem. 146:173-79
+2. Gao L, Chiou W, Tang H, Cheng X, Camp HS, Burns DJ. 2007. Simultaneous quantification of malonyl-
+CoA and several other short-chain acyl-CoAs in animal tissues by ion-pairing reversed-phase HPLC/MS. J. Chromatogr. B 853:303-13
+Cimen H, Han M-J, Yang Y, Tong Q, Koc H, Koc EC. 2010. Regulation of succinate dehydrogenase activity by SIRT3 in mammalian mitochondria. Biochemistry 49:304-11
+Finley LWS, Haas W, Desquiret-Dumas V, Wallace DC, Procaccio V, et al. 2011. Succinate dehydro- genase is a direct target of Sirtuin 3 deacetylase activity. PLOS ONE 6:e23295
+Huang R, Holbert MA, Tarrant MK, Curtet $, Colquhoun DR, et al. 2010. Site-specific introduction of an acetyl-lysine mimic into peptides and proteins by cysteine alkylation. 7. Am. Chem. Soc. 132:9986-87 Li F, Allahverdi A, Yang R, Lua GBJ, Zhang X, et al. 2011. A direct method for site-specific protein acetylation. Angew. Chem. Int. Ed. Engl. 50:9611-14
+Neumann H, Peak-Chew SY, Chin JW. 2008. Genetically encoding N¢‘-acetyllysine in recombinant proteins. Nat. Chem. Biol. 4:232-34
+Lammers M, Neumann H, Chin JW, James LC. 2010. Acetylation regulates cyclophilin A catalysis, immunosuppression and HIV isomerization. Nat. Chem. Biol. 6:331-37
+Huang Y, Russell WK, Wan W, Pai P-J, Russell DH, Liu W. 2010. A convenient method for genetic incorporation of multiple noncanonical amino acids into one protein in Escherichia coli. Mol. BioSyst. 6:683-86
+Yu W, Dittenhafer-Reed KE, Denu JM. 2012. SIRT3 protein deacetylates isocitrate dehydrogenase 2 (IDH2) and regulates mitochondrial redox status. 7. Biol. Chem. 287:14078-86
+Gattner MJ, Vrabel M, Carell T. 2013. Synthesis of e-N-propionyl-, ¢-N-butyryl-, and ¢-N-crotonyl- lysine containing histone H3 using the pyrrolysine system. Chem. Commun. 49:379-81
+www.annualreviews.org © The Substrate Specificity of Sirtuins
+£9

@@ -1,0 +1,421 @@
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+HHS Public Access Author manuscript Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Published in final edited form as:
+Nat Struct Mol Biol. 2013 September ; 20(9): 1033–1039. doi:10.1038/nsmb.2655.
+E2 ubiquitin conjugating enzymes regulate the deubiquitinating activity of OTUB1
+Reuven Wiener1,2,*,‡, Anthony T. DiBello1,2,*, Patrick Lombardi1,2, Catherine M. Guzzo3, Xiangbin Zhang1,2, Michael J. Matunis3, and Cynthia Wolberger1,2,† 1Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, Baltimore, Maryland, USA
+2Howard Hughes Medical Institute, Baltimore, Maryland, USA
+3Department of Biochemistry and Molecular Biology, Bloomberg School of Public Health, Johns Hopkins University, Baltimore, Maryland, USA
+Abstract
+OTUB1 is a Lys48-specific deubiquitinating enzyme that forms a complex in vivo with E2 ubiquitin conjugating enzymes including UBC13 and UBCH5. OTUB1 binds to E2~Ub thioester intermediates and prevent ubiquitin transfer, thereby non-catalytically inhibiting accumulation of polyubiquitin. We report here that a second role of OTUB1-E2 interactions is to stimulate OTUB1 cleavage of Lys48 polyubiquitin, and that this stimulation is regulated by the ratio of charged to uncharged E2 and by the concentration of Lys48-linked polyubiquitin and free ubiquitin. Structural and biochemical studies of human and worm OTUB1 and UBCH5B show that the E2 stimulates binding of the Lys48 polyubiquitin substrate by stabilizing folding of the OTUB1 N- terminal ubiquitin-binding helix. Our results suggest that OTUB1-E2 complexes in the cell are poised to regulate polyubiquitin chain elongation or degradation in response to changing levels of E2 charging and available free ubiquitin.
+Introduction
+Ubiquitination plays a pivotal role in regulating a broad range of physiological processes including proteasomal degradation, transcription, membrane trafficking and the DNA
+Users may view, print, copy, download and text and data- mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use: http://www.nature.com/authors/editorial_policies/license.html#terms †Corresponding author: Cynthia Wolberger, cwolberg@jhmi.edu, +1 (410) 955-0728. *These authors contributed equally to this work. ‡Present address: Department of Biochemistry and Molecular Biology, the Institute for Medical Research Israel-Canada, Hebrew University-Hadassah Medical School, Jerusalem, Israel
+Accession code Coordinates and diffraction data have been deposited in the Protein Data Bank under accession code 4LDT.
+Author Contributions R.W., A.D. and C.W. designed experiments, interpreted data and wrote the paper. R.W. and A.T.D. carried out the enzymatic assays and binding studies while A.T.D. determined the crystal structure and did Western blot assays. X.Z. purified proteins and prepared and crystallized the OTUB1-Ubal-UBCH5B~Ub complex. P.L. assayed E2-OTUB1 activity on different polyubiquitin chains. C.M.G. performed cell-based experiments under the guidance of M.J.M.
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+damage response1. Substrates are modified through the E1, E2, E3 enzyme cascade with a single ubiquitin or with different types of polyubiquitin chains distinguished by the particular ubiquitin lysine through which one ubiquitin is joined to the next1. Deubiquitinating enzymes (DUBs) remove ubiquitin from substrates as well as disassemble polyubiquitin chains2,3. The balance between the opposing activities of ubiquitinating and deubiquitinating enzymes thus plays a central role in modulating ubiquitin signaling by determining the levels and distribution of ubiquitination in the cell.
+OTUB1 is a deubiquitinating enzyme that belongs to the OTU family of cysteine proteases4 and is highly specific for cleaving Lys48-linked polyubiquitin chains5. OTUB1 has been implicated in regulating diverse processes including T cell anergy6, virus-triggered interferon 1 induction7 and stabilization of p538, estrogen receptor α9 and cIAP10. Although the catalytic residues of OTUB1 are conserved across species4, this enzyme was unexpectedly found to play a non-catalytic role in inhibiting accumulation of Lys63-linked polyubiquitin in the DNA double strand break response11. OTUB1 inhibits Lys63 polyubiquitin chain synthesis by the E2, UBC13 (UBE2N), in a manner that does not require OTUB1 DUB activity, but that depends upon ~40 residues N-terminal to the OTUB1 catalytic domain11. Interestingly, OTUB1 also inhibits other E2 enzymes including UBCH5A-C (UBE2D1-3) and UBCH6 (UBE2E1)11 and has been found in complex with these E2 enzymes in cells11,12, although the biological significance of these observations is not yet known.
+Structural studies of UBC1313 and UBCH5B14 demonstrated that OTUB1 binds directly to the E2~Ub thioester and holds the donor ubiquitin in its proximal ubiquitin binding site, which includes the OTUB1 N-terminal residues shown to be critical for inhibition11. OTUB1 binding to the charged E2~Ub is allosterically regulated by an additional free ubiquitin monomer that binds to the OTUB1 distal ubiquitin-binding site, triggering conformational changes that favor binding of the UBC13~Ub donor ubiquitin in the OTUB1 proximal site13. These include a conformational change in the globular OTU domain and folding of ~21 N-terminal residues to form a ubiquitin-binding helix13. The allosteric communication between proximal and distal ubiquitin binding sites5 thus helps to drive formation of a complex between OTUB1 and charged E2 enzymes. The relative configuration of proximal and distal ubiquitins mimics Lys48 diubiquitin, indicating that OTUB1 specificity for Lys48 isopeptide linkages as well as the allosteric communication between proximal and distal sites5 has been adapted for noncatalytic inhibition of E2 enzymes. The requirement for the binding of a free ubiquitin monomer to OTUB1 raised the interesting possibility that changes in cellular ubiquitin concentrations might regulate the ability of OTUB1 to inhibit E2 enzymes.
+The repressive complex formed by OTUB1 binding to charged E2~Ub and free ubiquitin presumably interferes with OTUB1 DUB activity by occupying both proximal and distal ubiquitin-binding sites of OTUB1, thus precluding binding of a Lys48 polyubiquitin substrate. OTUB1 can also bind to uncharged E2 enzymes11,13, which should not prevent binding of Lys48 polyubiquitin substrate. Based on this observation, we set out to investigate whether E2 enzymes might influence OTUB1 isopeptidase activity. Here we report a new role for OTUB1-E2 interactions in stimulating the K48 DUB activity of
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 2
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+OTUB1. We find that OTUB1 DUB activity is strongly simulated by selected E2 enzymes, and that this stimulation is dependent on whether the E2 enzymes are charged with ubiquitin as well as on the concentration of free ubiquitin. The relative proportion of charged and uncharged E2s and the concentration of both Lys48 chains and free ubiquitin determine the balance between OTUB1-E2 complexes, which actively cleave Lys48 polyubiquitin chains, and inhibited OTUB1-Ub-E2~Ub complexes, which block both OTUB1 DUB activity and E2 ubiquitin conjugating activity. Our results show that a portion of the E2 partners of OTUB1 are not charged in cells, indicating that many of the OTUB1-E2 complexes in vivo are active as DUBs. OTUB1-E2 complexes are thus poised to serve a dual role in regulating levels of ubiquitin conjugation in response to fluctuations in E2 charging and available free ubiquitin.
+Results
+E2 enzymes stimulate OTUB1 Lys48 deubiquitinating activity
+To test the effect that E2 enzymes might have on OTUB1 activity, we measured the ability of OTUB1 to cleave Lys48-linked diubiquitin in the presence of eleven human E2 enzymes. We unexpectedly found that five of the E2s tested, UBCH5A-C, UBE2W and UBCH6, strongly stimulate Lys48-diubiquitin cleavage by OTUB1 in a FRET-based assay (Fig. 1a). With the exception of UBE2W, these enzymes had previously been shown to interact with OTUB111,12. Surprisingly, UBC13, which is inhibited by OTUB1, did not stimulate OTUB1 as strongly as the other activating E2s. We assayed OTUB1 stimulation as a function of UBCH5B concentration and found that half-maximal stimulation of OTUB1 cleavage activity occurred at 0.5 µM UBCH5B (Fig. 1b) (Supplementary Table 1). To confirm that the observed stimulation was not assay-dependent, we used a gel-based assay to verify that UBCH5B stimulates OTUB1 cleavage of native Lys48-linked diubiquitin (Fig. 1c and Supplementary Fig. 1). In the absence of UBCH5B, OTUB1 consumed all of the diubiquitin substrate in 60 minutes, while OTUB1 processed the same amount of diubiquitin in 3 minutes when UBCH5B was present. No difference in stimulation was observed in cleavage of di-, tri- and tetraubiquitin substrates (Supplementary Fig. 2), indicating that E2 stimulation of OTUB1 DUB activity is independent of polyubiquitin chain length.
+To gain insight into how OTUB1 isopeptidase activity is stimulated, we determined steady- state kinetic parameters for Lys48 diubiquitin cleavage by OTUB1 in the presence and absence of UBCH5B (Fig. 1d and Supplementary Table 2). UBCH5B reduced the KM of OTUB1 for Lys48 diubiquitin to 1/35th of its value in the absence of UBCH5B (from 120 µM to 3.4 µM), but had no effect on kcat (0.035 s−1 and 0.036 s−1 in the presence and absence of UBCH5B, respectively). Thes results indicate that UBCH5B stimulates OTUB1 by increasing its affinity for the Lys48 diubiquitin substrate.
+E2 interactions mediate OTUB1 stimulation and inhibition
+Since the ubiquitin monomers in inhibited OTUB1-Ub-E2~Ub complexes13,14 apparently mimic the binding of Lys48 diubiquitin, we first asked whether the same residues in OTUB1 that are involved in inhibiting E2 enzymes are also required for the ability of OTUB1 to be stimulated by E2s. An OTUB1T134R substitution in the catalytic OTU domain that disrupts
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 3
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+binding to UBCH5B was previously shown to reduce OTUB1 inhibition of UBCH5B ubiquitin conjugating activity14. We assayed the ability of OTUB1T134R to be stimulated by UBCH5B and found that this mutant was insensitive to UBCH5B, suggesting that the same OTUB1-E2 interface is needed for both stimulation and inhibition (Fig. 2a). Since the N- terminal residues of OTUB1 that precede the OTU domain form a proximal ubiquitin- binding helix that plays an essential role in E2 inhibition, we asked whether E2 stimulation of OTUB1 activity similarly requires the OTUB1 N-terminus. As shown in Figure 2b, deletion of the 15 N-terminal residues of OTUB1 did not affect its ability to be stimulated by UBCH5B, whereas deletion of the first 30 N-terminal residues completely disrupted stimulation. These results are consistent with a role for the OTUB1 N-terminal helix similar to that in the OTUB1-Ub-UBC13~Ub inhibited complex, in which the first 23 residues are disordered while residues 24–44 form a ubiquitin-binding helix13.
+The importance of the OTUB1 N-terminal helix to its ability to be stimulated by UBCH5B, together with the role of these N-terminal residues in forming the proximal ubiquitin- binding site of OTUB15,13,14, suggested that UBCH5B may increase OTUB1 affinity for Lys48 diubiquitin via the proximal ubiquitin-binding site. Based on this interpretation, we hypothesized that UBCH5B would not stimulate OTUB1 cleavage of ubiquitin-AMC, a substrate that binds to the distal ubiquitin-binding site of OTUB1 but contains an amide- linked fluorophore (amino methyl coumarin) in place of a proximal ubiquitin. Indeed, UBCH5B did not stimulate ubiquitin-AMC cleavage by OTUB1 (Fig. 2c), consistent with the idea that UCH5B increases the affinity of OTUB1 for the proximal ubiquitin in Lys48 diubiquitin but does not affect substrate binding to the distal ubiquitin-binding site.
+Structural basis for stabilization of OTUB1 N-terminus by E2
+Our results suggested that UBCH5B stimulates binding of the Lys48-linked proximal ubiquitin to the OTUB1 N-terminal ubiquitin binding helix. These residues, which are N- terminal to the OTU catalytic domain, are disordered in the apoenzyme13,15 but form an alpha helix when OTUB1 is bound to both distal ubiquitin and charged UBC13~Ub13 or UBCH5B~Ub14. In the absence of a structure of OTUB1 bound to Lys48 diubiquitin and E2, we took advantage of the observation that the two ubiquitins bound to the proximal and distal sites of OTUB1 mimic the binding of Lys48 diubiquitin13,14 to examine the structural effect of E2 binding on the N-terminal ubiquitin binding helix of OTUB1. The reported structures, however, do not show direct contacts between the E2 and the OTUB1 N-terminal arm, possibly due to limits in data resolution and order13,14. In addition, the structure of the UBCH5B repression complex contains UBCH5B fused directly to a truncated OTUB1 N- terminal helix14, and thus does not address how an untethered OTUB1 N-terminus might contact UBCH5B. We therefore determined a 1.9 Å resolution crystal structure of UBCH5BC85S~Ub bound to OTUB1 containing ubiquitin aldehyde (Ubal) bound to its distal site (data collection and refinement statistics shown in Table 1). The structure contains a hybrid OTUB1 containing the N-terminal 45 residues of human OTUB1 and the OTU domain of worm OTUB1, which was used in previous structural studies of the OTUB1- Ubal-UBC13~Ub repression complex13. The human UBCH5B protein contained an active site C85S mutation, which was used to generate an oxyester linkage between the E2 and the ubiquitin C-terminus, rather than the more labile thioester. In the present structure, the N-
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 4
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+terminal 22 residues of OTUB1 are disordered, while residues 23 – 44 (hOTUB1 numbering) form a well-ordered alpha helix, consistent with the effect of N-terminal deletions on stimulation by UBCH5B (Fig. 3a and Supplementary Fig. 3). A Lys48 isopeptide linkage between the two ubiquitins can be readily modeled through minor adjustments of the proximal Lys48 side chain and the distal ubiquitin aldehyde C-terminus, which is covalently linked to the OTUB1 active site cysteine by a thiohemiacetal bond (Supplementary Fig. 4). This structure was therefore used as a model for OTUB1 bound to a true Lys48-linked diubiquitin substrate and UBCH5B.
+The structure of the OTUB1-Ubal-UBCH5B~Ub complex reveals a network of direct and water-mediated contacts between UBCH5B and the N-terminal helix of OTUB1 that could stabilize folding of the OTUB1 N-terminus. OTUB1 residue Glu28 is sandwiched between UBCH5B residues Lys66 and Arg90 and OTUB1-Asp35 hydrogen bonds with UBCH5B- Lys63, while OTUB1-Leu24 forms hydrophobic interactions with UBCH5B-Leu 119 (Fig. 3a). In addition, there are extensive contacts between the C-terminal tail of the proximal ubiquitin and the OTUB1 N-terminal helix (Fig. 3a) that were not seen in previous structures13,14. To test whether the observed contacts between the N-terminal helix of OTUB1 and UBCH5B are also important for stimulating OTUB1 cleavage of a Lys48 diubiquitin substrate, we introduced mutations designed to disrupt interactions between UBCH5B and the OTUB1 N-terminus in the inhibited complex and then tested whether those contacts were important to the ability of UBCH5B to stimulate OTUB1 cleavage of Lys48 diubiquitin. The OTUB1 double E28A D35A substitution, which affects OTUB1 contacts with UBCH5B, greatly decreased the ability of UBCH5B to stimulate OTUB1 DUB activity without affecting OTUB1 activity in the absence of UBCH5B (Fig. 3b). Similarly, UBCH5B mutations R90A or K66A, which disrupt interactions with Glu28 of OTUB1 (Fig. 3a), decreased the ability of UBCH5B to stimulate OTUB1, while the double K66A R90A substitution in UBCH5B completely abolished its ability to stimulate OTUB1 (Fig. 3c). Taken together, our results indicate that UBCH5B stimulates OTUB1 cleavage of Lys48 diubiquitin by buttressing the N-terminal helix of OTUB1, thereby stabilizing the proximal ubiquitin-binding site and raising the affinity of OTUB1 for Lys48 diubiquitin.
+Free ubiquitin controls effect of E2~Ub on OTUB1 activity
+Our structural and biochemical studies showed how E2 enzymes stimulate the DUB activity of OTUB1. However, in at least some cases, E2 enzymes in the cell are mostly charged with ubiquitin16 and there is also free unconjugated ubiquitin17. Given the overlapping mechanisms of non-catalytic E2 inhibition and OTUB1 activation, we asked whether OTUB1 can also be stimulated by charged UBCH5B~Ub and whether the presence of free ubiquitin affects OTUB1 deubiquitinating activity. Model building based on the present work and the structure of charged UBCH5A~Ub bound to RNF418 demonstrates that OTUB1 in complex with Lys48 diubiquitin could bind to charged UBCH5B~Ub without clashes between the additional ubiquitin and the diubiquitin occupying the OTUB1 proximal and distal sites (Fig. 4a). While the thioester-linked ubiquitin is likely to be mobile19, the model does not significantly restrict alternate conformations. We assayed the ability of UBCH5B~Ub to stimulate OTUB1 (Fig. 4b) and found that both charged and uncharged UBCH5B stimulate OTUB1 to a similar degree. However, assays of OTUB1 stimulation by
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 5
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+UBCH5B or UBCH5B~Ub over a range of ubiquitin concentrations (Fig. 4c) (Supplementary Table 3) showed that stimulation by UBCH5B is relatively insensitive to free ubiquitin, but that stimulation by UBCH5B~Ub decreases as a function of increasing concentration of free ubiquitin, dropping to low levels below ~1 µM free ubiquitin. The complete repression of OTUB1 activity at >10 µM free ubiquitin is presumably due to formation of the inhibited OTUB1-Ub-UBCH5B~Ub complex (Fig. 3a), in which free ubiquitin binds to the OTUB1 distal ubiquitin-binding site while the ubiquitin conjugated to UBCH5B binds to the OTUB1 proximal site, thus precluding binding of the Lys48 diubiquitin substrate. These results indicate that, while charged E2~Ub conjugates can also stimulate OTUB1 DUB activity, this stimulation will only be significant under conditions in which local free ubiquitin concentrations drop below about 0.6 µM. Since estimates of cellular free ubiquitin concentrations range from 4 – 20 µM, this would suggest that E2~Ub conjugates would repress OTUB1 activity unless cellular stresses significantly reduced the availability of free ubiquitin.
+E2 partners of OTUB1 exist in both charged and uncharged states in cells
+Since only uncharged E2 stimulates OTUB1 DUB activity while charged E2~Ub represses OTUB1 under normal cellular concentrations of free ubiquitin, the relative proportion of charged versus uncharged E2s must be critical determinants of whether OTUB1-E2 complexes function as active DUBs in the cell. We therefore examined the ratio of charged and uncharged E2 partners of OTUB1 in the cell. Of the E2 enzymes that stimulate OTUB1 (Fig. 1a), UBCH5C (UBE2E3) and UBC13 (UBE2N) have been shown to be the most abundant and in molar excess over OTUB120. We examined the ratio of charged to uncharged E2 in U2OS and HeLa cells, which were used to study non-catalytic inhibition by OTUB1 in the DNA damage response11,14. Cell extracts were prepared under conditions that preserve the thioester linkage16 and probed with antibodies against the three UBCH5 isoforms or UBC13. As shown in Figure 5a, we unexpectedly found different E2 charging ratios for UBCH5 and UBC13. UBC13 was completely charged in HeLa cells and partially charged in U2OS cells (Fig. 5a), while the majority of UBCH5 isoforms were uncharged in both cell lines (Fig. 5a). Although the reason for the differences among different cell lines and E2 enzymes are not yet known, they indicate that a substantial proportion of the E2 enzyme partners of OTUB1 are uncharged in cultured cells. Taken together, our results suggest that OTUB1 should be stimulated by uncharged UBCH5 in cells, and that variations in the ratio of E2 to E2~Ub could be involved in regulating OTUB1 isopeptidase activity.
+Discussion
+Together with previous studies11,13,14, our results demonstrate that OTUB1-E2 complexes can serve dual functions in regulating both ubiquitin conjugation and deconjugation. The finding that OTUB1 non-catalytically represses E2 enzymes11 left open the question of how binding to E2 enzymes affected OTUB1 deubiquitinating activity. We have shown here that a subset of E2 enzymes markedly stimulate OTUB1 cleavage of Lys48-linked polyubiquitin (Fig. 1a) and that the same set of OTUB1-E2 interactions are required for both OTUB1 non- catalytic inhibition of E2 enzymes and E2 stimulation of OTUB113,14. E2 binding increases OTUB1 affinity for Lys48 diubiquitin by stabilizing the OTUB1 N-terminus (Fig. 3a),
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 6
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+which is disordered in the absence of substrate13,15 and must fold into an α-helix to form part of the proximal ubiquitin-binding site of OTUB113,14. OTUB1 thus belongs to the expanding group of deubiquitinating enzymes that depend upon interactions with effector proteins to stimulate and regulate their activity21. Indeed, the inhibitory complex formed by OTUB1 with charged E2~Ub thioester and free ubiquitin also inhibits OTUB1 DUB activity, thus raising the possibility that inhibition of OTUB1 could be an equally important function of the OTUB1-Ub-E2~Ub inhibitory complex.
+OTUB1 has several key features that enable it to form different complexes with E2 enzymes, Lys48 polyubiquitin, and free ubiquitin. OTUB1 contains two distinct sites, the proximal and distal (Fig. 3a), to which ubiquitin monomers can bind cooperatively5. In addition, the OTUB1 catalytic domain binds to a subset of E2 enzymes11, while the N- terminal OTUB1 ubiquitin-binding helix, which is part of the proximal site, forms additional contacts with the E2 (Fig. 3a). Since the N-terminus is disordered in the absence of bound ubiquitin13,15, the contacts with E2 help to stabilize this helix. The cooperativity between the two ubiquitin-binding sites in OTUB1 drives preferential binding of OTUB1 to charged E2~Ub, since the Ub conjugated to the E2 binds in the proximal site of OTUB1 when a free ubiquitin monomer occupies the distal site (Fig. 3a). The structural and energetic coupling between these different binding interactions thus drives formation of the different OTUB1- E2-ubiquitin complexes.
+Our results are consistent with a model in which OTUB1-E2 complexes can exist in three states (Fig. 5b), each with a different consequence for OTUB1 DUB activity. OTUB1 bound to an uncharged E2 actively cleaves Lys48 polyubiquitin, with the E2 lowering the KM for the Lys48 polyubiquitin substrate through interactions between the OTUB1 N-terminus and the E2 (Fig. 3a). A charged E2~Ub conjugate, however, will bind to OTUB1 with the conjugated donor ubiquitin bound in the OTUB1 proximal site, while free ubiquitin binds to the OTUB1 distal site and allosterically stimulates binding of OTUB1 to the E2~Ub conjugate. This configuration (Fig. 3a and13,14) precludes Lys48 diubiquitin substrate binding, thereby shutting down E2 stimulation and inhibiting diubiquitin cleavage, as well as inhibiting the E2. Only if free ubiquitin concentrations dropped below 1 µM would the inhibitory complex no longer be favored (Fig. 5b), allowing the donor ubiquitin to be released from the proximal site and Lys48 diubiquitin to bind instead (Fig. 5b). The different OTUB1-E2 complexes are in equilibrium with free OTUB1, which has lower isopeptidase activity, and free E2 and E2~Ub, which are able to conjugate ubiquitin in concert with E1 and E3 enzymes. In vivo, the relative balance between different OTUB1 and E2 states will be determined by the proportion of free E2 to E2~Ub thioester and the concentrations of free ubiquitin and Lys48 polyubiquitin substrate. While free ubiquitin can directly regulate OTUB1 by promoting binding to E2~Ub conjugates, it appears more likely that transient reductions in free ubiquitin would impact OTUB1 activity by lowering the proportion of E2 enzymes that are charged, given the very low free ubiquitin concentrations at which repression by E2~Ub thioester is released. The availability of Lys48 polyubiquitin substrate could play an additional role in favoring active over repressed OTUB1. Since the proximal ubiquitin in an unanchored polyubiquitin chain could bind to OTUB1 in the same manner as
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 7
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+free monoubiquitin, it is also possible that free chains of other linkage types could also modulate OTUB1 activity by driving formation of complexes with charged E2s.
+Whether OTUB1-E2 complexes act as DUBs or inhibitors of polyubiquitination would thus depend upon the relative proportion of charged versus uncharged E2 enzymes and the local concentration of free ubiquitin and Lys48 polyubiquitin (Fig. 5b). We examined the E2:E2~Ub ratio for two different E2 partners of OTUB1 and found that the majority of UBCH5 isoforms are uncharged in two different cell lines, whereas UBC13 is largely in its Ub-charged form in HeLa cells and roughly 50% charged in U2OS cells (Fig. 5a). Although the reason for the observed differences between E2s and between cell lines awaits further study, these results demonstrate that relative charging of E2 enzymes varies to a surprising extent between different E2s and in different cell lines. Importantly, the fact that a substantial proportion of the E2 partners of OTUB1 are uncharged is consistent with a role for E2 stimulation of OTUB1 in the cell. Since steady state levels of E2 charging were investigated here in the absence of stress or DNA damage, these findings leave open the interesting question of whether the cellular ratio of charged to uncharged E2 changes under different cellular conditions and thereby regulates OTUB1 activity.
+Another important determinant of OTUB1 activity must be the relative intracellular concentration of OTUB1 and its E2 partners which, along with the E2:E2~Ub ratio, will also govern the relative proportion of OTUB1 that is bound to an E2. A study that quantitated the absolute amounts of proteins in mouse embryonic fibroblasts (MEFs)20 found OTUB1 to be the most abundant DUB (out of ~90) at 1.5 × 106 copies per cell, which corresponds to a concentration of 1.1 µM (assuming a 2000 µm3 cell volume). The most abundant E2 partners of OTUB1 were UBCH5C (1.7 µM) and UBC13 (1.3 µM). Together, these E2 enzymes are in 2.7-fold molar excess over OTUB1 and have a combined concentration of nearly 10 times the EC50 for UBCH5 stimulation of OTUB1 DUB activity (Fig. 1b). Other E2 partners of OTUB1 such as UBCH6 were present in MEFs at either far lower concentrations or were not detected20. Taken together with our results on E2 charging (Fig. 5a), these quantities suggest that the majority of OTUB1-E2 complexes should serve as active DUBs in U2OS cells, where a very low proportion of either UBCH5 or UBC13 is charged. A mixture of active and repressed OTUB1-E2 complexes would be more likely in HeLa cells, where UBC13 is fully charged while UBCH5 isoforms are largely uncharged. Differences in localization of either OTUB1 or E2 enzymes, or in the ratio of charged to uncharged E2 could further govern the activity of OTUB1 in different subcellular compartments.
+OTUB1-E2 complexes are poised to serve as molecular sensors that can toggle between cleaving Lys48 polyubiquitin to release free ubiquitin monomers and inhibiting ubiquitination by a subset of polyubiquitinating (UBCH5A/B/C, UBC13) and monoubiquitinating (UBE2W, UBCH6) E2 enzymes. The availability of adequate free ubiquitin in the cell is critical for proper functioning of a host of processes and appears to be tightly regulated22. During proteotoxic stress, when the pool of free ubiquitin decreases, the cell increases the free ubiquitin concentration and prioritizes the usage of free ubiquitin to specific ubiquitination pathways17,23. Depletion of cytoplasmic free ubiquitin, for example, leads to rapid cleavage of monoubiquitin from histone H2A and export of ubiquitin from the nucleus23, while heat shock in yeast leads to cleavage of free ubiquitin chains and release of
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 8
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+free ubiquitin monomers24. To what degree the pool of free ubiquitin and the ratio of charged to uncharged E2 may fluctuate following DNA damage, in which OTUB1 has been shown to play a role11, is unknown. We speculate that the initial response to stresses such as DNA damage, which involves rapid accumulation of ubiquitinated species in the nucleus as well as in the cytoplasm, may transiently reduce the ratio of charged to uncharged E2 enzymes as well as the available pool of free ubiquitin. This would alter the balance of OTUB1-E2 states in favor of OTUB1 bound to uncharged E2, that actively degrade Lys48 polyubiquitin (Fig. 5b). The reduction in the proportion of charged E2s would also free some E2 enzymes to be available to ubiquitinate substrates. Recovery of cellular free ubiquitin and E2 charging, either through the activity of OTUB1 or other DUBs, would again favor formation of the repressed complex and consequent inhibition of both OTUB1 and E2 activity. Accumulation of Lys48 polyubiquitin could further tip the balance in favor of the active DUB complex by competing with charged E2~Ub thioester for binding to the ubiquitin-binding sites of OTUB1 (Fig. 5b). The energetic coupling of complex formation between OTUB1, Lys48 polyubiquitin and E2 could also account for the enhanced ability of the OTUB1 catalytic mutant to suppress ubiquitination at DNA damage sites11. By binding to, but not cleaving, Lys48 chains, the OTUB1 C91S mutant could sequester uncharged E2 enzymes and globally reduce ubiquitination even in the absence of DNA damage, as has been reported14. Our model thus reconciles observations of both catalytic6,9,10 and non- catalytic8,11,14 roles for OTUB1 while revealing the complexities in accounting for effects of OTUB1 mutations given the multiple intertwined activities of OTUB1-E2 complexes.
+The finding that OTUB1-E2 complexes have dual activity will pave the way to discovering other roles these enzyme complexes play in the cell. While the focus of previous studies of OTUB1 inhibition focused on UBC1311, UBCH5A/B/C and UBCH6 form complexes with OTUB1 in vivo12 and are therefore also likely to have a role in conjunction with OTUB1. Since both E2 inhibition and OTUB1 stimulation depend upon a common OTUB1-E2 interface, our finding can be exploited to carry out high-throughput screens for small molecules that disrupt either function of OTUB1-E2 pairs by screening for small molecules that disrupt E2-stimulated cleavage of Lys48 diubiquitin substrates. Our results reveal another mechanism for regulating ubiquitination and open a new avenue for ubiquitin research.
+Methods
+Cloning and mutagenesis
+Cloning of human OTUB1 was performed as described previously25. The genes encoding the E2 enzymes were PCR amplified from a human cDNA library and cloned into a pET vector containing N-terminal His6-SUMO-2 tag (pETSUMO-2, Clonetech Inc., USA) by Infusion ligase free cloning. UBCH5BC85S was cloned into the pET32a vector containing the Trx-His tag followed by a TEV protease cleavage site. All other mutants of OTUB1 and UBCH5B were generated by site-directed mutagenesis using the Quick Change mutagenesis kit (Stratagene Inc.) following the manufacturer’s protocol. The hybrid h/ceOTUB1 was generated as described previously13. All hOTUB1 N-terminal deletions were generated using Infusion ligase-free cloning (Clonetech Inc., USA).
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 9
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+Protein expression and purification
+All proteins were expressed in E. coli Rosetta2(DE3) cells grown in LB medium. Cultures were inoculated using 1% (v/v) overnight saturated cultures and were grown at 37°C to an OD600 of 0.8. Proteins were induced at 16°C overnight by addition of 0.2 mM isopropyl-β- D-thio-galactoside (IPTG). Cells were harvested by centrifugation (8000×g, 15 min) and either lysed immediately or stored at −80°C for later use.
+OTUB1 enzymes and ubiquitin were purified as previously described13,25. Deletions and mutants of human OTUB1 were purified using the same protocol as the WT proteins. Cell pellets containing expressed E2 proteins were resuspended in lysis buffer (40 mM Na phosphate pH 8.0, 500 mM NaCl, 25 mM imidazole, 10 mM β-mercaptoethanol) supplemented with 0.1 mM phenyl-methyl sulfonyl fluoride (PMSF), 5 mM MgCl2, and DNaseI. Cells were lysed using a Microfluidizer (Microfluidics Inc., Waltham, MA). The lysate was centrifuged to remove cell debris and was subjected to immobilized metal affinity chromatography (IMAC) using 5 mL HisTrap columns (GE Biosciences, USA). The protein was eluted with a linear imidazole gradient. Fractions containing purified protein were pooled and dialyzed overnight at 4°C against 20 mM Na phosphate pH 8.0, 300 mM NaCl, 5 mM β-mercaptoethanol. TEV or the SENP2 protease26 was added to the protein pool to cleave off the Trx-His or the His-SUMO-2 tag, respectively. Cleaved protein was then subjected to a second round of IMAC and the flow-through containing the cleaved protein was collected. Proteins were further purified by gel filtration on a preparative Superdex 75 column (GE Healthcare), dialyzed into 20 mM HEPES, pH 7.5, 150 mM NaCl, and 1mM DTT, concentrated, and stored at −80°C. Proteins for crystallization and enzyme assays were >98% pure as visualized on a Coomassie-stained SDS-PAGE gel.
+Purification of OTUB1-Ubal-UBCH5BC85S~Ub ternary complex
+The oxyester linked UBCH5BC85S~Ub conjugate was prepared as previously described27. Hybrid h/ceOTUB1, Ubal, and UBCH5BC85S~Ub were mixed at a 1:2:2 molar ratio and incubated on ice for 45 minutes. The mixture was then loaded on an analytical Superdex 75 column (GE Healthcare) pre-equilibrated in 20 mM Tris, pH 7.6, 100 mM NaCl, and 2 mM DTT. The OTUB1-Ubal-UBCH5BC85S~Ub ternary complex eluted as a single peak and was concentrated to 12 mg/ml and stored at −80°C.
+Crystallization
+Crystals of the hybrid h/ceOTUB1-Ubal-UBCH5BC85S~Ub complex were grown at 20°C from a 1:1 mix of purified complex (12 mg/ml) and well solution containing 100 mM BIS- TRIS pH 6, 200 mM MgCl2, 22% PEG 3350. Crystals appeared in about 2 to 3 days, were cryoprotected by well solution with added 10% ethylene glycol and then flash frozen in liquid nitrogen.
+Data Collection and Structure Determination
+An initial structure of the h/ceOTUB1-Ubal-UBCH5BC85S~Ub ternary complex was determined using a 2.5 Å diffraction data set collected with an in-house Rigaku FR-E rotating anode x-ray generator (Rigaku, Japan) and a Rigaku Saturn 944+ CCD detector
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 10
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+under standard cryogenic conditions followed by processing with HKL200028. The structure of the ternary complex was determined by molecular replacement using PHASER29. The h/ ceOTUB1-Ubal complex (PDB ID: 4DHZ), UBCH5B (PDB ID: 2ESK), and ubiquitin (PDB ID: 1UBQ) were used as search models. The model was further refined with successive rounds of real-space refinement in COOT30 and reciprocal-space refinement using REFMAC in CCP431,32. The 2.5 Å structure was refined to an R and Rfree of 25.36% and 32.43% respectively.
+The initial structure was refined with REFMAC31,32 against a 1.9 Å data set collected at GM/CA-CAT beamline 23-ID-D/B at the Advanced Photon Source under standard cryogenic conditions and processed with HKL200028. The model was further refined with successive rounds of real-space refinement in COOT30 and reciprocal-space refinement using REFMAC31,32 and PHENIX33. The final 1.9 Å structure has an R and Rfree of 18.7% and 22.4%, respectively, with 98% of residues occupying the preferred region of the Ramachandran plot and no Ramachandran outliers. The final structure contains all 76 residues of both ubiquitins, all 148 residues of UBCH5B, and residues 19–251 and 254–275 of h/ceOTUB1.
+Protein-protein interaction surfaces were analyzed using the PISA server at EBI (www.pdbe.org/PISA) and manually inspected using COOT and PYMOL (www.pymol.org). Figures were generated with PYMOL.
+Assays of OTUB1 isopeptidase activity
+FRET-based assays of OTUB1 cleavage of Lys48 diubiquitin were performed at 30° C in buffer containing 20 mM HEPES pH 7.5, 100 mM NaCl, 5 mM DTT, 0.01% BSA and 400 nM of Lys48 diubiquitin internally quenched fluorescent (IQF) substrate #5 (LifeSensors, Malvern, PA). Reactions were initiated by addition of the specified amounts of OTUB1. TAMRA fluorescence (ex. 544 nm, em. 590 nm) was monitored using a POLARStar Omega plate reader (BMG LABTECH). The initial rate of Lys48 diubiquitin cleavage was calculated using the slope of the linear part of the fluorescent curves. For Figures 1b and 4c, nonlinear regression fitting in GraphPad Prism (GraphPad Software, Inc., La Jolla, CA) was used to analyze the data and fit the 50% stimulation/inhibition concentrations.
+Assays of OTUB1 cleavage of ubiquitin-AMC were performed at 30°C in buffer containing 20 mM HEPES pH 7.5, 100 mM NaCl, 5 mM DTT, 0.01% BSA, and 10 µM of ubiquitin- AMC (Boston Biochem, Cambridge, MA). Reactions were initiated by the addition of 5 µM OTUB1 and carried out in the presence and absence of 10 µM UBCH5B. AMC fluorescence (ex. 380 nm, em. 460 nm) was monitored using a POLARStar Omega plate reader (BMG LABTECH).
+Gel-based assays for UBCH5B stimulation of OTUB1 isopeptidase activity were performed at 37°C in reaction buffer containing 20 mM HEPES pH 7.5, 100 mM NaCl, 5 mM DTT. 500 nM hOTUB1 was mixed with 15 µM unlabeled Lys48 diubiquitin in the presence and absence of 25 µM UBCH5B. Reactions were initiated by the addition of the OTUB1 enzyme. Aliquots were removed at the specified time points and the reactions quenched by the addition of denaturing SDS-PAGE loading dye containing β-mercaptoethanol. Samples
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 11
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+were analyzed by gel electrophoresis on 4–12% polyacrylamide Bis-Tris Criterion XT gels (Bio-Rad, USA). Gels were stained with Coomassie brilliant blue.
+Steady-state kinetic assays of OTUB1 deubiquitinating activity
+Steady-state enzyme kinetic assays were performed at 37°C in a reaction buffer containing 20 mM HEPES pH 7.5, 100 mM NaCl, 5 mM DTT. Human OTUB1 (30 nM) was mixed with specified amounts of Lys48-linked diubiquitin in the presence and absence of 10 µM UBCH5B. Aliquots of the reaction mixtures were removed at specified time points, quenched by the addition of denaturing SDS-PAGE loading dye containing β- mercaptoethanol, and analyzed by SDS-PAGE followed by staining with SYPRO Ruby protein stain (Life Technologies, USA). The concentration of the ubiquitin product band for each time point was quantified by densitometry using ImageJ software34. Reaction velocities were then determined for each Lys48 diubiquitin concentration and fit to the Michaelis- Menten equation using the GraphPad Prism software (GraphPad Software, Inc., La Jolla, CA).
+Assays of E2 charging in cultured cells
+HeLa or U2OS cells were grown in Dulbecco’s modified Eagle’s medium supplemented with 10% fetal bovine serum and 10 mM HEPES. Cells were cultured at 37°C in a humidified incubator with 5% CO2. Lysates were prepared in low pH lysis buffer (50 mM MES pH 4.5, 150 mM NaCl, 0.2% Nonidet P40, protease inhibitors) and in the absence of reducing agent as previously described16 and immediately loaded onto an SDS-PAGE gel with and without added β-mercaptoethanol. E2 enzymes were visualized by western blotting with antibodies (1:1000 dilution) that react with all UBCH5 isoforms (UBCH5 Polyclonal Ab, Cat. No. A-615, Boston Biochem, Cambridge, MA) or against UBC13 (UBC13 Monoclonal Ab, Cat. No. 37-1100, Life Technologies, USA).
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+Acknowledgements
+We thank S. Urbé and J.W. Harper for advice and suggestions. This work was supported in part by National Institutes of Health grant GM-060980 (M.J.K.) and National Science Foundation grant MCB-0920082 (C.W.)
+References
+1. Komander D, Rape M. The ubiquitin code. Annu Rev Biochem. 2012; 81:203–229. [PubMed: 22524316]
+2. Komander D, Clague MJ, Urbe S. Breaking the chains: structure and function of the deubiquitinases. Nat Rev Mol Cell Biol. 2009; 10:550–563. [PubMed: 19626045]
+3. Amerik A, Swaminathan S, Krantz BA, Wilkinson KD, Hochstrasser M. In vivo disassembly of free polyubiquitin chains by yeast Ubp14 modulates rates of protein degradation by the proteasome. The EMBO journal. 1997; 16:4826–4838. [PubMed: 9305625]
+4. Balakirev MY, Tcherniuk SO, Jaquinod M, Chroboczek J. Otubains: a new family of cysteine proteases in the ubiquitin pathway. EMBO Rep. 2003; 4:517–522. [PubMed: 12704427]
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 12
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+5. Wang T, et al. Evidence for bidentate substrate binding as the basis for the K48 linkage specificity of otubain 1. J Mol Biol. 2009; 386:1011–1023. [PubMed: 19211026]
+6. Soares L, et al. Two isoforms of otubain 1 regulate T cell anergy via GRAIL. Nat Immunol. 2004; 5:45–54. [PubMed: 14661020]
+7. Li S, et al. Regulation of virus-triggered signaling by OTUB1- and OTUB2- mediated deubiquitination of TRAF3 and TRAF6. J Biol Chem. 2010; 285:4291–4297. [PubMed: 19996094]
+8. Sun XX, Challagundla KB, Dai MS. Positive regulation of p53 stability and activity by the deubiquitinating enzyme Otubain 1. EMBO J. 2012; 31:576–592. [PubMed: 22124327]
+9. Stanisic V, Malovannaya A, Qin J, Lonard DM, O'Malley BW. OTU Domain-containing ubiquitin aldehyde-binding protein 1 (OTUB1) deubiquitinates estrogen receptor (ER) alpha and affects ERalpha transcriptional activity. J Biol Chem. 2009; 284:16135–16145. [PubMed: 19383985] 10. Goncharov T, et al. OTUB1 modulates c-IAP1 stability to regulate signalling pathways. EMBO J. 2013; 32:1103–1114. [PubMed: 23524849]
+11. Nakada S, et al. Non-canonical inhibition of DNA damage-dependent ubiquitination by OTUB1. Nature. 2010; 466:941–946. [PubMed: 20725033]
+12. Sowa ME, Bennett EJ, Gygi SP, Harper JW. Defining the human deubiquitinating enzyme interaction landscape. Cell. 2009; 138:389–403. [PubMed: 19615732]
+13. Wiener R, Zhang X, Wang T, Wolberger C. The mechanism of OTUB1-mediated inhibition of ubiquitination. Nature. 2012; 483:618–622. [PubMed: 22367539]
+14. Juang YC, et al. OTUB1 co-opts Lys48-linked ubiquitin recognition to suppress E2 enzyme function. Mol Cell. 2012; 45:384–397. [PubMed: 22325355]
+15. Edelmann MJ, et al. Structural basis and specificity of human otubain 1-mediated deubiquitination. Biochem J. 2009; 418:379–390. [PubMed: 18954305]
+16. Jin J, Li X, Gygi SP, Harper JW. Dual E1 activation systems for ubiquitin differentially regulate E2 enzyme charging. Nature. 2007; 447:1135–1138. [PubMed: 17597759]
+17. Haas AL, Bright PM. The dynamics of ubiquitin pools within cultured human lung fibroblasts. J Biol Chem. 1987; 262:345–351. [PubMed: 3025210]
+18. Plechanovova A, et al. Mechanism of ubiquitylation by dimeric RING ligase RNF4. Nat Struct Mol Biol. 2011
+19. Pruneda JN, Stoll KE, Bolton LJ, Brzovic PS, Klevit RE. Ubiquitin in motion: structural studies of the ubiquitin-conjugating enzyme approximately ubiquitin conjugate. Biochemistry. 2011; 50:1624–1633. [PubMed: 21226485]
+20. Schwanhausser B, et al. Global quantification of mammalian gene expression control. Nature. 2011; 473:337–342. [PubMed: 21593866]
+21. Ventii KH, Wilkinson KD. Protein partners of deubiquitinating enzymes. Biochem J. 2008; 414:161–175. [PubMed: 18687060]
+22. Wing SS. Deubiquitinating enzymes--the importance of driving in reverse along the ubiquitin- proteasome pathway. Int J Biochem Cell Biol. 2003; 35:590–605. [PubMed: 12672452]
+23. Dantuma NP, Groothuis TA, Salomons FA, Neefjes J. A dynamic ubiquitin equilibrium couples proteasomal activity to chromatin remodeling. J Cell Biol. 2006; 173:19–26. [PubMed: 16606690]
+24. Kimura Y, et al. An inhibitor of a deubiquitinating enzyme regulates ubiquitin homeostasis. Cell. 2009; 137:549–559. [PubMed: 19410548]
+25. Wang T, et al. Evidence for bidentate substrate binding as the basis for the K48 linkage specificity
+of otubain 1. Journal of molecular biology. 2009; 386:1011–1023. [PubMed: 19211026] 26. Reverter D, Lima CD. A basis for SUMO protease specificity provided by analysis of human Senp2 and a Senp2-SUMO complex. Structure. 2004; 12:1519–1531. [PubMed: 15296745] 27. Sakata E, et al. Crystal structure of UbcH5b~ubiquitin intermediate: insight into the formation of the self-assembled E2~Ub conjugates. Structure. 2010; 18:138–147. [PubMed: 20152160]
+28. Otwinowski Z, Minor W. Processing of X-ray diffraction data collected in oscillation mode. Macromolecular Crystallography, Pt A. 1997; 276:307–326.
+29. McCoy AJ, et al. Phaser crystallographic software. Journal of applied crystallography. 2007; 40:658–674. [PubMed: 19461840]
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 13
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+30. Emsley P, Cowtan K. Coot: model-building tools for molecular graphics. Acta crystallographica Section D Biological crystallography. 2004; 60:2126–2132.
+31. Winn MD, et al. Overview of the CCP4 suite and current developments. Acta crystallographica Section D Biological crystallography. 2011; 67:235–242.
+32. Winn MD, Murshudov GN, Papiz MZ. Macromolecular TLS refinement in REFMAC at moderate resolutions. Methods in enzymology. 2003; 374:300–321. [PubMed: 14696379]
+33. Afonine PV, et al. Towards automated crystallographic structure refinement with phenix.refine. Acta crystallographica Section D Biological crystallography. 2012; 68:352–367.
+34. Schneider CA, Rasband WS, Eliceiri KW. NIH Image to ImageJ 25 years of image analysis. Nat Methods. 2012; 9:671–675. [PubMed: 22930834]
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 14
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+Figure 1. E2 enzymes stimulate OTUB1 DUB activity (a) FRET-based assay for cleavage of internally quenched fluorescent K48 Ub2 (400 nM) by OTUB1 (30 nM) in the absence and presence of 11 different E2 enzymes (5 µM). (b) The rates of K48 Ub2 (400 nM) cleavage by OTUB1 (30 nM) are plotted as a function of the log of the concentration of UBCH5B. The data were analyzed and fit using a “log(agonist) vs. response” model to determine EC50. Each rate was measured in triplicate, and error bars represent the SEM for each measurement. (c) Coomassie stained gel showing K48 Ub2 (15 µM) cleavage by OTUB1 (0.5 µM) in the presence and absence of UBCH5B (25 µM). (d)
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 15
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+Steady-state kinetic saturation curve for cleavage of K48 Ub2 by OTUB1 (30 nM) in the presence (red) and absence (blue) of UBCH5B (10 µM). Each rate was measured in triplicate, and error bars represent the SEM for each measurement.
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 16
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+Figure 2. OTUB1-E2 interactions are required for stimulation of DUB activity (a) FRET-based assay for cleavage of K48 Ub2 (400 nM) by OTUB1 (30 nM) and OTUB1T134R (30 nM) in the presence and absence of UBCH5B (5 µM). Results for OTUB1 +/− UBCH5B are reproduced from Fig. 1a for comparison. (b) Effect of OTUB1 N-terminal deletions on UBCH5B stimulation. The fold-stimulation in the rate of OTUB1 cleavage of K48 Ub2 (400 nM) is shown for the indicated wild type and OTUB1 N-terminal deletions (30 nM) in the presence of UBCH5B (2 µM). Rates of K48 Ub2 cleavage in the presence and absence of UBCH5B were measured in triplicate using the FRET-based deubiquitination assay. Error bars represent the SEM for each measurement. (c) Cleavage of ubiquitin-AMC (10 µM) by OTUB1 (5 µM) in the presence and absence of UBCH5B (10 µM).
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 17
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+Figure 3. UBCH5B stabilizes the OTUB1 ubiquitin-binding helix (a) The structure of hybrid human/worm OTUB1 (green) bound to ubiquitin aldehyde (Distal Ub, orange), and UBCH5BC85S ~Ub, in which the donor Ub (Proximal Ub, orange) is covalently linked to the active-site serine (Ser85) of UBCH5B (blue) via an oxyester linkage. The zoomed view highlights side chain interactions between the N-terminal helix of OTUB1, the donor ubiquitin bound in the OTUB1 proximal site, and UBCH5B. (b) Effect of mutations in the OTUB1 N-terminal helix on stimulation by UBCH5B. FRET-based assay for the cleavage of K48 Ub2 (400 nM) by OTUB1 (30 nM) in the presence and
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 18
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+absence of UBCH5B (5 µM). (c) Assay as in (b) showing the effect on OTUB1 stimulation by UBCH5B mutations that disrupt contacts with the OTUB1 N-terminus. Results for wild type OTUB1 in panels (b) and (c) are reproduced from Fig. 1a for comparison.
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 19
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+Figure 4. Effect of free ubiquitin and E2 charging on OTUB1 DUB activity (a) Model for binding of UBCH5~Ub to OTUB1 and K48 Ub2. The position of the donor ubiquitin was obtained by aligning the structure of UBCH5A~Ub (PDB ID: 4AP4) with UBCH5B in the OTUB1-Ubal-UBCH5B~Ub quaternary complex. (b) FRET-based assay for the cleavage of K48 Ub2 (400 nM) by OTUB1 (30 nM) in the presence and absence of UBCH5B or UBCH5B~Ub (1 µM) and free ubiquitin (10 µM). (c) Effect of free ubiquitin on OTUB1 activity in the presence of charged and uncharged UBCH5B. The rate of K48 Ub2 (400 nM) cleavage by OTUB1 (30 nM) as a function of the log of the concentration of UBCH5B (black circles) or UBCH5B~Ub (black squares). Each rate was measured in triplicate, and error bars represent the SEM for each measurement. The were analyzed and fit using a “log(inhibitor) vs. response” model to determine IC50. Curves fit to the data are shown for UBCH5B (red) and UBCH5B~Ub (blue).
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 20
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+Figure 5. E2 enzymes exist in both charged and uncharged states in vivo (a) Western blot of cell lysates from HeLa and U2OS cells prepared at acidic pH (± β-ME) and probed with anti-UBC13 and anti-UBCH5 antibodies exhibit both charged and uncharged forms of the E2 enzymes. (b) Depiction of three possible states of OTUB1-E2 complexes. Top: OTUB1 (green) bound to K48 Ub2 (orange) and E2 (blue) or E2 (blue)~Ub (purple) thioester. Bottom: OTUB1 bound to free Ub (yellow) and E2~Ub thioester. The free ubiquitin (yellow) and the ubiquitin (purple) conjugated to the E2 bind in place of K48 Ub2.
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 21
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Wiener et al.
+Table 1
+Data collection and refinement statistics (molecular replacement)
+Data Collected at Home Source Cu-Kα
+Data Collected at GM/CA-CAT BL 23- ID-D (Advanced Photon Source)
+Data collection
+Space group
+P22121
+P22121
+Cell dimensions
+a, b, c (Å)
+46.9, 105.7, 130.9
+46.5, 104.9, 131.6
+α, β, γ (°)
+90, 90, 90
+90, 90, 90
+Wavelength (Å)
+1.5
+1.0
+Resolution (Å)
+50.00-2.50 (2.54-2.50)a
+50.00-1.90 (1.93-1.90)b
+Rsym or Rmerge (%)
+10.7 (88.4)
+13.0 (57.0)
+I / σI
+17.8 (1.9)
+8.5 (1.7)
+Completeness (%)
+99.4 (98.5)
+99.0 (95.4)
+Redundancy
+7.1 (7.0)
+8.0 (3.1)
+Refinement
+Resolution (Å)
+1.90
+No. reflections
+411948
+Rwork / Rfree (%)
+18.7/22.4 (24.9/29.6)
+No. atoms
+Protein
+4552
+Mg2+
+1
+Ethylene Glycol
+204
+Water
+474
+B-factors
+Protein
+20.6
+Mg2+
+40.4
+Ethylene Glycol
+53.6
+Water
+38.7
+R.m.s. deviations
+Bond lengths (Å)
+0.008
+Bond angles (°)
+1.20
+a
+A single crystal was used for the collection of this data set, using an in-house x-ray source.
+b
+A single crystal was used for the collection of this data set at the Advanced Photon Source beamline, GM/CA-CAT BL 23-ID-D.
+Nat Struct Mol Biol. Author manuscript; available in PMC 2014 March 04.
+Page 22

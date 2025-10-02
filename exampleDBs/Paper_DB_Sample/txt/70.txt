@@ -1,0 +1,295 @@
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+HHS Public Access Author manuscript J Mol Med (Berl). Author manuscript; available in PMC 2018 August 01.
+Published in final edited form as:
+J Mol Med (Berl). 2017 August ; 95(8): 799–807. doi:10.1007/s00109-017-1561-1.
+RAP80, ubiquitin and SUMO in the DNA damage response
+Patrick M. Lombardi1, Michael J. Matunis2, and Cynthia Wolberger1 1Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, 725 N. Wolfe Street Baltimore, MD 21205, USA
+2Department of Biochemistry and Molecular Biology, Johns Hopkins University Bloomberg School of Public Health, Baltimore, MD 21205, USA
+Abstract
+A decade has passed since the first reported connection between RAP80 and BRCA1 in DNA double-strand break repair. Despite the initial identification of RAP80 as a factor localizing BRCA1 to DNA double-strand breaks and potentially promoting homologous recombination, there is increasing evidence that RAP80 instead suppresses homologous recombination to fine- tune the balance of competing DNA repair processes during the S/G2 phase of the cell cycle. RAP80 opposes homologous recombination by inhibiting DNA end-resection and sequestering BRCA1 into the BRCA1-A complex. Ubiquitin and SUMO modifications of chromatin at DNA double-strand breaks recruit RAP80, which contains distinct sequence motifs that recognize ubiquitin and SUMO. Here we review RAP80’s role in repressing homologous recombination at DNA double-strand breaks and how this role is facilitated by its ability to bind ubiquitin and SUMO modifications.
+Keywords
+RAP80; DNA double-strand break repair; homologous recombination; BRCA1; ubiquitin; SUMO
+Introduction
+DNA double-strand breaks (DSBs) are among the most devastating types of DNA damage, with one DSB sufficient to kill a cell [1]. Failure to properly repair DSBs can result in the loss or alteration of genetic material, leading to diseases such as cancer [2]. Non- homologous end joining (NHEJ) and homologous recombination (HR) are the two major repair pathways that have evolved to overcome the threat to genomic integrity posed by DSBs. NHEJ directly ligates broken DNA strands [3], while HR utilizes a homologous DNA sequence on a sister chromatid as a template to guide the replication and restoration of damaged DNA [4]. NHEJ is active throughout interphase, while HR, given its dependence on post-replicative DNA, is utilized during the S/G2 phase of the cell cycle. The importance of NHEJ and HR to genomic integrity is underscored by the fact that many cancer susceptibility genes encode proteins that participate in these pathways. Among the most
+Correspondence: cwolberg@jhmi.edu, phone: (410) 955-0728.
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Lombardi et al.
+widely known examples are the BRCA1 and BRCA2 genes, mutations in which collectively account for up to 20% of inherited breast cancer cases [5, 6].
+Ubiquitylation and SUMOylation are post-translational modifications that play a key role during NHEJ and HR, marking sites of DNA damage and recruiting repair factors [7]. Ubiquitin and SUMO are small proteins composed of a single β-grasp fold that belong to the greater family of ubiquitin-like proteins (UBLs). The carboxy terminus of UBLs can be covalently bonded to substrate proteins, usually the ε-amino group on lysine side chains, through a series of enzymatic reactions (reviewed in [8]). First, the active-site cysteine of an E1 activating enzyme forms a thioester linkage to the UBL carboxy terminus and passes the UBL to the active-site cysteine of an E2 conjugating enzyme in a transthioesterification reaction. An E3 ligase binds to the E2~UBL thioester and catalyzes formation of a covalent isopeptide bond linking the UBL carboxy terminus to the ε-amino group of a lysine side chain on the substrate protein or, in some cases, to the N-terminal amino group [9, 10]. Ubiquitin and SUMO contain lysine residues, which allow the formation of polyubiquitin and polySUMO chains on substrate proteins. There are eight different types of polyubiquitin chains, distinguished by the residue linking one ubiquitin to the next [11]. Polyubiquitin chains of different linkage types serve distinct functions, with K63-linked chains playing a special role in the DNA damage response [7]. PolySUMO chains are formed via the consensus SUMO modification site (ψKxD/E, where ψ represents a bulky hydrophobic residue) at K11 in the SUMO-2 and SUMO-3 isoforms [12]. The SUMO-1 isoform lacks a consensus modification site, and its incorporation into polySUMO is thought to terminate chain growth. Ubiquitylation and SUMOylation of chromatin in the vicinity of the DSB occur immediately after damage and recruit DNA repair factors for both NHEJ and HR [7, 13]. Many repair factors are ubiquitin- or SUMO-conjugating enzymes or are themselves covalently modified by ubiquitin or SUMO [7]. The same factors may also interact non- covalently with SUMO or ubiquitin. In this manner, ubiquitylation and SUMOylation contribute to the hierarchical recruitment and regulation of repair factors at DSBs in both NHEJ and HR.
+Ubiquitylation and SUMOylation at DSB sites recruit repair factors that influence the choice between NHEJ and HR during the S/G2 phase of the cell cycle. HR requires 5’-3’ nucleolytic processing of the broken DNA ends (DNA end-resection) to create 3’ single- stranded overhangs, which are ultimately bound by the recombinase, RAD51, to facilitate sister chromatid invasion and the search for homologous DNA sequences [4]. Interestingly, the protein RAP80 regulates HR by localizing to ubiquitin and SUMO modifications at DSBs and repressing both DNA end-resection and RAD51 loading onto single-stranded DNA (ssDNA) [14–17]. RAP80 is essential for maintaining the proper balance between HR and NHEJ during the S/G2 phase of the cell cycle. Increased localization of RAP80 at DSBs reduces HR efficiency [17], while depletion of RAP80 leads to excessive DNA end- resection, greater accumulation of RAD51 at DSB termini, and chromosomal abnormalities characteristic of exaggerated HR [14, 15]. Genetic instability resulting from improper RAP80 function contributes to carcinogenesis. For example, RAP80−/− mice have substantially reduced lifespans due to elevated tumor incidence [18], and a RAP80 mutation that reduces DSB localization has been detected in women with hereditary breast cancer [19]. RAP80 function is intimately linked to its ability to bind ubiquitin and SUMO at
+J Mol Med (Berl). Author manuscript; available in PMC 2018 August 01.
+Page 2
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Lombardi et al.
+DSBs. Inactivation of RAP80’s SUMO-interacting motif (SIM) or either of its two ubiquitin-interacting motifs (UIMs) impairs its localization to DSBs and increases sensitivity to ionizing radiation [20–25]. Given the importance of RAP80 in maintaining genomic integrity, much work over the past ten years has gone into understanding how RAP80 regulates DSB repair and uncovering the mechanism by which RAP80 interacts with ubiquitin and SUMO. In this review, we discuss how the ability of RAP80 to specifically bind to both ubiquitin and SUMO enables RAP80 to fine-tune HR utilization during the S/G2 phase of the cell cycle and preserve genomic integrity.
+RAP80 represses HR by blocking DNA end-resection and sequestering
+BRCA1
+The cascade of post-translational modifications of chromatin following DSB recognition recruits RAP80 and 53BP1, a protein that binds histone H2A ubiquitylated at K15 and dimethylated K20 of histone H4 [16, 26, 27]. RAP80 and 53BP1 are proposed to influence the choice between NHEJ and HR by restricting the first committed step to HR, DNA end- resection [28]. Using immunofluorescence microscopy, Kakarougkas and colleagues have observed that ubiquitin, RAP80, and 53BP1 are relocalized from the core to the periphery of DSB repair foci during HR [16, 28]. RPA, a protein that binds 3’ ssDNA generated by DNA end-resection, forms foci in the area vacated by ubiquitin, RAP80, and 53BP1 [16]. Formation of RPA foci in the vacated core suggests that ubiquitin, RAP80, and 53BP1 must be removed from the vicinity of the DSB termini before sufficient DNA end-resection for RPA loading can occur. One possible model [16] is that RAP80 inhibits DNA end-resection by binding and protecting polyubiquitin chains at DSB sites from deubiquitinating enzymes (DUBs), thereby preserving binding sites for 53BP1 (Figure 1A). For HR to proceed, RAP80 must be removed from DSB termini in a proteasome-dependent process [16] (Figure 1B). Depletion of POH1, a DUB and proteasome subunit, prevents removal of ubiquitin from the core of DSB foci, whereas depletion of both POH1 and RAP80 enables ubiquitin to be removed, consistent with the model that RAP80 preserves polyubiquitin modifications on chromatin [16]. Together, these data support a model in which RAP80 represses DNA end- resection by binding to polyubiquitin chains and preserving the binding sites for other HR- repressing proteins, such as 53BP1 [28]. Although the sub-localization of SUMO within DNA repair foci was not analyzed in this study, one can speculate that RAP80 plays a similar role in binding and preserving SUMOylation within the vicinity of DNA DSBs, and that this similarly contributes to effects on HR.
+RAP80 can also inhibit HR-mediated DSB repair by limiting the partitioning of BRCA1 into HR-promoting complexes. BRCA1 promotes HR by participating in DNA end-resection as well as in replacing RPA with RAD51 on ssDNA (reviewed in [5]). BRCA1 interacts with CtIP to enhance the rate of DNA end-resection, and is part of the BRCA1-PALB2-BRCA2 complex that drives the exchange of RAD51 with RPA. In contrast, RAP80 recruits BRCA1 into the HR-repressive BRCA1-A complex, which includes the proteins Abraxas, BRCC36, BRE, and NBA1 [5]. Although initially though to promote HR at DSBs [22–25], recent studies suggest that the BRCA1-A complex instead represses HR, in part by limiting the pool of BRCA1 available to participate in DNA end-resection and RAD51 loading [14–17]
+J Mol Med (Berl). Author manuscript; available in PMC 2018 August 01.
+Page 3
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Lombardi et al.
+(Figures 1A and 1C). Consistent with this, RAP80 depletion leads to enhanced interaction between CtIP and BRCA1 at DSBs and elevated levels of DNA end-resection [14]. Furthermore, increased BRCA1-A complex formation results in defective HR characterized by reduced interaction between PALB2 and BRCA1, two members of the BRCA1-PALB2- BRCA2 complex important for RAD51 loading [17]. Depletion of RAP80 reverses these HR defects and restores RAD51 accrual at DSB termini [17]. Overall, these data suggest that a consequence of RAP80-dependent recruitment of BRCA1 into the BRCA1-A complex may be to sequester BRCA1 and thus prevent it from participating in HR, rather than targeting BRCA1 to DSBs, as initially thought. In addition to being excluded from HR-promoting complexes, BRCA1 may also have a separate DNA repair function within the context of the BRCA1-A complex that has yet to be identified.
+RAP80 is targeted to DSBs through two independent pathways
+A well-characterized signaling cascade generates the polyubiquitin chains that recruit RAP80 to DSBs (reviewed in [7]). Recognition of DSBs by the Mre11-Rad50-Nbs1 complex activates ATM kinase, which phosphorylates the histone variant, H2AX, generating γH2AX. MDC1 binds γH2AX and is subsequently phosphorylated by ATM, generating a binding site for the E3 ubiquitin ligase, RNF8. RNF8, together with the E2 ubiquitin- conjugating enzyme, Ubc13, assembles K63-linked polyubiquitin chains on histone H1 [29]. The K63-linked polyubiquitin chains recruit the E3 ubiquitin ligase RNF168, which ubiquitylates histone H2A on K13 and K15 [30, 31]. RNF168 binds to the ubiquitylated histone H2A it produces and amplifies the DNA damage signal by ubiquitylating histones, and possibly other proteins, bound to DNA in the vicinity of the DSB. The polyubiquitin chains assembled by RNF8/RNF168 pathway recruit RAP80 [32]. Interestingly, RAP80’s access to polyubiquitin chains assembled by RNF8 and RNF168 is regulated by HR- promoting factors such as RNF169, which competes with RAP80 for binding sites on polyubiquitin [33], and the DUBs USP26 and USP37, which degrade polyubiquitin chains to reduce RAP80 accumulation [17]. SUMOylation is equally important in facilitating RAP80 recruitment to DSBs, as knockdown of the SUMO E3 ligases PIAS1 or PIAS4 reduces RAP80 colocalization with the DNA damage marker γH2AX [34]. Details of when and where the relevant SUMO modifications for RAP80 recruitment are deposited remain unclear. Notably, however, SUMOylation is required for ubiquitylation at DSBs, indicating that SUMOylation occurs upstream of RNF8 and RNF168 [13].
+Although important, SUMO and ubiquitin binding by RAP80 are not absolutely essential for recruitment to DSBs [20, 24]. Consistent with this, a second pathway for RAP80 recruitment has recently been identified that is independent of RNF8/RNF168 ubiquitylation and SUMOylation. This pathway involves interactions between RAP80 and the protein TRAIP [35]. In response to DNA damage, TRAIP translocates to DSBs in complex with RAP80, where it interacts with the heterodimeric RNF20-RNF40 E3 complex. The RNF20-RNF40 complex ubiquitylates histone H2B at sites of DNA damage [36]. Interestingly, RAP80 has been shown to bind both free and ubiquitylated histone H2B in vivo [37], suggesting that histone H2B may be an important docking site for RAP80 at DSBs. As with RAP80 UIM and SIM mutant-expressing cells, RAP80 recruitment to DSBs is only partially inhibited in
+J Mol Med (Berl). Author manuscript; available in PMC 2018 August 01.
+Page 4
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Lombardi et al.
+TRAIP-depleted cells. This suggests that optimal targeting and accumulation of RAP80 at DSBs is dependent on both TRAIP and ubiquitin and SUMO binding [35].
+RAP80 tandem UIMs impart linkage-specific avidity for polyubiquitin chains
+Structural and biophysical studies have shed light on how RAP80 interacts with polyubiquitin chains via its UIMs, which are α-helical ubiquitin-binding motifs [38]. The 719-residue RAP80 protein contains two UIMs, UIM1 (residues 80 – 95) and UIM2 (residues 105 – 120), separated by a 9-amino acid linker (Figure 2A). As shown in the X-ray crystal structure of a mouse RAP80 fragment (80–120) bound to K63-linked diubiquitin (K63Ub2) [39], each UIM forms an amphipathic helix whose mostly hydrophobic face docks on the hydrophobic patch of ubiquitin centered on ubiquitin residue I44 (Figure 2B). The interface between each UIM and ubiquitin buries a modest amount of surface area (~600 Å2), which explains why the interactions of the individual RAP80 UIMs with UIM1 = 520 µM, Kd monoubiquitin are quite weak (Kd binding to polyubiquitin chains involving both RAP80 UIMs, however, dramatically increases binding affinity. RAP80 binds K63-linked polyubiquitin with Kd = 22 µM, a greater than 20-fold increase in affinity [40]. Mutation of a single RAP80 UIM is sufficient to greatly diminish RAP80 recruitment to DSB repair foci [22, 23], underscoring the biological importance of multivalent binding of RAP80 to polyubiquitin chains.
+UIM2 = 510 µM) [40]. Multivalent
+The length of the linker sequence between the two RAP80 UIMs imparts specificity for particular polyubiquitin chain linkages. The X-ray crystal structure of mouse RAP80(80– 120) in complex with K63Ub2 shows the linker sequence adopts an α-helical conformation that fixes the orientation and distance between the two RAP80 UIMs [39] (Figure 2B). As a result, this pair of UIMs only interacts favorably with diubiquitin chains that can adopt a relatively open and extended conformation that is capable of presenting both I44 patches to the RAP80 UIMs simultaneously. For example, K63Ub2which adopts an extended conformation [41], is bound by RAP80 which a much greater affinity than the more compact K48-linked diubiquitin (K48Ub2) [40, 42]. Circular dichroism spectra of the RAP80 tandem UIMs (tUIMs) in solution with K63Ub2 exhibit enhanced helical structure relative to the tUIMs alone, supporting the model that the RAP80 linker region adopts an α-helical conformation when bound to K63Ub2 [40]. Indeed, RAP80 affinity for K63Ub2 can be enhanced 5-fold by substituting the wild-type RAP80 linker sequence with residues that have greater helix-forming propensity [40], consistent with a model in which the linker must adopt an α-helical conformation in the final complex. By fixing the spacing and relative orientation of the UIMs, the RAP80 linker region imparts polyubiquitin chain linkage specificity without contacting the residues involved in isopeptide bond formation.
+While much of work characterizing RAP80 binding specificity has been performed with K48- and K63-linked polyubiquitin chains, a new study suggests that K27-linked polyubiquitin chains assembled by RNF168 are a biologically relevant target of RAP80 [43]. A ubiquitin mutant with all lysine residues except K27 mutated to arginine, and thus only able to form K27-linked polyubiquitin, is able to sustain chromatin ubiquitylation at near wild-type levels [43]. In vitro experiments showed that RAP80 binds to synthetic K27- linked diubiquitin chains (K27Ub2) and K63Ub2but not K48Ub2 [43]. A recent NMR study
+J Mol Med (Berl). Author manuscript; available in PMC 2018 August 01.
+Page 5
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Lombardi et al.
+of K27Ub2 revealed that this type of diubiquitin adopts a variety of open conformations [44]. Some of the less populated K27Ub2 conformers adopt an extended conformation in which the I44 patches of both ubiquitin molecules could simultaneously interact with the RAP80 UIMs. Further structural studies will be necessary to determine how closely the RAP80:K27Ub2 complex resembles the RAP80:K63Ub2 complex [39].
+The importance of ubiquitin binding to RAP80 function is highlighted by the observation that RAP80 mutations that diminish ubiquitin binding may predispose individuals to cancer. The RAP80 Δ81E deletion mutation was detected in a screen of Finnish families with a history of breast cancer that lacked disease-causing mutations in BRCA1 or BRCA2 [19]. Residue E81 is part of RAP80 UIM1 and is located within a stretch of three consecutive glutamic acid residues that is conserved across all vertebrate RAP80 proteins. The Δ81E deletion decreases RAP80 UIM1 binding for monoubiquitin by ~20-fold [45], resulting in a loss of avidity that greatly impairs the ability of Δ81E RAP80 to bind polyubiquitin chains or accumulate at DSB repair foci [19]. Reduced UIM affinity results from the loss of favorable electrostatic interactions between the negatively charged E81 side chain and residues 72–74 of ubiquitin, including a hydrogen bond with the backbone amide of L73 [45] (Figure 2C). The Δ81E mutation does not affect RAP80 binding to Abraxas or BRCA1, allowing Δ81E RAP80 to potentially act as a dominant negative mutation that sequesters subunits of the BRCA1-A complex without proper localization to damage sites [19]. Cells expressing the Δ81E RAP80 mutant showed increased chromosome aberrations, especially sister chromatid breaks, that are characteristic of DSB repair deficiency [19]. The genetic instability caused by loss of one UIM in the Δ81E RAP80 mutant emphasizes the critical role multivalent ubiquitin binding plays in RAP80 function.
+Structural basis for RAP80 recruitment by SUMO
+RAP80 contains a SIM located immediately N-terminal to its UIMs (Figure 2A), which enables RAP80 to recognize SUMO at DSB sites in addition to polyubiquitin chains [20, 21]. Tagged SUMO-2 constructs can pull RAP80 from cells, and mutation of the RAP80 SIM significantly reduces RAP80 accumulation at DSB repair foci, suggesting that RAP80 binds SUMO at DSB repair sites in vivo [20, 21]. RAP80 contains a canonical SIM [46], which consists of a β-strand of four hydrophobic residues, F40I41V42I43, followed by a loop with several polar and acidic residues, S44D45S46D47 [20, 21]. The SIM β-strand forms part of an intermolecular β-sheet upon binding SUMO-2 in a groove between the α1 helix and the β2 strand [46] (Figure 3). Polar residues from the RAP80 SIM loop form electrostatic interactions with positively charged SUMO-2 residues in the vicinity [47]. The RAP80 SIM contains two consensus CK2 phosphorylation sites (S/T-X-X-D/E), and CK2 phosphorylates RAP80 at S44 and S46 in vitro [47]. Phosphorylation at S44 and S46 enhances the electrostatic interactions between RAP80 and SUMO-2 (Figure 3) and dramatically increases SUMO-2 binding affinity, lowering the Kd more than 20-fold [47]. Interestingly, CK2 is known to participate in DSB repair [48], raising the possibility that phosphorylation of the RAP80 SIM may play a role in recruitment or retention at DNA damage sites. A substitution at one of these RAP80 phosphorylation sites, S44F, is listed in the Catalogue of Somatic Mutations in Cancer (COSMIC). Studying the localization and cellular phenotype
+J Mol Med (Berl). Author manuscript; available in PMC 2018 August 01.
+Page 6
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Lombardi et al.
+of this mutant could yield important insights into the role of RAP80 SIM phosphorylation in vivo.
+Ubiquitin-SUMO crosstalk in RAP80 recruitment
+The presence of a SIM and tUIMs at the N terminus of RAP80 raises the possibility that RAP80 binds both SUMO and polyubiquitin chains simultaneously. RAP80 is capable of binding separate SUMO-2 and K63-linked polyubiquitin chains simultaneously in vitro, and mutations that inhibit either the SIM or UIMs of RAP80 significantly reduce its accumulation at DSB repair foci [20, 21], indicating that concurrent SUMO and polyubiquitin recognition may be important for RAP80 function in vivo. RAP80 could bind separate SUMO and polyubiquitin chains that are in close proximity or hybrid chains that contain SUMO and ubiquitin covalently bonded together (Figure 4).
+Hybrid chains are synthesized by SUMO-targeted ubiquitin ligases (STUbLs), a class of E3 ubiquitin ligases that is conserved from yeast to humans and is important in maintaining genomic stability [49–52]. The human STUbL, RNF4, contains four N-terminal SIMs and is recruited to DSB repair foci through recognition of SUMOylated MDC1 [53]. Guzzo and colleagues [20] showed that depletion of RNF4 results in ~4.5-fold reduction in colocalization of RAP80 with γH2AX following DNA damage, suggesting that hybrid chains may be important for RAP80 recruitment to DSBs. Simultaneous binding to both SUMO and ubiquitin within a single hybrid chain would be expected to enhance avidity as compared to RAP80 binding to SUMO or ubiquitin alone. Indeed, RAP80 binds to hybrid K63Ub2 SUMO hybrid chains (K63Ub2 linked to the amino terminus of SUMO) with 80- fold greater affinity than either K63Ub2 or SUMO alone [20]. A diverse array of hybrid chains has been detected in cells [54], and RNF4 itself catalyzes the formation of hybrid chains linking the carboxy terminus of ubiquitin to SUMO-2 lysines 11, 32, 35, 42, and 45 in vitro [55]. Nonetheless, it remains to be demonstrated unequivocally that hybrid chains mediate RAP80 targeting. RNF4 is capable of ubiquitylating substrates other than SUMO [55]. Rather than acting as substrates, the primary influence of polySUMO chains on RNF4 may be to serve as binding sites that increase the local concentration of RNF4, allowing for dimerization and stimulation of RNF4 ubiquitin ligase activity [56]. The 32 amino acid-long linker (residues 48–80) between the RAP80 SIM and UIM1 is unstructured in NMR studies [47], which could enable the RAP80 SIM to bind SUMO that is well separated from the polyubiquitin chains bound by the RAP80 tUIMs. The two models for RAP80 recruitment, either by hybrid chains or by separate ubiquitin and SUMO modifications, are not mutually exclusive, and both may be important for RAP80 function during DSB repair.
+Future directions
+There are still many unanswered questions regarding RAP80 function in DSB repair. For example, the mechanism by which RAP80 is removed from DSB termini to promote DNA end-resection is unclear. BRCA1 was reported to be required for the removal of RAP80, ubiquitin, and 53BP1 from the core of ionizing radiation-induced foci [16]. A recent report provides a possible rationale for the BRCA1 requirement. Densham and colleagues [57] have shown that the heterodimeric BRCA1/BARD1 E3 ligase ubiquitylates the C terminus
+J Mol Med (Berl). Author manuscript; available in PMC 2018 August 01.
+Page 7
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Lombardi et al.
+of histone H2A to recruit the chromatin remodeler, SMARCAD1, which promotes DNA end-resection by sliding or evicting nucleosomes from DSB termini, possibly those containing RAP80, ubiquitin, and 53BP1. This suggests that SMARCAD1’s chromatin remodeling activity may contribute to the removal of RAP80, ubiquitin, and 53BP1 from the core of DSB repair foci. Interestingly, BRCA1 E3 ligase activity was not required for relocalization of RAP80, ubiquitin, and 53BP1 in the study from Kakarougkas and colleagues [16]. Further experiments will be necessary to reconcile the importance of BRCA1 E3 ligase activity for RAP80, ubiquitin, and 53BP1 relocalization and DNA end- resection.
+The role of SUMOylation in RAP80 function also requires further clarification. Multiple studies have reported that RAP80 recruitment depends on the integrity of the RAP80 SIM [20, 21], but the connection to RNF8/RNF168- and TRAIP-mediated RAP80 localization is unclear, and the SUMOylated substrate recognized by RAP80 is unknown. It may be that SUMOylation at DSBs is a nonspecific process governed by proximity to the SUMO E3 ligases that are recruited to DNA damage sites early in the repair process, as recently proposed [58]. This would agree with the proposal that SUMO acts as molecular “glue” that enhances the protein-protein interactions that promote localization of repair proteins at DSBs [58]. Indeed, multiple components of the BRCA1-A complex contain functional SIMs [20], and the enhanced affinity due to SUMO binding may increase the persistence of this complex at DSB repair foci.
+The current model in which the BRCA1-A complex represses HR by sequestering BRCA1 may also have additional layers of complexity. The protein ZMYM3/ZNF261 was recently shown to bind to RAP80, Abraxas, and Bre1 at DSB sites [59]. ZMYM3/ZNF261 is recruited to DSBs in a RAP80-dependent manner, but also interacts directly with dsDNA, histone H2A/H2AX, and SUMO-2 polymeric chains [59, 60]. Unlike other members of the BRCA1-A complex such as RAP80, Abraxas, and BRCC36, depletion of ZMYM3/ZNF261 reduces HR repair, suggesting that ZMYM3/ZNF261 promotes HR [59]. The authors propose that ZMYM3/ZNF261 harnesses the HR-repressive function of the BRCA1-A complex, although the mechanism is not clear. Interestingly, a mutation that abolishes the interaction between ZMYM3/ZNF261 and RAP80 in vitro was identified in the COSMIC [59]. These data suggest that ZMYM3/ZNF261 and members of the BRCA1-A complex work in concert to fine-tune HR usage, and the current model of RAP80’s role in DSB repair will need to be updated as the details of this additional layer of regulation are elucidated.
+Ten years after the discovery that RAP80 participates in DSB repair, the mechanisms by which RAP80 protects against genomic instability are becoming increasingly clear. The molecular basis for pathologies arising from RAP80 malfunction can now be understood at the atomic level, as exemplified by the Δ81E RAP80 mutation in breast cancer patients. Pursuing the unanswered questions regarding RAP80 function will further our understanding of the DNA damage response and provide new avenues for targeted therapies.
+J Mol Med (Berl). Author manuscript; available in PMC 2018 August 01.
+Page 8
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Lombardi et al.
+Acknowledgments
+Supported by an American Cancer Society postdoctoral fellowship, PF-14-182-01 – DMC (P.M.L.), National Institute of General Medical Sciences grants GM060980 (M.J.M.) and GM109102 (C.W.) and the U.S.-Israel Binational Science Foundation (C.W.). The authors thank Dr. Marie Morrow for critical reading of this manuscript.
+References
+1. Jackson SP, Bartek J. The DNA-damage response in human biology and disease. Nature. 2009; 461:1071–1078. [PubMed: 19847258]
+2. Jeggo PA, Pearl LH, Carr AM. DNA repair, genome stability and cancer: a historical perspective. Nat Rev Cancer. 2016; 16:35–42. [PubMed: 26667849]
+3. Davis AJ, Chen DJ. DNA double strand break repair via non-homologous end-joining. Transl Cancer Res. 2013; 2:130–143. [PubMed: 24000320]
+4. Sung P, Klein H. Mechanism of homologous recombination: mediators and helicases take on regulatory functions. Nat Rev Mol Cell Biol. 2006; 7:739–750. [PubMed: 16926856]
+5. Savage KI, Harkin DP. BRCA1, a 'complex' protein involved in the maintenance of genomic stability. FEBS J. 2015; 282:630–646. [PubMed: 25400280]
+6. Pasche B. Recent advances in breast cancer genetics. Cancer Treat Res. 2008; 141:1–10. [PubMed: 18274079]
+7. Schwertman P, Bekker-Jensen S, Mailand N. Regulation of DNA double-strand break repair by ubiquitin and ubiquitin-like modifiers. Nat Rev Mol Cell Biol. 2016; 17:379–394. [PubMed: 27211488]
+8. Streich FC Jr, Lima CD. Structural and functional insights to ubiquitin-like protein conjugation. Annu Rev Biophys. 2014; 43:357–379. [PubMed: 24773014]
+9. Scaglione KM, Basrur V, Ashraf NS, Konen JR, Elenitoba-Johnson KS, Todi SV, Paulson HL. The ubiquitin-conjugating enzyme (E2) Ube2w ubiquitinates the N terminus of substrates. J Biol Chem. 2013; 288:18784–18788. [PubMed: 23696636]
+10. Tatham MH, Plechanovova A, Jaffray EG, Salmen H, Hay RT. Ube2W conjugates ubiquitin to alpha-amino groups of protein N-termini. Biochem J. 2013; 453:137–145. [PubMed: 23560854] 11. Akutsu M, Dikic I, Bremm A. Ubiquitin chain diversity at a glance. J Cell Sci. 2016; 129:875–880.
+[PubMed: 26906419]
+12. Matic I, van Hagen M, Schimmel J, Macek B, Ogg SC, Tatham MH, Hay RT, Lamond AI, Mann M, Vertegaal AC. In vivo identification of human small ubiquitin-like modifier polymerization sites by high accuracy mass spectrometry and an in vitro to in vivo strategy. Mol Cell Proteomics. 2008; 7:132–144. [PubMed: 17938407]
+13. Galanty Y, Belotserkovskaya R, Coates J, Polo S, Miller KM, Jackson SP. Mammalian SUMO E3- ligases PIAS1 and PIAS4 promote responses to DNA double-strand breaks. Nature. 2009; 462:935–939. [PubMed: 20016603]
+14. Coleman KA, Greenberg RA. The BRCA1-RAP80 complex regulates DNA repair mechanism utilization by restricting end resection. J Biol Chem. 2011; 286:13669–13680. [PubMed: 21335604]
+15. Hu Y, Scully R, Sobhian B, Xie A, Shestakova E, Livingston DM. RAP80-directed tuning of BRCA1 homologous recombination function at ionizing radiation-induced nuclear foci. Genes Dev. 2011; 25:685–700. [PubMed: 21406551]
+16. Kakarougkas A, Ismail A, Katsuki Y, Freire R, Shibata A, Jeggo PA. Co-operation of BRCA1 and POH1 relieves the barriers posed by 53BP1 and RAP80 to resection. Nucleic Acids Res. 2013; 41:10298–10311. [PubMed: 24013561]
+17. Typas D, Luijsterburg MS, Wiegant WW, Diakatou M, Helfricht A, Thijssen PE, van den Broek B, Mullenders LH, van Attikum H. The de-ubiquitylating enzymes USP26 and USP37 regulate homologous recombination by counteracting RAP80. Nucleic Acids Res. 2015; 43:6919–6933. [PubMed: 26101254]
+J Mol Med (Berl). Author manuscript; available in PMC 2018 August 01.
+Page 9
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Lombardi et al.
+18. Wu J, Liu C, Chen J, Yu X. RAP80 protein is important for genomic stability and is required for stabilizing BRCA1-A complex at DNA damage sites in vivo. J Biol Chem. 2012; 287:22919– 22926. [PubMed: 22539352]
+19. Nikkila J, Coleman KA, Morrissey D, Pylkas K, Erkko H, Messick TE, Karppinen SM, Amelina A, Winqvist R, Greenberg RA. Familial breast cancer screening reveals an alteration in the RAP80 UIM domain that impairs DNA damage response function. Oncogene. 2009; 28:1843–1852. [PubMed: 19305427]
+20. Guzzo CM, Berndsen CE, Zhu J, Gupta V, Datta A, Greenberg RA, Wolberger C, Matunis MJ. RNF4-dependent hybrid SUMO-ubiquitin chains are signals for RAP80 and thereby mediate the recruitment of BRCA1 to sites of DNA damage. Sci Signal. 2012; 5:ra88. [PubMed: 23211528]
+21. Hu X, Paul A, Wang B. Rap80 protein recruitment to DNA double-strand breaks requires binding to both small ubiquitin-like modifier (SUMO) and ubiquitin conjugates. J Biol Chem. 2012; 287:25510–25519. [PubMed: 22689573]
+22. Kim H, Chen J, Yu X. Ubiquitin-binding protein RAP80 mediates BRCA1-dependent DNA damage response. Science. 2007; 316:1202–1205. [PubMed: 17525342]
+23. Sobhian B, Shao G, Lilli DR, Culhane AC, Moreau LA, Xia B, Livingston DM, Greenberg RA. RAP80 targets BRCA1 to specific ubiquitin structures at DNA damage sites. Science. 2007; 316:1198–1202. [PubMed: 17525341]
+24. Wang B, Matsuoka S, Ballif BA, Zhang D, Smogorzewska A, Gygi SP, Elledge SJ. Abraxas and RAP80 form a BRCA1 protein complex required for the DNA damage response. Science. 2007; 316:1194–1198. [PubMed: 17525340]
+25. Yan J, Kim YS, Yang XP, Li LP, Liao G, Xia F, Jetten AM. The ubiquitin-interacting motif containing protein RAP80 interacts with BRCA1 and functions in DNA damage repair response. Cancer Res. 2007; 67:6647–6656. [PubMed: 17621610]
+26. Wilson MD, Benlekbir S, Fradet-Turcotte A, Sherker A, Julien JP, McEwan A, Noordermeer SM, Sicheri F, Rubinstein JL, Durocher D. The structural basis of modified nucleosome recognition by 53BP1. Nature. 2016; 536:100–103. [PubMed: 27462807]
+27. Fradet-Turcotte A, Canny MD, Escribano-Diaz C, Orthwein A, Leung CC, Huang H, Landry MC, Kitevski-LeBlanc J, Noordermeer SM, Sicheri F, et al. 53BP1 is a reader of the DNA-damage- induced H2A Lys 15 ubiquitin mark. Nature. 2013; 499:50–54. [PubMed: 23760478] 28. Kakarougkas A, Jeggo PA. DNA DSB repair pathway choice: an orchestrated handover mechanism. Br J Radiol. 2014; 87:20130685. [PubMed: 24363387]
+29. Thorslund T, Ripplinger A, Hoffmann S, Wild T, Uckelmann M, Villumsen B, Narita T, Sixma TK, Choudhary C, Bekker-Jensen S, et al. Histone H1 couples initiation and amplification of ubiquitin signalling after DNA damage. Nature. 2015; 527:389–393. [PubMed: 26503038]
+30. Mattiroli F, Vissers JH, van Dijk WJ, Ikpa P, Citterio E, Vermeulen W, Marteijn JA, Sixma TK. RNF168 ubiquitinates K13-15 on H2A/H2AX to drive DNA damage signaling. Cell. 2012; 150:1182–1195. [PubMed: 22980979]
+31. Gatti M, Pinato S, Maspero E, Soffientini P, Polo S, Penengo L. A novel ubiquitin mark at the N- terminal tail of histone H2As targeted by RNF168 ubiquitin ligase. Cell Cycle. 2012; 11:2538– 2544. [PubMed: 22713238]
+32. Wang B, Elledge SJ. Ubc13/Rnf8 ubiquitin ligases control foci formation of the Rap80/Abraxas/ Brca1/Brcc36 complex in response to DNA damage. Proc Natl Acad Sci U S A. 2007; 104:20759– 20763. [PubMed: 18077395]
+33. Poulsen M, Lukas C, Lukas J, Bekker-Jensen S, Mailand N. Human RNF169 is a negative regulator of the ubiquitin-dependent response to DNA double-strand breaks. J Cell Biol. 2012; 197:189–199. [PubMed: 22492721]
+34. Morris JR, Boutell C, Keppler M, Densham R, Weekes D, Alamshah A, Butler L, Galanty Y, Pangon L, Kiuchi T, et al. The SUMO modification pathway is involved in the BRCA1 response to genotoxic stress. Nature. 2009; 462:886–890. [PubMed: 20016594]
+35. Soo Lee N, Jin Chung H, Kim HJ, Yun Lee S, Ji JH, Seo Y, Hun Han S, Choi M, Yun M, Lee SG, et al. TRAIP/RNF206 is required for recruitment of RAP80 to sites of DNA damage. Nat Commun. 2016; 7:10463. [PubMed: 26781088]
+J Mol Med (Berl). Author manuscript; available in PMC 2018 August 01.
+Page 10
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Lombardi et al.
+36. Nakamura K, Kato A, Kobayashi J, Yanagihara H, Sakamoto S, Oliveira DV, Shimada M, Tauchi H, Suzuki H, Tashiro S, et al. Regulation of homologous recombination by RNF20-dependent H2B ubiquitination. Mol Cell. 2011; 41:515–528. [PubMed: 21362548]
+37. Wu J, Huen MS, Lu LY, Ye L, Dou Y, Ljungman M, Chen J, Yu X. Histone ubiquitination associates with BRCA1-dependent DNA damage response. Mol Cell Biol. 2009; 29:849–860. [PubMed: 19015238]
+38. Hurley JH, Lee S, Prag G. Ubiquitin-binding domains. Biochem J. 2006; 399:361–372. [PubMed: 17034365]
+39. Sato Y, Yoshikawa A, Mimura H, Yamashita M, Yamagata A, Fukai S. Structural basis for specific recognition of Lys 63-linked polyubiquitin chains by tandem UIMs of RAP80. EMBO J. 2009; 28:2461–2468. [PubMed: 19536136]
+40. Sims JJ, Cohen RE. Linkage-specific avidity defines the lysine 63-linked polyubiquitin-binding preference of rap80. Mol Cell. 2009; 33:775–783. [PubMed: 19328070]
+41. Datta AB, Hura GL, Wolberger C. The structure and conformation of Lys63-linked tetraubiquitin. J Mol Biol. 2009; 392:1117–1124. [PubMed: 19664638]
+42. Eddins MJ, Varadan R, Fushman D, Pickart CM, Wolberger C. Crystal structure and solution NMR studies of Lys48-linked tetraubiquitin at neutral pH. J Mol Biol. 2007; 367:204–211. [PubMed: 17240395]
+43. Gatti M, Pinato S, Maiolica A, Rocchio F, Prato MG, Aebersold R, Penengo L. RNF168 promotes noncanonical K27 ubiquitination to signal DNA damage. Cell Rep. 2015; 10:226–238. [PubMed: 25578731]
+44. Castaneda CA, Dixon EK, Walker O, Chaturvedi A, Nakasone MA, Curtis JE, Reed MR, Krueger S, Cropp TA, Fushman D. Linkage via K27 Bestows Ubiquitin Chains with Unique Properties among Polyubiquitins. Structure. 2016; 24:423–436. [PubMed: 26876099]
+45. Anamika, Markin CJ., Rout, MK., Spyracopoulos, L. Molecular basis for impaired DNA damage response function associated with the RAP80 DeltaE81 defect. J Biol Chem. 2014; 289:12852– 12862. [PubMed: 24627472]
+46. Kerscher O. SUMO junction-what's your function? New insights through SUMO-interacting motifs. EMBO Rep. 2007; 8:550–555. [PubMed: 17545995]
+47. Anamika, Spyracopoulos L. Molecular Basis for Phosphorylation-dependent SUMO Recognition by the DNA Repair Protein RAP80. J Biol Chem. 2016; 291:4417–4428. [PubMed: 26719330] 48. Yata K, Lloyd J, Maslen S, Bleuyard JY, Skehel M, Smerdon SJ, Esashi F. Plk1 and CK2 act in concert to regulate Rad51 during DNA double strand break repair. Mol Cell. 2012; 45:371–383. [PubMed: 22325354]
+49. Prudden J, Pebernard S, Raffa G, Slavin DA, Perry JJ, Tainer JA, McGowan CH, Boddy MN. SUMO-targeted ubiquitin ligases in genome stability. EMBO J. 2007; 26:4089–4101. [PubMed: 17762865]
+50. Sun H, Leverson JD, Hunter T. Conserved function of RNF4 family proteins in eukaryotes: targeting a ubiquitin ligase to SUMOylated proteins. EMBO J. 2007; 26:4102–4112. [PubMed: 17762864]
+51. Uzunova K, Gottsche K, Miteva M, Weisshaar SR, Glanemann C, Schnellhardt M, Niessen M, Scheel H, Hofmann K, Johnson ES, et al. Ubiquitin-dependent proteolytic control of SUMO conjugates. J Biol Chem. 2007; 282:34167–34175. [PubMed: 17728242]
+52. Xie Y, Kerscher O, Kroetz MB, McConchie HF, Sung P, Hochstrasser M. The yeast Hex3.Slx8 heterodimer is a ubiquitin ligase stimulated by substrate sumoylation. J Biol Chem. 2007; 282:34176–34184. [PubMed: 17848550]
+53. Yin Y, Seifert A, Chua JS, Maure JF, Golebiowski F, Hay RT. SUMO-targeted ubiquitin E3 ligase RNF4 is required for the response of human cells to DNA damage. Genes Dev. 2012; 26:1196– 1208. [PubMed: 22661230]
+54. Lamoliatte F, McManus FP, Maarifi G, Chelbi-Alix MK, Thibault P. Uncovering the SUMOylation and ubiquitylation crosstalk in human cells using sequential peptide immunopurification. Nat Commun. 2017; 8:14109. [PubMed: 28098164]
+J Mol Med (Berl). Author manuscript; available in PMC 2018 August 01.
+Page 11
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Lombardi et al.
+55. Tatham MH, Geoffroy MC, Shen L, Plechanovova A, Hattersley N, Jaffray EG, Palvimo JJ, Hay RT. RNF4 is a poly-SUMO-specific E3 ubiquitin ligase required for arsenic-induced PML degradation. Nat Cell Biol. 2008; 10:538–546. [PubMed: 18408734]
+56. Rojas-Fernandez A, Plechanovova A, Hattersley N, Jaffray E, Tatham MH, Hay RT. SUMO chain- induced dimerization activates RNF4. Mol Cell. 2014; 53:880–892. [PubMed: 24656128]
+57. Densham RM, Garvin AJ, Stone HR, Strachan J, Baldock RA, Daza-Martin M, Fletcher A, Blair- Reid S, Beesley J, Johal B, et al. Human BRCA1-BARD1 ubiquitin ligase activity counteracts chromatin barriers to DNA resection. Nat Struct Mol Biol. 2016; 23:647–655. [PubMed: 27239795]
+58. Psakhye I, Jentsch S. Protein group modification and synergy in the SUMO pathway as exemplified in DNA repair. Cell. 2012; 151:807–820. [PubMed: 23122649]
+59. Leung JW, Makharashvili N, Agarwal P, Chiu LY, Pourpre R, Cammarata MB, Cannon JR, Sherker A, Durocher D, Brodbelt JS, et al. ZMYM3 regulates BRCA1 localization at damaged chromatin to promote DNA repair. Genes Dev. 2017; 31:260–274. [PubMed: 28242625]
+60. Guzzo CM, Ringel A, Cox E, Uzoma I, Zhu H, Blackshaw S, Wolberger C, Matunis MJ. Characterization of the SUMO-binding activity of the myeloproliferative and mental retardation (MYM)- type zinc fingers in ZNF261 and ZNF198. PLoS One. 2014; 9:e105271. [PubMed: 25133527]
+J Mol Med (Berl). Author manuscript; available in PMC 2018 August 01.
+Page 12
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Lombardi et al.
+Fig. 1. RAP80 regulates HR. A RAP80 binds to and protects polyubiquitin chains (green spheres) from DUBs, preserving the binding sites of HR-repressive proteins such as 53BP1. RAP80 sequesters BRCA1 into the BRCA1-A complex through an indirect interaction mediated by Abraxas (other BRCA1-A components omitted for clarity). The BRCA1-A complex depletes the local pool of BRCA1 available to enhance the rate of DNA end-resection through interaction with CtIP. B Removal of RAP80 allows DUBs to clear polyubiquitin chains from the vicinity of DSB termini. DNA end-resection generates 3' ssDNA overhangs that are bound by RPA. C RAP80 recruitment of BRCA1 into the BRCA1-A complex
+J Mol Med (Berl). Author manuscript; available in PMC 2018 August 01.
+Page 13
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Lombardi et al.
+regulates the replacement of RPA by RAD51 on ssDNA that is mediated by the BRCA1- PALB2-BRCA2 complex.
+J Mol Med (Berl). Author manuscript; available in PMC 2018 August 01.
+Page 14
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Lombardi et al.
+Fig. 2. RAP80 UIMs bind polyubiquitin chains with avidity and linkage specificity. A Schematic of human RAP80 showing the SUMO-interacting motif (SIM), two ubiquitin-interacting motifs (UIMs), Abraxas-interacting region (AIR), and two zinc finger motifs (ZnF). B X-ray crystal structure of mouse RAP80(80–120) bound to K63-linked diubiquitin (PDB ID: 3A1Q) shows the two RAP80 UIMs are positioned at a fixed relative distance and orientation by the α-helical linker region. RAP80 binds polyubiquitin chains capable of presenting I44 patches from two ubiquitin molecules to the RAP80 UIMs simultaneously, such as K63-linked diubiquitin. C The Δ81E RAP80 mutation has dramatically reduced affinity for K63-linked polyubiquitin due to the loss of a hydrogen bond between UIM1 residue E81 and L73 of ubiquitin.
+J Mol Med (Berl). Author manuscript; available in PMC 2018 August 01.
+Page 15
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Lombardi et al.
+Fig. 3. Phosphorylation of RAP80 SIM enhances affinity for SUMO-2. NMR-guided model shows RAP80 SIM (salmon) binding SUMO-2 (cyan) between the α1 helix and β2 strand to form an intermolecular β-sheet. Phosphorylated RAP80 serine residues form electrostatic interactions with positively charged SUMO-2 residues which drastically enhance binding affinity.
+J Mol Med (Berl). Author manuscript; available in PMC 2018 August 01.
+Page 16
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Lombardi et al.
+Fig. 4. RAP80 binding models. RAP80 binds to ubiquitin-SUMO hybrid chains (left) and/or separate SUMO and ubiquitin chains in close enough proximity to be recognized by the RAP80 SIM and tandem UIMs simultaneously (right). For the latter model, the ubiquitin and SUMO modifications do not need to be on the same protein substrate. Possible substrates include MDC1 and histone H2A. Ub = ubiquitin, S = SUMO, gray shape = Unknown SUMO- and ubiquitin-modified substrate
+J Mol Med (Berl). Author manuscript; available in PMC 2018 August 01.
+Page 17

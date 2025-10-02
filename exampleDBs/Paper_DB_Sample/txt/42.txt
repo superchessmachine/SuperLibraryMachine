@@ -1,0 +1,104 @@
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+HHS Public Access Author manuscript Nat Struct Mol Biol. Author manuscript; available in PMC 2025 February 16.
+Published in final edited form as:
+Nat Struct Mol Biol. 2024 February ; 31(2): 216–218. doi:10.1038/s41594-024-01221-w.
+Breaking the K48-Chain: Linking Ubiquitin Beyond Protein Degradation
+Sanim Rahman1, Cynthia Wolberger1,* 1Department of Biophysics and Biophysical Chemistry, The Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA.
+Abstract
+The discovery of ubiquitin conjugation to lysines and the role of K48-linked polyubiquitin in targeting substrates for proteasomal degradation was followed by revelation of non-degradative roles of ubiquitination and, more recently, of non-canonical covalent ubiquitin linkages. Here we summarize findings of the ever-expanding array of ubiquitin signals and their biological roles.
+Post-translational modifications of proteins play important roles in regulating protein structure and function. Our understanding of the biological function of ubiquitin has evolved significantly since its initial discovery by Goldstein in 19751, who isolated ubiquitin while attempting to isolate thymopoietin. Reflecting its conservation across various cell types and organisms, ubiquitin was initially referred to as ubiquitous immunopoietic polypeptide (UBIP). The discovery that ubiquitin can serve as a post-translational modification came a few years later, when Goldknopf and Busch discovered that the chromatin-associated protein, A24, contained two N-termini but just a single C-terminus2. They showed that A24 comprised histone H2A ubiquitinated at K119, a modified histone that was subsequently shown by Levinger and Varshavsky3 to be associated with heterochromatin. At the same time as the discovery and characterization of ubiquitinated histone H2A, Hershko and Ciechanover embarked on their seminal work studying ATP-dependent protein degradation. Their first major discovery was the discovery of ATP-dependent proteolytic factor 1 (APF-1), a protein conjugated to other proteins marked for proteasomal degradation in rabbit reticulocytes4,5. APF-1 was quickly identified as ubiquitin by Wilkinson et. al6, linking two seemingly divergent functions of ubiquitin: chromatin compaction and protein degradation.
+A few years following the discovery of ubiquitination, Hershko and Ciechanover followed up their work by successfully isolating the components of the ubiquitin-ligase system from reticulocytes in 19827. This allowed them to lay out the stepwise mechanism of ubiquitination by the E1, E2, and E3 enzymes and provided a clear biochemical framework for how the three enzymes coordinate with one another to conjugate ubiquitin to proteins. However, the first major glimpse into the now complex “ubiquitin code” came several years
+Send correspondence to: cwolberg@jhmi.edu. Competing interests The authors declare no competing interests.
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Rahman and Wolberger
+later when Chau et al.8 revealed K48-linked polyubiquitin chains as the chain topology used to signal protein degradation8.
+Expansion of the ubiquitin code: K63 and beyond
+The next major landmark study ultimately changed forever the narrow view of the field regarding the role of ubiquitin as a marker for protein degradation. In 1999, Hofmann and Pickart9 explored how a K63R ubiquitin mutation in Saccharomyces cerevisiae conferred defects in DNA repair9, independent of ubiquitin’s function in proteasome degradation. Hypothesizing that K63 was a site of ubiquitin conjugation, Hofmann and Pickart surveyed the ubiquitination activity of various E2s in vitro. This led to their discovery of an E2 heterodimer complex consisting of the E2, Ubc13, and the catalytically inactive ubiquitin E2 variant (UEV), Mms2, as the complex that synthesizes K63-linked polyubiquitin chains10. This work paved the way for subsequent discoveries of the roles of other ubiquitin chain linkages, such as K6, K11, and K33. The molecular mechanism by which the ubiquitin enzyme machinery could generate chains of specific linkage types, though, was unknown.
+Pickart’s discovery sparked our group’s venture into resolving the structural basis of K63 polyubiquitin chain assembly. Joining forces with Cecile Pickart’s group was serendipitous: a student in my lab, Andrew (Andy) VanDemark, was Cecile Pickart’s neighbor and learned about her discovery of Mms2/Ubc13 through casual conversation. In collaboration with Cecile’s group, Andy determined the crystal structure of Ubc13/Mms2, revealing the asymmetric heterodimer interface11. From that structure, we speculated that Mms2 served as a scaffold to position of K63 of the acceptor ubiquitin towards Ubc13’s active site cysteine. We were ultimately able to elucidate the role of Mms2 in K63 poly-ubiquitin chain formation and the biochemical principles guiding linkage specificity with our crystal structure of a Ubc13~ubiquitin conjugate bound to Mms2, which was published in Nature Structural and Molecular Biology12. We captured the covalent E2~Ub intermediate by substituting serine for the active site cysteine of Ubc13, which allowed us to generate the more stable ester intermediate state. To our surprise, the crystal packing of Mms2/ Ubc13~Ub revealed a clear mechanism of chain assembly; the ubiquitin of one Mms2/ Ubc13~Ub complex was bound to the acceptor binding site of Mms2 in a neighboring Ubc13-Mms2-Ub complex. Our crystal structure and mutagenesis data revealed that a hydrophobic residue in Mms2 engages with the I44 hydrophobic patch of the bound acceptor ubiquitin to specifically orient K63 towards the active site cysteine of Ubc13, ultimately providing the first structural insight into ubiquitin chain linkage specificity.
+Histone ubiquitination in transcription and the DNA damage response
+The finding that K63-linked polyubiquitin did not target substrates for degradation was part of a growing body of work pointing to other non-degradative roles for ubiquitin. Studies by Levinger and Varshavsky3 revealed that H2A-K119ub is associated with heterochromatin in Drosophila, but it had remained unclear whether the presence of H2A-K119ub played a functional role in gene silencing. The eventual identification of the E3 that ubiquitinates histone H2A revealed that the ubiquitination of H2A-K119 is necessary for gene silencing13, thereby establishing the foundation for delineating the Polycomb repression pathway14.
+Nat Struct Mol Biol. Author manuscript; available in PMC 2025 February 16.
+Page 2
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Rahman and Wolberger
+Adding a new layer of complexity to the ‘histone code’, Cooper et al. showed that ubiquitination of H2AK119 stimulates the PRC2 complex to methylate histone H3-K27 in an example of ‘histone crosstalk’, propagating H3K27 methylation across gene bodies and further reinforcing gene silencing15.
+Other histone ubiquitination marks came to light revealing different non-degradative functions dependent on which histone and residue is modified. Such examples include histone H2B lysine 120 ubiquitination, which plays a role in transcription activation by promoting the methylation of H3K416 and H3K7917 by the MLL-1 complex and DOT1L, respectively. Another example is the ubiquitination of histone H2A-K15, which serves as a marker for DNA damage repair proteins such as 53BP118. Our group and others have shed light on the structural basis by which histone ubiquitination stimulates downstream modifications, revealing diverse mechanisms of cross-talk between ubiquitin and different chromatin-modifying complexes19–21. This work revealed a dual role for ubiquitin recognition in both recruiting factors and stimulating the catalytic activity of enzymes that recognize ubiquitin.
+Beyond lysine ubiquitination
+Cracks in the foundational understanding of ubiquitin as a covalent modifications of lysine side chains first appeared with the discovery of an E3 ligase complex, LUBAC, that synthesizes linear ubiquitin chains. Kazuhiro Iwai was studying the HOIL-1/HOIP E3 ligase complex, trying to determine what kind of polyubiquitin chains it synthesized. Systematic substitution of each of the seven ubiquitin lysines did not disrupt chain formation, leading to the unexpected finding that this E3 ligase complex covalently joined the C-terminus of one ubiquitin to the N-terminal α-amino group of another22. (A third LUBAC subunit, SHARPIN, was discovered subsequently.) Linear ubiquitin chains play a key role in the innate immune response by serving as a recruitment platform for downstream effectors23.
+Whereas formation of a peptide instead of an isopeptide linkage seemed like a natural elaboration of the known ubiquitin conjugation chemistry, recent discoveries of quite unexpected chemical linkages has turned the classic paradigm on its head. The formation of oxyester linkages between the ubiquitin C-terminus and the hydroxyl groups of serine and threonine was first found by accident through a transthiolation activity profiling assay of HECT/RBR E3 ligases carried out by the Virdee group24. They found that the neuron- associated E3 ligase, MYCBP2, contains two catalytic cysteines that conjugate ubiquitin to serine and threonine by a novel RING-Cys-relay mechanism. Remarkably, HOIL-1 can also catalyze ubiquitination of serine and threonine25. Even farther from the ubiquitin paradigm is the ubiquitin conjugation by the pathogen, Legionella pneumophila, which conjugates Arg42 of ubiquitin to a substrate serine via a phosphoribosyl linkage26! This noncanonical ubiquitination of host proteins disrupts cellular functions by altering their activity and localization.
+Nat Struct Mol Biol. Author manuscript; available in PMC 2025 February 16.
+Page 3
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Rahman and Wolberger
+Concluding remarks and outlook
+Our understanding of the role ubiquitin plays in cell biology has evolved tremendously since the initial discovery that ubiquitination can target proteins for proteasomal degradation. We know far more now of the remarkable range of signaling roles played by ubiquitin in the DNA damage response, transcription regulation, innate immunity, and numerous other pathways, as well as how the host ubiquitin system is hijacked by pathogens. Each variation on the original ubiquitin theme that is discovered - be it atypical linkages, branched chains, or ubiquitination of non-protein substrates such as the lipopolysaccharides of an invading Salmonella bacterium27 – opens yet another area of investigation into how these modifications are assembled, recognized, removed, and mediate downstream processes. Ubiquitin’s simple structure has enabled it to serve as an essential building block of a remarkably complex array of biochemical signals and opened avenues to therapeutic design through the development of PROTACs and small-molecule inhibitors. Exciting basic and clinical research lies ahead.
+Acknowledgements
+This work was supported by an NIH grant GM130393 (C.W.) and fellowship CA271743 (S.R.).
+References
+1. Goldstein G et al. Isolation of a polypeptide that has lymphocyte-differentiating properties and is probably represented universally in living cells. Proceedings of the National Academy of Sciences of the United States of America 72, 11 (1975). [PubMed: 1078892]
+2. Goldknopf IL & Busch H Isopeptide linkage between nonhistone and histone 2A polypeptides of chromosomal conjugate-protein A24. Proceedings of the National Academy of Sciences 74, 864– 868 (1977).
+3. Levinger L & Varshavsky A Selective arrangement of ubiquitinated and D1 protein-containing nucleosomes within the drosophila genome. Cell 28, 375–385 (1982). [PubMed: 6277512]
+4. Ciechanover A, Heller H, Elias S, Haas AL & Hershko A ATP-dependent conjugation of reticulocyte proteins with the polypeptide required for protein degradation. Proceedings of the National Academy of Sciences of the United States of America 77, 1365–1368 (1980). [PubMed: 6769112]
+5. Hershko A, Ciechanover A, Heller H, Haas AL & Rose IA Proposed role of ATP in protein breakdown: conjugation of protein with multiple chains of the polypeptide of ATP-dependent proteolysis. Proceedings of the National Academy of Sciences 77, 1783–1786 (1980).
+6. Wilkinson KD, Urban MK & Haas AL Ubiquitin is the ATP-dependent proteolysis factor I of rabbit reticulocytes. The Journal of Biological Chemistry 255, 7529–7532 (1980). [PubMed: 6249803] 7. Hershko A, Heller H, Elias S & Ciechanover A Components of ubiquitin-protein ligase system. Resolution, affinity purification, and role in protein breakdown. Journal of Biological Chemistry 258, 8206–8214 (1983). [PubMed: 6305978]
+8. Chau V et al. A multiubiquitin chain is confined to specific lysine in a targeted short-lived protein. Science (New York, N.Y.) 243, 1576–1583 (1989). [PubMed: 2538923]
+9. Spence J, Sadis S, Haas AL & Finley D A Ubiquitin Mutant with Specific Defects in DNA Repair and Multiubiquitination. Molecular and Cellular Biology 15, 1265–1273 (1995). [PubMed: 7862120]
+10. Hofmann RM & Pickart CM Noncanonical MMS2-Encoded Ubiquitin-Conjugating Enzyme Functions in Assembly of Novel Polyubiquitin Chains for DNA Repair. Cell 96, 645–653 (1999). [PubMed: 10089880]
+Nat Struct Mol Biol. Author manuscript; available in PMC 2025 February 16.
+Page 4
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Rahman and Wolberger
+11. VanDemark AP, Hofmann RM, Tsui C, Pickart CM & Wolberger C Molecular Insights into Polyubiquitin Chain Assembly: Crystal Structure of the Mms2/Ubc13 Heterodimer. Cell 105, 711– 720 (2001). [PubMed: 11440714]
+12. Eddins MJ, Carlile CM, Gomez KM, Pickart CM & Wolberger C Mms2–Ubc13 covalently bound to ubiquitin reveals the structural basis of linkage-specific polyubiquitin chain formation. Nature Structural & Molecular Biology 13, 915–920 (2006).
+13. de Napoles M et al. Polycomb Group Proteins Ring1A/B Link Ubiquitylation of Histone H2A to Heritable Gene Silencing and X Inactivation. Developmental Cell 7, 663–676 (2004). [PubMed: 15525528]
+14. Wang H et al. Role of histone H2A ubiquitination in Polycomb silencing. Nature 431, 873–878 (2004). [PubMed: 15386022]
+15. Cooper S et al. Jarid2 binds mono-ubiquitylated H2A lysine 119 to mediate crosstalk between Polycomb complexes PRC1 and PRC2. Nature Communications 7, 13661 (2016).
+16. Sun Z-W & Allis CD Ubiquitination of histone H2B regulates H3 methylation and gene silencing in yeast. Nature 418, 104–108 (2002). [PubMed: 12077605]
+17. Briggs SD et al. Trans-histone regulatory pathway in chromatin. Nature 418, 498–498 (2002). [PubMed: 12152067]
+18. Fradet-Turcotte A et al. 53BP1 is a reader of the DNA-damage-induced H2A Lys 15 ubiquitin mark. Nature 499, 50–54 (2013). [PubMed: 23760478]
+19. Worden EJ, Hoffmann NA, Hicks CW & Wolberger C Mechanism of Cross-talk between H2B Ubiquitination and H3 Methylation by Dot1L. Cell 176, 1490–1501.e12 (2019). [PubMed: 30765112]
+20. Kasinath V et al. JARID2 and AEBP2 regulate PRC2 in the presence of H2AK119ub1 and other histone modifications. Science 371, eabc3393 (2021).
+21. Rahman S et al. Multistate structures of the MLL1-WRAD complex bound to H2B-ubiquitinated nucleosome. Proceedings of the National Academy of Sciences 119, e2205691119 (2022). 22. Kirisako T et al. A ubiquitin ligase complex assembles linear polyubiquitin chains. The EMBO
+Journal 25, 4877–4887-4887 (2006). [PubMed: 17006537]
+23. Fiil BK & Gyrd-Hansen M The Met1-linked ubiquitin machinery in inflammation and infection. Cell Death Differ 28, 557–569 (2021). [PubMed: 33473179]
+24. Pao K-C et al. Activity-based E3 ligase profiling uncovers an E3 ligase with esterification activity. Nature 556, 381–385 (2018). [PubMed: 29643511]
+25. Kelsall IR, Zhang J, Knebel A, Arthur JSC & Cohen P The E3 ligase HOIL-1 catalyses ester bond formation between ubiquitin and components of the Myddosome in mammalian cells. Proc Natl Acad Sci U S A 116, 13293–13298 (2019). [PubMed: 31209050]
+26. Qiu J et al. Ubiquitination independent of E1 and E2 enzymes by bacterial effectors. Nature 533, 120–4 (2016). [PubMed: 27049943]
+27. Otten EG et al. Ubiquitylation of lipopolysaccharide by RNF213 during bacterial infection. Nature 594, 111–116 (2021). [PubMed: 34012115]
+Nat Struct Mol Biol. Author manuscript; available in PMC 2025 February 16.
+Page 5

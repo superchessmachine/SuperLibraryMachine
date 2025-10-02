@@ -1,0 +1,463 @@
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+NIH Public Access Author Manuscript J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Published in final edited form as:
+J Mol Biol. 2009 September 18; 392(2): 452–464. doi:10.1016/j.jmb.2009.07.028.
+Highly Cooperative Recruitment of Ets-1 and Release of
+Autoinhibition by Pax5
+Daniel Fitzsimmonsa, Kara Lukina, Ryan Lutza, Colin W. Garvieb,‡, Cynthia Wolbergerc, and James Hagmana,* a Integrated Department of Immunology, National Jewish Health, Denver, CO 80206 USA
+b Department of Chemistry and Biochemistry, University of Maryland Baltimore County, Baltimore, MD 21250
+c Department of Biophysics and Biochemistry and the Howard Hughes Medical Institute, Johns Hopkins University School of Medicine, Baltimore, MD 21205–2185
+Summary
+Pax5 is a critical regulator of transcription and lineage commitment in B lymphocytes. In B cells, mb-1 (Ig-α) promoter transcription is activated by Pax5 through its recruitment of Ets family proteins to a composite site, the P5-EBS (Pax5-Ets binding site). Previously, X-ray crystallographic analysis revealed a network of contacts between the DNA binding domains of Pax5 and Ets-1 while bound to the P5-EBS. Here, we report that Pax5 assembles these ternary complexes via highly cooperative interactions that overcome the autoinhibition of Ets-1. Using recombinant proteins, we calculated KD(app) values for the binding of Pax5, Ets-1 and GABP proteins, separately or together, to the P5- EBS. By itself, Pax5 binds the P5-EBS with high affinity (KD ≅ 2 nM). Ets-1(331–440) bound the P5-EBS by itself with low affinity (KD = 136 nM). However, autoinhibited Ets-1(280–440) alone does not bind detectably to the suboptimal sequences of the P5-EBS. Recruitment of Ets-1(331–440) or (280–440) resulted in highly efficient ternary complex assembly with Pax5. Pax5 counteracts autoinhibition and increases binding of Ets-1 of the mb-1 promoter by >1000-fold. Mutation of Pax5 Gln22 to alanine (Q22A) enhances promoter binding by Pax5; however, Q22A greatly reduces recruitment of Ets-1(331–440) and (280–440) by Pax5 (8.9– or >300–fold, respectively). Thus, Gln22 of Pax5 is essential for overcoming Ets-1 autoinhibition. Pax5 wild type and Q22A each recruited GABPα/β1 to the mb-1 promoter with similar affinities, but recruitment was less efficient than that of Ets-1 (reduced by ~8–fold). Our results suggest a mechanism that allows Pax5 to overcome autoinhibition of Ets-1 DNA binding. In summary, these data illustrate requirements for partnerships between Ets proteins and Pax5.
+Keywords
+Pax; Ets; GABP; DNA binding; autoinhibition
+Address correspondence to: James Hagman, PhD, 1400 Jackson St., K516B, Denver, CO 80206 USA. Fax: (303)398–1396; E-mail: hagmanj@njc.org. ‡Current address: Hoffman-La Roche, 340 Kingsland Rd, Nutley NJ 07110 USA. Publisher's Disclaimer: This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final citable form. Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+Introduction
+A significant problem is posed by the simultaneous expression of transcription factors with similar DNA-binding specificities. This is particularly true when members of the same protein family possess highly related DNA-binding domains. Inappropriate DNA binding in the wrong cells at the wrong time could result in chaotic patterns of gene expression. How, then, are different, but highly similar, proteins recruited to their appropriate target genes in vivo? This problem is solved in part by the action of specific partner proteins that stabilize DNA binding and influence DNA recognition. DNA binding can also be modulated by autoinhibitory mechanisms that must be overcome for DNA binding to occur.
+The Ets family of proteins (at least 27 in humans, 26 in mice) have in common a conserved ETS DNA-binding domain (DBD)(reviewed in ref.1), which belongs to the ‘winged helix- turn-helix motif’ superfamily2. Binding of ETS domains to specific binding sites including the core sequence 5′-GGA(A/T)-3′ has been characterized extensively. The ETS domain recognizes the core sequence and flanking nucleotides, while DNA binding is augmented by interactions with partner proteins bound to adjacent sites (e.g. Ets-1 and Runx1). This results in synergistic transcriptional activation. Alternatively, a partner protein can influence Ets DNA binding without directly contacting the DNA. For example, the Ets family member GA-binding protein α (GABPα) interacts stably with DNA and binds it more efficiently in complexes with its non-DNA binding partner GABPβ13–5.
+DNA binding of Ets family proteins is modulated by autoinhibition (reviewed in ref. 6). For example, the archetypal Ets protein Ets-1 (Fig. 1) is constrained by N-terminal and C-terminal domains that inhibit its DNA binding7–9. A set of α-helices within these domains assembles distinct conformers that regulate DNA binding by the ETS domain. In its unbound form, the α-helices of Ets-1 pack together in a four-helix bundle10–12. DNA binding is coupled with the unfolding of an α-helix (HI-1) within the N-terminal autoinhibitory domain. By interacting with other DNA-binding proteins including Runx1 (also known as AML1/PEBP2α/ CBFα213; USF114, AP-115, NF-κB16 and Pax517–19, Ets-1 is released from its autoinhibited state. Analysis of these partnerships suggests that two distinct mechanisms overcome Ets-1’s autoinhibition via direct interactions with the ETS domain (Pax5) or with its N-terminal autoinhibitory domain (Runx1).
+The Pax family of DNA binding proteins includes essential regulators of development in higher eukaryotes. Their importance was revealed by Pax gene mutations that give rise to developmental abnormalities such as Waardenberg syndrome and cancer (reviewed in refs. 20,21). Pax proteins also control cell identity and lineage commitment. The hallmark of the Pax family is the highly conserved paired domain22, a 128 residue DBD consisting of N- terminal and C-terminal helix-turn-helix domains (NTD and CTD) connected by a short linker. Other sequences in Pax proteins mediate transcriptional activation or repression in different contexts. Similar to Ets proteins, the overlapping and degenerate DNA recognition by Pax proteins suggests the need for partnerships to target genes appropriately in vivo.
+Pax5 (also known as B cell-specific activator protein/Pax5a) is a key factor in the development of B cells and the embryonic midbrain23. In the absence of Pax5, B cells do not develop past an early pro-B cell stage and do not assemble complete immunoglobulins (Ig). Pax5 activates as many as 170 genes of the B cell-specific transcriptome, including genes necessary for B cell signaling, adhesion, migration, and immune receptor function24;25 and is crucial for B cell lineage commitment and identity26;27. In the absence of Pax5, progenitor cells promiscuously express genes of other hematopoietic lineages and differentiate into other cell types.
+The mb-1 gene, which encodes the Ig-associated protein Ig-α, has served as a model system to study functions of Pax5 in early B cells (reviewed in ref. 28). Previously, we demonstrated that
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 2
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+mb-1 promoter transcription requires Pax5. Pax5 recruits Ets proteins to bind an adjacent suboptimal (5′-CCGGAG-3′) Ets binding site within the P5-EBS18;19;29;30. X-ray crystallographic studies revealed intimate interactions between Pax5 and one of its Ets partners, Ets-1, on the P5-EBS17. Pax5 recruits Ets-1 via a network of specific contacts. Important residues in Pax5 for these interactions include a highly conserved glutamine residue (Gln22) within Pax5’s N-terminal β-hairpin motif, which contacts two residues in Ets-1. Other residues make additional contacts that strengthen interactions between the two proteins and the P5-EBS. A novel consequence of these cooperative interactions is a conformational switch (induced allostery) that increases protein:protein interactions and allows Ets-1 to recognize the suboptimal EBS in the context of the ternary complex.
+Our previous studies suggested that interactions between Pax5 and Ets proteins are cooperative; however, these interactions were not examined quantitatively. Here, we used equilibrium DNA binding analysis to measure interactions on specific DNA between recombinant Pax5 and its partners Ets-1 or GABPα/β1 (proteins used previously in X-ray crystallographic studies; refs. 4,17). The data demonstrate that the assembly of ternary complexes comprising Pax5 and Ets-1 on the P5-EBS is highly cooperative. We conclude that the assembly of complexes including Ets-1 requires the abrogation of autoinhibition because Ets-1(280–440) does not bind detectably to the mb-1 promoter by itself. Gln22 of Pax5 is essential for this mechanism. A different set of interactions mediates binding of the P5-EBS by GABPα or GABPα/β1. DNA binding by Pax5 and GABPα/β1 is less cooperative than Pax5 and Ets-1 and does not depend upon Gln22. Our findings suggest that Pax5 uses distinct mechanisms to orchestrate highly cooperative interactions in partnership with different Ets proteins. We hypothesize that these partnerships are important for regulating mb-1 and other genes in the context of functional synergy and combinatorial regulation of transcription.
+Results
+Binding of Pax5(1–149) wild type and Q22A mutant proteins to the P5-EBS site
+To determine the apparent KD’s of Pax5 bound to DNA by itself or in complexes with Ets transcription factors, residues 1–149 of human Pax5 were expressed in E. coli and purified to homogeneity. We previously demonstrated that Gln22 of Pax5 is important for the recruitment of Ets proteins to the mb-1 promoter by Pax519. Therefore, we generated Pax5 proteins without (WT) or with mutation of Gln22 to alanine (Q22A). To estimate the fraction of functional DNA binding proteins in these preparations, we measured their DNA-binding activities in quantitative electrophoretic mobility shift assays (EMSA). A constant amount of protein was incubated with a 32P-labeled double stranded DNA probe comprising a high affinity Pax5 binding site of the Cd19 promoter31 prior to fractionation of bound vs. free probe in non- denaturing polyacrylamide gels. The Cd19 probe DNA titration experiments were performed by the addition of increasing amounts of unlabeled Cd19 probe DNA. Representative data are shown in Supplementary Fig. 1. These experiments indicated that the active fractions of Pax5 (1–149)WT or Q22A proteins were 100 or 63.8% active, respectively.
+The binding of WT Pax5 to the P5-EBS probe (Fig. 2a-b) is of moderate affinity (KD = 2.40 ± 0.47 nM). Binding of the P5-EBS probe by Pax5(1–149)Q22A was slightly more efficient (KD = 1.72 ± 0.37 nM). We also assessed the binding of Pax5(1–149)WT or Q22A to an P5- EBS probe with mutations that disrupt contacts by the Pax5 CTD (data not shown; ref. 18). The mutations reduced DNA binding (increased KDs) of each protein by 6.3– (WT) or 9.2– fold (Q22A). We conclude from these results that the Q22A mutation has only small effects on the DNA binding of Pax5 by itself (summarized in Table I).
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 3
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+Binding of Ets-1 to the P5-EBS is blocked by its autoinhibitory domains
+Previous studies demonstrated that Ets-1 binds the mb-1 promoter very weakly in the absence of Pax519. To measure Ets-1 DNA binding quantitatively, we expressed and purified truncated murine Ets-1 proteins without (Ets-1(331–440)) or with its N-terminal autoinhbitory domain (Ets-1(280–440)). Relative activities of these proteins were first estimated using an optimal (high affinity) Ets binding site (EBS) in a competitive EMSA (87.9 or 79%, respectively; Supplementary Fig. 2). Using this information, we adjusted the active concentrations of the proteins for use in titration experiments with the P5-EBS probe. Binding of the EBS probe by Ets-1(331–440) and (280–440) was similar to that reported by Wang et al.32.
+We measured binding of the two truncated Ets proteins to the P5-EBS probe (Fig. 3a-b). The binding of Ets-1(331–440) to the P5-EBS probe was greatly reduced (KD = 139 ± 5.29 nM) relative to binding to an optimal EBS (0.89 ± 0.036 nM). In contrast, binding of the P5-EBS probe by Ets-1(280–440) was not detected. We conclude that the suboptimal EBS of the mb-1 promoter is recognized inefficiently by the Ets-1 ETS domain. These experiments demonstrate that the autoinhibitory domains in Ets-1(280–440) block its binding to the suboptimal EBS of the mb-1 promoter.
+Pax5 recruitment of Ets-1 to the P5-EBS is highly cooperative and requires Gln22
+Our previous studies suggested that recruitment of Ets-1 by Pax5 is highly cooperative. To measure these interactions quantitatively, we performed EMSA by incubating the P5-EBS probe with constant amounts of Pax5(1–149)WT or Q22A mutant proteins and increasing amounts of Ets-1(331–440) or (280–440). As shown in Figs. 4a-b, recruitment of Ets-1(331– 440) by Pax5(1-149)WT or Q22A occurred at different KDs (0.89 ± 0.14 nM vs. 7.89 ± 0.76 nM, respectively). The KD of ternary complexes assembled with Ets-1(331–440) was enhanced only slightly (2.7–fold) relative to the KD of WT Pax5 binding by itself (2.40 nM). However, the KD of the ternary complexes was enhanced in a highly cooperative fashion relative to the binding of Ets-1(331-440) alone (an increase of 153-fold). Notably, the Q22A mutation, which is predicted to disrupt Pax5 interactions with Ets-1, reduced ternary complex assembly by 8.9– fold. Thus, Gln22 is confirmed as important for the recruitment of Ets-1 to bind the mb-1 promoter.
+Ternary complex assembly by Pax5(1–149)WT or Q22A was also measured with Ets-1 (280-440), which is capable of autoinhibition (Figs. 4c-d). The KD (0.49 ± 0.05 nM) calculated for ternary complexes comprising Pax5(1–149)WT, Ets-1(280–440) and the P5-EBS probe compares favorably with that calculated for Ets-1 (331–440) (i.e. 0.89 nM). The lack of binding of Ets-1(280–440) to the P5-EBS probe by itself prevented definitive estimates of cooperativity in the presence of Pax5(1–149). However, the weakest binding observed in our studies (which was calculated for the binding of Ets-1 to a mutated mb-1 promoter probe; data not shown), suggested our ability to estimate KDs as high as 570 nM. Thus, using this value to estimate the high end of the detectable range, we estimate that the binding of Ets-1(280–440) was increased by >1000-fold in the presence of Pax5(1–149)WT.
+In the context of ternary complex assembly with Ets-1(280–440), the Q22A mutation in Pax5 had even larger effects than it did with Ets-1(331–440). In this context, the mutation increased the KD to 162 ± 44 nM. It is notable that ternary complexes assembled with the Pax5(1-149) Q22A protein had higher KDs relative to the binding of the Q22A mutant protein by itself. Thus, DNA binding by Pax5(1–149)Q22A is de-stabilized by interactions with the Ets-1 proteins.
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 4
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+Analysis of ternary complexes including Pax5, GABPα/β1 and the P5-EBS
+In addition to Ets-1, we previously demonstrated that Pax5 recruits GABPα/β1 in nuclear extracts to assemble complexes on the mb-1 promoter18;30. To determine KDs of these interactions we expressed the Ets domain of GABPα (residues 311–430) by itself or in stoichiometric (1:1) complexes with its partner GABPβ1 (residues 1–157). This segment of GABPβ1 includes the ankyrin repeats, but lacks the homodimerization domain3. Similar to our quantitative studies with Ets-1, we calculated the relative activities of recombinant GABPα and GABPα/β1 to be 43.7 and 34.3%, respectively (Supplementary Fig. 3).
+No detectable binding of GABPα (311–430) was observed on the P5-EBS probe in the absence of GABPβ1 (Fig. 5a-b). However, a KD of 234 ± 25 nM was calculated for the binding of GABPα/β1 to this probe. We examined ternary complex formation between Pax5(1–149)WT or Q22A proteins and GABPα alone (Fig. 6a-b) or GABPα/β1 (Fig. 6. c-d) on the P5-EBS probe. In the presence of GABPα (311–430) alone, Pax5(1–149)WT or Q22A each assembled ternary complexes with similar affinities (KD = 17.8 ± 0.74 nM vs. 6.14 ± 5.38 nM, respectively). Assembly of ternary complexes with Pax5(1–149)WT was enhanced by the addition of GABPβ1 (K D = 4.08 ± 0.38 nM), but little or no effect of the Q22A mutation was observed (KD = 3.36 ± 0.14 nM). In conclusion, Pax5(1–149)WT cooperatively recruited GABPα/β1, but with decreased affinity (8.3-fold) relative to its recruitment of Ets-1(280–440). Moreover, the binding of Pax5:GABPα/β1 complexes to the P5-EBS probe was not cooperative, because the binding of Pax5:GABPα/β1 ternary complexes was less efficient than the binding of Pax5 alone. Gln22 is not important for the recruitment of GABPα/β1, because the Q22A mutation did not affect ternary complex assembly with Pax5.
+Discussion
+Recruitment of Ets proteins by Pax5 to the P5-EBS
+Although relatively little is understood of mechanisms involved in Pax5-mediated transcriptional activation, the importance of Pax5 DNA-binding partners has been recognized. The interaction of Pax5 with partners is necessary to augment its DNA-binding specificity. In addition to Ets proteins, previously hypothesized interactive partners of Pax5 include p53 and TBP33 and PU.1/Sfpi134. Structural determinations are only available for complexes including Pax5, Ets-1 and specific DNA17; however, information concerning the degree of cooperativity between proteins in these complexes has not been available.
+In previous studies, semi-quantitative EMSA suggested that Pax5 binds the mb-1 promoter with relatively high affinity by itself and recruits Ets-1 with a high degree of cooperativity18;19. Asymmetry of this cooperativity was evident in the relative lack of detectable Ets-1 binding to the P5-EBS probe alone, but efficient binding to the probe of Ets-1 together with Pax5. In this report we confirmed these results in a quantitative fashion. By itself, Pax5 bound the P5-EBS probe with moderate affinity (Table I). In contrast, Ets-1(331–440) bound the P5-EBS probe with very low affinity. Furthermore, binding of Ets-1(280–440) alone was undetectable due to the autoinhibitory domains of Ets-1. Recruitment of autoinhibited Ets-1 or the Ets-1 ETS domain similarly enhanced the binding affinities of ternary complexes with Pax5, although the KD(app)’s of these complexes suggest lower affinities than those reported for partially activated or autoinhibited Ets-1 binding to an optimized EBS (KD≅10−11M and 10−10M, respectively)35. When considered in the context of our previous structural studies of Pax5:Ets-1:DNA ternary complexes, these observations suggest a potential mechanism for the alleviation of Ets-1 autoinhibition by Pax5, which we detail below.
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 5
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+Recruitment of Ets-1(331–440) by Pax5 and effects of the Q22A mutation
+Ets-1(331–440) binds poorly to the P5-EBS sequence, giving a KD of 139 ± 5 nM. The low affinity of Ets-1(331–440) for the P5-EBS sequence is primarily due to a single residue Tyr395, which is located at the protein-DNA interface (Fig. 7). Tyr395 can potentially clash with bases in the major groove of the ETS binding site in the P5-EBS sequence. In the absence of Pax5, this steric clash is facilitated by the bending of the DNA around the recognition helix of the ETS domain, which lies in the major groove.
+In the presence of Pax5, Ets-1(331–440) binds with an affinity of 0.89 ± 0.14 nM, showing a dramatic increase in its affinity for the mb-1 promoter. The crystal structure of the paired domain of Pax5 and Ets-1(331–440) bound to the P5-EBS sequence showed that Pax5 increased the affinity of Ets-1 for the P5-EBS by three related mechanisms17. First, Pax5 stabilizes Ets-1 on the DNA via direct contacts with the ETS domain of Ets-1 through hydrogen bonds and hydrophobic interactions. Secondly, Pax5 directly contacts Tyr395 and stabilizes it in a rotamer conformation that promotes an optimal interaction with a nearby base. Finally, the contacts made by Pax5 facilitate DNA binding by Ets-1 by preventing the DNA from bending around Ets-1’s recognition helix. These last two effects relieve the steric clash between Tyr395 and the suboptimal ETS binding site in the P5-EBS sequence.
+Mutation of Gln22 to an alanine in Pax5 results in the loss of a direct contact with Tyr395 of Ets-1. The loss of this contact prevents stabilization of Tyr395 in the rotamer form and stable interactions with the ETS binding site. This results in instability at the Ets-1-DNA interface and a nearly 10-fold reduction in the affinity of Ets-1(331–440) for the P5-EBS sequence (KD = 7.89 ± 0.76 nM). However, loss of this contact to Tyr395 does not affect the remaining contacts between Pax5 and Ets-1 and the repositioning of the ETS domain on DNA by Pax5. Therefore, Ets-1(331–440) can still bind with relatively high affinity to the P5-EBS sequence.
+Pax5 relieves autoinhibition of Ets-1(280–440)
+While Ets-1(331–440) does bind, albeit weakly, to the P5-EBS sequence, Ets-1(280–440) does not show any significant interaction with the DNA sequence. Relative to Ets-1(331–440), Ets-1 (280–440) contains two additional helices in the region N-terminal to the ETS domain (Figs. 1 and 7). These two helices, HI-1 and HI-2, interact with two helices C-terminal to the ETS domain, H4 and H5, to form a four-helix bundle32;36. The four-helix bundle packs against helix H1 of the ETS domain. The N-terminus of helix H1 is involved in a dipole interaction with the sugar-phosphate backbone of the ETS binding site and makes a direct hydrogen bond to the DNA. Therefore, it is essential for the correct positioning of the ETS domain on the DNA. The packing of the four-helix bundle onto H1 is proposed to directly alter its ability to interact with the sugar-phosphate backbone. Thus, the affinity of Ets-1 for DNA is reduced. The inability of Ets-1(280–440) to bind to the P5-EBS site is likely to be due, in part, to effects of the inhibitory regions on helix H1 and as a result of the instability induced at the protein- DNA interface by Tyr395.
+When the paired domain of Pax5 is bound to the P5-EBS, Ets-1(280–440) binds with a similar affinity to Ets-1(331–440). This means that Pax5 not only overcomes the effect of the sub- optimal DNA binding sequence of the P5-EBS sequence, but also overcomes autoinhibition of the ETS domain as well. It is intriguing to note that Gln22 of Pax5 hydrogen bonds with Gln336 of Ets-1 (Fig. 7). Gln336 is the N-terminal residue of helix H1 of the ETS domain. Therefore, this contact could serve to position helix H1 of the ETS domain onto the DNA in a manner that allows the remaining protein-DNA contacts. These interactions would circumvent the inhibitory effect that the four-helix bundle has on H1. This hypothesis would predict that mutation of Gln22 of Pax5 to alanine would prevent Pax5 from efficiently relieving the effects of Ets-1 autoinhibition. This would result in decreased affinity of Pax5:Ets-1 ternary complexes
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 6
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+for the P5-EBS sequence. In support of this hypothesis, we demonstrated a greater than 300- fold reduction in affinity of Ets-1(280–440) for the P5-EBS sequence in the presence of Pax5 (Q22A), giving a KD of 162 ± 44 nM.
+Pax5 complexes with GABPα/β1
+In contrast with Ets-1, complexes assembled with GABPα alone or with GABPα/β1 complexes in the context of the mb-1 promoter are recruited differently by Pax5. The binding of Pax5 to DNA is not enhanced by interactions with these proteins in vitro, but may be stabilized in vivo by additional protein:protein interactions. The mechanism of GABPα/β1 recruitment by Pax5 is only partially understood. Although the DNA-binding specificities of Ets-1 and GABPα are similar, the latter protein possesses only a subset of residues identified as important for contacting Pax5. For example, equivalents of Gln336, Tyr395 and Asp398 are each present in GABPα (Gln321, Tyr380 and Asp383), but Lys399 of Ets-1 is replaced by glycine (Gly384) in GABPα. Consequences of this variation would include an inability of GABPα to interact with Leu23 of Pax5. This variation may be sufficient to explain the reduced binding of GABPα (or GABPα/β1) to the mb-1 promoter relative to Ets-1(331–440). However, it does not explain the lack of effects of mutating Gln22 on Pax5’s abilities to recruit GABPα alone or GABPα/β1. We interpret this to suggest the presence of other interactions between the ETS domain of GABPα and the paired domain of Pax5, or between Pax5 and GABPβ1, or both. Further structural analysis will be necessary to dissect Pax5 interactions with intact GABPα/ β1.
+Implications for the regulation of gene expression by Pax and Ets proteins
+Autoinhibition represses DNA binding of multiple Ets proteins, including Ets-1, Ets-2, Etv4, Elf3 and the Ternary Complex Factors (e.g. Elk-1)6;9;37. However, autoinhibition may be overcome by direct interactions between inhibitory modules and partner proteins. In this manner, Runx1 is predicted to interact with the first inhibitory α-helix (HI-1) of Ets-1 (Fig. 1). This results in destabilization and unfolding of Ets-1’s autoinhibitory domains12. In turn, this would facilitate Ets-1 DNA binding by relieving autoinhibition and stabilizing the ternary complex.
+Significant differences are evident between the release of Ets-1 from autoinhibition by Runx1 versus Pax5. There is currently no evidence for interactions between Pax5 and the inhibitory domains of Ets-1. Instead, Pax5 interacts directly with the ETS domain of Ets-1 (and other Ets proteins; refs.18,19). This type of interaction was initially predicted not to counteract autoinhibition12; however, data in this paper suggest that interactions with Pax5 efficiently inhibit the re-folding of inhibitory motifs necessary for autoinhibition of Ets-1.
+The interactions we have defined between Pax5 and Ets proteins represent a special case of combinatorial interactions. Several questions concerning the composition and functions of these complexes remain to be answered. Our previous DNA binding and structural studies determined the importance of sequences within the P5:EBS for promoting cooperative protein:protein interactions. For example, we previously demonstrated that mutation of the last guanine of the EBS within the P5-EBS to adenine (5′-CCGGAG-3′ to 5′-CCGGAA-3′) reversed the relative DNA binding of Pax5 and Ets-119. Ets-1 bound the mutated site with high affinity and recruited Pax5, which bound this site poorly in the absence of Ets-1. The range of sequences able to facilitate Pax5:Ets DNA binding in vivo has yet to be determined. Additionally, although it is certain that mb-1 transcription is regulated by Pax5 and requires recruitment of Ets proteins, it remains unclear whether Ets-1, GABPα/β1 or other Ets proteins perform this function (Pax5 can also recruit Fli-1, Elk-1 and Net to bind the P5-EBS in vitro18). Resolution of this question has been hampered by the presence of adjacent Pax5- dependent and Pax5-independent Ets binding sites in the mb-1 promoter. Recent studies using
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 7
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+conditional knockout mice demonstrated reduced mb-1 transcription following the loss of expression of Fli-1 or GABPα38;39. At other regulatory modules, variations in nucleotide sequences and additional protein:protein interactions may allow Pax5 to assemble ternary complexes with different Ets proteins. It is also notable that the overall fold and multiple residues within the β-hairpin motif (NQLGG, including Gln22) are conserved perfectly between Pax5 and the eight other mammalian Pax proteins and highly conserved between Pax proteins of protostomes, deuterostomes, sponges and cnidarians40. In this regard, we demonstrated previously that human Pax5 is capable of recruiting an Ets protein (Ast1) from C. elegans to bind the P5-EBS site in vitro41. We conclude that interactions between Pax5 and Ets proteins are a highly conserved mechanism, but additional research in this area is needed to define roles of these proteins in other contexts.
+The functional properties and regulation of Pax5:Ets complexes remain to be dissected. Recently, we determined that Pax5’s activation of mb-1 promoter transcription requires SWI/ SNF complexes that mediate chromatin remodeling42. We propose that the liaison between Pax5 and Ets proteins concentrates domains required for transcriptional activation, while bringing Pax5-dependent functions under the control of extracellular signaling pathways. In this regard, studies have suggested that the inhibited state of Ets-1 can be reinforced by calcium signaling-dependent phosphorylation of the inhibitory modules43. Together, these negatively acting signals act as a rheostat to modulate Ets-1 DNA binding35. It is currently unclear whether these modifications govern interactions with Pax5. This proposed model will direct our future investigations.
+Materials and Methods
+Plasmids, expression and purification of recombinant proteins
+Plasmids, expression and purification of human Pax5 wild type (1–149), Pax5 Q22A, Ets-1 (331-440), Ets-1(280–440), GABPα (311–430), GABPβ1(1–157) and GABPα/β1 heterodimeric complexes were described previously4;12;17.
+Electrophoretic mobility shift assays (EMSAs)
+The P5-EBS probe was made by annealing 5′- TCGAAGGGCCACTGGAGCCCATCTCCGGCACGGC-3′ and 5′- TCGAGCCGTGCCGGAGATGGGCTCCAGTGGCCCT-3′. Preparation of DNA probes and conditions for EMSA were described previously41. To minimize in-gel dissociation of protein- DNA complexes, EMSA gels were run for 1h at 200V. Bound and free DNA were quantitated using a Molecular Dynamics STORM 860 PhosphorImager system (GE Healthcare, Milwaukee, WI).
+Quantitative analysis of DNA binding
+Apparent equilibrium dissociation constants (KD(app)) of protein interactions with 32P-labeled duplex probes were determined using quantitative EMSA as described above. For assays containing only a single binding species, increasing concentrations of protein were incubated with a fixed amount of radiolabeled duplex DNA. The DNA concentration was at least 10 times lower than the estimated KD value (~ 10−11M). The fraction of free DNA, [D]/[Dt], was determined by measuring the ratio of the free DNA [D] signal analyzed at each protein concentration to the total DNA signal in a control lane containing no protein [Dt]. The fraction of DNA in complex with protein, [PD]/[Dt], is equal to 1-([D]/[Dt]). Under EMSA conditions, apparent KDs were measured as the concentration of protein required for 50% occupancy. Data points are mean values of four experiments, except where specified otherwise. Error bars represent standard deviation of the mean for each concentration. All data points were fitted to
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 8
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+the rearranged mass action equation [PD]/[Dt] = 1/(1 + KD/[P]) using nonlinear least-squares analysis and plotted using Kaleidagraph (Synergy Software, Reading, PA).
+To more accurately measure KD values, we determined the fractions of active proteins in our purified preparations. Reaction mixtures contained fixed concentrations of radiolabeled duplex DNA and protein. The amount of protein utilized was 50- to 100-fold above the apparent KD, ensuring nearly complete occupancy of the probe in the range or stoichiometric interactions with the DNA. Subsequently, unlabeled competitor DNA of known concentration was titrated into the binding reactions, where it competed with 32P-labeled oligonucleotides for binding by protein. Because the DNA concentration exceeded the KD, it was assumed that DNA interacted stoichiometrically with the protein. At 50% occupancy the concentration of oligonucleotide competitor exceeded the amount of active protein by two-fold. The active protein concentration was then calculated to be equivalent to one-half of the known molar oligonucleotide concentration. Once the active concentration was known, the apparent KD determined in the original experiment was converted to a true KD.
+To measure cooperative DNA binding, the apparent DNA binding affinity of the first protein, P1 (e.g., Ets-1 [331–440]) was determined in the presence of Pax5(1–149). The concentration of Pax5(1–149) was ≥ 10-fold above its KD for the probe DNA. Competitive binding curves were generated from the equation [PD]/[Dt] = 1/(1 +KD/[P]) with the following assumptions: (i) Disappearance of the binary complex (DNA + Pax5(1–149)) was measured; therefore, [Dt] was defined as the binary complex signal in a control lane that contained DNA and Pax5 (1–149) alone. (ii) The binary complex signal (DNA + Pax5(1–149)) was used as [D] for reaction mixtures with DNA + P1 + Pax5(1–149). (iii) The fraction of DNA bound in the ternary complex (DNA + P1 + Pax5[1–149]) was defined as [PD]/[Dt], which was derived from 1-[D]/[Dt].
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+Acknowledgments
+The authors wish to thank Barbara J. Graves for providing plasmids, Julita Ramírez for comments, John Kappler for comments and assistance with equilibrium DNA binding analysis and Gongyi Zhang and Arthur Gutierrez-Hartmann for helpful suggestions. This research was supported by Public Health Service Grants from the National Institutes of Health R01 AI37574, AI054661, AI056322 and P01 AI22295 and by the generous support of the Milheim Foundation and the Rocky Mountain Chapter of the Arthritis Foundation.
+Abbreviations
+Pax
+Paired box binding factor
+P5
+EBS (Pax5-Ets binding site)
+GABP
+GA binding protein
+Ets
+E74-like transforming sequence
+AML1/PEBP2α/CBFα2
+Former names of Runx1, or runt-related transcription factor 1
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 9
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+References
+USF1
+upstream transcription factor 1
+AP-1
+Activating protein 1
+NF-κB
+Nuclear factor-κB
+EMSA
+Electrophoretic mobility shift assay
+Fli-1
+Friend leukemia integration 1
+TBP
+TATA binding protein
+Etv4
+Ets variant 4
+Elf3
+E74-like factor 3
+PU.1/Sfpi1
+Purine box 1-SFFV proviral integration 1
+Elk-1
+ETS-like gene 1
+1. Hollenhorst PC, Jones DA, Graves BJ. Expression profiles frame the promoter specificity dilemma of the ETS family of transcription factors. Nucl Acids Res 2004;32:5693–5702. [PubMed: 15498926] 2. Karim FD, Urness LD, Thummel CS, Klemsz MJ, McKercher SR, Celada A, Beveran Cv, Maki RA, Gunther CV, Nye JA, Graves BJ. The ETS-domain: a new DNA-binding motif that recognizes a purine- rich core DNA sequence. Genes Dev 1990;4:1451–1453. [PubMed: 2253872]
+3. Thompson CC, Brown TA, McKnight SL. Convergence of ets- and notch-related structural motifs in a heteromeric DNA binding complex. Science 1991;253:762–768. [PubMed: 1876833]
+4. Batchelor AH, Piper DE, de la Brousse FC, McKnight SL, Wolberger C. The structure of GABPα/β: an ETS domain-ankyrin repeat heterodimer bound to DNA. Science 1998;279:1037–1041. [PubMed: 9461436]
+5. Chinenov Y, Henzl M, Martin ME. The α and β subunits of the GA-binding protein form a stable heterodimer in solution. J Biol Chem 2000;275:7749–7756. [PubMed: 10713087]
+6. Pufall MA, Graves BJ. Autoinhibitory domains: modular effectors of cellular regulation. Annu Rev Cell Dev Biol 2002;18:421–462. [PubMed: 12142282]
+7. Lim F, Kraut N, Frampton J, Graf T. DNA binding by c-Ets-1, but not vEts, is repressed by an intramolecular mechanism. EMBO J 1992;11:643–652. [PubMed: 1311254]
+8. Nye JA, Petersen JM, Gunther CV, Jonsen MD, Graves BJ. Interaction of murine Ets-1 with GGA- binding sites establishes the ETS domain as a new DNA-binding motif. Genes Dev 1992;6:975–990. [PubMed: 1592264]
+9. Hagman J, Grosschedl R. An inhibitory carboxyl-terminal domain in Ets-1 and Ets-2 mediates differential binding of ETS family factors to promoter sequences of the mb-1 gene. Proc Natl Acad Sci USA 1992;89:8889–8893. [PubMed: 1409581]
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 10
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+10. Petersen JM, Skalicky JJ, Donaldson LW, McIntosh LP, Alber T, Graves BJ. Modulation of transcription factor Ets-1 DNA binding: DNA-induced unfolding of an a helix. Science 1995;269:1866–1869. [PubMed: 7569926]
+11. Jonsen MD, Petersen JM, Xu QP, Graves BJ. Characterization of the cooperative function of inhibitory sequences in Ets-1. Mol Cell Biol 1996;16:2065–2073. [PubMed: 8628272]
+12. Garvie CW, Pufall MA, Graves BJ, Wolberger C. Structural analysis of the autoinhibition of Ets-1 and its role in protein partnerships. J Biol Chem 2002;277:45529–45536. [PubMed: 12221090] 13. Wotton D, Ghysdael J, Wang S, Speck NA, Owen MJ. Cooperative binding of Ets-1 and core binding factor to DNA. Mol Cell Biol 1994;14:840–50. [PubMed: 8264651]
+14. Sieweke MH, Tekotte H, Jarosch U, Graf T. Cooperative interaction of Ets-1 with USF-1 required for HIV-1 enhancer activity in T cells. EMBO J 1998;17:1728–1739. [PubMed: 9501094]
+15. Bassuk AG, Leiden JM. A direct physical association between ETS and AP-1 transcription factors in normal human T cells. Immunity 1995;3:223–37. [PubMed: 7648395]
+16. Dickinson LA, Trauger JW, Baird EE, Dervan PB, Graves BJ, Gottesfeld JM. Inhibition of Ets-1 DNA binding and ternary complex formation between Ets-1, NF-κB, and DNA by a designed DNA- binding ligand. J Biol Chem 1999;274:12765–12773. [PubMed: 10212261]
+17. Garvie CW, Hagman J, Wolberger C. Structural studies of Ets-1/Pax-5 complex formation on DNA. Molec Cell 2001;8:1267–1276. [PubMed: 11779502]
+18. Fitzsimmons D, Hodsdon W, Wheat W, Maira SM, Wasylyk B, Hagman J. Pax-5 (BSAP) recruits Ets proto-oncogene family proteins to form functional ternary complexes on a B-cell-specific promoter. Genes Dev 1996;10:2198–2211. [PubMed: 8804314]
+19. Wheat W, Fitzsimmons D, Lennox H, Krautkramer SR, Gentile LN, McIntosh LP, Hagman J. The highly conserved β-hairpin of the paired DNA-binding domain is required for the assembly of Pax:Ets ternary complexes. Mol Cell Biol 1999;19:2231–2241. [PubMed: 10022910]
+20. Wehr R, Gruss P. Pax and vertebrate development. Int J Dev Biol 1996;40:369–377. [PubMed: 8735950]
+21. Barr FG. Chromosomal translocations involving paired box transcription factors in human cancer. Int J Biochem Cell Biol 1997;29:1449–1461. [PubMed: 9570138]
+22. Czerny T, Schaffner G, Busslinger M. DNA sequence recognition by Pax proteins: bipartite structure of the paired domain and its binding site. Genes Dev 1993;7:2048–2061. [PubMed: 8406007]
+23. Urbánek P, Wang ZQ, Fetka I, Wagner EF, Busslinger M. Complete block of early B cell differentiation and altered patterning of the posterior midbrain in mice lacking Pax5/BSAP. Cell 1994;79:901–912. [PubMed: 8001127]
+24. Hagman J, Lukin K. Transcription factors drive B cell development. Curr Opin Immunol 2006;18:127–34. [PubMed: 16464566]
+25. Schebesta A, McManus S, Salvagiotto G, Delogu A, Busslinger GA, Busslinger M. Transcription factor Pax5 activates the chromatin of key genes involved in B cell signaling, adhesion, migration, and immune function. Immunity 2007;27:49–63. [PubMed: 17658281]
+26. Nutt SL, Kee BL. The transcriptional regulation of B cell lineage commitment. Immunity 2007;26:715–725. [PubMed: 17582344]
+27. Horcher M, Souabni A, Busslinger M. Pax5/BSAP maintains the identity of B cells in late B lymphopoiesis. Immunity 2001;14:779–90. [PubMed: 11420047]
+28. Hagman J, Lukin K. Early B cell Factor ‘pioneers’ the way to B cell development. Trends Immunol 2005;26:455–461. [PubMed: 16027038]
+29. Maier H, Colbert J, Fitzsimmons D, Clark DR, Hagman J. Activation of the early B cell-specific mb-1 (Ig-α) gene by Pax-5 is dependent on an unmethylated Ets binding site. Mol Cell Biol 2003;23:1946– 1960. [PubMed: 12612069]
+30. Maier H, Ostraat R, Parenti S, Fitzsimmons D, Abraham LJ, Garvie CW, Hagman J. Requirements for selective recruitment of Ets proteins and activation of mb-1/Ig-α gene transcription by Pax-5 (BSAP). Nucl Acids Res 2003;31:5483–5489. [PubMed: 14500810]
+31. Adams B, Dorfler P, Aguzzi A, Kozmik Z, Urbanek P, Maurer-Fogy I, Busslinger M. Pax-5 encodes the transcription factor BSAP and is expressed in B lymphocytes, the developing CNS, and adult testis. Genes Dev 1992;6:1589–607. [PubMed: 1516825]
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 11
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+32. Wang H, McIntosh LP, Graves BJ. Inhibitory module of Ets-1 allosterically regulates DNA binding through a dipole-facilitated phosphate contact. J Biol Chem 2002;277:2225–2233. [PubMed: 11689571]
+33. Eberhard D, Busslinger M. The partial homeodomain of the transcription factor Pax-5(BSAP) is an interaction motif for the retinoblastoma and TATA-binding proteins. Cancer Res 1999;59(7 Suppl): 1716s–1724s. [PubMed: 10197586]
+34. Maitra S, Atchison ML. BSAP can repress enhancer activity by targeting PU.1 function. Mol Cell Biol 2000;20:1911–1922. [PubMed: 10688639]
+35. Pufall MA, Lee GM, Nelson ML, Kang HS, Velyvis A, Kay LE, McIntosh LP, Graves BJ. Variable control of Ets-1 DNA binding by multiple phosphates in an unstructured region. Science 2005;309:142–145. [PubMed: 15994560]
+36. Lee GM, Donaldson LW, Pufall MA, Kang HS, Pot I, Graves BJ, McIntosh LP. The structural and dynamic basis of Ets-1 DNA binding autoinhibition. J Biol Chem 2005;280:1088–7099.
+37. Kopp JL, Wilder PJ, Desler M, Kinarsky L, Rizzino A. Different domains of the transcription factor ELF3 are required in a promoter-specific manner and multiple domains control its binding to DNA. J Biol Chem 2007;282:3027–3041. [PubMed: 17148437]
+38. Xue HH, Bollenbacher-Reilley J, Wu Z, Spolski R, Jing X, Zhang YC, McCoy JP, Leonard WJ. The transcription factor GABP is a critical regulator of B lymphocyte development. Immunity 2007;26:421–31. [PubMed: 17442597]
+39. Zhang XK, Moussa O, LaRue A, Bradshaw S, Molano I, Spyropoulos DD, Gilkeson GS, Watson DK. The transcription factor Fli-1 modulates marginal zone and follicular B cell development in mice. J Immunol 2008;181:1644–54. [PubMed: 18641300]
+40. Matus DQ, Pang K, Daly M, Martindale MQ. Expression of Pax gene family members in the anthozoan cnidarian, Nematostella vectensis. Evol Dev 2007;9:25–38. [PubMed: 17227364] 41. Fitzsimmons D, Lutz R, Wheat W, Chamberlin HM, Hagman J. Highly conserved amino acids in Pax and Ets proteins are required for DNA binding and ternary complex assembly. Nucl Acids Res 2001;29:4154–4165. [PubMed: 11600704]
+42. Gao H, Lukin K, Ramirez J, Fields S, Lopez D, Hagman J. Opposing effects of SWI/SNF and Mi-2/ NuRD chromatin remodeling complexes on epigenetic reprogramming by EBF and Pax5. Proc Natl Acad Sci USA. 2009In press
+43. Cowley DO, Graves BJ. Phosphorylation represses Ets-1 DNA binding by reinforcing autoinhibition. Genes Dev 2000;14:366–376. [PubMed: 10673508]
+44. Humphrey W, Dalke A, Schulten K. VMD: visual molecular dynamics. J Mol Graph 1996;14:33–
+38. 27–28. [PubMed: 8744570]
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 12
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+Fig. 1. Recombinant proteins used in these studies. Proteins utilized in these studies include human Pax5(1–149) and murine Ets-1(280–440), Ets-1(331–440), GABPα (311–420) and GABPβ1 (1–157). Open boxes representα–helices. Arrows represent β-sheets. Filled boxes denote the Notch-like/ankyrin repeats of GABPβ1. Boundaries of the paired domain of Pax5 (15–143) and ETS domains of Ets-1 and GABPα are indicated. The autoinhibitory domains of Ets-1 (shaded) and residues that are highlighted in the text are also indicated.
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 13
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+Fig. 2. Pax5(1–149)WT or Q22A bind similarly to the P5-EBS probe. (a) Representative equilibrium DNA binding analysis by EMSA with increasing amounts of Pax5 (1–149) WT (upper panel) or Q22A (lower panel) and a constant amount of the P5-EBS probe. (b) Non-linear least squares analysis of DNA binding complexes in (a). Protein concentrations shown in the graph were corrected for relative percent functional activities.
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 14
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+Fig. 3.
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 15
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+Ets-1(331–440), but not Ets-1(280–440), binds to the P5-EBS probe. (a) Representative equilibrium DNA binding analysis by EMSA with increasing amounts of Ets-1(331–440) (upper panel) or (280–440) (lower panel) and a constant amount of the P5-EBS probe. (b) Non- linear least squares analysis of DNA binding complexes in (a). Graphs were adjusted for active protein concentrations as in Fig. 2b.
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 16
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 17
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+Fig. 4. Pax5 recruitment of Ets-1(331–440) or Ets-1(280–440) to bind the P5-EBS probe is highly cooperative and requires Gln22 of Pax5. (a) Representative equilibrium DNA binding analysis by EMSA with a constant amount of Pax5(1–149) WT (upper panel) or Q22A (lower panel), increasing amounts of Ets-1(331–440) and a constant amount of the P5-EBS probe. (b) Non- linear least squares analysis of DNA binding complexes in (A). Graphs were adjusted for active protein concentrations as in Fig. 2b. (c) Representative equilibrium DNA binding analysis by EMSA with a constant amount of Pax5(1–149) WT (upper panel) or Q22A (lower panel), increasing amounts of Ets-1(280–440) and a constant amount of the P5-EBS probe. (d) Nonlinear least squares analysis of DNA binding complexes in (c). Graphs were adjusted for active protein concentrations as in Fig. 2b.
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 18
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+Fig. 5. Binding of the P5-EBS by GABPα is dependent on GABPβ1. (a) Representative equilibrium DNA binding analysis by EMSA with increasing amounts of GABPα/β1 (upper panel) or GABPα (lower panel) and a constant amount of the P5-EBS probe. (b) Non-linear least squares analysis of DNA binding complexes in (a). Graphs were adjusted for active protein concentrations as in Fig. 2b.
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 19
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 20
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+Fig. 6. Cooperative binding of the P5-EBS by Pax5 and GABPα or GABPα/β1 does not require Gln22 of Pax5. (a) Representative equilibrium DNA binding analysis by EMSA with a constant amount of Pax5(1–149) WT (upper panel) or Pax5 Q22A (lower panel), increasing amounts
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 21
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+of GABPα and a constant amount of the P5-EBS probe. (b) Non-linear least squares analysis of DNA binding complexes in (a). Graphs were adjusted for active protein concentrations as in Fig. 2b. (c) Representative EMSA with a constant amount of Pax5(1–149) WT (upper panel) or Q22A (lower panel), increasing amounts of GABPα/β1 complexes and a constant amount of the P5-EBS probe. (d) Non-linear least squares analysis of DNA binding complexes in (c). Graphs were adjusted for active protein concentrations as in Fig. 2b.
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 22
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 23
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+Fig. 7. Model of interaction between the paired domain of Pax5 and Ets-1(280–440) on mb-1 promoter DNA. (a) Overview of the ternary complex. The paired domain of Pax5 is represented in blue, the ETS domain of Ets-1 in magenta and the inhibitory regions of Ets-1 in green. Helix HI-1 of Ets-1 is shown in its unfolded state. (b) Enlarged view of the interface between Pax5 and Ets-1 on mb-1 promoter DNA. Hydrogen bonds between Gln22 of Pax5 and Gln336 or Tyr395 are indicated by dashed lines. A dashed line also indicates proposed interactions between H1 of Ets-1 and the sugar-phosphate backbone of DNA. The figure was made using VMD44.
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 24
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Fitzsimmons et al.
+Table I
+DNA-binding affinities (KD(app))a of Pax5 and Ets proteins
+Proteins
+Mean KD (nM) S.E.b P5-EBS probe
+Pax5(1–149) WT Pax5(1–149) Q22A Ets-1(331–440) Ets-1(280–440) Pax5(1–149) WT + Ets-1(331–440) Pax5(1–149) Q22A + Ets-1(331–440) Pax5(1–149) WT + Ets-1(280–440) Pax5(1–149) Q22A + Ets-1(280–440) GABPα(311–430) GABPα(311–430)/β1(1–157) Pax5(1–149) WT + GABPα(311–430) Pax5(1–149) Q22A + GABPα(311–430) Pax5(1–149) WT + GABPα/β1d Pax5(1–149) Q22A + GABPα/β1d
+2.40 ± 0.47 1.72 ± 0.37 136 ± 5.29 NDc 0.89 ± 0.14 7.89 ± 0.76 0.49 ± 0.05 162 ± 44.3 ND 234 ± 24.8 17.8 ± 0.74 6.14 ± 5.38 4.08 ± 0.38 3.36 ± 0.14
+a
+Apparent KD
+b
+Values are results of two to four independent experiments. S.E. expresses the accuracy of the curve fit rather than the error reflected in the error bars.
+c Not detected.
+d
+GABPα (311–430)/GABPβ1(1–157).
+J Mol Biol. Author manuscript; available in PMC 2010 September 18.
+Page 25

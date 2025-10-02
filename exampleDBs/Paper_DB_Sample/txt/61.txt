@@ -1,0 +1,295 @@
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+NIH Public Access Author Manuscript Sci Signal. Author manuscript; available in PMC 2014 August 13.
+Published in final edited form as:
+Sci Signal. ; 5(253): ra88. doi:10.1126/scisignal.2003485.
+RNF4-Dependent Hybrid SUMO-Ubiquitin Chains are Signals for RAP80 and thereby Mediate the Recruitment of BRCA1 to Sites of DNA Damage
+Catherine M. Guzzo1, Christopher E. Berndsen2,4, Jianmei Zhu1, Vibhor Gupta3, Ajit Datta2, Roger A. Greenberg3, Cynthia Wolberger2, and Michael J. Matunis1,* 1Department of Biochemistry and Molecular Biology, Johns Hopkins University Bloomberg School of Public Health, Baltimore MD 21205, USA
+2Department of Biophysics and Biophysical Chemistry and the Howard Hughes Medical Institute, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA
+3Department of Cancer Biology and Department of Pathology, Abramson Family Cancer Research Institute, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+Abstract
+The DNA repair function of the breast cancer susceptibility protein BRCA1 depends in part on its interaction with RAP80, which targets BRCA1 to DNA double strand breaks (DSBs) through recognition of K63-linked polyubiquitin chains. The localization of BRCA1 to DSBs also requires sumoylation. Here, we demonstrated that, in addition to having ubiquitin-interacting motifs, RAP80 also contains a SUMO-interacting motif (SIM) that is critical for recruitment to DSBs. In combination with the ubiquitin-binding activity of RAP80, this SIM enabled RAP80 to bind with nanomolar affinity to hybrid chains consisting of ubiquitin conjugated to SUMO. Furthermore, RNF4, a SUMO-targeted ubiquitin E3 ligase that synthesizes hybrid SUMO-ubiquitin chains, localized to DSBs and was critical for the recruitment of RAP80 and BRCA1 to sites of DNA damage. Our findings, therefore, connect ubiquitin-dependent and SUMO-dependent DSB recognition, revealing that RNF4 synthesized hybrid SUMO-ubiquitin chains are recognized by RAP80 to promote BRCA1 recruitment and DNA repair.
+Introduction
+DNA double-strand breaks (DSBs) are highly cytotoxic lesions that, when not properly recognized and repaired, give rise to genome instability and can lead to cell death or to
+Correspondence to: mmatunis@jhsph.edu. 4Current address: Department of Chemistry and Biochemistry, James Madison University, Harrisonburg, VA 22807, USA Author contributions: C.M.G. and M.J.M. conceived of the study; C.M.G. performed all cloning, pull-down assays, and immunofluorescence microscopy experiments; V.G. prepared recombinant BRCA1 A complex proteins; C.E.B., A.D., and C.M.G. synthesized hybrid SUMO-Ub chains; C.E.B. performed analytical ultracentrifugation analysis and data interpretation; J.Z. optimized RNF4 knockdown conditions; M.J.M. wrote the manuscript; R.A.G. and C.W. edited the paper. Competing interests: The authors have no competing interests to declare.
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Guzzo et al.
+cancer. To maintain genome integrity, DSBs elicit a complex signaling cascade involving activation of cell cycle checkpoints and recruitment of chromatin-modifying and DNA repair factors to sites of DNA damage [1]. DSBs are recognized by the MRE11-RAD50- NBS1 (MRN) complex, which initiates damage signaling through recruitment and activation of the protein kinase ATM [2, 3]. Other posttranslational protein modifications, including ubiquitylation and sumoylation, act downstream of ATM-mediated phosphorylation to coordinate the assembly and regulation of repair factors at DSBs [4, 5].
+Requirements for ubiquitylation in DSB repair are well established. Multiple ubiquitin E3 ligases are recruited to DSBs, including RNF8, RNF168, HERC2, and BRCA1 [6]. RNF8 and RNF168 function at least in part to attach K63-linked polyubiquitin chains to histones H2A and H2AX [7]. These polyubiquitin chains serve as signals that are recognized by ubiquitin-binding proteins, including the RAP80 subunit of the BRCA1-A complex (a complex containing the breast cancer-associated tumor suppressor BRCA1, RAP80, Abraxas, BRCC36, BRE, and NBA1). RAP80 contains tandem ubiquitin-interacting motifs (UIMs) that bind K63-linked polyubiquitin chains, a function critical for efficient recruitment of the BRCA1-A complex to DSBs [8–10]. Specific roles for sumoylation in DSB repair are less well defined. SUMO-1, SUMO-2 and SUMO-3 are detected at sites of DSBs, but the modified substrates and the functional consequences of their sumoylation remain to be fully characterized. Depletion of the SUMO E3 ligases, PIAS1 and PIAS4, disrupts recruitment of BRCA1 to DSBs, at least in part through suppression of the accumulation of RNF168 and ubiquitin at sites of damage [11–13]. Thus, sumoylation is required at an early stage of DSB repair, upstream of ubiquitylation. The precise molecular mechanisms underlying the connections between sumoylation, ubiquitylation, and the recruitment of BRCA1 to DSBs, however, have remained unclear.
+The SUMO-targeted ubiquitin E3 ligase, RNF4, is a potentially important factor involved in integrating ubiquitin and SUMO signals at sites of DNA damage. RNF4 is critical for DSB repair, with functions in regulating MDC1 stability and the efficiency of DNA end resection at sites of DNA damage [14–16]. RNF4 contains N-terminal SUMO-interacting motifs (SIMs) that enable it to bind polysumoylated proteins and attach ubiquitin to the SUMO chains on those proteins, thus producing hybrid SUMO-ubiquitin chains [17]. The best- characterized fate of sumoylated proteins recognized and ubiquitylated by RNF4 involves proteasome-mediated degradation, although other fates have been described, including changes in protein localization [17–19]. Here, we demonstrate that hybrid SUMO-ubiquitin chains synthesized by RNF4 are recognized as high affinity signals by RAP80. Moreover, we demonstrate that RNF4, and the recognition of hybrid SUMO-ubiquitin chains by RAP80, are critical for the recruitment of BRCA1 to DSBs.
+Results
+RAP80 is a SUMO binding protein
+Multiple components of the BRCA1-A complex possess ubiquitin-binding activity, including RAP80, Abraxas, BRE, and BRCC36 [20]. However, interactions between these proteins and SUMO have not been reported. Using bioinformatic analysis, we identified conserved candidate SUMO-interacting motifs (SIMs) within predicted β-strands that are in
+Sci Signal. Author manuscript; available in PMC 2014 August 13.
+Page 2
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Guzzo et al.
+close proximity to known or predicted UIMs in each of these four proteins, suggesting a potential to bind SUMO and possibly hybrid SUMO-ubiquitin chains (Fig. 1A). In vitro binding assays with an immobilized glutathione-S-transferase (GST)-tagged SUMO-2 polymer (a linear fusion of three SUMO-2 molecules) and purified recombinant RAP80, Abraxas, BRE, or BRCC36, demonstrated that these proteins interacted with SUMO-2 at levels above background interaction with GST alone (Fig. 1B, fig. S1A). We focused on RAP80, because of its well characterized role in BRCA1 recruitment to DSBs. We evaluated the binding of RAP80, expressed in vitro in rabbit reticulocyte lysate in the presence of [35S]methionine, to immobilized GST-tagged SUMO-1 or SUMO-2 monomers, as well as SUMO-1 or SUMO-2 polymers. Binding to all four forms of SUMO was observed, with appreciably greater interactions detected with SUMO-2 relative to SUMO-1, and with polymers relative to monomers (fig. S1B). Binding was not observed between RAP80 and SUMO-2(QFI), a mutant form of SUMO-2 containing alanine substitutions at residues Q35, F36 and I38 that are critical for binding proteins with consensus SIMs (fig. S1B) [21].
+To characterize elements in RAP80 required for SUMO interactions, we performed binding assays with a GST-tagged N-terminal fragment of RAP80 (amino acids 1-137) and mutant versions of this fragment containing either alanine substitutions at I41, V42 and I43 within the predicted SIM or a previously characterized deletion of residues 103–108 that disrupted the UIM (Fig. 1C) [9]. Wild-type and UIM-mutant RAP80 bound equally well to polymeric SUMO-2, whereas SUMO-2 binding was undetectable with SIM-mutant RAP80 (Fig. 1D, fig. S2). Similarly, wild-type and SIM-mutant RAP80 bound equally well to K63-linked tetraubiquitin, whereas ubiquitin binding was undetectable with the UIM mutant (Fig 1D, fig. S2). Thus, the predicted SIM and UIMs of RAP80 functioned independently to mediate SUMO and ubiquitin binding, respectively.
+SUMO binding facilitates RAP80 recruitment to DSBs
+To investigate the contributions of SUMO and ubiquitin binding to the recruitment of RAP80 to DSBs, U2OS cells were transfected with constructs encoding full-length, green fluorescent protein (GFP)-tagged wild-type RAP80 or mutants with individual or combined SIM and UIM mutations. Cells expressing equivalent amounts of each fusion protein (fig. S3) were treated with ionizing radiation (IR) and the recruitment of RAP80 to DSBs was evaluated by colocalization with phosphorylated histone H2AX (γH2AX), a marker for sites of DNA repair (Fig. 1E, F). Whereas wild-type RAP80 was efficiently recruited to repair foci (~90% of cells contained ≥10 foci colabeled with γH2AX and RAP80), this recruitment was significantly, but only partially, reduced in cells expressing individual UIM or SIM mutants (~55–65% of cells contained ≥10 colabeled foci) (Fig. F). However, recruitment was reduced to background amounts in cells expressing the combined UIM and SIM mutant form of RAP80 (Fig. 1E–F), indicating that ubiquitin binding and SUMO binding function additively to recruit RAP80 to DSBs.
+RAP80 binds hybrid SUMO-ubiquitin chains
+The close proximity of the SIM and UIMs in RAP80 raised the possibility that recognition of hybrid SUMO-ubiquitin chains underlie RAP80 recruitment to DSBs. To test this hypothesis, we used RNF4 together with Ube2W, followed by Ubc13-Mms2, to synthesize
+Sci Signal. Author manuscript; available in PMC 2014 August 13.
+Page 3
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Guzzo et al.
+hybrid SUMO-ubiquitin chains consisting of a single molecule of SUMO-2 and two ubiquitins linked to each other through K63 (Fig. 2A, fig. S4A). In vitro binding assays were performed to compare interactions between RAP80 and monomeric SUMO-2, K63-linked diubiquitin, and the hybrid SUMO-2~diubiquitin chain. Under assay conditions in which interactions with SUMO-2 or K63-linked diubiquitin alone were below the level of detection, we detected interactions between the N-terminal fragment of RAP80 and hybrid SUMO-ubiquitin chains (Fig. 2B). An ~3-fold reduction in binding to hybrid chains was observed with N-terminal fragments of RAP80 bearing individual SIM or UIM mutations (Fig. 2C and D). To quantitate the relative affinity of RAP80 for different binding partners, we used equilibrium analytical ultracentrifugation and modeled the associations of the N- terminal domain of RAP80 with SUMO-2, K63-linked diubiquitin, or hybrid SUMO-2~diubiquitin chains to calculate dissociation constants (KDs) (Fig. 2E, fig. S4B). The affinity with which RAP80 bound K63-linked diubiquitin was consistent with the previously reported values [22] and was similar to the value we obtained for the affinity of RAP80 for SUMO-2; whereas the affinity of RAP80 for hybrid SUMO-2~ubiquitin chains was greater than the affinity for SUMO-2 or diubiquitin alone, with a Kd of < 0.2 μM. Thus, RAP80 bound hybrid SUMO-ubiquitin chains with an affinity 80-fold greater than the affinity for SUMO-2 or diubiquitin alone, and this high-affinity binding was mediated by dual SUMO-ubiquitin recognition by the SIM and UIMs in RAP80.
+RNF4 is required for RAP80 and BRCA1 recruitment to DSBs
+Because RNF4 is involved in DSB repair [23–25] and is a SUMO-targeted ubiquitin E3 ligase that synthesizes hybrid SUMO-ubiquitin chains, we investigated its potential role in the recruitment of RAP80 and BRCA1 to DNA repair foci in vivo. To demonstrate that RNF4 is recruited to IR-induced DSBs, we first treated U2OS cells with IR and analyzed them 2 hours later by immunofluorescence microscopy with antibodies specific for RNF4 and γH2AX. In the absence of DNA damage, RNF4 localized diffusely and in small foci throughout the nucleoplasm (Fig. 3A). In response to IR treatment, a population of RNF4 accumulated at DNA repair foci colabeled with γH2AX (Fig. 3A), consistent with its role in DSB repair.
+Because we found that RNF4 was recruited to IR-induced DSBs, we next evaluated the role of RNF4 in recruiting RAP80 to DNA repair foci. U2OS cells were depleted of RNF4 by transfection with two independent RNF4-specific siRNAs (fig. S5A), treated with IR, and subsequently colabeled with antibodies recognizing RAP80 or γH2AX. We observed an ~4.5-fold reduction in the amount of RAP80 and γH2AX that colocalized in RNF4-depleted cells compared to the amount of colocalization observed in control cells (Fig. 3B, 3C, and fig. S5B). Cotransfecting cells with a siRNA-resistant cDNA coding for wild-type RNF4, but not a RING domain mutant, rescued this effect on RAP80 recruitment to DNA repair foci (Fig. 3D). Both wild-type and mutant proteins were expressed at equal amounts (fig. S6). These findings support a role for RNF4 ligase activity in generating signals required for efficient RAP80 recruitment to DSBs.
+Because RAP80 is required for the efficient recruitment of BRCA1 to DSB, we also evaluated the effect of RNF4 depletion on BRCA1 localization in response to IR. We
+Sci Signal. Author manuscript; available in PMC 2014 August 13.
+Page 4
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Guzzo et al.
+Discussion
+observed an ~3-fold reduction in BRCA1 and γH2AX colocalization in RNF4-depleted cells compared to that in control cells at 30 min following IR (Fig. 4A, 4B). Reduction in the recruitment of BRCA1 to DSBs persisted at later time points (Fig. 4B, fig. S5B), although to a lesser extent (~1.7-fold reduction). These findings may reflect temporal differences in mechanisms regulating BRCA1 recruitment to DNA repair foci following IR, or effects of incomplete RNF4 depletion. As observed for RAP80, cotransfecting cells with an siRNA- resistant cDNA coding for wild-type RNF4, but not a RING domain mutant, rescued BRCA1 recruitment to DSBs (Fig. 4D, fig. S6).
+Our findings provide a molecular explanation for the previously documented observation that sumoylation is required upstream of ubiquitylation and BRCA1 localization at DSBs [11, 12]. Our model invokes the synthesis of hybrid SUMO-ubiquitin chains by RNF4 at sites of DNA damage and suggests that the utility of signaling through ubiquitylation extends beyond polyubiquitin chains with unique linkages [26] and includes hybrid chains containing SUMO (Fig. 4D). Although a model in which distinct SUMO and ubiquitin chains attached to closely juxtaposed lysines is also possible, we favor hybrid chains for several reasons.
+First, hybrid SUMO-ubiquitin chains appear to be ubiquitous in the cell, and are particularly prominent during cellular responses to stress including arsenic exposure and proteasome inhibition [17, 27–29]. Hybrid chains containing K48-linked polyubiquitin are believed to function as signals for proteasome-mediated degradation, as illustrated by arsenic induced degradation of the promyelocytic leukemia protein (PML) [17]. Hybrid chains containing K63-linked polyubiquitin accumulate in cells following prolonged proteasome inhibition, although their functions in this context remain uncharacterized [28]. We also favor hybrid SUMO-ubiquitin chains on the basis of our demonstration that they are recognized as distinct entities by RAP80. Recognition by RAP80 was achieved through closely juxtaposed UIMs and a SIM that together define a previously unreported, high affinity binding element. The affinity of RAP80 for hybrid SUMO-ubiquitin chains was nearly two orders of magnitude greater than the observed affinity for K63-linked polyubiquitin chains alone, and comparable to only the highest affinities measured for other known ubiquitin-binding proteins [22]. Although future structural studies will be required to define hybrid chain recognition in detail, we propose that the specific spacing and orientation of SUMO and ubiquitin within hybrid chains determines recognition and high affinity binding by RAP80. It is interesting to note that tandem recognition motifs are an emerging theme among proteins involved in DNA repair. Srs2, for example, binds sumoylated PCNA through tandem motifs that independently bind SUMO and PCNA [30]. Similarly, RNF168, RAD18 and RAP80 contain leucine-arginine motifs (LRMs) that, through proximity to UIMs, are thought to facilitate interactions with specific ubiquitylated proteins at sites of DNA damage [31].
+Lastly, we favor a role for hybrid chains in DNA repair on the basis of the demonstration that RNF4 localized to DNA repair foci and was required for RAP80 and BRCA1 recruitment to IR-induced DSBs. RNF4 is an E3 ligase that specifically recognizes
+Sci Signal. Author manuscript; available in PMC 2014 August 13.
+Page 5
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Guzzo et al.
+polysumoylated proteins and facilitates the conjugation of ubiquitin onto SUMO [17]. We propose that hybrid SUMO-ubiquitin chains, synthesized at least in part by RNF4 at DSBs, offer advantages of both affinity and specificity. Specificity would be achieved through localized synthesis of hybrid chains at DSBs by an E2 and E3 cascade involving up to three independent E2 and E3 pairs. This cascade likely involves initial polysumoylation through the Ubc9/PIAS1 E2 and E3 pair, because PIAS1 is particularly critical for the accumulation of proteins modified by SUMO-2 and SUMO-3 and the accumulation of RAP80 at DSBs [11, 12]. Subsequent polyubiquitylation could involve RNF4 monoubiquitylation of SUMO chains followed by extension of K63-linked chains through the previously characterized UBC13-UEV1A (also known as RNF168) E2 and E3 pair [7, 32]. Alternatively, RNF4 could interact directly with Ubc13-Uev1A to stimulate the synthesis of K63-linked polyubiquitin chains on SUMO. Consistent with this latter model, in vitro studies indicate that RNF4 and the yeast homolog, the Sxl5/Slx8 heterodimer, can function with multiple E2 enzymes, including Ubc13 [33]. Importantly, depletion of RNF4 from cells also reduces the accumulation of K63-linked polyubiquitin chains at sites of DNA damage [25]. Substrates modified by hybrid SUMO-ubiquitin chains at DSBs remain to be fully characterized, but likely include MDC1 [23–25], as well as histones or other DNA repair factors that are modified by polymeric SUMO-2/3 in response to cell stress [34]. Functions of RNF4 extend beyond DNA repair and include regulation of gene expression and DNA methylation [35, 36]. It is thus anticipated that hybrid SUMO-ubiquitin chains, and their recognition by proteins containing tandem UIMs and SIMs, will have important roles in multiple cellular contexts in addition to DNA repair.
+Materials and Methods
+Plasmids
+Human RAP80 cDNA was kindly provided by Dr. Stephen J. Elledge, Harvard Medical School (Boston, MA). Constructs for expression of RNF4-GFP WT and RNF4-GFP RING mut in mammalian cells were kindly provided by O. John Semmes, Eastern Virginia Medical School (Norfolk, VA). Full-length RAP80 cDNA was cloned into pcDNA6/myc- His A (Invitrogen, Grand Island, NY) for in vitro transcription and translation in rabbit reticulocyte lysate. For expression in mammalian cells, full-length RAP80 cDNA was cloned into pEGFP-C1 (Clonetech, Mountain View, CA) and pFLAG-CMV-1* (Sigma, St. Louis, MO). GST-tagged RAP80 proteins (amino acids 1-137) were produced in bacteria from pGEX6p.1 (GE Healthcare, Waukesha, WI). RAP80 mutants were generated by site- directed mutagenesis. RAP80 UIM mut contained deletion of amino acid residues 103–108, RAP80 SIM mut contained alanine substitution of amino acid residues I41, V42, and I43, and RAP80 UIM/SIM mut contained both deletion of residues 103–108 and substitution of residues I41A, V42A, and I43A.
+Cell culture and treatment with ionizing radiation
+U2OS cells were grown in DMEM supplemented with 10% fetal bovine serum and 10 mM HEPES. Cells were cultured at 37°C in a humidified incubator with 5% CO2. Exposure to 10 Gy of ionizing radiation was carried out with a Gammator M-38 (Isomedix, Mentor, OH).
+Sci Signal. Author manuscript; available in PMC 2014 August 13.
+Page 6
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Guzzo et al.
+siRNA interference
+Transfections were performed in 35 x 10 mm tissue culture dishes with 30 nM siRNA duplex and 3.75 μl of Lipofectamine RNAiMAX (Invitrogen, Grand Island, NY) per transfection. Transfections were repeated 24 hours later. Experiments were performed 24 hours following the second transfection. RNF4 siRNA oligo-1 (GACTCACAATGACTCTGTTGTGATT) was obtained from Invitrogen (Grand Island, NY) and RNF4 siRNA oligo-2 (GAAUGGACGUCUCAUCGUUUU) was synthesized by Dharmacon (Lafayette, CO). Co-transfections were performed using 30 nM siRNA duplex, 3.75 μl of Lipofectamine 2000 (Invitrogen, Grand Island, NY), and 1.0 μg of plasmids encoding for either RNAi-resistant RNF4-GFP WT or RNF4-GFP RING mut.
+Antibodies
+Primary antibodies were obtained from the following sources: γH2AX mouse monoclonal antibody (Millipore, Billerica, MA, clone JBW301, catalog number 05-636), BRCA1 rabbit polyclonal antibody (Bethyl Laboratories, Inc., Montgomery TX, catalog number A300-000A), RAP80 rabbit polyclonal antibody (Bethyl Laboratories, Inc., Montgomery TX, catalog number A300-763A), ubiquitin mouse monoclonal antibody (Santa Cruz Biotechnology, Santa Cruz CA, catalog number sc-8017), and SUMO-2/3 mouse monoclonal antibody 8A2 [37]. RNF4 antibody was kindly provided by Dr. Jorma Palvimo, University of Eastern Finland.
+Immunofluorescence microscopy
+Cells grown on coverslips were washed two times with PBS then fixed and permeabilized with PBS containing 2% formaldehyde/0.2% Trition X-100 for 10 minutes at room temperature. Cells were washed with PBS and fixed with 2% formaldehyde in PBS for 20 minutes at room temperature. After washing with PBS, cells were incubated with the indicated primary antibodies for 1 hour. Cells were washed and incubated with Alexa Fluor®-conjugated goat anti-rabbit IgG or Alexa Fluor®-conjugated goat anti-mouse IgG (Invitrogen, Grand Island, NY) for 1 hour. Coverslips were washed with PBS and mounted with mounting solution containing 100 mM Tris pH 8.8, 50% glycerol, 2.5% DABCO (Sigma, St. Louis, MO), and 0.2 μg/ml 4, 6-diamidino-2-phenylindole (DAPI). Images were obtained on a Zeiss Observer.Z1 microscope.
+GST pull-down assays
+GST-tagged SUMOs and GST-tagged RAP80 (1–137) were expressed in E. coli and purified using Glutathione Sepharose 4B (GE Healthcare, Waukesha, WI) according to the manufacture’s procedure. Recombinant GST or GST-tagged SUMOs (8 μg protein) were diluted into assay buffer (1X PBS, 0.05% Tween 20) and incubated in glutathione-coated 96-well plates (Pierce Biotechnology, Inc., Rockford, IL). Following overnight incubation at 4°C, wells were blocked for 1 h at room temperature with 2% bovine serum albumin in assay buffer. RAP80 wild-type and mutant proteins were produced by in vitro transcription and translation in rabbit reticulocyte lysate in the presence of [35S]methionine according to the manufacturer’s instructions (Promega, Madison, WI). In vitro translated proteins (10 μl) were diluted into 100 μl of assay buffer and incubated with the immobilized proteins for 1 h
+Sci Signal. Author manuscript; available in PMC 2014 August 13.
+Page 7
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Guzzo et al.
+at room temperature. Unbound proteins were removed by washing and bound proteins were eluted with SDS sample buffer and resolved by SDS-PAGE and autoradiography. Equal loading of immobilized proteins was verified by anti-GST immunoblot. All binding assays were repeated in triplicate. Where indicated, GST-tagged RAP80 wild-type or GST-tagged RAP80 mutant proteins were immobilized onto glutathione-coated plates and incubated with linear fusions of polymeric SUMO-2, K63-Ub4, or hybrid chains consisting of SUMO-2 linked to K63-Ub2. Eluted proteins were analyzed by immunoblotting with antibodies recognizing SUMO, -ubiquitin, or GST.
+SUMO-ubiquitin chain synthesis
+Human ubiquitin and K63-Ub4 were expressed and purified following the protocol of Pickart and Raasi [38]. SUMO was ubiquitylated using Ube2W and RNF4 in reaction buffer containing 10 mM HEPES, pH 7.6., 50 mM NaCl, 1 mM DTT, 1 mM ATP, 10 mM MgCl2, 250 nM human E1, 10 μM Ube2W, 15 μM RNF4, 300 μM ubiquitin, and 250 μM SUMO-2 (containing substitution of lysine residue 11 to cysteine). The reaction was incubated overnight at 37°C. The reaction was then diluted 1:10 in 50 mM ammonium acetate, pH 4.5 and loaded onto a MonoS column 10/100 (GE Healthcare, Waukesha, WI). Protein was eluted from the column in a linear gradient of 50 mM ammonium acetate, pH 4.5, 500 mM NaCl. Fractions containing ubiquitylated-SUMO were pooled and concentrated to < 500 μL by centrifugation. The second ubiquitin was added in a reaction containing 30 mM HEPES, pH 7.6, 200 mM NaCl, 2 mM ATP, 10 mM MgCl2, 500 nM human E1, 5 μM yeast Ubc13- Mms2, 75 μM human ubiquitin (containing substitution of lysine 63 to arginine), and 50 μM Ub-SUMO. The reaction was incubated overnight at 37 °C. The reaction was diluted and purified as described for Ub-SUMO.
+Determination of dissociation constants
+Dissociation constants for K63-Ub2, SUMO-2 (containing substitution of lysine residue 11 to cysteine), and hybrid SUMO-Ub chains were determined by sedimentation equilibrium analytical ultracentrifugation. RAP80 and ligands were dialyzed overnight into 20 mM Tris, pH 8.0, 100 mM NaCl, and 1 mM TCEP. After dialysis, the concentration of each protein was determined using absorbance at 280 nm, except for RAP80, which was measured at 260 nm. The extinction coefficients were calculated using SEDNTERP [39] and were 1490 M−1cm−1 for SUMO-2, 2980 M−1cm−1 for K63-Ub2, 4470 M−1cm−1 for hybrid SUMO-Ub chains and 294 M−1cm−1 at 260 nm for RAP80. RAP80 was mixed with ligand at 3 ratios (1:1, 2:1, and 1:4, RAP80:ligand) and 100 μL of each mixture inserted into one sector of a 6- channel epon centerpiece. The reference sectors were filled with 120 μL of dialysis buffer. Cells were then loaded into an An60Ti rotor (Beckman Coulter, Inc., Indianapolis, IN) and equilibrated to 10°C and <50 micron pressure. Data was collected over a period of 72 hours with 24 hours of data collection at rotor speeds of 15000, 20000, and 25000 rpm. Data were collected every 1 to 2 hours at 240 nm and 280 nm using Rayleigh interference optics. Data were sorted and approach to equilibrium confirmed in SEDFIT [40]. Data were globally fit to an A + B → AB model in SEDPHAT [29].
+Sci Signal. Author manuscript; available in PMC 2014 August 13.
+Page 8
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Guzzo et al.
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+Acknowledgments
+We would like to acknowledge members of the Matunis and Wolberger laboratories for helpful advice and comments during the course of this work. We would also like to acknowledge the following individuals for generously providing reagents: Dr. Stephan Elledge for RAP80 cDNAs, Dr. O. John Semmes for RNF4-GFP constructs and Dr. Jorma Palvimo for RNF4-specific antibodies.
+Funding: This work was supported by grants from the National Institutes of Health to M.J.M. and the American Association for Cancer Research to C.M.G.. C.E.B. was supported in part by a Ruth Kirchstein National Research Service Award. C.W. is a Howard Hughes Medical Institute Investigator.
+References
+1. Ciccia A, Elledge SJ. The DNA damage response: making it safe to play with knives. Mol Cell. 2010; 40:179–204. [PubMed: 20965415]
+2. Bensimon A, Schmidt A, Ziv Y, Elkon R, Wang SY, Chen DJ, Aebersold R, Shiloh Y. ATM- dependent and -independent dynamics of the nuclear phosphoproteome after DNA damage. Sci Signal. 2010; 3:rs3. [PubMed: 21139141]
+3. Rupnik A, Lowndes NF, Grenon M. MRN and the race to the break. Chromosoma. 2010; 119:115–
+135. [PubMed: 19862546]
+4. Bekker-Jensen S, Mailand N. The ubiquitin- and SUMO-dependent signaling response to DNA double-strand breaks. FEBS Lett. 2011; 585:2914–2919. [PubMed: 21664912]
+5. Bergink S, Jentsch S. Principles of ubiquitin and SUMO modifications in DNA repair. Nature. 2009; 458:461–467. [PubMed: 19325626]
+6. Messick TE, Greenberg RA. The ubiquitin landscape at DNA double-strand breaks. J Cell Biol. 2009; 187:319–326. [PubMed: 19948475]
+7. Luijsterburg MS, van Attikum H. Close encounters of the RNF8th kind: when chromatin meets DNA repair. Curr Opin Cell Biol. 2012
+8. Kim H, Chen J, Yu X. Ubiquitin-binding protein RAP80 mediates BRCA1-dependent DNA damage response. Science. 2007; 316:1202–1205. [PubMed: 17525342]
+9. Sobhian B, Shao G, Lilli DR, Culhane AC, Moreau LA, Xia B, Livingston DM, Greenberg RA. RAP80 targets BRCA1 to specific ubiquitin structures at DNA damage sites. Science. 2007; 316:1198–1202. [PubMed: 17525341]
+10. Wang B, Matsuoka S, Ballif BA, Zhang D, Smogorzewska A, Gygi SP, Elledge SJ. Abraxas and RAP80 form a BRCA1 protein complex required for the DNA damage response. Science. 2007; 316:1194–1198. [PubMed: 17525340]
+11. Galanty Y, Belotserkovskaya R, Coates J, Polo S, Miller KM, Jackson SP. Mammalian SUMO E3- ligases PIAS1 and PIAS4 promote responses to DNA double-strand breaks. Nature. 2009; 462:935–939. [PubMed: 20016603]
+12. Morris JR, Boutell C, Keppler M, Densham R, Weekes D, Alamshah A, Butler L, Galanty Y, Pangon L, Kiuchi T, et al. The SUMO modification pathway is involved in the BRCA1 response to genotoxic stress. Nature. 2009; 462:886–890. [PubMed: 20016594]
+13. Rendtlew Danielsen J, Povlsen LK, Villumsen BH, Streicher W, Nilsson J, Wikstrom M, Bekker- Jensen S, Mailand N. DNA damage-inducible SUMOylation of HERC2 promotes RNF8 binding via a novel SUMO-binding Zinc finger. J Cell Biol. 2012; 197:179–187. [PubMed: 22508508]
+14. Burgess RC, Rahman S, Lisby M, Rothstein R, Zhao X. The Slx5-Slx8 complex affects sumoylation of DNA repair proteins and negatively regulates recombination. Mol Cell Biol. 2007; 27:6153–6162. [PubMed: 17591698]
+15. Kosoy A, Calonge TM, Outwin EA, O’Connell MJ. Fission yeast Rnf4 homologs are required for DNA repair. J Biol Chem. 2007; 282:20388–20394. [PubMed: 17502373]
+Sci Signal. Author manuscript; available in PMC 2014 August 13.
+Page 9
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Guzzo et al.
+16. Prudden J, Pebernard S, Raffa G, Slavin DA, Perry JJ, Tainer JA, McGowan CH, Boddy MN. SUMO-targeted ubiquitin ligases in genome stability. Embo J. 2007; 26:4089–4101. [PubMed: 17762865]
+17. Geoffroy MC, Hay RT. An additional role for SUMO in ubiquitin-mediated proteolysis. Nat Rev Mol Cell Biol. 2009; 10:564–568. [PubMed: 19474794]
+18. Abed M, Barry KC, Kenyagin D, Koltun B, Phippen TM, Delrow JJ, Parkhurst SM, Orian A. Degringolade, a SUMO-targeted ubiquitin ligase, inhibits Hairy/Groucho-mediated repression. Embo J. 2011; 30:1289–1301. [PubMed: 21343912]
+19. Fryrear KA, Guo X, Kerscher O, Semmes OJ. The Sumo-targeted ubiquitin ligase RNF4 regulates the localization and function of the HTLV-1 oncoprotein Tax. Blood. 2012; 119:1173–1181. [PubMed: 22106342]
+20. Wang B, Hurov K, Hofmann K, Elledge SJ. NBA1, a new player in the Brca1 A complex, is required for DNA damage resistance and checkpoint control. Genes Dev. 2009; 23:729–739. [PubMed: 19261749]
+21. Zhu J, Zhu S, Guzzo CM, Ellis NA, Sung KS, Choi CY, Matunis MJ. Small ubiquitin-related modifier (SUMO) binding determines substrate recognition and paralog-selective SUMO modification. J Biol Chem. 2008; 283:29405–29415. [PubMed: 18708356]
+22. Sims JJ, Cohen RE. Linkage-specific avidity defines the lysine 63-linked polyubiquitin-binding preference of rap80. Mol Cell. 2009; 33:775–783. [PubMed: 19328070]
+23. Galanty Y, Belotserkovskaya R, Coates J, Jackson SP. RNF4, a SUMO-targeted ubiquitin E3 ligase, promotes DNA double-strand break repair. Genes Dev. 2012; 26:1179–1195. [PubMed: 22661229]
+24. Luo K, Zhang H, Wang L, Yuan J, Lou Z. Sumoylation of MDC1 is important for proper DNA damage response. Embo J. 2012
+25. Yin Y, Seifert A, Chua JS, Maure JF, Golebiowski F, Hay RT. SUMO-targeted ubiquitin E3 ligase RNF4 is required for the response of human cells to DNA damage. Genes Dev. 2012; 26:1196– 1208. [PubMed: 22661230]
+26. Pickart CM, Fushman D. Polyubiquitin chains: polymeric protein signals. Curr Opin Chem Biol. 2004; 8:610–616. [PubMed: 15556404]
+27. Schimmel J, Larsen KM, Matic I, van Hagen M, Cox J, Mann M, Andersen JS, Vertegaal AC. The ubiquitin-proteasome system is a key component of the SUMO-2/3 cycle. Mol Cell Proteomics. 2008; 7:2107–2122. [PubMed: 18565875]
+28. Tatham MH, Matic I, Mann M, Hay RT. Comparative proteomic analysis identifies a role for SUMO in protein quality control. Sci Signal. 2011; 4:rs4. [PubMed: 21693764]
+29. Schuck P. On the analysis of protein self-association by sedimentation velocity analytical ultracentrifugation. Anal Biochem. 2003; 320:104–124. [PubMed: 12895474]
+30. Armstrong AA, Mohideen F, Lima CD. Recognition of SUMO-modified PCNA requires tandem receptor motifs in Srs2. Nature. 2012; 483:59–63. [PubMed: 22382979]
+31. Panier S, Ichijima Y, Fradet-Turcotte A, Leung CC, Kaustov L, Arrowsmith CH, Durocher D. Tandem protein interaction modules organize the ubiquitin-dependent response to DNA double- strand breaks. Mol Cell. 2012; 47:383–395. [PubMed: 22742833]
+32. Stewart GS, Panier S, Townsend K, Al-Hakim AK, Kolas NK, Miller ES, Nakada S, Ylanko J, Olivarius S, Mendez M, et al. The RIDDLE syndrome protein mediates a ubiquitin-dependent signaling cascade at sites of DNA damage. Cell. 2009; 136:420–434. [PubMed: 19203578]
+33. Alontaga, AY.; Bobkova, E.; Chen, Y. Biochemical analysis of protein SUMOylation. In: Ausubel, Frederick M., et al., editors. Current protocols in molecular biology. Vol. Chapter 10. 2012. p. 29
+34. Bruderer R, Tatham MH, Plechanovova A, Matic I, Garg AK, Hay RT. Purification and identification of endogenous polySUMO conjugates. EMBO Rep. 2011; 12:142–148. [PubMed: 21252943]
+35. Moilanen AM, Poukka H, Karvonen U, Hakli M, Janne OA, Palvimo JJ. Identification of a novel RING finger protein as a coregulator in steroid receptor-mediated gene transcription. Mol Cell Biol. 1998; 18:5128–5139. [PubMed: 9710597]
+36. Hu XV, Rodrigues TM, Tao H, Baker RK, Miraglia L, Orth AP, Lyons GE, Schultz PG, Wu X. Identification of RING finger protein 4 (RNF4) as a modulator of DNA demethylation through a
+Sci Signal. Author manuscript; available in PMC 2014 August 13.
+Page 10
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Guzzo et al.
+functional genomics screen. Proc Natl Acad Sci U S A. 2010; 107:15087–15092. [PubMed: 20696907]
+37. Zhang XD, Goeres J, Zhang H, Yen TJ, Porter AC, Matunis MJ. SUMO-2/3 modification and binding regulate the association of CENP-E with kinetochores and progression through mitosis. Mol Cell. 2008; 29:729–741. [PubMed: 18374647]
+38. Pickart CM, Raasi S. Controlled synthesis of polyubiquitin chains. Methods Enzymol. 2005; 399:21–36. [PubMed: 16338346]
+39. Laue, TM.; Shah, BD.; Ridgeway, TM.; Pelletier, SL. Analytical ultracentrifugation in biochemistry and polymer science. Harding, SE.; Rowe, AJ.; Horton, JC., editors. Cambridge: The Royal Society of Chemistry; 1992. p. 90-125.
+40. Schuck P. Size-distribution analysis of macromolecules by sedimentation velocity ultracentrifugation and lamm equation modeling. Biophys J. 2000; 78:1606–1619. [PubMed: 10692345]
+Sci Signal. Author manuscript; available in PMC 2014 August 13.
+Page 11
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Guzzo et al.
+Fig. 1. RAP80 contains a consensus SIM critical for recruitment to DSBs. (A) Diagram illustrating predicted ubiquitin-binding (blue) and SUMO-binding (orange) domains in components of the BRCA1-A complex. (SIM) SUMO-interacting motif; (UIM) ubiquitin-interacting motif; (AIR) Abraxas-interacting region; (ZnF) zinc fingers; (MPN±) MPR1/Pad1 N-terminal region ± active protease site; (CC) coiled-coil; (UEV1) ubiquitin E2 variant. (B) GST or GST-tagged SUMO-2(x3) was immobilized on glutathione-coated plates and incubated with the indicated FLAG- or His-tagged proteins. Bound proteins were eluted and analyzed by immunoblotting. Data shown are representative of XX experiments. (C) Diagrams of wild-
+Sci Signal. Author manuscript; available in PMC 2014 August 13.
+Page 12
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Guzzo et al.
+type and mutant RAP80 N-terminal domains and RAP80 SIM. The UIM mutant is missing the second of the two UIMs. (D) GST or GST-tagged wild-type and mutant RAP80 N- terminal domains were immobilized on glutathione-coated plates and incubated with SUMO-2(x3) (left panel) or K63-Ub4 (right panel). Bound proteins were eluted and analyzed by immunoblotting with SUMO-, ubiquitin-, or GST-specific antibodies. Data shown are representative of XX experiments. (E) U2OS cells were transfected with constructs encoding full-length, GFP-tagged wild-type (WT), UIM, SIM, or UIM and SIM (UIM/SIM) mutants of RAP80. Cells were irradiated and recruitment to DNA repair foci was analyzed by fluorescence microscopy following a 2 h recovery. Bar = 5 μm. (F) Quantitative analysis of RAP80 recruitment to DNA repair foci following IR. Results are representative of three independent experiments. Error bars represent standard deviations.
+Sci Signal. Author manuscript; available in PMC 2014 August 13.
+Page 13
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Guzzo et al.
+Fig. 2. RAP80 binds hybrid SUMO-ubiquitin chains with high affinity. (A) Schematic outline of the synthesis of hybrid SUMO-ubiquitin chains. RNF4, Ube2w and Ubc13-Mms2 represent E2 and E3 enzymes used in each step of synthesis. (B) GST-tagged RAP80 N-terminal domain was immobilized on glutathione-coated plates and incubated with SUMO-2, K63- linked diubiquitin, or hybrid SUMO-2~diubiquitin chains. Bound proteins were eluted and analyzed by immunoblotting with SUMO-2-, ubiquitin-, or GST-specific antibodies. Data shown are representative of XX experiments. (C) Similar binding assays similar to those described in B were performed with the wild-type RAP80 N-terminus and UIM or SIM mutants. (D) Quantitative analysis of in vitro binding to hybrid SUMO-2~diubiquitin chains shown in C. Results are representative of three independent experiments. Error bars represent standard deviations. (E) Quantitative binding results based on analytical ultracentifugation analysis of RAP80 N-terminal domain in complex with SUMO-2, K63- linked diubiquitin, or hybrid SUMO-2~diubiquitin chains.
+Sci Signal. Author manuscript; available in PMC 2014 August 13.
+Page 14
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Guzzo et al.
+Fig. 3. RNF4 is recruited to DSBs and required for recruitment of RAP80 to DSBs. (A) Control and IR-treated U2OS cells were analyzed by immunofluorescence microscopy with antibodies specific for RNF4 or γH2AX. Bar = 5 μm. (B) U2OS cells were transfected with control or RNF4-specific siRNAs and subsequently treated with IR. Cells were allowed to recover for 2 h and recruitment of RAP80 to γH2AX-labeled repair foci was analyzed by immunofluorescence microscopy. Bar = 5 μm. (C) Quantitative analysis of RAP80 recruitment to γH2AX-labeled repair foci in cells transfected with control or RNF4-specific siRNAs. Data are presented as the percent of cells with more than 10 foci that were positive for both proteins. Results are representative of three independent experiments. Error bars equal standard deviations. (D) Quantitative analysis of RAP80 recruitment to γH2AX- labeled repair foci in cells cotransfected with RNF4-specific siRNA and RNAi-resistant RNF4-GFP cDNA. Analysis was performed as described in C.
+Sci Signal. Author manuscript; available in PMC 2014 August 13.
+Page 15
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+N H P A A u t h o r
+I
+M a n u s c r i p t
+Guzzo et al.
+Fig 4. RNF4 is required for the recruitment of BRCA1 to DSBs. (A) U2OS cells were transfected with control or RNF4-specific siRNAs and subsequently treated with IR. Cells were allowed to recover for 2 h and recruitment of BRCA1 to γH2AX-labeled repair foci was analyzed by immunofluorescence microscopy. Bar = 5 μm. (B) Quantitative analysis of BRCA1 recruitment to γH2AX-labeled repair foci in cells transfected with control or RNF4-specific siRNAs. Analyses were performed 0.5, 1.0, and 2.0 h after treatment with IR. Results are representative of three independent experiments. Error bars equal standard deviations. (C) Quantitative analysis of BRCA1 recruitment to γH2AX-labeled repair foci in cells cotransfected with RNF4-specific siRNA and RNAi-resistant RNF4-GFP cDNA. Analysis was performed 0.5 h after treatment with IR. (D) Model for hybrid SUMO-ubiquitin chain- dependent recruitment of RAP80 and the BRCA1-A complex to DSBs.
+Sci Signal. Author manuscript; available in PMC 2014 August 13.
+Page 16

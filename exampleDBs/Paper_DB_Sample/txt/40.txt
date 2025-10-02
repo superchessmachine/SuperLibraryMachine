@@ -1,0 +1,266 @@
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+HHS Public Access Author manuscript Curr Opin Struct Biol. Author manuscript; available in PMC 2024 October 01.
+Published in final edited form as:
+Curr Opin Struct Biol. 2023 October ; 82: 102649. doi:10.1016/j.sbi.2023.102649.
+Diverse Modes of Regulating Methyltransferase Activity by Histone Ubiquitination
+James K. Fields1,†, Chad W. Hicks1,†, Cynthia Wolberger1,* 1Department of Biophysics and Biophysical Chemistry, Johns Hopkins School of Medicine, Baltimore, MD, 21205
+Abstract
+Post-translational modification of histones plays a central role in regulating transcription. Methylation of histone H3 at lysines 4 (H3K4) and 79 (H3K79) play roles in activating transcription whereas methylation of H3K27 is a repressive mark. These modifications, in turn, depend upon prior monoubiquitination of specific histone residues in a phenomenon known as histone crosstalk. Earlier work had provided insights into the mechanism by which monoubiquitinated of histone H2BK120 stimulates H3K4 methylation by COMPASS/MLL1 and H3K79 methylation by DOT1L, and monoubiquitinated H2AK119 stimulates methylation of H3K27 by the PRC2 complex. Recent studies have shed new light on the role of individual subunits and paralogs in regulating the activity of PRC2 and how additional post-translational modifications regulate yeast Dot1 and human DOT1L, as well as provided new insights into the regulation of MLL1 by H2BK120Ub.
+Introduction
+The regulation of eukaryotic transcription depends upon dynamic and reversible post- translational modification of the four core histones, which package genomic DNA into chromatin. This spatiotemporal regulation is governed by an intricate code of histone modifications, which range from small chemical modifications, such as acetylation, methylation, and phosphorylation, up to the covalent attachment of ubiquitin, which plays a non-degradative role in regulating transcription. Histone modifications alter the charge or structural dynamics of a histone sidechain [1] in addition to recruiting enzyme complexes containing domains that specifically recognize the modification. In an added layer of regulation, known as histone-crosstalk, a modification of one histone influences the subsequent modification of another, forming a type of signaling cascade.
+Correspondence: cwolberg@jhmi.edu. †J.K.F. and C.W.H. contributed equally to this work. Publisher's Disclaimer: This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final form. Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain. Declaration of Interest The authors declare no conflict of interest.
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Fields et al.
+Crosstalk between histone ubiquitination and methylation plays well-characterized roles in both gene activation and repression. Monoubiquitinated histone H2AK119 (H2AK119ub) is highly enriched in transcriptionally silent regions of chromatin [2], while monoubiquitinated histone H2BK120 (H2BK120ub) is found in actively transcribed regions [3]. H2AK119ub stimulates methylation of histone H3K27, a repressive mark, while H2BK120ub (in humans; K123 in yeast) stimulates methylation of histone H3K4 and H3K79, two modifications that are hallmarks of actively transcribed chromatin. Up to three methyl groups can be conjugated to the Nζ of lysine, with mono-, di-, and tri-methylated lysine (me1, me2, me3) in some cases playing distinct roles [4]. The first structural studies to shed light on the mechanism of cross-talk revealed how H2BK120/123ub stimulated methylation of histone H3K4 by yeast COMPASS and of H3K79 by human DOT1L [5]. More recent work has provided the first insights into the mechanism by which H2AK119ub stimulates Polycomb Repressive Complex 2 (PRC2) to methylate H3K27 [6]. Here, we discuss how new structural studies of the human H3K4 methyltransferase, MLL1, as well of yeast and human H3K79 methyltransferases, Dot1 and DOT1L, have provided important new insights into the multiple roles H2BK120ub plays in the cascade of activating histone marks [7].
+AEBP2 and JARID2 recognition of H2AK119ub increases methyltransferase
+activity of PRC2
+Tri-methylation of histone H3K27 is responsible for transcriptional repression and chromatin compaction of Polycomb target genes [8], which play essential roles in cell differentiation and development [9]. First identified in Drosophila mutants displaying homeotic transformations, the Polycomb Group (PcG) genes were found to encode two multisubunit enzymes, Polycomb repressive complexes 1 (PRC1) and 2 (PRC2) [9]. These complexes regulate multiple genes required for lineage commitment during embryonic development and for maintaining cell identity in all metazoans [10]. PRC1 is a heterodimeric E3 ligase that monoubiquitinates histone H2AK119 via its Ring1B and Bmi1 subunits and is a therapeutic target due to its involvement in cancer [11,12]. H2AK119ub, in turn, is required for trimethylation of H3K27me3 by PRC2 [13], a multiprotein complex containing Set-family methyltransferase, EZH1 or EZH2 [14]. The PRC2 core complex comprises four core proteins: EZH1/2, EED, SUZ12, and RBAP46/48 [15]. Whereas the PRC2-core complex is a weak enzyme on its own, inclusion of the AEBP2 and JARID2 subunits in the complex increases PRC2 methyltransferase activity nearly five-fold [16,17]. While H2AK119ub was known to be essential for PRC2 mediated transcriptional repression by promoting H3K27 methylation [13,18], the direct molecular mechanism underlying the cross-talk between these two histone modifications was not, until recently, fully understood.
+The cryo-EM structure of a complete PRC2-core complex with AEBP2 and JARID2 bound to a H2AK119ub nucleosome was determined to a resolution of 3.5 Å (Figure 1A) [6]. AEBP2 and JARID2 were shown to recognize H2AK119ub, thereby recruiting PRC2 and facilitating the activation of the EZH2 methyltransferase subunit. On one face of the nucleosome, JARID2 contacts ubiquitin via its ubiquitin interacting motif (UIM), while several lysine/arginine residues contact the nucleosome acidic patch. On the opposite face of the nucleosome, two of AEBP2’s three zinc fingers interact with ubiquitin as well as
+Curr Opin Struct Biol. Author manuscript; available in PMC 2024 October 01.
+Page 2
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Fields et al.
+with acidic and hydrophobic residues on the H2A-H2B surface (Figure 1A). Together, JARID2 and AEBP2 anchor PRC2 to the H2AK119ub-modified nucleosome, stabilizing the PRC2-core complex in a conformation near its methylation target in the H3 tail. With the PRC2-core complex stabilized, the SET and CXC domains of EZH2 bind the H2AK119ub- modified nucleosome and the nucleosomal DNA further interacts with the KRR motif of AEBP2, agreeing with previous studies that hypothesized this interaction [17,19]. Between EZH2 and the H3 tail, a composite interface composed of a network of van der Waals and hydrogen-bonding interactions is formed, stabilizing an otherwise unstructured area. This, in turn, allows H3K27 to be positioned in the catalytic pocket of the EZH2 SET domain, providing the structural basis for SET methylation of H3K27 in the context of H2AK119ub (Figure 1B). The presence of JARID2 and AEBP2 is doubly important in the context of the transcriptionally activating marks, H3K4me3 and H3K36me3, as the interactions of these proteins with H2AK119ub relieves the inhibitory effects of these methyl marks and allows EZH2 to methylate H3K27 [6].
+Divergent roles of EZH1 and EZH2 in PRC2 complexes
+In mammals, there are two forms of the PRC2 complex that differ in the inclusion of either EZH2 or its paralog EZH1, a gene putatively created through a duplication event [14]. Whereas EZH2 has been found to be essential in embryonic development, with homozygous deletions resulting in embryonic lethality, EZH1 null mice are viable and fertile [20]. In addition, EZH1 plays a role in adult tissues, such as maintaining hematopoietic stem cells [21,22]. Another difference between the two paralogs stems from their differing oligomerization properties. Recent crystal structures have shown PRC2 dimerizes through its SUZ12 domain, and that phosphorylation of SUZ12 by CK2 promotes PRC2 function by stabilizing the SET catalytic site for H3K27 methylation [23,24]. Interestingly, while PRC2:EZH1 dimerizes, its H3K27 methylation activity is substantially weaker than that of PRC2:EZH2 and reportedly represses transcription through an alternative mechanism linked to chromatin compaction [24,25].
+A recent structural investigation of PRC2:EZH1 [26] further explored the functional differences between EZH1 and EZH2. The authors reported cryo-EM structures [26] of monomeric PRC2:EZH1 and of a PRC2:EZH1 dimer bound to a nucleosome containing an H3K27M substitution, an oncohistone mutation that drives tighter binding to nucleosomes (Figure 1C & Figure 1D) [27]. PRC2 cofactors JARID2 and AEBP2 were also present, and the nucleosome also contained ubiquitin conjugated to H2AK119, although none of these proteins could be resolved in the maps. The authors found that PRC2:EZH1 undergoes a marked conformational rearrangement to form a nucleosome-bound dimer (Figure 1D). A divergent EZH1/2 loop denoted MS2L [26] that contacts the DNA was found to be responsible for mediating tighter chromatin binding by PRC2:EZH1 and promoted greater chromatin compaction as compared to PRC2:EZH2. This divergent loop was also found to be partly responsible for PRC2:EZH1’s attenuated methyltransferase activity.
+Curr Opin Struct Biol. Author manuscript; available in PMC 2024 October 01.
+Page 3
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Fields et al.
+Recent structural advances in MLL1-nucleosome complex formation
+Methylation of histone H3K4 is a mark of actively transcribed chromatin that is recognized by specific domains within a variety of transcription factors that activate transcription. Roles of H3K4 methylation include stimulating histone H3 acetylation by the Gcn5 acetyltransferase subunit of SAGA [28] and recruiting nucleosome remodeling enzymes, Chd1 [29]and NURF [30]. The Mixed Lineage Leukemia (MLL) proteins, which include MLL1, MLL2, MLL3, MLL4, SET1A, and SET1B, are KMT2 family methyltransferases that methylate histone H3K4, which is highly enriched at promoters and distal regulatory enhancers in humans [31]. MLL proteins play vital roles during hematopoiesis, adipogenesis, and embryogenesis, and are among the most highly mutated genes in human cancers, making them attractive therapeutic targets [32–34]. The MLL1 core complex, composed of full length RBBP5, WDR5, ASH2L, DPY30, and a C-terminal fragment of MLL1 containing the SET methyltransferase domain, is stimulated by the ubiquitination of histone H2BK120 (H2Bub) [35]. Previous cryo-EM investigations revealed the overall topology of the MLL1 complex bound to unmodified and H2Bub-modified nucleosomes [35,36]. While the MLL1 complex was found to bind to unmodified nucleosomes in two dramatically different orientations, binding modes 1 and 2, the MLL1 complex bound to the H2Bub nucleosome solely in binding mode 1 [35,36]. Despite these advances, the relative contribution of binding modes 1 and 2 to MLL1 activity remained unclear [35–38].
+Three recent studies have expanded our understanding of the structure and activity of the MLL1 complex on a nucleosome [39–41]. Ayoub et al. [39] determined the cryo-EM structure of the MLL1 complex bound to a nucleosome containing an H3K4M substitution, a mutation known to promote tight binding of SET domain methyltransferases [42]. As in prior studies, binding modes 1 and 2 were observed (Figure 2A & Figure 2B) [39]. To probe the significance of each binding mode, Ayoub et al. disrupted the interfaces between the MLL1 complex and nucleosome corresponding to each binding mode and measured the activity of MLL1 [39]. Disruption of binding mode 2, but not binding mode 1, led to a decrease in MLL1 activity on unmodified nucleosomes, leading the authors to postulate that binding mode 2 is the active MLL1 complex conformation [39]. These results are difficult to reconcile with the observation that H2B ubiquitination was observed to enhance MLL1 activity [37], since the interactions with ubiquitin observed in binding mode 1 cannot occur in binding mode 2 [37]. Additional mutagenesis experiments comparing the effects of MLL1 mutations on H2Bub-modified versus unmodified nucleosomes will be needed to determine the degree to which each binding mode contributes to overall MLL1 activity.
+In previous MLL1 structures, neither DPY30 nor the ASH2L C terminal region could be fully resolved [35,36]. An NMR study [40] recently revealed that DPY30 induces conformational changes in ASH2L in the MLL1 complex. To evaluate the structural importance of DPY30, the authors [40] also determined the cryo-EM structure of the MLL1 complex without DPY30 on an unmodified nucleosome (Figure 2C). The ASH2L C-terminal region displayed significantly more conformational heterogeneity when bound to nucleosomes in the absence of DPY30, suggesting that DPY30 stabilizes ASH2L
+Curr Opin Struct Biol. Author manuscript; available in PMC 2024 October 01.
+Page 4
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Fields et al.
+interactions with the nucleosome. This finding helps to explain why DPY30 and the C- terminal region of ASH2L are required for MLL1 activity [40].
+Further insights into the structure of ASH2L and DPY30 on H2Bub-modified nucleosomes came from a recent study [41] that combined cryo-EM, crosslinking mass spectrometry, and molecular dynamics flexible fitting to model both ASH2L and DPY30 into a cryo-EM map of an MLL1 complex bound to an H2Bub-modified nucleosome [41]. DPY30 formed multiple contacts with ASH2L’s C-terminal region, helping to stabilize ASH2L’s folding and placing it in proximity to nucleosomal DNA (Figure 2D) [41]. This positioning of DPY30 and ASH2L may stabilize the MLL1 complex on the nucleosome, helping explain previous reports that DPY30 increases methyltransferase activity of MLL1, and that this increase is dependent on C-terminal residues of ASH2L [35,40,41]. The study also found multiple assembly states of the MLL1 complex that all contained the ubiquitin-interacting subunit, RBBP5, suggesting that ubiquitin could possibly play a role in nucleating complex assembly.
+New modes of regulating Dot1/DOT1L methyltransferases
+DOT1L, a non-SET domain methyltransferase that is conserved from yeast to humans, is stimulated by ubiquitination of histone H2BK120 to methylate H3K79, a mark essential for both embryogenesis and hematopoiesis [43–45]. Like H3K4 methylation, H3K79 methylation is strongly associated with active gene transcription [46], although the mechanism by which the latter stimulates transcription is not known. As with MLL1/ COMPASS, ubiquitination of H2B does not increase DOT1L affinity for nucleosomes but instead increases DOT1L catalytic efficiency [47]. Several previous structures of the human DOT1L catalytic domain bound to H2Bub-modified nucleosomes revealed how DOT1L facilitates crosstalk between H2Bub and H3K79 methylation [48–52]. In brief, contacts with ubiquitin anchor one end of DOT1L to the nucleosome surface, allowing it to alternate between two orientation on the nucleosome: poised and active. While the poised conformation places the DOT1L active site above and out of reach of H3K79, the active state places the DOT1L catalytic site and the methyl donor, S-adenosyl methionine, in close proximity to H3K79. In this active conformation, the interactions of both DOT1L and the histone H4 tail with histone H3 promote a conformational change in the globular core of H3 that inserts K79 into the DOT1L active site [48].
+The activity of the yeast homologue, Dot1, had previously been linked to acetylation of histone H4K16 (H4K16ac), which is adjacent to H4 tail residues R17 and R19 that play critical roles in inducing the histone H3 conformational change [48]. Deletion of the H4K16 acetyltransferase results in lower Dot1 activity in vivo and reduced binding of Dot1 to unacetylated H4 tail peptides [53]. The basis for this additional layer of crosstalk was revealed in a recent paper reporting cryo-EM structures of yeast Dot1 bound to H2Bub-modified nucleosomes both with and without the H4K16ac modifications (Figure 3A). Whereas both poised and active orientations of Dot1 were observed when H4K16 was not acetylated, only the active conformation of Dot1 was observed on nucleosomes containing acetylated H4K16. This observation suggests that H4K16ac further promotes the
+Curr Opin Struct Biol. Author manuscript; available in PMC 2024 October 01.
+Page 5
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Fields et al.
+catalytically active conformation, which could account for the observed increase in activity [48,54].
+In contrast to the canonical use of H2Bub to stimulate DOT1L through direct interactions, a recent report points to indirect crosstalk between ubiquitination and methylation. It had been shown that ubiquitination of histone H2BK34 (H2BK34ub) stimulates both H3K4 and H3K79 methylation [55,56]. Recently, Ai et al. [57] determined the cryo-EM structure of DOT1L bound to H2BK34ub-modified nucleosomes (Figure 2B) [57]. Although the ubiquitin conjugated to H2BK34 was located between the DNA gyres, far from DOT1L, the enzyme still adopted the active state conformation [57]. A comparison of modified and unmodified nucleosomes revealed that the ubiquitin induces a small distortion in the DNA that could promote a restructuring of the H3K79 loop that is necessary for methylation by DOT1L active site active state conformation [57]. The model is supported by molecular dynamics simulations and hydrogen-deuterium exchange experiments [57]. It will be interesting to see whether the same mechanism can account for the effect of H2BK34ub on H3K4 methylation [55].
+Future perspectives
+Histone modification crosstalk is an integral component of methyltransferase regulation, with ubiquitin playing a central role (Figure 4). The structures that have been reported in the past five years have provided tremendous insights into the mechanisms underlying this crosstalk. Beyond expanding our understanding of these fundamental molecular machines, these recent advances create a foundation for developing novel therapeutics. In particular, MLL1, DOT1L, and PRC2 play central roles in numerous malignancies and are actively pursued as therapeutic targets [34,58,59]. As we continue to expand our understanding of chromatin modifying enzymes, we may find new ways to utilize this knowledge for our own therapeutic benefit.
+The advent of the “resolution revolution” in cryo-EM greatly accelerated the pace at which structures of nucleosome-bound proteins could be determined, as well as dramatically increasing the size and complexity of transcription complexes that can be visualized. An important next step will be elucidating structures of more complete chromatin-modifying complexes. Most structures reported to date contain truncated proteins or lack one or more subunits. Disordered proteins and flexible regions are often removed from the construct prior to structure determination to improve protein stability. DOT1L, for example, is a ~1500 residue protein that forms complexes with additional partner proteins such as AF4 and AF9 [60], yet all structures to date contain just the first ~400 residues [48–52,54]. MLL1 is a huge protein of almost 4,000 residues, of which only ~250 C-terminal residues are contained in the complexes studied to date. This truncation omits MLL1 residues known to interact with MENIN and LEDGF, which also bind to nucleosomes and are central MLL1 activity in vivo [61]. Another advance we can expect to see is an increase in structures of chromatin-modifying complexes bound to complex chromatin substrates that more closely resemble what the enzymes encounter in cells, rather than mononucleosomes. A first step in this direction was found in a structure of PRC2 bound to a dinucleosome that was reported in 2018 [62].
+Curr Opin Struct Biol. Author manuscript; available in PMC 2024 October 01.
+Page 6
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Fields et al.
+The increase in the number and complexity of histone-modifying enzyme structures has occurred in parallel with stunning advances in a mechanistic understanding of other aspects of transcription. These include structures of transcribing RNA polymerase associated with transcription initiation factors and the Mediator complex [63,64] and of transcriptional regulators bound to specific DNA sequences in their nucleosomal context [65]. It is exciting to contemplate the next step, in which these components are brought together to visualize the coordination of each step n transcription activation and repression.
+Acknowledgements
+Supported by a grant from the National Institute of General Medical Sciences (GM130393)
+References:
+1. Zentner GE, Henikoff S: Regulation of nucleosome dynamics by histone modifications. Nat Struct Mol Biol 2013, 20:259–266. [PubMed: 23463310]
+2. Wang H, Wang L, Erdjument-Bromage H, Vidal M, Tempst P, Jones RS, Zhang Y: Role of histone H2A ubiquitination in Polycomb silencing. Nature 2004, 431:873–878. [PubMed: 15386022] 3. Minsky N, Shema E, Field Y, Schuster M, Segal E, Oren M: Monoubiquitinated H2B is associated with the transcribed region of highly expressed genes in human cells. Nat Cell Biol 2008, 10:483– 488. [PubMed: 18344985]
+4. Heintzman ND, Stuart RK, Hon G, Fu Y, Ching CW, Hawkins RD, Barrera LO, Van Calcar S, Qu C, Ching KA, et al. : Distinct and predictive chromatin signatures of transcriptional promoters and enhancers in the human genome. Nat Genet 2007, 39:311–318. [PubMed: 17277777] 5. Worden EJ, Wolberger C: Activation and regulation of H2B-Ubiquitin-dependent histone methyltransferases. Curr Opin Struct Biol 2019, 59:98–106. [PubMed: 31229920]
+6. Kasinath V, Beck C, Sauer P, Poepsel S, Kosmatka J, Faini M, Toso D, Aebersold R, Nogales E: JARID2 and AEBP2 regulate PRC2 in the presence of H2AK119ub1 and other histone modifications. Science 2021, 371.**This structural study resolves a cryo-EM structure of PRC2, with co-factors AEBP2 and JARID2, bound to a H2K119ub modified nucleosome to 3.5Å. Within, the authors provide the structural basis for PRC2 mediated H3K27 methylation through AEBP2 and JARID2 recognition of H2AK119ub.
+7. Mattiroli F, Penengo L: Histone Ubiquitination: An Integrative Signaling Platform in Genome Stability. Trends Genet 2021, 37:566–581. [PubMed: 33485674]
+8. Wiles ET, Selker EU: H3K27 methylation: a promiscuous repressive chromatin mark. Curr Opin Genet Dev 2017, 43:31–37. [PubMed: 27940208]
+9. Kassis JA, Kennison JA, Tamkun JW: Polycomb and Trithorax Group Genes in Drosophila. Genetics 2017, 206:1699–1725. [PubMed: 28778878]
+10. Margueron R, Reinberg D: The Polycomb complex PRC2 and its mark in life. Nature 2011, 469:343–349. [PubMed: 21248841]
+11. Shukla S, Ying W, Gray F, Yao Y, Simes ML, Zhao Q, Miao H, Cho HJ, Gonzalez-Alonso P, Winkler A, et al. : Small-molecule inhibitors targeting Polycomb repressive complex 1 RING domain. Nat Chem Biol 2021, 17:784–793. [PubMed: 34155404] *This structural study demonstrates the feasibility of targeting the PRC1 ring domain with a small molecule inhibitor to decrease global H2A ubiquitination levels and induce differentiation in leukemic cell lines and primary acute myeloid leukemia (AML) samples.
+12. Di Croce L, Helin K: Transcriptional regulation by Polycomb group proteins. Nat Struct Mol Biol 2013, 20:1147–1155. [PubMed: 24096405]
+13. Tamburri S, Lavarone E, Fernandez-Perez D, Conway E, Zanotti M, Manganaro D, Pasini D: Histone H2AK119 Mono-Ubiquitination Is Essential for Polycomb-Mediated Transcriptional Repression. Mol Cell 2020, 77:840–856 e845. [PubMed: 31883952] *This study demonstrates that H2AK119ub is essential to maintain PcG targeted repression in embryonic stem cells.
+Curr Opin Struct Biol. Author manuscript; available in PMC 2024 October 01.
+Page 7
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Fields et al.
+Furthermore, loss of H2AK119ub resulted in ablated PRC2 activity and loss of H3K27 methylation.
+14. Laible G, Wolf A, Dorn R, Reuter G, Nislow C, Lebersorger A, Popkin D, Pillus L, Jenuwein T: Mammalian homologues of the Polycomb-group gene Enhancer of zeste mediate gene silencing in Drosophila heterochromatin and at S. cerevisiae telomeres. EMBO J 1997, 16:3219–3232. [PubMed: 9214638]
+15. Cao R, Wang L, Wang H, Xia L, Erdjument-Bromage H, Tempst P, Jones RS, Zhang Y: Role of histone H3 lysine 27 methylation in Polycomb-group silencing. Science 2002, 298:1039–1043. [PubMed: 12351676]
+16. Son J, Shen SS, Margueron R, Reinberg D: Nucleosome-binding activities within JARID2 and EZH1 regulate the function of PRC2 on chromatin. Genes Dev 2013, 27:2663–2677. [PubMed: 24352422]
+17. Lee CH, Holder M, Grau D, Saldana-Meyer R, Yu JR, Ganai RA, Zhang J, Wang M, LeRoy G, Dobenecker MW, et al. : Distinct Stimulatory Mechanisms Regulate the Catalytic Activity of Polycomb Repressive Complex 2. Mol Cell 2018, 70:435–448 e435. [PubMed: 29681498] 18. Blackledge NP, Fursova NA, Kelley JR, Huseyin MK, Feldmann A, Klose RJ: PRC1 Catalytic Activity Is Central to Polycomb System Function. Mol Cell 2020, 77:857–874 e859. [PubMed: 31883950]
+19. Grijzenhout A, Godwin J, Koseki H, Gdula MR, Szumska D, McGouran JF, Bhattacharya S, Kessler BM, Brockdorff N, Cooper S: Functional analysis of AEBP2, a PRC2 Polycomb protein, reveals a Trithorax phenotype in embryonic development and in ESCs. Development 2016, 143:2716–2723. [PubMed: 27317809]
+20. Ezhkova E, Lien WH, Stokes N, Pasolli HA, Silva JM, Fuchs E: EZH1 and EZH2 cogovern histone H3K27 trimethylation and are essential for hair follicle homeostasis and wound repair. Genes Dev 2011, 25:485–498. [PubMed: 21317239]
+21. Hidalgo I, Herrera-Merchan A, Ligos JM, Carramolino L, Nunez J, Martinez F, Dominguez O, Torres M, Gonzalez S: Ezh1 is required for hematopoietic stem cell maintenance and prevents senescence-like cell cycle arrest. Cell Stem Cell 2012, 11:649–662. [PubMed: 23122289]
+22. Vo LT, Kinney MA, Liu X, Zhang Y, Barragan J, Sousa PM, Jha DK, Han A, Cesana M, Shao Z, et al. : Regulation of embryonic haematopoietic multipotency by EZH1. Nature 2018, 553:506–510. [PubMed: 29342143]
+23. Chen S, Jiao L, Liu X, Yang X, Liu X: A Dimeric Structural Scaffold for PRC2-PCL Targeting to CpG Island Chromatin. Mol Cell 2020, 77:1265–1278 e1267. [PubMed: 31959557] *This study reports a crystal structure of PRC2:EZH2 that reveals the molecular mechanism of PRC2 dimerization. Dimerization enhances PRC2 binding to GpG Islands in vitro and loss of dimerization results in dimished H3K27 methylation.
+24. Gong L, Liu X, Jiao L, Yang X, Lemoff A, Liu X: CK2-mediated phosphorylation of SUZ12 promotes PRC2 function by stabilizing enzyme active site. Nat Commun 2022, 13:6781. [PubMed: 36351927] *This study reports a unique mechanism for stimulating PRC2 activity through SUZ12 S583 phosphorylation. Within, the authors solve a PRC2:EZH1 dimer crystal structure, wherein SUZ12 phosphorylation stabilizes the catalytic SET domain of PRC2.
+25. Margueron R, Li G, Sarma K, Blais A, Zavadil J, Woodcock CL, Dynlacht BD, Reinberg D: Ezh1 and Ezh2 maintain repressive chromatin through different mechanisms. Mol Cell 2008, 32:503– 518. [PubMed: 19026781]
+26. Grau D, Zhang Y, Lee CH, Valencia-Sanchez M, Zhang J, Wang M, Holder M, Svetlov V, Tan D, Nudler E, et al. : Structures of monomeric and dimeric PRC2:EZH1 reveal flexible modules involved in chromatin compaction. Nat Commun 2021, 12:714. [PubMed: 33514705] *This study reports a unique mechanism for stimulating PRC2 activity through SUZ12 S583 phosphorylation. Within, the authors solve a PRC2:EZH1 dimer crystal structure, wherein SUZ12 phosphorylation stabilizes the catalytic SET domain of PRC2.
+27. Lewis PW, Muller MM, Koletsky MS, Cordero F, Lin S, Banaszynski LA, Garcia BA, Muir TW, Becher OJ, Allis CD: Inhibition of PRC2 activity by a gain-of-function H3 mutation found in pediatric glioblastoma. Science 2013, 340:857–861. [PubMed: 23539183]
+Curr Opin Struct Biol. Author manuscript; available in PMC 2024 October 01.
+Page 8
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Fields et al.
+28. Bian C, Xu C, Ruan J, Lee KK, Burke TL, Tempel W, Barsyte D, Li J, Wu M, Zhou BO, et al. : Sgf29 binds histone H3K4me2/3 and is required for SAGA complex recruitment and histone H3 acetylation. EMBO J 2011, 30:2829–2842. [PubMed: 21685874]
+29. Sims RJ 3rd, Chen CF, Santos-Rosa H, Kouzarides T, Patel SS, Reinberg D: Human but not yeast CHD1 binds directly and selectively to histone H3 methylated at lysine 4 via its tandem chromodomains. J Biol Chem 2005, 280:41789–41792. [PubMed: 16263726]
+30. Wysocka J, Swigut T, Xiao H, Milne TA, Kwon SY, Landry J, Kauer M, Tackett AJ, Chait BT, Badenhorst P, et al. : A PHD finger of NURF couples histone H3 lysine 4 trimethylation with chromatin remodelling. Nature 2006, 442:86–90. [PubMed: 16728976]
+31. Shilatifard A: The COMPASS family of histone H3K4 methylases: mechanisms of regulation in development and disease pathogenesis. Annu Rev Biochem 2012, 81:65–95. [PubMed: 22663077]
+32. Chern TR, Liu L, Petrunak E, Stuckey JA, Wang M, Bernard D, Zhou H, Lee S, Dou Y, Wang S: Discovery of Potent Small-Molecule Inhibitors of MLL Methyltransferase. ACS Med Chem Lett 2020, 11:1348–1352. [PubMed: 32551023]
+33. Li X, Song Y: Structure, function and inhibition of critical protein-protein interactions involving mixed lineage leukemia 1 and its fusion oncoproteins. J Hematol Oncol 2021, 14:56. [PubMed: 33823889] *This review discusses the most common MLL1-rearranged fusion proteins, their role in causing leukemic transformation, and the studies that have attempted to disrupt MLL1- rearranged protein-protein interactions in pursuit of a therapeutic for MLL1-rearranged leukemias.
+34. Rao RC, Dou Y: Hijacked in cancer: the KMT2 (MLL) family of methyltransferases. Nature Reviews Cancer 2015, 15:334–346. [PubMed: 25998713]
+35. Xue H, Yao T, Cao M, Zhu G, Li Y, Yuan G, Chen Y, Lei M, Huang J: Structural basis of nucleosome recognition and modification by MLL methyltransferases. Nature 2019, 573:445–449. [PubMed: 31485071]
+36. Park SH, Ayoub A, Lee YT, Xu J, Kim H, Zheng W, Zhang B, Sha L, An S, Zhang Y, et al. : Cryo-EM structure of the human MLL1 core complex bound to the nucleosome. Nat Commun 2019, 10:5540. [PubMed: 31804488]
+37. Kwon M, Park K, Hyun K, Lee JH, Zhou L, Cho YW, Ge K, Skalnik DG, Muir TW, Kim J: H2B ubiquitylation enhances H3K4 methylation activities of human KMT2 family complexes. Nucleic Acids Res 2020, 48:5442–5456. [PubMed: 32365172]
+38. Sha L, Ayoub A, Cho US, Dou Y: Insights on the regulation of the MLL/SET1 family histone methyltransferases. Biochim Biophys Acta Gene Regul Mech 2020, 1863:194561. [PubMed: 32304759]
+39. Ayoub A, Park SH, Lee Y-T, Cho U-S, Dou Y: Regulation of MLL1 methyltransferase activity in two distinct nucleosome binding modes. Biochemistry 2021, 61:1–9. [PubMed: 34928138] *This investigation determined the cryoEM structure of MLL1 core complex bound to H3K4M-modified nucleosome and performed mutagenesis biochemical studies to determine the relative activity of its two binding modes on unmodified nucleosome.
+40. Lee YT, Ayoub A, Park SH, Sha L, Xu J, Mao F, Zheng W, Zhang Y, Cho US, Dou Y: Mechanism for DPY30 and ASH2L intrinsically disordered regions to modulate the MLL/SET1 activity on chromatin. Nat Commun 2021, 12:2953. [PubMed: 34012049] **This investigation determined the cryoEM structure of MLL1 complex without DPY30 on unmodified nucleosome to reveal a unique binding mode, and utilized NMR experimentation to reveal DPY30-induced changes in ASH2L.
+41. Rahman S, Hoffmann NA, Worden EJ, Smith ML, Namitz KEW, Knutson BA, Cosgrove MS, Wolberger C: Multistate structures of the MLL1-WRAD complex bound to H2B-ubiquitinated nucleosome. Proc Natl Acad Sci U S A 2022, 119:e2205691119.**This study performed cryoEM, crosslinking-MS, and molecular dynamics flexible fitting to model DPY30 and ASH2L into a cryoEM map of MLL1 complex bound to H2BK120ub+H3K4Nle-modified nucleosome revealing specific contacts between DPY30 and ASH2L’s C-terminal region.
+42. Jayaram H, Hoelper D, Jain SU, Cantone N, Lundgren SM, Poy F, Allis CD, Cummings R, Bellon S, Lewis PW: S-adenosyl methionine is necessary for inhibition of the methyltransferase G9a by the lysine 9 to methionine mutation on histone H3. Proc Natl Acad Sci U S A 2016, 113:6182– 6187. [PubMed: 27185940]
+Curr Opin Struct Biol. Author manuscript; available in PMC 2024 October 01.
+Page 9
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Fields et al.
+43. Jones B, Su H, Bhat A, Lei H, Bajko J, Hevi S, Baltus GA, Kadam S, Zhai H, Valdez R, et al. : The histone H3K79 methyltransferase Dot1L is essential for mammalian development and heterochromatin structure. PLoS Genet 2008, 4:e1000190.
+44. Briggs SD, Xiao T, Sun ZW, Caldwell JA, Shabanowitz J, Hunt DF, Allis CD, Strahl BD: Gene silencing: trans-histone regulatory pathway in chromatin. Nature 2002, 418:498. [PubMed: 12152067]
+45. Ng HH, Xu RM, Zhang Y, Struhl K: Ubiquitination of histone H2B by Rad6 is required for efficient Dot1-mediated methylation of histone H3 lysine 79. J Biol Chem 2002, 277:34655– 34657. [PubMed: 12167634]
+46. Hyun K, Jeon J, Park K, Kim J: Writing, erasing and reading histone lysine methylations. Exp Mol Med 2017, 49:e324. [PubMed: 28450737]
+47. McGinty RK, Kim J, Chatterjee C, Roeder RG, Muir TW: Chemically ubiquitylated histone H2B stimulates hDot1L-mediated intranucleosomal methylation. Nature 2008, 453:812–816. [PubMed: 18449190]
+48. Worden EJ, Hoffmann NA, Hicks CW, Wolberger C: Mechanism of Cross-talk between H2B Ubiquitination and H3 Methylation by Dot1L. Cell 2019, 176:1490–1501 e1412. [PubMed: 30765112]
+49. Anderson CJ, Baird MR, Hsu A, Barbour EH, Koyama Y, Borgnia MJ, McGinty RK: Structural Basis for Recognition of Ubiquitylated Nucleosome by Dot1L Methyltransferase. Cell Rep 2019, 26:1681–1690 e1685. [PubMed: 30759380]
+50. Valencia-Sanchez MI, De Ioannes P, Wang M, Vasilyev N, Chen R, Nudler E, Armache JP, Armache KJ: Structural Basis of Dot1L Stimulation by Histone H2B Lysine 120 Ubiquitination. Mol Cell 2019, 74:1010–1019 e1016. [PubMed: 30981630]
+51. Jang S, Kang C, Yang HS, Jung T, Hebert H, Chung KY, Kim SJ, Hohng S, Song JJ: Structural basis of recognition and destabilization of the histone H2B ubiquitinated nucleosome by the DOT1L histone H3 Lys79 methyltransferase. Genes Dev 2019, 33:620–625. [PubMed: 30923167]
+52. Yao T, Jing W, Hu Z, Tan M, Cao M, Wang Q, Li Y, Yuan G, Lei M, Huang J: Structural basis of the crosstalk between histone H2B monoubiquitination and H3 lysine 79 methylation on nucleosome. Cell Res 2019, 29:330–333. [PubMed: 30770869]
+53. Lee S, Oh S, Jeong K, Jo H, Choi Y, Seo HD, Kim M, Choe J, Kwon CS, Lee D: Dot1 regulates nucleosome dynamics by its inherent histone chaperone activity in yeast. Nat Commun 2018, 9:240. [PubMed: 29339748]
+54. Valencia-Sanchez MI, De Ioannes P, Wang M, Truong DM, Lee R, Armache JP, Boeke JD, Armache KJ: Regulation of the Dot1 histone H3K79 methyltransferase by histone H4K16 acetylation. Science 2021, 371.**This investigation determined the stimulatory effect of H4K16ac on DOT1 in vitro and in vivo and determined the cryoEM structure of DOT1 bound to H2BK120ub-modified nucleosome.
+55. Wu L, Zee BM, Wang Y, Garcia BA, Dou Y: The RING finger protein MSL2 in the MOF complex is an E3 ubiquitin ligase for H2B K34 and is involved in crosstalk with H3 K4 and K79 methylation. Molecular cell 2011, 43:132–144. [PubMed: 21726816]
+56. Wu L, Li L, Zhou B, Qin Z, Dou Y: H2B ubiquitylation promotes RNA Pol II processivity via PAF1 and pTEFb. Molecular cell 2014, 54:920–931. [PubMed: 24837678]
+57. Ai H, Sun M, Liu A, Sun Z, Liu T, Cao L, Liang L, Qu Q, Li Z, Deng Z, et al. : H2B Lys34 Ubiquitination Induces Nucleosome Distortion to Stimulate Dot1L Activity. Nat Chem Biol 2022, 18:972–980. [PubMed: 35739357] **This study determined the cryoEM structure of DOT1L bound to H2BK34ub-modified nucleosome and performed molecular dynamics simulations and hydrogen-deuterium exchange experiments to reveal H2BK34ub-mediated restructuring of the H3K79 loop into a solvent-exposed position helping explain the mechanism by which H2BK34ub stimulates DOT1L activity.
+58. Alexandrova E, Salvati A, Pecoraro G, Lamberti J, Melone V, Sellitto A, Rizzo F, Giurato G, Tarallo R, Nassa G, et al. : Histone Methyltransferase DOT1L as a Promising Epigenetic Target for Treatment of Solid Tumors. Front Genet 2022, 13:864612. [PubMed: 35495127]
+59. Dockerill M, Gregson C, DH OD: Targeting PRC2 for the treatment of cancer: an updated patent review (2016 – 2020). Expert Opin Ther Pat 2021, 31:119–135. [PubMed: 33103538]
+Curr Opin Struct Biol. Author manuscript; available in PMC 2024 October 01.
+Page 10
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Fields et al.
+60. Yi Y, Ge S: Targeting the histone H3 lysine 79 methyltransferase DOT1L in MLL-rearranged leukemias. J Hematol Oncol 2022, 15:35. [PubMed: 35331314]
+61. Yokoyama A, Cleary ML: Menin critically links MLL proteins with LEDGF on cancer-associated target genes. Cancer Cell 2008, 14:36–46. [PubMed: 18598942]
+62. Poepsel S, Kasinath V, Nogales E: Cryo-EM structures of PRC2 simultaneously engaged with two functionally distinct nucleosomes. Nat Struct Mol Biol 2018, 25:154–162. [PubMed: 29379173]
+63. Chen X, Wang X, Liu W, Ren Y, Qu X, Li J, Yin X, Xu Y: Structures of +1 nucleosome-bound PIC-Mediator complex. Science 2022, 378:62–68. [PubMed: 36201575]
+64. Filipovski M, Soffers JHM, Vos SM, Farnung L: Structural basis of nucleosome retention during transcription elongation. Science 2022, 376:1313–1316. [PubMed: 35709268]
+65. Michael AK, Grand RS, Isbel L, Cavadini S, Kozicka Z, Kempf G, Bunker RD, Schenk AD, Graff-Meyer A, Pathare GR, et al. : Mechanisms of OCT4-SOX2 motif readout on nucleosomes. Science 2020, 368:1460–1465. [PubMed: 32327602]
+Curr Opin Struct Biol. Author manuscript; available in PMC 2024 October 01.
+Page 11
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Fields et al.
+Figure 1: AEBP2 and JARID2 Recognition of H2AK119ub Stabilizes the PRC2 Complex (A) Cryo-EM structure of the PRC2 core complex, with co-factors JARID2 and AEBP2, bound to a H2AK119ub modified nucleosome (PDB: 6WKR). (B) Magnified view of histone H3 tail (blue) protruding from nucleosome (grey) and interacting with the EZH2 SET Domain (teal). (C) Cryo-EM structure of PRC2:EZH1 monomer with cofactors JARID2 (96–367) and AEBP (PDB:7KS0). (D) Cryo-EM structure of PRC2:EZH1 dimer (PDB: 7KSR;7KTP), with co-factors JARID2 (1–367) and AEBP2, bound to a H2AK119ub modified nucleosome (PDB: 7KTQ).
+Curr Opin Struct Biol. Author manuscript; available in PMC 2024 October 01.
+Page 12
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Fields et al.
+Figure 2: MLL1 H3K4 methyltransferase and crosstalk with H2BK120ub. (A) Surface model of MLL1 core complex bound to H3K4M-modified nucleosome in (A) mode 1 (PDB: 7MBM) and (B) mode 2 (PDB: 7MBN). (C) MLL1 core complex without DPY30 bound to unmodified nucleosome in a new binding mode, 3 (PDB: 6W5I). (C) MLL1 core complex bound to H2BK120ub -modified nucleosome (PDB: 6KIU). Zoomedin view shows DPY30 and ASH2L models fit to the cryo-EM electron density map (EMDB-26454).
+Curr Opin Struct Biol. Author manuscript; available in PMC 2024 October 01.
+Page 13
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Fields et al.
+Figure 3: Crosstalk between H3K79 methylation and H4K16ac and H2BK34ub in Dot1/DOT1L activity. (A) Yeast Dot1 bound to H2BK120ub-modified nucleosome (PDB: 7K6Q). Zoomed-in views show how H3K79M, H4 tail residues, and ubiquitin residues interact with Dot1. (B) Human DOT1L bound to H2BK34ub-modified nucleosome (PDB: 7XCR).
+Curr Opin Struct Biol. Author manuscript; available in PMC 2024 October 01.
+Page 14
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Fields et al.
+Figure 4: Histone modification crosstalk and their effects on transcription. Summary diagram of histone modification crosstalk relevant to recently published structures of ubiquitin binding enzymes on ubiquitin-modified nucleosomes. The structure shown in surface representation is a composite of nucleosome (PDB: 1KX5), H2BK120ub (PDB: 7UD5), H2BK34ub (PDB: 7XCR), and H2AK119ub (PDB: 6WKR). The arrows indicate positive crosstalk of one histone modification stimulating the deposition of another histone modification.
+Curr Opin Struct Biol. Author manuscript; available in PMC 2024 October 01.
+Page 15

@@ -1,0 +1,786 @@
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+HHS Public Access Author manuscript Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Published in final edited form as:
+Mol Cell. 2017 May 04; 66(3): 345–357.e6. doi:10.1016/j.molcel.2017.03.020.
+A Tunable Brake for HECT Ubiquitin Ligases
+Zan Chen1, Hanjie Jiang1, Wei Xu1, Xiaoguang Li2, Daniel R. Dempsey1, Xiangbin Zhang3, Peter Devreotes2, Cynthia Wolberger3,5, Mario Amzel3,5, Sandra Gabelli3,4,5, and Philip A. Cole1,5 1Department of Pharmacology and Molecular Sciences, Johns Hopkins School of Medicine, Baltimore, MD 21205
+2Department of Cell Biology, Johns Hopkins School of Medicine, Baltimore, MD 21205
+3Department of Biophysics and Biophysical Chemistry, Johns Hopkins School of Medicine, Baltimore, MD 21205
+4Department of Medicine, Johns Hopkins School of Medicine, Baltimore, MD 21205
+5Department of Oncology, Johns Hopkins School of Medicine, Baltimore, MD 21205
+Abstract
+The HECT E3 ligases ubiquitinate numerous transcription factors and signaling molecules and their activity must be tightly controlled to prevent cancer, immune disorders, and other diseases. In this study we have found unexpectedly that peptide linkers tethering WW domains in several HECT family members are key regulatory elements of their catalytic activities. Biochemical, structural, and cellular analysis has revealed that the linkers can lock the HECT domain in an inactive conformation and block the proposed allosteric ubiquitin binding site. Such linker- mediated autoinhibition of the HECT domain can be relieved by linker post-translational modifications, but complete removal of the brake can induce hyperactive autoubiquitination and E3 self-destruction. These results clarify the mechanisms of several HECT protein cancer associated mutations and provide a new framework for understanding how HECT ubiquitin ligases must be finely tuned to ensure normal cellular behavior.
+Graphical Abstract
+Correspondence: gabelli@jhmi.edu, pcole@jhmi.edu. Lead contact: Philip A Cole, pcole@jhmi.edu
+Author Contributions. Z.C., H.J., S.G., P.C. designed the research plan with input from D.D., P.D., C.W., and M.A. Z.C., H.J., W.X., X.L., X.Z. performed the biochemical and cellular experiments and the data was analyzed by them in conjunction with P.C., C.W., and P.D. Z.C., H.J., and S.G. performed the protein crystallization and X-ray analysis and structure determination with input from M.A. The manuscript was drafted by Z.C., S.G., and P.C. and all authors assisted in writing and editing the manuscript.
+Publisher's Disclaimer: This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final citable form. Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+HECT domain ubiquitin transferases (E3 ligases) catalyze the Lys ubiquitination of numerous cellular proteins and are critical for protein homeostasis and cell signaling (Buetow and Huang, 2016; Scheffner and Kumar, 2014). Like all E3 ligases, HECT enzymes are activated by the participation of upstream E1 and E2 enzymes. In contrast to the RING family of E3 ligases which have an indirect role in ubiquitin bond formation, HECT domains have an active site Cys that is charged with ubiquitin by the E2. The HECT thioester intermediate directly ubiquitinates target proteins and itself on Lys residues. Because of their direct role in catalysis, it is presumed that HECT E3 ligases must be held in check to prevent both excessive target ubiquitination as well as self-destruction by autoubiquitination (Broix et al., 2016; Buetow and Huang, 2016).
+Of the 28 human HECT domain E3 ligases, the most intensively studied comprise the 9 members of the NEDD4 family (Figure S1A) (Bernassola et al., 2008; Buetow and Huang, 2016; Scheffner and Kumar, 2014). Members of the NEDD4 family include WWP2, WWP1, ITCH, and NEDD4-1 and these E3 ligases target for destruction key signaling molecules and transcription factors (Aki et al., 2015; Buetow and Huang, 2016; Chen et al., 2014; Scheffner and Kumar, 2014; Zhi and Chen, 2012). Abnormal activities of NEDD4 E3 ligases are connected to cancer, immune disorders, and other diseases (Aki et al., 2015; Broix et al., 2016; Buetow and Huang, 2016; Chen et al., 2014; Scheffner and Kumar, 2014; Zhi and Chen, 2012). The NEDD4 family proteins each contain an N-terminal C2 domain followed by two to four WW domains and culminate in a C-terminal catalytic HECT domain (Figure 1A and Figure S1A) (Buetow and Huang, 2016). The C2 and WW domains have been implicated in substrate selectivity and catalytic regulation of NEDD4 E3 ligases (Bruce et al., 2008; Escobedo et al., 2014; Mari et al., 2014; Riling et al., 2015; Wiesner et al., 2007).
+Prior structural studies have revealed that HECT domains contain a larger N-lobe which can interact with E2 proteins and a smaller C-lobe that contains a catalytic Cys residue involved in ubiquitin transfer (Buetow and Huang, 2016). In addition, several HECT family members have been shown to possess an N-lobe ubiquitin binding exosite (Kim et al., 2011; Maspero et al., 2011; Zhang et al., 2016). Remote from the ubiquitin substrate binding site in the HECT C-lobe, this exosite has been characterized structurally and shown to engage a distinct ubiquitin molecule in HECTs and this can catalytically activate these E3 ligases (Kim et al., 2011; Maspero et al., 2011; Maspero et al., 2013; Ogunjimi et al., 2010; Zhang
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 2
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+et al., 2016). The N- and C-lobes are connected by a hinge loop and the HECT domains have been captured in two conformational states, a ground state T-shape (Maspero et al., 2011; Verdecia et al., 2003) and a catalytically proficient L-shape (Kamadurai et al., 2013; Maspero et al., 2011). The dynamic inter-conversion of the T-shape and L-shape HECT conformations is necessary for turnover, but what governs this transition is uncertain. Interactions with C2 domain, WW domains, and various post-translational modifications have each been proposed to influence HECT domain catalytic activity but biochemical details for this have generally been lacking (Bruce et al., 2008; Gallagher et al., 2006; Gao et al., 2004; Persaud et al., 2014; Riling et al., 2015; Scheffner and Kumar, 2014; Wiesner et al., 2007; Yang et al., 2006).
+Here we investigate the regulation of WWP2, a NEDD4 family member that has been shown to ubiquitinate and target for removal the key tumor suppressor PTEN and the important stem cell-related transcription factor OCT4 (Maddika et al., 2011; Xu et al., 2009). WWP2 contains four WW domains (WW1-WW4) and is most closely related to the NEDD4 family members WWP1 and ITCH which have been linked to cancer and immunologic control (Bernassola et al., 2008; Chang et al., 2006; Zhi and Chen, 2012). Our studies have revealed an unanticipated autoinhibitory module centrally located in WWP2, WWP1, and ITCH between the WW2 and WW3 domains, and below we describe the mechanism of this regulation and its general significance in the NEDD4 family.
+RESULTS
+WWP2 E3 ligase activity is autoinhibited
+In the course of in vitro analysis of full length WWP2 and ubiquitination of its protein substrate PTEN (Chen et al., 2016), we observed that the fusion protein glutathione S- transferase-WWP2 (GST-WWP2) was a robust catalyst (Figure 1B; Figure S1B). However, proteolytic removal of the GST reduced WWP2’s ubiquitin transferase activity toward PTEN and itself (Figure 1B; Figure S1B). Addition of GST in trans to GST-free full-length WWP2 failed to restore its activity to the levels observed for the GST-WWP2 fusion (Figure S1B). Size exclusion chromatography of GST-free WWP2 showed that it was largely monomeric (Figure S1C), and this monomeric form showed low ubiquitin transferase activity whereas a small fraction of GST-free full length WWP2 eluted as an oligomeric form which appeared to be much more active (Figure S1D). As GST is an obligate dimer, these results suggest that GST-free WWP2 may be subject to allosteric intramolecular inhibition, partially relieved by self-interaction, although the structural basis for this was unclear.
+It has been reported that the C2 domain and the WW domains in HECT E3 ligases (Figure 1A and Figure S1A) may be important for regulating their catalytic activities (Bruce et al., 2008; Escobedo et al., 2014; Mari et al., 2014; Riling et al., 2015; Wiesner et al., 2007). To investigate the role of the C2 domain in WWP2, we prepared C2 domain-free WWP2 which showed low activity similar to that of full-length GST-free WWP2 (Figure 1C). We note that these WWP2 results differ from findings in a previous report (Wiesner et al., 2007). To evaluate the role of the WW domains, we explored the effects of a commercially available canonical WW peptide ligand containing a PPXY motif (WW peptide), and also made
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 3
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+mutations in the WW domain-binding LPXY motifs in the WWP2 HECT domain (Bruce et al., 2008). Neither WW peptide addition nor LPXY mutation led to altered WWP2 ubiquitin transferase activity (Figure S2A, S2B), arguing against the importance of WW domain engagement in WWP2 catalytic regulation.
+We next introduced a protease site N-terminal to the WW3 domain in WWP2 (Figure 1D) and determined that the WW3-WW4-HECT protein fragment could partially co-elute with the C2-WW1-WW2 fragment by size exclusion chromatography (Figure 1E, 1F). This raised the possibility that interactions between the N-terminal and C-terminal components of WWP2 might modulate the activity of intact full-length WWP2. Consistent with this hypothesis, purified recombinant WWP2 HECT domain and WW3-WW4-HECT protein showed robust autoubiquitination activity (Figure 1G). Based on these findings, we suspected that the WW1-WW2 moiety was crucial for enforcing autoinhibition of WWP2. However, intermolecular addition of a purified recombinant WW1-WW2 protein fragment to WW3-WW4-HECT WWP2 did not inhibit the latter’s ubiquitin transferase activity (Figure S2C).
+The WW2-WW3 linker (2,3-linker) as an autoinhibitory module of WWP2
+Because of the lack of an apparent role for the C2 or WW domains in WWP2 catalytic regulation, we considered the possibility that the ~30 aa WW2-WW3 linker (2,3-linker), proposed to possess α-helical character by a protein structure prediction algorithm (PSIPRED v3.3), might be critical for autoinhibition of WWP2 enzymatic activity. We tested this possibility in several ways. We prepared purified recombinant 2,3-linker-WW3-WW4- HECT protein and found that it was less active than the linker-free WW3-WW4-HECT WWP2 enzyme form (Figure 2A). In addition, we showed that a synthetic linker peptide (aa362-395) could inhibit WW3-WW4-HECT WWP2 in an intermolecular fashion (Figure 2B). Moreover, genetic deletion of the 2,3-linker from full-length untagged WWP2 profoundly (~100-fold) increased its autoubiquitination activity (Figure 2C, please note the different time scales above the gel).
+One possible mechanism for how the 2,3-linker may inhibit WWP2 catalytic activity is by blocking the E2-E3 interaction that is necessary for charging the HECT domain with ubiquitin (Trempe et al., 2013). However, the full-length and 2,3-linker-free WWP2 showed a similar ~3-fold stimulation of autoubiquitination activity with a 30-fold increase in E2 concentration (Figure S2D, S2E) suggesting that the 2,3-linker probably does not modulate the E2-E3 interaction. To gain greater insight into the molecular basis of the role of the 2,3- linker, we generated several WWP2 deletion constructs to determine core regions that are critical for 2,3-linker-mediated regulation. It was found that deletion of the WW3 and WW4 domains, effectively fusing the 2,3-linker directly to the HECT domain, still induced autoinhibition (Figure 2D). Although the 2,3-linker-HECT construct showed reduced autoubiquitination activity relative to the isolated HECT domain, inclusion of the WW2 domain in a WW2-2,3-linker-HECT construct further intensified autoinhibition (Figure 2D, please note the different time scales above the gel).
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 4
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+Structural basis of WWP2 autoinhibition by the 2,3-linker
+We determined the X-ray crystal structures of the 2,3-linker-HECT and WW2-2,3-linker- HECT WWP2 protein constructs (Figure 3A; Figure S3) at 2.8 and 2.3 Å resolution, respectively (Table 1). The X-ray structure of 2,3-linker-HECT WWP2 (Figure S3A) showed the HECT domain in the T-shape conformation, which appeared similar to the known WWP1 and WWP2 HECT domain structures (Gong et al., 2015; Verdecia et al., 2003), but the 2,3-linker was not observed (see STAR Methods for an R.M.S.D. comparison of structures). The structures of two crystal forms of WW2-2,3-linker-HECT WWP2 were determined. In one, the complete WW2 domain and 2,3-linker was observed (Figure 3A; Figure S3C), and in the other, only the C-terminal 6 residues of the WW2 domain could be resolved, but the rest of the structures including the 2,3-linker and HECT domains were nearly identical (Figure S3B).
+The fold of the WW2 domain shows a characteristic three-stranded β-sheet, and interestingly, its interaction with the HECT domain is mediated by its C-terminal 6 residues, especially Trp358 (Figure S3E), which is mutated in cancer (Durinck et al., 2015). Indeed we found that the WWP2 W358L cancer mutant is more active than wt WWP2 (Figure S3F). The 2,3-linker forms a 26-residue α-helix that makes extensive interactions with the N-lobe and C-lobe of the WWP2 HECT T-shape conformation (Figure 3A, 3B, 3D and 3E; Figure S3D). The helix displays a unique bent conformation and wraps around the HECT domain with buried surface area of 1150 A2. The N-terminal residues of the 2,3-linker and the WW2 domain occupy a site in the HECT N-lobe that is the proposed allosteric binding exosite for non-covalently bound ubiquitin (Figure 3B) (Maspero et al., 2011; Zhang et al., 2016). Therefore in the 2,3-linker bound WWP2 form, it appears that the 2,3-linker would obstruct ubiquitin’s ability to bind to this exosite, negating ubiquitin’s ability to stimulate WWP2 activity. The C-terminal residues of the 2,3-linker are engaged with the hinge-loop that tethers the WWP2 HECT domain N- and C-lobes (Figure 3D and 3E) (Verdecia et al., 2003). This 2,3-linker-hinge interaction appears to restrain the flexibility of the C-lobe which is necessary for ubiquitin transferase activity (Verdecia et al., 2003), locking WWP2 in the T-shape, as the L-shape conformation would be incompatible with such linker engagement.
+The autoinhibited WWP2 structure predicts that the affinity of ubiquitin binding to the WWP2 exosite (Maspero et al., 2011; Zhang et al., 2016) in the 2,3-linker-HECT or the WW2-2,3-linker-HECT constructs would be reduced relative to that of the isolated WWP2 HECT domain. To investigate this, we prepared a ubiquitin variant (UbF1) engineered to have high affinity for the WWP2 exosite (Zhang et al., 2016) and also tagged with fluorescein via Cys alkylation, introduced at a ubiquitin surface residue (Ser57) that is remote from its E3 binding surface (Figure S4). Using a fluorescence anisotropy assay, we found that UbF1 had a Kd of 0.23 μM for the isolated HECT domain, 0.93 μM for 2,3- linker-HECT and 20 μM for WW2-2,3-linker-HECT (Figure 3C). This progressive loss of affinity for allosteric ubiquitin by these WWP2 forms correlates well with the different catalytic activities of these three proteins (Figure 2D) and is consistent with the distinct X- ray crystal structures of the isolated WWP2 HECT domain and autoinhibited WWP2. In addition, we investigated the conserved hinge residues Met752 and Gln753 that appear to
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 5
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+make close contacts with the WWP2 2,3-linker amino acids 389-RFLY-392. It is notable that M752T and Q753L WWP2 point mutations have been found in cancer (Mouradov et al., 2014; Sato et al., 2013). The WWP2 double mutant M752A/Q753A and the single mutant WWP2 M752T both showed considerably increased WWP2 autoubiquitination activity relative to wt WWP2 (Figure 3F). These mutagenesis results validate the structural model and indicate how cancer mutations can activate WWP2.
+Activation of WWP2 by 2,3-linker tyrosine phosphorylation
+We considered how the linker interactions in WWP2 might be regulated under physiological conditions. Interestingly, there are two tyrosine phosphorylation sites, Tyr369 and Tyr392, which have been mapped by mass spectrometry to the linker region of WWP2 and are mostly conserved in WWP1 and ITCH (Figure S5A) (Choudhary et al., 2009; Palacios- Moreno et al., 2015; Yang et al., 2006). We hypothesized that phosphorylation at one or both of these sites could influence WWP2 catalysis by disrupting interactions between the 2,3- linker and the HECT domain. Consistent with this, a pTyr369 containing synthetic 2,3-linker peptide was shown to be less potent as a WWP2 HECT domain inhibitor compared with the unmodified peptide (Figure 4A). To gain further insight into the role of pTyr369, we used protein semisynthesis (Muir et al., 1998) in the context of 2,3-linkerL-WW3-WW4-HECT WWP2 (aa 356-870) to site-specifically install a pTyr residue at this position. In this method, a synthetic peptide (aa 356-373) containing pTyr369 and a C-terminal thioester (Blanco-Canosa and Dawson, 2008) is chemoselectively ligated to an N-Cys containing WWP2 recombinant fragment (Figure 4B and 4C) (Chen and Cole, 2015). This ligation strategy introduces a Cys in place of Ser374, which was shown to be non-perturbing for WWP2 catalysis (Figure S5B). The extended linker, 2,3-linkerL, was selected for semisynthetic WWP2 construction since it incorporates the C-terminal residues of the WW2 domain that contribute to autoinhibition (Figure 3A; Figure S3A–S3C).
+As expected, pTyr369-2,3-linkerL-WW3-WW4-HECT WWP2 was observed to have markedly enhanced autoubiquitination activity compared with non-phosphorylated control (Figure 4D). Although Glu is typically of limited reliability as a mimic of pTyr (Chen and Cole, 2015), analysis of the autoinhibited WWP2 crystal structure suggested that Glu replacement of Tyr369 or Tyr392 could be similarly disruptive as tyrosine phosphorylation to the linker-HECT interactions. Replacement of either Tyr369 or Tyr392 with Glu as the single or double mutants in recombinant full-length WWP2 stimulated its autoubiquitination activity, although these Y/E mutants were still less active than full 2,3-linker deletion (Figure 4E). In addition to stimulating WWP2 autoubiquitination activity, Y369E and Y392E also showed enhanced ubiquitin transferase activity toward PTEN using both coomassie staining and western blot (Figure S5C and S5D). In contrast, a tyrosine to phenylalanine mutation at Tyr369 or Tyr392 showed no appreciable effect (Figure S5E and S5F). The crystal structure of WWP2 (Figure 4F, 4G and 4I) showed that Tyr369 contributes to the ubiquitin-binding exosite while Tyr392 sits on the hinge, indicating different roles for these two phospho-modifications. We tested the mechanistic impact of pTyr369 and pTyr392 on WWP2 by measuring the binding affinities of UbF1 for WW2-2,3-linker-HECT Y369E and WW2-2,3-linker-HECT Y392E. These measurements showed that WW2-2,3-linker- HECT Y369E (UbF1 Kd of 0.86 μM) was much more available to ubiquitin binding at its
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 6
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+exosite relative to WW2-2,3-linker-HECT Y392E (UbF1 Kd of 5.8 μM) as predicted by the crystal structures (Figure 4F–4J). These results establish distinct mechanisms of activation by the 2,3-linker tyrosine phosphorylation modifcations at each end of the 2,3-linker.
+Cellular analysis of the role of the 2,3-linker in WWP2 regulation
+Investigation of the cellular properties of WWP2 2,3-linker mutants using HeLa cell transfections showed that Myc-tagged full-length WWP2 containing a 2,3-linker deletion (ΔLinker) generated less WWP2 detectable by western blot than the wt WWP2 protein (Figure S6A and S6B). We hypothesized that such reduced WWP2 detection could be related to highly autoubiquitinated ΔLinker WWP2, which might be degraded or sequestered. Consistent with these possibilities, ΔLinker WWP2 carrying a catalytically inactivating (C838S) mutation restored wild type WWP2 levels on western blot presumably because the autoubiquitination was eliminated (Figure S6A and S6B).
+Live cell imaging demonstrated that GFP-tagged full-length ΔLinker WWP2 was co- localized with LAMP-1, the lysosomal marker, rather than showing the diffuse distribution observed for wt GFP-WWP2 (Figure 5A). This is compatible with previous findings that polyubiquitinated (K63) proteins can be targeted to lysosomes (Huang et al., 2013; Scialpi et al., 2008). Experiments with C838S ΔLinker GFP-WWP2 revealed a wild-type WWP2-like cellular distribution, indicating a catalytic dependence for lysosomal localization of ΔLinker WWP2 (Figure 5A). These results highlight that unrestrained autoubiquitination activity could derail the E3 ligase from executing its normal functions. To test this idea, we performed co-transfections of WWP2 forms with the WWP2 substrate PTEN. In this experiment, it was found that wt full-length WWP2 reduced cellular PTEN protein, whereas ΔLinker WWP2 did not. The PTEN effects were reciprocal to WWP2 expression levels (Figure 5B and 5C) implying that uncontrolled, hyperactive WWP2 is disabled from targeting substrates because of self-destruction.
+We also investigated the potential impact of WWP2 tyrosine phosphorylation in a cellular context with PTEN by transfecting HeLa cells with Myc-tagged full-length WWP2 Y369E and Y369F. Y369E, Y369F, and wt WWP2 showed similar expression by western blot under these conditions (Figure 5D and 5E), suggesting that Y369E was more catalytically restrained than ΔLinker WWP2 which is consistent with the in vitro assays (Figure S5C). However, Y369E WWP2 transfection more powerfully reduced PTEN and OCT4 level than either wt or Y369F WWP2 (Figure 5D and 5E; Figure S6C and S6D). To confirm that this PTEN protein level change is due to reduced protein stability, we treated transfected HeLa cells with cycloheximide (CHX) to block protein biosynthesis. These experiments showed that for up to 6 hours after CHX treatment, the WWP2 protein forms are fairly stable, but the PTEN level in Y369E WWP2 transfected cells showed significantly faster degradation than that in wt or Y369F WWP2 transfected cells (Figure S6E and S6F). The transfection of Myc-tagged full-length Y392E and Y392F WWP2 forms showed similar results with those of the corresponding Y369 mutant WWP2s (Figure S6G and S6H). Taken together, these results imply that 2,3-linker WWP2 phosphorylation has the potential to enhance WWP2- mediated protein substrate ubiquitination in cells.
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 7
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+WWP1, ITCH, NEDD4-1 autoinhibition
+Given the high degree of sequence conservation of the 2,3-linker of WWP2 with that in WWP1 and ITCH (Figure S7A and S7B), we speculated that deletion of this linker would have a similar effect on these closely related E3 ligases. Indeed, deletion of the 2,3-linker from WWP1 and ITCH sharply increased their autoubiquitination activity as compared to the full-length proteins (Figure 6A and 6B). These experiments indicate the functional conservation of the 2,3-linker as a key negative regulator among these highly homologous E3 ligases.
+Like WWP2, NEDD4-1 also contains four WW domains (Figure 6C; Figure S1A). In comparison to WWP2, WWP1, and ITCH, however, NEDD4-1 shows no apparent sequence conservation of its WW2-WW3 linker with that of the WWP2, WWP1, and ITCH proteins, nor is it predicted to be α-helical (PSIPRED v3.3). Indeed, autoubiquitination activity of WW2-WW3 linker deleted NEDD4-1 showed nearly identical activity compared to full- length intact NEDD4-1 (Figure S7C). However, we hypothesized that a different segment of NEDD4-1 might play an analogous autoinhibitory role in NEDD4-1. We therefore analyzed the predicted secondary structure of the domain linker segments within NEDD4-1 focusing on predicted α-helical regions. In this regard, the stretch of amino acids C-terminal to the WW1 domain (aa225-244) was selected as a potential regulatory motif based on its projected high probability as an α-helix (PSIPRED v3.3) and an established Thr phosphorylation (Thr229, Figure 6C) (Mertins et al., 2014; Yu et al., 2011).
+We generated NEDD4-1 containing this partial linker deletion (1,2-linker-deleted NEDD4-1) and showed that 1,2-linker deleted NEDD4-1 showed enhanced autoubiquitination activity relative to wt enzyme (Figure 6D; Figure S7C). In addition, T229E NEDD4-1 showed activity intermediate between 1,2-linker deleted and wt NEDD4-1 (Figure 6D). We also prepared a fluorescent ubiquitin variant (UbF2, Figure S4) selective for the NEDD4-1 exosite (Zhang et al., 2016) and showed that it bound a 1,2-linker deleted form of NEDD4-1 ~5-fold more avidly than the corresponding NEDD4-1 with an intact 1,2- linker (Figure 6E). These findings suggest that the regulatory linker module present in WWP2, WWP1, and ITCH is likely to be represented in NEDD4-1 and perhaps other HECT family members in diverse locations.
+DISCUSSION
+Prior studies have suggested WW domain, C2 domain, and post-translational modification mediated autoinhibitory mechanisms for NEDD4 family HECT enzymes (Bruce et al., 2008; Buetow and Huang, 2016; Riling et al., 2015; Scheffner and Kumar, 2014; Wiesner et al., 2007; Yang et al., 2006). The experiments in our study have identified an unanticipated mechanism of regulation of HECT domain E3 ligases that is modeled in Figure 7 for WWP2. The centrally located WWP2 2,3-linker is highly conserved in the WWP1 and ITCH E3 ligases so it was unsurprising that WWP2, WWP1, and ITCH are similarly autoinhibited by this regulatory module. It seems likely that an analogous autoinhibitory mechanism will extend to other HECT E3 ligases, given that NEDD4-1 which is a more weakly related enzyme to WWP2 shows similar behavior with deletion of a predicted linker helical module. Future work will be needed to investigate this possibility across the range of
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 8
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+HECT family members. The form of regulation uncovered for WWP2, WWP1, ITCH, and NEDD4-1 is somewhat reminiscent of many proteases which exist as inactive pro-enzymes that are turned on by proteolytic removal of an autoinhibitory peptide segment (Neurath, 1986), as well as the majority of protein tyrosine kinases that possess autoinhibitory loops that are stimulated by autophosphorylation (Huse and Kuriyan, 2002). The comparison to proteases is perhaps most relevant since premature activation of proteases can lead to self- destruction prior to performing their necessary cellular jobs akin to what was observed for Δlinker WWP2.
+Although the precise signaling mechanisms remain to be elucidated, tyrosine phosphorylation of the 2,3-linker in WWP2 was shown to be a potential mechanism to relieve autoinhibition. That tyrosine phosphorylation takes place within an α-helical segment is notable, since tyrosine kinases generally bind substrate motifs in extended conformations (Bose et al., 2006). We assume that when the linker dissociates from its intramolecular interactions with the HECT domain it would be flexible and can adopt a conformation suitable for kinase recognition. We found that the two different tyrosine phosphorylation sites confer distinct mechanisms to relieve autoinhibition (Figure 7). When the N-terminus of the 2,3-linker is phosphorylated, allosteric activation by ubiquitin is enabled (Figure 7). When the C-terminus of the 2,3-linker is phosphorylated, destabilization of the T-shape conformation is proposed to be facilitated (Figure 7). It is plausible that such compartmentalized activation mechanisms may drive specific biological outputs. Prior work on ITCH suggested that the conserved 2,3-linker WWP2 Tyr392 residue (Tyr371 in ITCH) is phosphorylated by Fyn tyrosine kinase leading to ITCH down-regulation (Yang et al., 2006). However, this conclusion was based on a Tyr to Phe mutation (Yang et al., 2006) which is silent in WWP2 but may have partly relieved autoinhibition of the 2,3-linker in the case of ITCH if the sidechain phenol is important for facilitating HECT interaction. We believe that Tyr371 phosphorylation in ITCH is more likely to be activating based on the complete set of results for the close paralog WWP2 and the ITCH linker deletion results presented here.
+It is noteworthy that several WWP2, WWP1, and ITCH cancer mutations fall in the 2,3- linker/HECT autoinhibited interface and such constitutive activation of these E3 ligases may enhance tumor cell growth. Although more work will be needed to assess the precise contributions of these mutations to cancer, the degree of activation seen for these WWP2 cancer mutations in vitro are far lower than 2,3-linker deleted WWP2, which self- inactivated, but in the same range as the Y/E WWP2 mutations which led to PTEN reductions in our transfection experiments. How apparent dimer-induced activation of WWP2, described above, relates to the 2,3-linker remains to be determined but may provide yet another cellular mechanism to ensure a proper level of protein ubiquitin transfer activity.
+Although this study reveals the importance of the 2,3-linker in the catalytic regulation of WWP2, WWP1, and ITCH E3 ligases, it is likely that the C2 domain and WW domains participate in significant ways in impacting WWP2, WWP1, and ITCH functions including cellular localization or protein substrate targeting. It has previously been reported that the C2 domain autoinhibits WWP2 (Wiesner et al., 2007) which we did not observe here. However, the C2 domain likely still contributes to the autoinhibition of the SMURF2 and NEDD4-1 HECT ligases as proposed previously (Mari et al., 2014; Wiesner et al., 2007). The role of
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 9
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+the WW1-WW2 linker in NEDD4-1 appears to play a related role to the WW2-WW3 linker in WWP2, although it appears not as quantitatively impactful to autoinhibition of NEDD4-1. Perhaps in the case of NEDD4-1, the C2 domain and WW1-WW2 linker synergize to autoinhibit NEDD4-1 catalytic activity. Future work should investigate the presumed complex interplay between the multiple mechanisms of regulating NEDD4 family functions in normal and pathologic states to optimize the potential of therapeutic interventions for cancer and other diseases.
+STAR Methods
+CONTACT FOR REAGENT AND RESOURCE SHARING
+Further information and requests for resources and reagents should be directed to and will be fulfilled by the Lead Contact, Philip A Cole (pcole@jhmi.edu).
+EXPERIMENTAL MODEL AND SUBJECT DETAILS
+All E3, E2, and E1 proteins were expressed in and purified from E. coli (BL21 codon plus) whereas PTEN was generated with a baculovirus expression system and purified from insect cells. For bacterial expression, the transformed cells were grown on LB agar plates containing 100 μg/ml ampicillin at 37°C, and single colonies were expanded in LB liquid culture containing 100 μg/ml ampicillin at 37°C in a shaking incubator.
+HeLa cells previously obtained from ATCC were cultured in DMEM (low glucose) supplemented with 10% FBS and antibiotics-penicillin/streptomycin in a 37°C incubator with 5% CO2. HeLa cells were shown to be mycoplasma negative but not otherwise authenticated.
+METHOD DETAILS
+Plasmids and reagents—The pGEX6p-2 human WWP2 plasmid was provided by Dr. Wenyi Wei at Beth-Israel Deaconess Medical Center. Human WWP1 cDNA was purchased from Genscript, and subcloned into pGEX6p-2. pGEX-KG containing human ITCH was obtained from Dr. Allan M. Weissman at National Cancer Institute(Fang et al., 2001). Human NEDD4-1 cDNA was provided by Dr. Xuejun Jiang at Sloan-Kattering Mommerial Cancer Center and OCT4 cDNA was from Dr. Izpisua Belmonte from Barcelona, Spain (Aasen et al., 2008). Mutations and truncations in WWP2, WWP1, and ITCH were introduced by Quik-Change (Agilent) or restriction enzyme based cloning. DNA primers used in this study are listed in Key Resources Table. Purified wild-type ubiquitin, human ubiquitin-activating enzyme UBE1, and human ubiquitin-conjugating enzyme UbcH5c were prepared as described previously (Wiener et al., 2013). The Colloidal Blue Staining Kit was purchased from Invitrogen. Anti-PTEN, anti-β-actin and anti-MYC antibodies were from Santa Cruz (CA, USA). Anti-OCT4 antibody was from Bethyl Laboratories (USA). Anti- phosphorylated tyrosine antibody (4G10) and the Dawson Dbz resin was from EMD Millipore (Germany). All other reagents were commercially purchased with the highest quality from either Sigma or Fisher.
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 10
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+Protein expression and purification—BL-21 Codon Plus cells were transformed with the pGEX6p-2 plasmid expressing full-length WWP2, WWP1, ITCH, or the different mutations or truncations, initially as N-terminally modified GST-fusion proteins. The transformed cells were cultured in LB medium at 37 °C to reach the optimal density (OD600=0.6) in a shaker incubator grown on a 1 L scale. Protein expression was induced by 0.25 to 0.5 mM IPTG at 16 °C for 20 hours. The cells were resuspended in 25 mL lysis buffer (25 mM Tris-HCl pH 8.0, 250 mM NaCl, 1 mM phenylmethylsulfonyl fluoride (PMSF) and 1x Roche cocktail protease inhibitors) and were lysed by french press. The cell lysate was loaded on glutathione agarose followed by washing with 25 mM Tris-HCl pH 8.0, 250 mM NaCl, and 0.1% Triton X-100. The desired GST-tagged protein was eluted using 10 mL 25 mM Tris-HCl pH 8.0, 250 mM NaCl containing 50 mM reduced glutathione at pH 8.0. The eluted fractions were combined and dialyzed against a buffer consisting of 25 mM Tris-HCl pH 8.0, 250 mM NaCl, 10 mM BME, and the protein was treated with PreScission protease at 4 °C overnight to cleave the GST tag. Afterwards, the mixture of GST and cleaved protein was loaded to glutathione agarose again to remove the GST. The protein was concentrated and then loaded on a size exclusion column Superdex 200 (GE Healthcare) with a buffer containing 25 mM Tris-HCl pH 7.5, 150 mM NaCl, 5 mM DTT (dithiothreitol). The corresponding purified fractions assessed by Coomassie stained SDSPAGE were combined and glycerol was added to a final concentration of 10% v/v. The purified protein was concentrated to 1 to 10 mg/mL, flash frozen, and stored at −80°C.
+Peptide synthesis—The 2,3-linker peptides (+/−369-phospho) of sequence (n- TAEYVRNYEQWQSQRNQLQGAMQHFSQRFLYQSS-c) and the peptide used for semisynthesis containing the phosphorylated tyrosine (n-TTWQRPTAEYVRNpYEQWQ-c) were prepared using the Fmoc solid phase synthesis straetgies with a PS3 peptide synthesizer from Protein Technologies (Tuscon, AZ). The C-terminal thioester in n- TTWQRPTAEYVRNpYEQWQ-c was generated using the Dawson’s Dbz resin (Blanco- Canosa and Dawson, 2008). After assembling this peptide on the Dbz resin, the mixture was treated with p-nitrophenyl chloroformate and DIPEA to form C-terminal N-acyl- benzimidazolinone (Dbz) followed by trifluoroacetic acid cleavage. The peptides were purified by reversed phase HPLC on a C-18 column using a water:acetonitrile gradient (containing 0.05% trifluoroacetic acid) to >90% and the correct structures confirmed by MALDI mass spectrometry (Figure S8) and amino acid analysis (AAA Service Laboratory Inc.).
+WWP2 semisynthesis—To enable its ligation to the C-terminal thioester of the synthetic peptide n-TTWQRPTAEYVRNpYEQWQ-c, the recombinant WWP2 protein fragment (aa 374-870) was generated containing an N-terminal Cys (S374C). As there was no Cys in a practical location for semisynthesis, we elected to perform a conservative replacement of a Cys for Ser374. Using QuikChange (Agilent) mutagenesis, the construct pGEX6p-2 2,3- linker-WW3-WW4-HECT was modified to have a TEV protease site N-terminal to Cys374. The protein was expressed and purified in a similar way to other protein but using TEV protease instead of PreScission protease. During the FPLC purification step, the buffer used was 25 mM Tris-HCl pH 8.0, 150 mM NaCl, 1 mM TCEP (tricarboxyethyl-phosphine), to avoid DTT or BME (beta-mercaptoethanol). For the ligation reaction, about 1 mg of purified
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 11
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+protein was mixed with 2 mM peptide in the buffer containing 75 mM HEPES pH 7.4, 400 mM MESNA, 1 mM TCEP, 10% glycerol in 1 mL. The ligation reaction was allowed to proceed at room temperature for 24 hours, followed by dialysis against buffer with 25 mM Tris-HCl pH7.5, 5 mM NaCl, 5 mM DTT, 10% glycerol. The protein was then further purified by anion exchange chromatography using MonoQ column. The fractions containing purified semisynthetic pY369-2,3-linker-WW3-WW4-HECT (aa356-870) were combined and concentrated to about 1 mg/mL.
+In vitro ubiquitination assays—The in vitro ubiquitination reactions were carried out in microcentrifuge tubes in final volumes of 20 μL containing 40 mM Tris-HCl pH 7.5, 50 mM NaCl, 0.5 mM TCEP, 5 mM MgCl2, with 5 mM ATP, 100 μM ubiquitin, 50 nM E1 protein, 1 μM E2 protein, 1 μM E3 protein. The reactions were initiated by adding the E1 and carried out at 30 °C. At different time points, the reactions were quenched by mixing 4 μL aliquots of the reaction mixture with SDS loading dye and boiled for 5 minutes. The samples were then run out on SDSPAGE, and stained using a Colloidal Blue Staining Kit following the manufacturer’s protocol. The unmodified E3 protein bands at the time points shown in the figures were quantified using ImageJ densitometry and normalized to the zero time points. Note that this quantification method monitors the disappearance of the ‘starting material’ but does not distinguish among the range of ubiquitinated products formed, and this product distribution pattern varies among different mutants. All assays were performed on at least two independent occasions with replicates showing similar results.
+Generation of fluorescein labeled ubiquitin variants (UbF1 and UbF2)—Wild- type human ubiquitin DNA was sub-cloned into pGEX6p-2 and mutated to UbV P2.3 and UbV NL1 (Zhang et al., 2016) using Quik-Change. In addition, Ser57 was replaced with Cys by Quik-Change mutagenesis. GST-UbV S57C was expressed by BL21 Codon Plus cells as described for WWP2. The GST-fusion mutant ubiquitin proteins were purified using glutathione agarose and eluted with 50 mM reduced L-glutathione. After cleavage of GST tag by PreScission protease, the proteins were further purified by size exclusion chromatography using Superdex 75 column (GE Healthcare) with PBS buffer. Purified UbV S57C proteins (2 mg) were mixed with 10-fold molar excess of 5-iodoacetamidofluorescein (Thermo) in PBS buffer containing 5 mM EDTA in 2 mL at room temperature for 4 hours in the dark. The labeled proteins UbF1 and UbF2 were separated from the unreacted reagent by dialysis and size exclusion chromatography using the buffer containing 25 mM HEPES pH 7.3, 150 mM NaCl, 1 mM EDTA, 2 mM DTT, 5% glycerol.
+Fluorescence anisotropy—UbF1 and UbF2 protein (100 nM) was mixed with the indicated concentrations of E3 ligase forms in the buffer (25 mM Tris-HCl pH 7.5, 150 mM NaCl, 5 mM DTT, 10% glycerol) and incubated at room temperature for 20 minutes. Steady- state fluorescence anisotropy data were acquired using a FluoroMax-3 spectrofluorimeter (Jobin Yvon Horiba) at 23 °C. The excitation wavelength was set to 495 nm and emission was measured at 520 nm. Each fluorescence anisotropy data point was measured to high accuracy at least three times. The binding curves and Kd values were generated using the quadratic-binding fit with the equation Y= Y0 - [(Y0 - Ymax)/(2*Fixed)] * [b - sqrt(b^2 - 4*X*Fixed)] (b=Kd + X + Fixed, Fixed=0.1). At least two independent replicates were
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 12
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+carried out for each data set on independent occasions with Kd values in good agreement (within 30%).
+Crystallization—The construct, 2,3-linker-HECT865, used for crystallization, contains residues 369 to 865 whereas aa 399-484, containing the tandem WW3-WW4 domains, has been deleted. Purified 2,3-linker-HECT865 was concentrated to 3 mg/mL in a buffer containing 25 mM Tris-HCl pH 7.5, 150 mM NaCl, 5 mM DTT. Note that WWP2 residues 866-870 were deleted to facilitate crystallization (Verdecia et al., 2003). Crystals were grown at 20 °C by vapor diffusion in hanging drops of 1 μL of protein with 2 μL of reservoir solution containing 0.1 M Bis-Tris pH 5.8 to 7.5, 0.2 M MgCl2, 12 to 18% (m/v) PEG3350. Clusters of needle crystals were obtained, and crystal morphology and size were optimized by microseeding.
+The WW2-2,3-linker-HECT865 construct contains aa334-865 with the deletion of aa399-484. Freshly-purified WW2-2,3-linker-HECT865 was concentrated to 10 mg/mL in buffer containing 25 mM Tris-HCl pH 7.5, 150 mM NaCl, 5 mM DTT, 5% glycerol. Crystallization trays were set up using the LCP Mosquito robot (TTP Labtech, Inc) with a drop size of 0.3 μL protein with 0.3 μL reservoir solution in 96-well plates in hanging drops. Crystals grew at 20 °C and were monitored automatically using a Rock Imager and Rock maker system (Formulatrix, Inc., USA). Two conditions resulted in single crystals: one condition had 0.1 M potassium thiocyanate, 30% PEG monomethyl ether 2000 as reservoir solution, and the other condition had 0.1 M MMT (DL-malic acid, MES, Tris-base in molar ratio of 1:2:2) pH 6.0, 25% PEG1500 as reservoir. All crystals were cryoprotected in the same solution that they were grown and stored in liquid nitrogen for data collection.
+Data Collection and Structural determination—Diffraction data of 2,3-linker-HECT and WW2-2,3-linker-HECT (PEG 1500 precipitant) were collected at ALS beam line 502 on a DECTRIS Pilatus 6M detector (wavelength 1.0 Å and temperature 100 K, Table 1). Diffraction data of WW2-2,3-linker-HECT using PEG MME 2000 as a precipitant were collected using a Rigaku FR-E SuperBright X-ray generator at a wavelength of 1.5418 Å and recorded on a PILATUS 2M. All diffraction data were processed, integrated and scaled with HKL-2000 (Otwinowski and Minor, 1997).
+The 2,3-linker-HECT structure was determined by molecular replacement using the program AMoRe and the HECT domain of WWP2 (PDB ID 4Y07)(Gong et al., 2015) as the initial search model. The model was re-built manually with iterative rounds of Coot and refined using Refmac5 from the CCP4 suite (CCP4, 1994). The final structure, PDB ID 5TJQ, was refined to 2.75 Å. Ramachandran plot analysis indicates 4.5 % of outliers, 3.3 % allowed and 92.1 % favored residues. The 2 WW2-2,3-linker-HECT structures were determined by molecular replacement using PDB ID 5TJQ as a template. The initial models were rebuilt and refined as described previously for PDB 5TJQ. The refined structure with disorder the WW2 domain, 5TJ8, has excellent geometry as display by 91.2 % residues in preferred and 4.5 % allowed regions. The refined structure with WW2 domain, PDB ID 5TJ7, has 93.1 % and 3.3 % residues in the preferred and allowed regions respectively. All figures were rendered with PyMOL (DeLano, 2002).
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 13
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+Cell culture and Western blotting—HeLa cells were seeded in 6-well plate, and transfected with 0.6 μg pcDNA3.1 PTEN C124S (note that catalytically defective C124S PTEN was used because wt PTEN was toxic to cells under these conditions) and 0.3 μg pcDNA3.1 Myc-WWP2 using Lipofectamine 3000 (Invitrogen) when the cell confluency reached 70–90%. For OCT4, the cells were transfected with 0.4 μg pcDNA3.1 OCT4, 0.5 μg pRK HA-ubiquitin, and 0.6 μg pcDNA3.1 Myc-WWP2. 24 hours after transfection, the cells were lysed using RIPA buffer containing 1 mM PMSF and 1x Roche cocktail protease inhibitor. The lysate was mixed with SDS loading dye and boiled for 5 minutes. 30 μg of total protein (BCA assay) was subjected to SDSPAGE, and transferred to a nitrocellulose membrane using an iBlot dry blotting system (Thermo Fishier). The membranes were blocked with 5% BSA in TBST buffer for one hour, and then incubated with anti-PTEN antibody (1:50 dilution) or anti-OCT4 antibody (1:500 dilution), anti-Myc antibody (1:100 dilution), and anti-actin antibody (1:8000 dilution) at 4 °C overnight. Afterwards, the membranes were washed with TBST and probed with HRP-conjugated anti-mouse secondary antibody at 1:5000 dilution. The bands were detected by chemiluminescence using an ECL western blotting detection kit from GE Healthcare. All assays were repeated on at least two independent occasions with results and replicates showing similar results.
+Fluorescence microscopy—To image fluorescent protein localizations in growing cells, HeLa cells were plated on eight-well chambered coverglasses (Lab-Tek, Thermo Scientific, Nunc), and when they reached 50% confluency, the cells were transfected with 50 ng pcDNA3.1 GFP-WWP2 using lipofectamine 3000. Cells were also co-transfected with 5 μL of BacMam 2.0 expressing RFP tagged Lamp-1 (Thermo Fishier) as a lysosome marker. After 24 hours, cells were imaged with a 40×/1.3 oil objective on a Zeiss Observer.Z1 inverted microscope. Images were acquired with GFP and RFP (where applicable) illumination using AxioVision software. These experiments were performed on 3 independent occasions and replicates gave consistent results. Classification of protein distribution across cells shown in Figure 5 was based on visual inspection from the combined replicates and based on examining at least 8 regions from the slides per WWP2 construct.
+QUANTIFICATION AND STATISTICAL ANALYSIS
+Statistical parameters are reported in Figure Legends and in Method Details. All the biochemical assays were repeated at least twice. The western blots for cell transfection studies were repeated at least thrice. The bands were quantified using ImageJ software, and the error bars represent the standard error of the mean (SEM).
+DATA AND SOFTWARE AVAILABILITY
+Accession numbers for the atomic coordinates for WWP2 structures, 2,3-linker-HECT and the two forms of WW2-2,3-linker-HECT reported in this paper are PDB: 5TJQ, 5TJ7, 5TJ8.
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 14
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+Acknowledgments
+We thank the NIH and FAMRI Foundation for support. We think Drs. Wenyi Wei, Allan Weissman, and Xuejun Xiang for DNA plasmids. We are grateful to Yana Li for assistance with cell culture. We acknowledge the use of the Berkeley Center for Structural Biology, which is supported in part by NIGMS and HHMI. The Advanced Light Source is supported by the U.S. Department of Energy (D.O.E.) under Contract No. DE-AC02-05CH11231. This research used resources of the Advanced Photon Source, a U.S. D.O.E.) Office of Science User Facility operated for the DOE Office of Science by Argonne National Laboratory under Contract No. DE-AC02-06CH11357. Use of the Lilly Research Laboratories Collaborative Access Team (LRL-CAT) beam line at Sector 31 of the Advanced Photon Source was provided by Eli Lilly Company, which operates the facility.
+References
+Aasen T, Raya A, Barrero MJ, Garreta E, Consiglio A, Gonzalez F, Vassena R, Bilic J, Pekarik V, Tiscornia G, et al. Efficient and rapid generation of induced pluripotent stem cells from human keratinocytes. Nature biotechnology. 2008; 26:1276–1284.
+Aki D, Zhang W, Liu YC. The E3 ligase Itch in immune regulation and beyond. Immunological
+reviews. 2015; 266:6–26. [PubMed: 26085204]
+Bernassola F, Karin M, Ciechanover A, Melino G. The HECT family of E3 ubiquitin ligases: multiple
+players in cancer development. Cancer cell. 2008; 14:10–21. [PubMed: 18598940]
+Blanco-Canosa JB, Dawson PE. An efficient Fmoc-SPPS approach for the generation of thioester
+peptide precursors for use in native chemical ligation. Angewandte Chemie. 2008; 47:6851–6855. [PubMed: 18651678]
+Bose R, Holbert MA, Pickin KA, Cole PA. Protein tyrosine kinase-substrate interactions. Current
+opinion in structural biology. 2006; 16:668–675. [PubMed: 17085043]
+Broix L, Jagline H, LI E, Schmucker S, Drouot N, Clayton-Smith J, Pagnamenta AT, Metcalfe KA, Isidor B, Louvier UW, et al. Mutations in the HECT domain of NEDD4L lead to AKT-mTOR pathway deregulation and cause periventricular nodular heterotopia. Nature genetics. 2016; 48:1349–1358. [PubMed: 27694961]
+Bruce MC, Kanelis V, Fouladkou F, Debonneville A, Staub O, Rotin D. Regulation of Nedd4-2 self- ubiquitination and stability by a PY motif located within its HECT-domain. The Biochemical journal. 2008; 415:155–163. [PubMed: 18498246]
+Buetow L, Huang DT. Structural insights into the catalysis and regulation of E3 ubiquitin ligases.
+Nature reviews Molecular cell biology. 2016; 17:626–642. [PubMed: 27485899]
+CCP4. The CCP4 Suite: Programs for Protein Crystallography. Acta Crystallographica D. 1994;
+50:760–763.
+Chang L, Kamata H, Solinas G, Luo JL, Maeda S, Venuprasad K, Liu YC, Karin M. The E3 ubiquitin
+ligase itch couples JNK activation to TNFalpha-induced cell death by inducing c-FLIP(L) turnover. Cell. 2006; 124:601–613. [PubMed: 16469705]
+Chen W, Jiang X, Luo Z. WWP2: a multifunctional ubiquitin ligase gene. Pathology oncology
+research: POR. 2014; 20:799–803. [PubMed: 25216927]
+Chen Z, Cole PA. Synthetic approaches to protein phosphorylation. Current opinion in chemical
+biology. 2015; 28:115–122. [PubMed: 26196731]
+Chen Z, Thomas SN, Bolduc DM, Jiang X, Zhang X, Wolberger C, Cole PA. Enzymatic Analysis of PTEN Ubiquitylation by WWP2 and NEDD4-1 E3 Ligases. Biochemistry. 2016; 55:3658–3666. [PubMed: 27295432]
+Choudhary C, Olsen JV, Brandts C, Cox J, Reddy PN, Bohmer FD, Gerke V, Schmidt-Arras DE, Berdel WE, Muller-Tidow C, et al. Mislocalized activation of oncogenic RTKs switches downstream signaling outcomes. Molecular cell. 2009; 36:326–339. [PubMed: 19854140] DeLano, WL. The PyMOL Molecular Graphics System. San Carlos, CA, USA: DeLano Scientific;
+2002.
+Durinck S, Stawiski EW, Pavia-Jimenez A, Modrusan Z, Kapur P, Jaiswal BS, Zhang N, Toffessi-
+Tcheuyap V, Nguyen TT, Pahuja KB, et al. Spectrum of diverse genomic alterations define non- clear cell renal carcinoma subtypes. Nature genetics. 2015; 47:13–21. [PubMed: 25401301]
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 15
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+Escobedo A, Gomes T, Aragon E, Martin-Malpartida P, Ruiz L, Macias MJ. Structural basis of the activation and degradation mechanisms of the E3 ubiquitin ligase Nedd4L. Structure. 2014; 22:1446–1457. [PubMed: 25295397]
+Fang S, Ferrone M, Yang C, Jensen JP, Tiwari S, Weissman AM. The tumor autocrine motility factor receptor, gp78, is a ubiquitin protein ligase implicated in degradation from the endoplasmic reticulum. Proceedings of the National Academy of Sciences of the United States of America. 2001; 98:14422–14427. [PubMed: 11724934]
+Gallagher E, Gao M, Liu YC, Karin M. Activation of the E3 ubiquitin ligase Itch through a
+phosphorylation-induced conformational change. Proceedings of the National Academy of Sciences of the United States of America. 2006; 103:1717–1722. [PubMed: 16446428]
+Gao M, Labuda T, Xia Y, Gallagher E, Fang D, Liu YC, Karin M. Jun turnover is controlled through JNK-dependent phosphorylation of the E3 ligase Itch. Science. 2004; 306:271–275. [PubMed: 15358865]
+Gong W, Zhang X, Zhang W, Li J, Li Z. Structure of the HECT domain of human WWP2. Acta
+crystallographica Section F, Structural biology communications. 2015; 71:1251–1257. [PubMed: 26457515]
+Huang F, Zeng X, Kim W, Balasubramani M, Fortian A, Gygi SP, Yates NA, Sorkin A. Lysine 63-
+linked polyubiquitination is required for EGF receptor degradation. Proceedings of the National Academy of Sciences of the United States of America. 2013; 110:15722–15727. [PubMed: 24019463]
+Huse M, Kuriyan J. The conformational plasticity of protein kinases. Cell. 2002; 109:275–282.
+[PubMed: 12015977]
+Kamadurai HB, Qiu Y, Deng A, Harrison JS, Macdonald C, Actis M, Rodrigues P, Miller DJ,
+Souphron J, Lewis SM, et al. Mechanism of ubiquitin ligation and lysine prioritization by a HECT E3. eLife. 2013; 2:e00828. [PubMed: 23936628]
+Kim HC, Steffen AM, Oldham ML, Chen J, Huibregtse JM. Structure and function of a HECT domain
+ubiquitin-binding site. EMBO reports. 2011; 12:334–341. [PubMed: 21399621]
+Maddika S, Kavela S, Rani N, Palicharla VR, Pokorny JL, Sarkaria JN, Chen J. WWP2 is an E3 ubiquitin ligase for PTEN. Nature cell biology. 2011; 13:728–733. [PubMed: 21532586] Mari S, Ruetalo N, Maspero E, Stoffregen MC, Pasqualato S, Polo S, Wiesner S. Structural and
+functional framework for the autoinhibition of Nedd4-family ubiquitin ligases. Structure. 2014; 22:1639–1649. [PubMed: 25438670]
+Maspero E, Mari S, Valentini E, Musacchio A, Fish A, Pasqualato S, Polo S. Structure of the
+HECT:ubiquitin complex and its role in ubiquitin chain elongation. EMBO reports. 2011; 12:342– 349. [PubMed: 21399620]
+Maspero E, Valentini E, Mari S, Cecatiello V, Soffientini P, Pasqualato S, Polo S. Structure of a
+ubiquitin-loaded HECT ligase reveals the molecular basis for catalytic priming. Nature structural & molecular biology. 2013; 20:696–701.
+Mertins P, Yang F, Liu T, Mani DR, Petyuk VA, Gillette MA, Clauser KR, Qiao JW, Gritsenko MA,
+Moore RJ, et al. Ischemia in tumors induces early and sustained phosphorylation changes in stress kinase pathways but does not affect global protein levels. Molecular & cellular proteomics: MCP. 2014; 13:1690–1704. [PubMed: 24719451]
+Mouradov D, Sloggett C, Jorissen RN, Love CG, Li S, Burgess AW, Arango D, Strausberg RL,
+Buchanan D, Wormald S, et al. Colorectal cancer cell lines are representative models of the main molecular subtypes of primary cancer. Cancer research. 2014; 74:3238–3247. [PubMed: 24755471]
+Muir TW, Sondhi D, Cole PA. Expressed protein ligation: a general method for protein engineering. Proceedings of the National Academy of Sciences of the United States of America. 1998; 95:6705–6710. [PubMed: 9618476]
+Neurath H. The versatility of proteolytic enzymes. Journal of cellular biochemistry. 1986; 32:35–49.
+[PubMed: 3533969]
+Ogunjimi AA, Wiesner S, Briant DJ, Varelas X, Sicheri F, Forman-Kay J, Wrana JL. The ubiquitin
+binding region of the Smurf HECT domain facilitates polyubiquitylation and binding of
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 16
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+ubiquitylated substrates. The Journal of biological chemistry. 2010; 285:6308–6315. [PubMed: 20026602]
+Otwinowski Z, Minor W. Processing of X-ray diffraction data collected in oscillation mode.
+Macromolecular Crystallography, Pt A. 1997; 276:307–326.
+Palacios-Moreno J, Foltz L, Guo A, Stokes MP, Kuehn ED, George L, Comb M, Grimes ML.
+Neuroblastoma tyrosine kinase signaling networks involve FYN and LYN in endosomes and lipid rafts. PLoS computational biology. 2015; 11:e1004130. [PubMed: 25884760]
+Persaud A, Alberts P, Mari S, Tong J, Murchie R, Maspero E, Safi F, Moran MF, Polo S, Rotin D.
+Tyrosine phosphorylation of NEDD4 activates its ubiquitin ligase activity. Science signaling. 2014; 7:ra95. [PubMed: 25292214]
+Riling C, Kamadurai H, Kumar S, O’Leary CE, Wu KP, Manion EE, Ying M, Schulman BA, Oliver
+PM. Itch WW Domains Inhibit Its E3 Ubiquitin Ligase Activity by Blocking E2-E3 Ligase Trans- thiolation. The Journal of biological chemistry. 2015; 290:23875–23887. [PubMed: 26245901] Sato Y, Yoshizato T, Shiraishi Y, Maekawa S, Okuno Y, Kamura T, Shimamura T, Sato-Otsubo A,
+Nagae G, Suzuki H, et al. Integrated molecular analysis of clear-cell renal cell carcinoma. Nature genetics. 2013; 45:860–867. [PubMed: 23797736]
+Scheffner M, Kumar S. Mammalian HECT ubiquitin-protein ligases: biological and
+pathophysiological aspects. Biochimica et biophysica acta. 2014; 1843:61–74. [PubMed: 23545411]
+Scialpi F, Malatesta M, Peschiaroli A, Rossi M, Melino G, Bernassola F. Itch self-polyubiquitylation occurs through lysine-63 linkages. Biochemical pharmacology. 2008; 76:1515–1521. [PubMed: 18718449]
+Trempe JF, Sauve V, Grenier K, Seirafi M, Tang MY, Menade M, Al-Abdul-Wahid S, Krett J, Wong K, Kozlov G, et al. Structure of parkin reveals mechanisms for ubiquitin ligase activation. Science. 2013; 340:1451–1455. [PubMed: 23661642]
+Verdecia MA, Joazeiro CA, Wells NJ, Ferrer JL, Bowman ME, Hunter T, Noel JP. Conformational
+flexibility underlies ubiquitin ligation mediated by the WWP1 HECT domain E3 ligase. Molecular cell. 2003; 11:249–259. [PubMed: 12535537]
+Wiener R, DiBello AT, Lombardi PM, Guzzo CM, Zhang X, Matunis MJ, Wolberger C. E2 ubiquitin- conjugating enzymes regulate the deubiquitinating activity of OTUB1. Nature structural & molecular biology. 2013; 20:1033–1039.
+Wiesner S, Ogunjimi AA, Wang HR, Rotin D, Sicheri F, Wrana JL, Forman-Kay JD. Autoinhibition of
+the HECT-type ubiquitin ligase Smurf2 through its C2 domain. Cell. 2007; 130:651–662. [PubMed: 17719543]
+Xu H, Wang W, Li C, Yu H, Yang A, Wang B, Jin Y. WWP2 promotes degradation of transcription factor OCT4 in human embryonic stem cells. Cell research. 2009; 19:561–573. [PubMed: 19274063]
+Yang C, Zhou W, Jeon MS, Demydenko D, Harada Y, Zhou H, Liu YC. Negative regulation of the E3 ubiquitin ligase itch via Fyn-mediated tyrosine phosphorylation. Molecular cell. 2006; 21:135– 141. [PubMed: 16387660]
+Yu Y, Yoon SO, Poulogiannis G, Yang Q, Ma XM, Villen J, Kubica N, Hoffman GR, Cantley LC, Gygi SP, et al. Phosphoproteomic analysis identifies Grb10 as an mTORC1 substrate that negatively regulates insulin signaling. Science. 2011; 332:1322–1326. [PubMed: 21659605]
+Zhang W, Wu KP, Sartori MA, Kamadurai HB, Ordureau A, Jiang C, Mercredi PY, Murchie R, Hu J, Persaud A, et al. System-Wide Modulation of HECT E3 Ligases with Selective Ubiquitin Variant Probes. Molecular cell. 2016; 62:121–136. [PubMed: 26949039]
+Zhi X, Chen C. WWP1: a versatile ubiquitin E3 ligase in signaling and diseases. Cellular and
+molecular life sciences: CMLS. 2012; 69:1425–1434. [PubMed: 22051607]
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 17
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+Figure 1. Full-length WWP2 is auto-inhibited (A) Schematic of WWP2 domains with amino acid residue numbers. (B) Ubiquitination assay of GST tagged WWP2 and GST-free WWP2. The reaction was conducted at 30 °C in the presence of 5 mM MgCl2, 5 mM ATP, 100 μM wild-type ubiquitin, 50 nM E1, 1 μM E2 (UbcH5c), 1 μM E3. The reaction was quenched at 0, 0.5 and 2 hours and samples analyzed by SDSPAGE followed by colloidal blue staining. The activity of WWP2 was determined by the time-dependent depletion of the unmodified E3 ligase band and the appearance of higher MW bands presumed to represent poly-ubiquitination. (C) Ubiquitination assay of GST- WWP2, Full-length WWP2 (FL-WWP2), and WWP2 Δ C2. The reaction was conducted in the same condition as Figure 1B, and quenched at the times indicated. (D) Schematic diagram showing that a TEV protease cleavage site (ENLYFQ/G) was inserted by mutagenesis between residues Ser395 and Ala396 just N-terminal to the WW3 domain. This purified TEV-site containing WWP2 protein was cleaved by TEV protease into a N-terminal fragment X containing the C2 domain, the WW1 domain, and the WW2 domain and a C- terminal fragment Y containing the WW3 domain, the WW4 domain, and the HECT domain. (E) Size-exclusion chromatogram of the TEV-cleaved WWP2 (solid line trace)
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 18
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+superimposed with MW standards (dashed line trace). There were two major peaks Peak A (~100 kDa) and Peak B (~50 kDa). (F) Analysis of the chromatography fractions from D. Fractions corresponding to Peak A and Peak B were analyzed by SDSPAGE and Coomassie staining. Peak A is the heterodimer of fragment X and Y, and Peak B is fragment Y alone. Assignment of the the X fragment band running above the Y fragment band, although paradoxical based on their predicted molecular weights, is based on a recombinant standard of Y (data not shown). (G) Ubiquitination assay of WWP2 ΔC2, WW3-WW4-HECT, and HECT. Performed as described in Figure 1B and quenched at the times indicated. All the assays were repeated at least twice (n≥2) and showed good reproducibility.
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 19
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+Figure 2. Regulation of WWP2 autoubiquitination activity by WW2-WW3 linker (2,3-linker) (A) Ubiquitination assay of full-length WWP2 (FL-WWP2), 2,3-linker-WW3-WW4-HECT and WW3-WW4-HECT carried out as in Figure 1B. The reaction for FL-WWP2 and 2,3- linker-HECT was quenched at 0, 30 and 60 minutes, and that for WW3-WW4-HECT was quenched at 0, 10 and 20 minutes. (B) Ubiquitination assay of WW3-WW4-HECT in the presence of 2,3-linker peptide (n-TAEYVRNYEQWQSQRNQLQGAMQHFSQRFLYQSS- c) carried out as in Figure 1B with 0, 50 and 100 μM synthetic 2,3-linker peptide. ( C) Ubiquitination assay of wild-type WWP2 and WWP2 with 2,3-linker deletion (WWP2 Δ2,3- linker) carried out as in Figure 1B with quenching at the times indicated. (D) Ubiquitination assay of HECT, 2,3-linker-HECT and WW2-2,3-linker-HECT. Ubiquitination assay was conducted in the same conditions as Figure 1A, and the reaction was quenched at 0, 1, 5, and 10 minutes for HECT and 2,3-linker-HECT, and at 0, 30, 60, 120 minutes for WW2-2,3- linker-HECT. All the assays were repeated at least twice (n≥2) and showed good reproducibility.
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 20
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+Figure 3. Structural mechanisms for 2,3-linker mediated autoinhibition of WWP2 (A) Overall structure of WW2-2,3-linker-HECT with the HECT domain in an inactive (inverse T-shape) conformation. The WW2 domain is in yellow, the 2,3-linker is in red, the N-lobe of HECT domain is in silver, the C-lobe of HECT domain is in green, and the hinge loop between N and C-lobe is in magenta. (B) A blow-up of the region highlighted with a square in Figure 3A showing the ubiquitin-binding exosite in the HECT domain. The structure of the WWP2 WW2-2,3-linker-HECT protein is superimposed with the structure of the WWP1 HECT-UbV P2.3-UbvH7 complex (5HPT). The ubiquitin-binding exosite in the HECT domain is occupied by the N-terminus of the 2,3-linker and the WW2 domain. (C) Affinity of fluorescein-labeled UbV P2.3 (UbF1) for WWP2 forms HECT, 2,3-linker-HECT, and WW2-2,3-linker-HECT, respectively measured by fluorescence anisotropy. Kd values were obtained using quadratic fits and shown +/−SEM (n=2). (D) 2,3-linker interacts with the hinge region in WWP2. WW2-2,3-linker-HECT structure visualized by rotating by 50° relative to the orientation in Figure 3A. From this perspective, the structure of the WW2 domain consisting of three beta strands is clear. The hinge which connects the N- and C- lobes of the HECT domain is boxed. (E) A blow-up of the boxed region in Figure 3D illustrates the interaction between the hinge (magenta, sticks) and the C-terminal section of the 2,3-linker (electrostatic surface). Met752 and Gln753 from the hinge loop are shown to be anchored by the residues from the 2,3-linker. (F) Ubiquitination assays of wild-type full- length WWP2 and the hinge loop mutants M752A, Q753A and M752T. The reactions were performed as in Figure 1B. All the assays were repeated at least twice (n≥2) and showed good reproducibility.
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 21
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+Figure 4. Tyrosine phosphorylation of the 2,3-linker activates WWP2 E3 ligase activity (A) Ubiquitination assays of WWP2 Δ2,3-linker with different concentrations of 2,3-linker peptide with or without Tyr369 phosphorylation. Unphosphorylated 0, 50 and 100 μM 2,3- linker peptide with natural sequence (2,3-linker peptide) or with phosphorylated Tyr369 (pY369-2,3-linker peptide) was added to the reaction, and the reaction was quenched at the indicated times. (B) Schematic diagram showing the strategy for semisynthesis of pY369-2,3-linkerLWW3-WW4-HECT using so-called ‘native chemical ligation.’ The peptide (n-TTWQRPTAEYVRNpYEQWQ-c) with a C-terminal thioester was reacted with the purified recombinant WWP2 protein fragment aa374-870 possessing an N-terminal Cys S374C generating pY369-2,3-linkerL-WW3-WW4-HECT protein (aa356-870). (C) Western blot of the non-phosphorylated (NP) and phosphorylated (pY369) 2,3- linkerL-WW3-WW4- HECT proteins using anti-phosphorylated tyrosine antibody (4G10). (D) Ubiquitination assays of non-phosphorylated (NP) and phosphorylated (pY369) 2,3-linkerL-WW3-WW4- HECT. The reaction was conducted as described in Figure 1B, and quenched at the times indicated. (E) Ubiquitination assays of full-length wt WWP2 and the tyrosine to glutamate mutant forms (Y369E, Y392E, and Y369,392E). The reaction was carried out as described in Figure 1B and quenched at the times indicated. (F) Overall structure of the WW2-2,3- linker-HECT protein superimposed with the UbV P2.3 structure. Local environments of Tyr369 (purple) and Tyr392 (blue) are highlighted by squares. (G) Zoom-in structure in the vicinity of Tyr369. Tyr369 (red, stick) appears to make pi-stacking interactions with the sidechains of Tyr365 and Trp372 near the N-terminus of the 2,3-linker helix (red, cartoon). The HECT domain is shown as electrostatic surface (blue, red, and white). (H) Fluorescence
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 22
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+anisotropy binding of UbF1 to WW2-2,3-linker-HECT Y369E. (I) Zoom-in structure in the vicinity of Tyr392. (J) Fluorescence anisotropy binding of UbF1 to WW2-2,3-linker-HECT Y392E. All the assays were repeated at least twice (n≥2) and shown good reproducibility.
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 23
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+Figure 5. Cellular analysis of the effects of 2,3-linker on WWP2 activity (A) Live-cell fluorescence analysis of WWP2 localization in HeLa cells. HeLa cells were transfected with plasmids expressing N-terminally GFP-tagged full-length WWP2 forms: WT, Δ2,3-linker, and Δ2,3-linker/C838S, and co-transfected with BamMam 2.0 (lysosome marker RFP-tagged LAMP-1) for 24 hours and then imaged. The GFP and RFP signals were analyzed and merged to show the localization of different WWP2s. Shown are representative cells from WT (appearance of 40 out of 44 cells examined), Δ2,3-linker (appearance of 41 out of 52 cells examined), and Δ2,3-linker/C838S (appearance of 30 out of 35 cells examined). (B) Western blot analysis of WWP2 WT, WWP2 Δ2,3-linker, WWP2 Δ2,3- linker C838S in HeLa cells. HeLa cells were transfected with plasmids expressing N- terminally Myc-tagged full-length WWP2 forms: wild-type (WT), 2,3-linker deleted (Δlinker), and 2,3-linker deleted/C838S (Δlinker, C838S), and co-transfected with catalytically impaired PTEN (C124S) for 24 hours, lysed, and analyzed by western blot using anti-Myc antibody anti-PTEN antibody and anti-actin antibody. (C) Quantification of WWP2 and PTEN expression level. WWP2, PTEN and actin bands were quantified by densitometric analysis using Image J software. Relative WWP2 and PTEN protein level was calculated by normalization with actin as loading control. (n=3, SEM shown) (D) Western blot analysis of PTEN levels in HeLa cells transfected with N-terminally Myc-tagged WWP2 forms and co-transfected with PTEN (C124S). After 24 hours, cells were lysed and analyzed by western blot using anti-Myc, anti-PTEN and anti-actin antibodies. (E) Densitometry analysis of WWP2 and PTEN levels of data in Figure 5D. (n=4, SEM shown).
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 24
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+Figure 6. WWP1, ITCH, and NEDD4 auto-inhibition Ubiquitination assay of (A) wild-type WWP1 and WWP1 with 2,3-linker deletion (WWP2 Δ2,3-linker) and ( B) wild-type ITCH and ITCH with 2,3-linker deletion (ITCH Δ2,3-linker) were carried out as in Figure 2B with quenching at the times indicated. (C) Schematic diagram showing the architecture of NEDD4-1. The predicted helix sequence (225- QDNLTDAENGNIQLQAQRAF-244) right after the WW1 domain is shown, with the threonine (T229) highlighted in red. (D) Ubiquitination assay of wild-type NEDD4-1, T229E NEDD4-1 and NEDD4-1 with 1,2-linker deletion (WWP2 Δ2-linker). (E) Fluorescence anisotropy assay for UbF2 with NEDD4-1 WW1-WW2-WW3-WW4-HECT and WW1-WW2-WW3-WW4-HECT with WW1,2-linker deletion. Two replicates for this assay were done with similar Kd values.
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 25
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+Figure 7. Proposed model of WWP2 activation The ground-state T-shape WWP2 (i) is autoinhibited but upon phosphorylation (ii), the 2,3- linker interactions with the hinge and the ubiquitin-binding exosite is loosened allowing ubiquitin to bind. In (iii) E2-mediated ubiquitination of WWP2 takes place and protein substrate binds (the protein substrate can also be a separate WWP2 molecule). In (iv) and (v) protein substrate mono- and poly-ubiquitination occurs. After protein tyrosine phosphatase (PTPase) removes 2,3-linker phosphorylations, WWP2 returns to its autoinhibited ground state conformation (i).
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 26
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+Table 1
+R.M.S.D. comparison of the new and prior WWP2 and WWP1 HECT domain structures (units in angstroms)
+1ND7
+4Y07
+5TJQ 5TJ7
+5TJQ
+1.29
+0.73
+5TJ7
+1.95
+1.06
+1.44
+5TJ8
+1.27
+0.66
+0.95
+1.33
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 27
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+KEY RESOURCES TABLE
+REAGENT or RESOURCE
+SOURCE
+Antibodies
+Mouse monoclonal anti-PTEN (clone A2B1)
+Santa Cruz Biotechnology
+Mouse monoclonal anti-β-actin
+Sigma-Aldrich
+Mouse monoclonal anti-c-MYC (clone 9E10)
+Santa Cruz Biotechnology
+Rabbit polyclonal anti-OCT4
+Bethyl Laboratories
+Mouse monoclonal anti-phosphorylated tyrosine (clone 4G10)
+Millipore
+Bacterial and Virus Strains
+Escherichia coli, strain: BL-21 CodonPlus (DE3)
+Agilent Technologies
+pGEX6p-2 WWP2 full-length wild-type
+Wenyi Wei
+pGEX6p-2 WWP2 ΔC2
+This paper
+pGEX6p-2 WWP2 full-length TEV site before WW3
+This paper
+pGEX6p-2 WWP2 WW3-WW4-HECT (391-870)
+This paper
+pGEX6p-2 WWP2 HECT (485-870)
+This paper
+pGEX6p-2 WWP2 2,3-linker-WW3-WW4-HECT (362-870)
+This paper
+pGEX6p-2 WWP2 Δ2,3-linker
+This paper
+pGEX6p-2 WWP2 2,3-linker-HECT
+This paper
+pGEX6p-2 WWP2 WW2-2,3-linker-HECT
+This paper
+pGEX6p-2 WWP2 full-length M752A, Q753A
+This paper
+pGEX6p-2 WWP2 full-length M752T
+This paper
+pGEX6p-2 WWP2 full-length Y369E
+This paper
+pGEX6p-2 WWP2 full-length Y392E
+This paper
+pGEX6p-2 WWP2 full-length Y369,392E
+This paper
+pGEX6p-2 WWP2 SUMO-TEV-Cys-2,3-linker-WW3-WW4-HECT
+This paper
+pGEX6p-2 WWP2 WW2-2,3-linker-HECT Y369E
+This paper
+pGEX6p-2 WWP2 WW2-2,3-linker-HECT Y392E
+This paper
+pGEX6p-2 WWP2 full-length Y847A
+This paper
+pGEX6p-2 WWP2 full-length Y631A
+This paper
+pGEX6p-2 WWP2 full-length Y631, 847A
+This paper
+pGEX6p-2 WWP2 WW1-WW2
+This paper
+pGEX6p-2 WWP2 full-length W358L
+This paper
+pGEX6p-2 WWP2 full-length S374C
+This paper
+pGEX6p-2 WWP2 full-length Y369F
+This paper
+pGEX6p-2 WWP2 full-length Y392F
+This paper
+pGEX6p-2 UbF1
+This paper
+pGEX6p-2 UbF2
+This paper
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+IDENTIFIER
+Cat# sc-7974 Lot# D1613
+Cat# A1978 Lot# 084M4770V
+Cat# sc-40 Lot# E0615
+Cat# A304-591A-T Lot# A304-591A-T-1
+Cat# 05-321 Lot# 2013168
+Cat# 230245
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+Page 28
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+REAGENT or RESOURCE
+SOURCE
+pcDNA3.1 GFP-WWP2 wild-type
+This paper
+pcDNA3.1 GFP-WWP2 Δ2,3-linker
+This paper
+pcDNA3.1 GFP-WWP2 Δ2,3-linker C838S
+This paper
+pcDNA3.1 MYC-WWP2 wild-type
+This paper
+pcDNA3.1 MYC-WWP2 Δ2,3-linker
+This paper
+pcDNA3.1 MYC-WWP2 Δ2,3-linker C838S
+This paper
+pcDNA3.1 MYC-WWP2 Y369E
+This paper
+pcDNA3.1 MYC-WWP2 Y392E
+This paper
+pcDNA3.1 MYC-WWP2 Y369F
+This paper
+pcDNA3.1 MYC-WWP2 Y392F
+This paper
+pcDNA3.1 PTEN-FLAG C124S
+This paper
+pcDNA3.1 OCT4
+This paper
+pGEX6p-2 WWP1 full-length wild-type
+This paper
+pGEX6p-2 WWP1 full-length Δ2,3-linker
+This paper
+pGEX-KG ITCH full-length wil-type
+Fang et al. 2001
+pGEX-KG ITCH full-length Δ2,3-linker
+This paper
+pGEX6p-2 NEDD4-1 full-length wild-type
+This paper
+pGEX6p-2 NEDD4-1 full-length T229E
+This paper
+pGEX6p-2 NEDD4-1 full-length Δ1,2-linker
+This paper
+pGEX6p-2 NEDD4-1 WW1-WW2-WW3-WW4-HECT
+This paper
+pGEX6p-2 NEDD4-1 WW1-WW2-WW3-WW4-HECT Δ1,2-linker
+This paper
+pGEX6p-2 NEDD4-1 full-length Δ2,3-linker
+This paper
+Biological Samples
+Chemicals, Peptides, and Recombinant Proteins
+PreScission Protease
+GE Healthcare
+Tev protease
+Sigma-Aldrich
+UBE1
+Wiener et al. 2013
+UbcH5c
+Wiener et al. 2013
+Dawson Dbz AM resin
+EMD Millipore
+Fluorescein-NHS
+Thermo Scientific
+Non-phosphorylated 2,3-linker peptide
+This paper
+pY369-2,3-linker peptide
+This paper
+pY369-2.3-linkerL thioester peptide
+This paper
+PPXY motif containing WW peptide
+Eurogentec
+Cycloheximide
+Cell Signaling Technology
+Critical Commercial Assays
+NOVEX Colloidal Blue Staining Kit
+Invitrogen
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+IDENTIFIER
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+Addgene 11434
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+Cat# 27-0843-01
+Cat# T4455
+N/A
+N/A
+Cat# 855131
+Cat# 76608-16-7
+N/A
+N/A
+N/A
+Cat# 60844
+Cat# 2112
+Cat# LC6025
+Page 29
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+A u t h o r
+M a n u s c r i p t
+Chen et al.
+REAGENT or RESOURCE
+SOURCE
+BacMam 2.0 lysosome marker (RFP-LAMP1)
+Thermo Fishier
+Deposited Data
+Raw and analyzed data
+This paper and Mendeley Data
+2,3-linker-HECT structure
+This paper
+WW2-2,3-linker-HECT structure
+This paper
+WW2-2,3-linker-HECT structure
+This paper
+Experimental Models: Cell Lines
+HeLa cell
+ATCC
+Experimental Models: Organisms/Strains
+Oligonucleotides
+Primers used in this study, see Table S1
+This paper
+Recombinant DNA
+WWP1 cDNA
+Genscript
+PTEN cDNA
+Miho Ijima, Johns Hopkins University
+OCT4 cDNA
+Aasen et al. 2008
+NEDD4 cDNA
+Xuejun Jiang, Sloan Kattering Momerial Cancer Center
+OCT4 cDNA
+Fang et al. 2001
+Software and Algorithms
+HKL-3000
+Minor et al. 2006
+COOT
+Emsley and Cowtan. 2004
+Prism 6
+GraphPad
+Other
+Mol Cell. Author manuscript; available in PMC 2018 May 04.
+Page 30
+IDENTIFIER
+Cat# C10504
+http://dx.doi.org/10.17632/hkr6z3rvmh.1
+PDB: 5TJQ
+PDB: 5TJ7
+PDB: 5TJ8
+ATCC CCL-2
+N/A
+Cat# OHu14139
+N/A
+Addgene 20072
+N/A
+Addgene 11434
+N/A
+N/A
+www.graphpad.com

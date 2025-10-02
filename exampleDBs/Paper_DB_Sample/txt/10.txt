@@ -1,0 +1,270 @@
+ARTICLE OPEN
+Palladium prompted on-demand cysteine chemistry for the synthesis of challenging and uniquely modified proteins
+Muhammad Jbara® |, Shay Laps’, Michael Morgan2, Guy Kamnesky!, Guy Mann!, Cynthia Wolberger® 2 & Ashraf Brik@ |
+Organic chemistry allows for the modification and chemical preparation of protein analogues or various studies. The thiolate side chain of the Cys residue has been a key functionality in hese ventures. In order to generate complex molecular targets, there is a particular need to incorporate orthogonal protecting groups of the thiolated amino acids to control the direc- ionality of synthesis and modification site. Here, we demonstrate the tuning of palladium chemoselectivity in aqueous medium for on-demand deprotection of several Cys-protecting groups that are useful in protein synthesis and modification. These tools allow the preparation of highly complex analogues as we demonstrate in the synthesis of the copper storage protein and selectively modified peptides with multiple Cys residues. We also report he synthesis of an activity-based probe comprising ubiquitinated histone H2A and its incorporation into nucleosomes and demonstrate its reactivity with deubiquitinating enzyme
+‘0 generate a covalent nucleosome-enzyme complex.
+1Schulich Faculty of Chemistry, Technion-lsrael Institute of Technology, Haifa 3200008, Israel. 2? Department of Biophysics and Biophysical Chemistry, Johns Hopkins University School of Medicine, 725 North Wolfe Street, Baltimore, MD 21205-2185, USA. These authors contributed equally: Muhammad Jbara, Shay Laps. Correspondence and requests for materials should be addressed to A.B. (email: abrik@technion.ac.il)
+NATURE COMMUNICATIONS | (2018)9:3154 | DOI: 10.1038/s41467-018-05628-0 | www.nature.com/naturecommunications 1
+ARTICLE
+NATURE COMMUNICATIONS | DOI: 10.1038/s41467-018-05628-0
+science by contributing efficient synthetic tools to prepare various protein analogues, such as proteins labeled with fluorophores, D-amino acids and posttranslational modifications (PTMs)!-°. These analogues have been utilized in various bio- chemical, structural, and functional studies. Much of what has been done in the area of modifications of expressed proteins is based on the chemistry of the thiolate side chain of the Cys residue;!~> either by employing direct alkylation/arylation or by transforming it to other functionalities, such as dehydroalanine (DHA)®. The latter approach has expanded the chemistry for modifications and the ability to generate protein activity-based probes’~°. The chemistry of the Cys side chain has also been critical in both the total chemical synthesis and semisynthesis of proteins! !°!!_ For example, native chemical ligation (NCL)!’, which is the most utilized approach for assembling the desired polypeptide sequence, relies on the presence of N-terminal Cys, B-, y- and 6-thiolated amino acids!, or a thiol modified auxiliary!3-!®, The thiol handle in these derivatives promotes trans-thioesterification with a peptide thioester for the subsequent S-N acyl transfer and formation of an amide peptide bond at the ligation site. When considering the multistep synthesis of different protein analogues, there is an intrinsic requirement for incorporating orthogonal protecting groups (PGs) of the thiolated amino acids!’. The site-specific removal of a particular PG makes it possible to control the direction of synthesis (e.g., side chain branching) and/or the modification site. Several reports have demonstrated the usefulness of NCL coupled with orthogonal protection for the synthesis of highly complex analogues!*-?°, Examples include the synthesis of branched proteins, such as ubiquitinated proteins;?!-?> proteins containing multiple Cys residues (e.g., analogues of EPO protein);!8745 and site-specific antibody-drug conjugates”®. In these cases, orthogonal protection of Cys residues, mainly by using thiazolidine (Thz)?” and acet- amidomethyl (Acm)?%, is a critical step in obtaining the product in the desired form??°. Despite the utility of the current toolbox for Cys protection/deprotection, there are still limitations to these strategies. The need for harsh removal conditions, prolonged reaction times and additional HPLC-purifications steps all limit the application of these approaches to more challenging systems. Therefore, expanding the available toolbox to manipulate Cys PGs in an orthogonal manner would enable the synthesis and study of complex protein targets. We recently reported that pal- ladium complexes can remove multiple Cys PGs within minutes in a fully aqueous medium?!~*4, which also could be coupled in situ with NCL conditions to provide excellent yields of the desired products*>°, Although these conditions have resulted in important advances in chemical protein synthesis*!~*4, the utility of these approaches is limited by the lack of chemoselectivity of the palladium complexes when applying more than one PG in the synthesis. Here we demonstrate palladium chemoselectivity in a fully aqueous medium for on-demand deprotection of Thz and Acm protections. We also show efficient removal of Cys t-butyl PG using palladium in a fully aqueous medium and demonstrate its stability under the removal conditions of Thz and Acm. The chemistry reported here is used for the one-pot and site-specific modification of peptides containing multiple Cys residues, as well as for the total chemical synthesis of copper storage protein 1 (CSP-1), which contains 13 Cys residues. We also show the total chemical synthesis of an activity-based probe of ubiquitinated histone H2A at Lys119 to prepare ubiquitinated nucleosome core particle probes (NCP-(H2A-Ubpya)). This probe exhibits reac- tivity with the Calypso/ASX heterodimer deubiquitinase (DUB) to form a stable covalent nucleosome-enzyme complex.
+O rganic chemistry has revolutionized the field of protein
+2 NATURE COMMUNICATIONS | (2018)9:3154 | DOL:
+Results
+Palladium prompted on-demand deprotection of Thz and Acm. We recently found that glutathione (GSH) as an additive can accelerate the cleavage of peptides and proteins connected via a Thz linkage using [Pd(allyl)Cl], under physiological pH*’. Notably, when GSH was used in a 1:1 molar ratio to [Pd(allyl) Cl]2, we found that breaking the Thz linkage was more effective compared to using 4-mercaptophenylacetic acid (MPAA) and tris (2-carboxyethyl)phosphine (TCEP) additives*!. This prompted us to revisit the Thz and Acm deprotection via palladium, by syn- thesizing the model peptide, Thz-LYRAGC(Acm)LYRAG (pep- tide 1), bearing N-terminus Thz and internal Cys protected with Acm. When this peptide was exposed to [Pd(allyl)Cl], and GSH (1:1) in 6 M Gn-HCl, pH~6.5 at 37 °C, we observed within 45 min the full unmasking of the Thz to the free N-terminal Cys. Sur- prisingly, the Acm under these conditions was completely stable. Interestingly, upon addition of an extra 10 equiv. of [Pd(allyl)Cl]2 to the reaction mixture, the Acm was completely removed within 5h (Fig. 1). When examining PdCl), the more efficient palladium complex for the Acm removal with GSH>3, we observed the complete removal of the Thz and a relatively lower stability of the Acm compared to the reaction with [Pd(allyl)Cl], and GSH (Supplementary Fig. 2).
+The ability to control Cys deprotection with Acm and Thz encouraged us to further investigate the effect of different parameters on the removal of the two PGs. Previous studies have shown the effect of guanidine as a ligand on the palladium reactivity in Suzuki cross-coupling reaction under aqueous conditions?’. With this in mind, we decided to examine the removal of the two PGs in the absence of guanidine. Here we found that when exposing peptide 1 to PdCl, in water only, we observed reversed and efficient removal of the Acm within 30 min, while the Thz remained completely stable (Fig. 1b). In situ addition of [Pd(allyl)Cl], and GSH in 6 M Gn-HCl to the reaction mixture enabled subsequent efficient Thz opening within 45 min (Fig. lc).
+To examine the origin of chemoselectivity of the deprotection we kept the two reactions shown in Fig. 1b, after the first removal, for additional time. After 2 h we observed the removal of the Acm or Thz (< 10%). Nevertheless, even after overnight the deprotec- tion of the second protecting group did not reach completion and only 50-60% of the fully deprotected peptide was observed in both cases. This could suggest that these reactions are kinetically controlled. However, one could not exclude the formation of different palladium complexes along the reaction pathway that could eventually affect the reaction chemoselectivity.
+Palladium-mediated Cys(t-butyl) deprotection. The impressive on-demand deprotection that was observed between Thz and Acm PGs prompted us to search for additional Cys PGs that could be removed under mild treatment with palladium and in an orthogonal manner to the Thz and Acm. Such a development would further expand the toolbox for complex peptide and pro- tein synthesis and modification. We decided to explore the Cys(t- butyl) PG*%, which has been used for regioselective disulfide bond formation in peptides and proteins. This PG can be removed under extremely harsh conditions, such as trifluoroacetic acid and 2,2-dithiobis(5-nitropyridine), hydrofluoric acid or by using mercury metal in organic solvents***°. We wondered if palla- dium could assist the removal of the t-butyl in an aqueous buffer. In order to test this, we synthesized the model peptide AC (t-butyl) LYRAGLYRAG (peptide 2) and exposed it to various removal conditions employing different palladium complexes, additives, and temperatures (Table 1, Fig. 2). We found that the t-butyl PG was highly stable in all these conditions, as long as the
+10.1038/s41467-018-05628-0 | www.nature.com/naturecommunications
+NATURE COMMUNICATIONS | DOI: 10.1038/s41467-018-05628-0
+ARTICLE
+reaction was performed in a Gn-HCl buffer. However, when screening different buffers, efficient t-butyl deprotection was observed within 1.5 h using PdCl, in a 50 mM Tris buffer at 37 °C (Table 1). We also found that performing the same reaction in a urea buffer gave similar results (Table 1), which supports the critical role of guanidine in palladium reactivity.
+To examine the stability of the three PGs with different palladium complexes on a multi-Cys protected peptide, we synthesized the model peptide Thz-LYRAC(Acm)LYRAC (t-butyl)LYRAG. By exposing this peptide to [Pd(allyl)Cl], and
+1000 1400
+Mass (Da)
+2000
+GSH in 6M Gn-HCl, followed by the addition of an extra equivalent of [Pd(allyl)Cl]2,, we were pleased to observe the sequential removal of Thz and Acm while keeping the t-butyl intact (Supplementary Fig. 7).
+Palladium-enabled peptide modifications at selected sites. Encouraged by these results, we turned our efforts to selectively modify a Cys residue within a peptide containing multiple Cys residues by employing selective removal of Cys PGs coupled with
+10.0 . 15.0 t (min) GSH-[Pd(allyl)Cl]p (1:1) PdCl,, HjO, 37 °C Gn.HCl, pH ~ 6.5, 37 °C 30 min 45 min ~e " b HS 1415 H 1355 i] N (Peptide 1) a_i Peptide 1 1000 1500 2000 1000 1500 2000 Mass (Da) Mass (Da) 7 7 7 ST 10.0 12.5 15.0 10.0 12.5 15.0 t (min) t (min) 1. [Pd(allyl)Cl], 1. GSH:[Pd(allyl)Cl], (1:1) 2. DTT us 2.DTT Gn.HCl, pH ~ 6.5, 37 °C HS 4 Gn.HCl, pH ~ 6.5, 37 °C N , 5h HN LL Peptide 1 45 min c 1343 ° 1343 I ] c c 1000 1500 2000 1000 1500 2000 Mass (Da) Mass (Da) 10.0 12.5 15.0 10.0 12.5 15.0 t (min) t (min)
+Fig. 1 On-demand deprotection of Thz and Acm PGs via palladium complexes. a Analytical HPLC and mass traces for protected peptide 1 with the observed mass 1427 + 0.6 Da, calcd 1427 Da (average isotopes). b Analytical HPLC and mass traces for Thz or Acm deprotection via palladium with the observed masses 1415 + 0.3 Da, and 1355 + 0.5 Da, calcd 1415 Da and 1356 Da (average isotopes), respectively. ¢ Analytical HPLC and mass traces for Acm or Thz deprotection via palladium with the observed masses 1343 + 0.6 Da, calcd 1344 Da (average isotopes)
+NATURE COMMUNICATIONS | (2018)9:3154 | DOI: 10.1038/s41467-018-05628-0 | www.nature.com/naturecommunications 3
+ARTICLE
+NATURE COMMUNICATIONS | DOI: 10.1038/s41467-018-05628-0
+Entry Catalyst Equiv. Buffer
+1. [Pd(allyl)Cl]> 20 6M Gn-HCl 2. [Pd(allyl)Cl]2 10 6M Gn-HCl 3. [Pd(allyl)Cl]> 10 6M Gn-HCl 4. [Pd(allyl)Cl]> 10 6M Gn-HCl 5. [Pd(allyl)Cl]2 10 6M Gn-HCl 6. PdCl2 20 6M Gn-HCl 7 PdCly 10 6M Gn-HCl 8. PdCly 10 6M Gn-HCl 9. PdCl2 10 6M Gn-HCl 10. PdCly 10 6M Gn-HCl 1 PdCly 10 0.5 M Gn-HCl 12. PdCl2 10 5 M Urea 13. PdCly 10 50 mM Tris 14. - - 5 M Urea 15. - - 50 mM Tris
+TIS triisopropylsilane, Tris 2~Amino-2-(hydroxymethyl)propane-1,3-diol
+Table 1 Examining t-butyl deprotection under various conditions
+Additive Temperature Time Yield GSH 37°C 5h 0% MPAA 37°C 5h 0% TCEP 37°C 5h 0% MPAA/TCEP 37°C 5h 0% - 65°C 5h 0% GSH 37°C 5h 0% MPAA/TCEP 37°C 5h 0% TIS 37°C 5h 0% - 37°C 5h 0% - 65°C 5h 0% - 37°C 5h 0% - 37°C 2h 100% - 37°C 15h 100% - 37°C 2h 0% - 37°C 2h 0%
+HS. Previous conditions +
+HF 20°C or y pacl, = 1S (Peptide2) < - B 1.Hg(OAc),0°C Peptide 2) 50 mM Tris, 37 °C Peptide 2
+2.H,S
+Our conditions
+Fig. 2 Removal conditions of Cys(t-butyl). Schematic representation of t-butyl deprotection via PdClz in aqueous buffer compared to the previous conditions
+alkylation. In principle, this could enable the rapid synthesis of peptide libraries from a common scaffold, which might find useful applications in various areas such as in medicinal chem- istry?®. To explore this concept, we synthesized a model peptide bearing three different Cys residues, Thz-LYRAGC(Acm)LYRCA (peptide 3) for sequential alkylation. To alkylate the free Cys first, we treated peptide 3 with halogenated-acetyl derivative, which was completed within 30 min (Fig. 3b). For the second alkylation, we performed selective Thz deprotection followed by in situ coupling with a second halogenated-acety] derivative. In this case, however, no alkylation was observed, most likely because the Cys remained bound to palladium in a Pd-S bond, renders it unreactive for the alkylation step. While quenching the reaction with dithiothreitol (DTT) is useful for both the precipitation of excess palladium and for breaking the Pd-S bond?! such a step can be problematic for the alkylation reactions, as DTT can react with the halogenated-acetyl derivative. To overcome this obstacle, we utilized a Cys-PEGA resin, which is a water-compatible solid support, to capture any excess of palladium from the reaction mixture, where we can easily separate the reaction mixture from the remaining palladium and without interfering with the halogenated-acetyl derivative applied in the next step (Supple- mentary Fig. 9). Hence, after Thz deprotection we treated the reaction mixture with the Cys-PEGA resin to capture all the free palladium (Fig. 3c). The reaction mixture was then separated from the resin and treated with one equiv. of DTT, which we found to be more powerful in releasing the bound palladium to the sulfur and enable a second alkylation step (Fig. 3d). In addition, the Cys-PEGA resin could quench any residual halogenated-acetyl derivative in the reaction mixture. Following this step the Acm was removed and the quenching step with the resin was repeated to enable a third alkylation reaction with the iodoacetamide (Fig. 3f). Using this approach, we were able to
+4 NATURE COMMUNICATIONS | (2018)9:3154 | DOL:
+selectively modify the three Cys residues in peptide 3 in a one-pot operation within 7h for the 11 steps. The above describe sequential deprotection and Cys alkylation on peptide 3 was also attempted in reversed order for the deprotection of the two groups, ie. first Acm followed by Thz removal for sequential modification. Such an approach was also successful and provide tri-alkylated peptide 3 (Supplementary Fig. 10).
+Palladium-mediated total chemical synthesis of CSP-1. With the results described above, we then tested the applicability of palladium-mediated selective chemistry on Cys residues for the synthesis of complex proteins. We chose the Cys-rich protein CSP-1 as a model system, which contains 13 Cys residues. CSP-1 was very recently discovered as a copper storage protein for particulate methane monooxygenase from the methanotroph, Methylosinus trichosporium OB3b*°. Our efforts to prepare this protein by the synthesis of three peptide fragments coupled with NCL were unsuccessful despite several attempts (Supplementary Fig. 11-13). This is probably due to the protein hydrophobic sequence and the presence of many Cys residues, which renders the peptide fragments hardly soluble during the ligation reactions. To overcome this obstacle, we used the same three fragments, CSP-1-1, CSP-1-2, CSP-1-3 but each was modified temporarily with a phenylacetamidomethyl (Phacm) as a cleavable solubiliz- ing tag*+!, bearing three Arg residues to enhance the solubility of the fragments (Fig. 4). The tags were incorporated into the different peptide fragments at positions Cys26, 62, and 117. The three-Arg tags dramatically improved the peptides’ solubility an enabled their preparation in good yields as compared to the standard approach (Supplementary Fig. 14-16). Indeed, the pre- sence of the tags enabled efficient NCL of CSP-1-1 and CSP-1-2. For the second ligation with CSP-1-3, selective Thz opening was necessary, keeping in mind that the solubilizing tags shoul remain intact until the end of synthesis despite the use of palla- dium to deprotect the Thz. Since the NCL step requires MPAA and TCEP additives the reactivity of the palladium will be affecte and interfere with the desired selectivity, i-e., deprotecting the Thz without cleaving the Phacm linker. To neutralize the effect of MPAA and TCEP on palladium reactivity, we envisioned the use of MgCl, to chelate these additives?>. Indeed, when we performe NCL between the CSP-1-1 and CSP-1-2 peptides in the presence of MPAA and TCEP, followed by MgCl, treatment and [Pd(allyl) Cl],/GSH, this enabled selective Thz removal without affecting the three Phacm tags to provide CSP-1-4. Subsequently, the
+10.1038/s41467-018-05628-0 | www.nature.com/naturecommunications
+NATURE COMMUNICATIONS | DOI: 10.1038/s41467-018-05628-0
+ARTICLE
+a 1473 1000 1500 2000 Mass (Da)
+1616
+1000 1500 2000 Mass (Da)
+1000 15002000 Mass (Da)
+1200 1500 2000 Mass (Da)
+1060 1500-2000 Mass (Da)
+1200 1700 2000 Mass (Da)
+NH
+s s Hs (— (PA eos
+n° 1. Br —~" yo Re Oo R, R,=H, Rj= CH,CH, Gn.HCl, pH ~ 8, 37 °C, 30 min
+a ° s. £ s Pht he
+1. GSH:[Pd(allyl)Cl], Gn.HCI, pH ~ 6.5, 37 °C, 45 min 2. CysPEGA resin, 60 min
+3.DTT 6
+NH ee yd HAN N Peptide3_) ° 1. Ho R Br yy ho” 2
+oR, Ry=CHs, Ry=CH,
+Pd-CysPEGA resin
+@osreca resin
+One-pot
+Gn.HCl, pH ~ 8, 37 °C, 30 min 2. CysPEGA resin, 60 min
+e ie ° Ss s H HN N Peptide 3 0
+1.PdCl, _ \Gn.HCl, pH ~ 7, 37 °C, 30 min Pd-CysPEGA resin } > CysPEGA resin, 60 min
+3. DTT e ? HS. Ss. H HAN N Peptide 3 fo} NH,
+Gn.HCl, pH ~ 8, 37 °C, 30 min
+° 2? @ \ tcl
+20.0 t(min)
+Fig. 3 Schematic representation of palladium-mediated modification of peptide 3 at selected Cys sites. a Reaction at time zero: main peak corresponds to peptide 3 with the observed mass 1473.0 Da + 0.4 Da, calcd 1473.7 Da (average isotopes). b 1st alkylation reaction, main peak corresponds to mono- alkylated peptide 3 with the observed mass 1616.0 Da + 0.5 Da, calcd 1616.7 Da (average isotopes). ¢ Thz opening: main peak corresponds to Thz- deprotected peptide 3 with the observed mass 1604.0 Da + 0.7 Da, calcd 1604.7 Da (average isotopes). d 2nd alkylation reaction: main peak corresponds to di-alkylated peptide 3 with the observed mass 1747.0 Da + 0.4 Da, calcd 1747.7 Da (average isotopes). e Acm deprotection: main peak corresponds to Acm-deprotected peptide 3 with the observed mass 1676.0 Da + 0.4 Da, calcd 1676.7 Da (average isotopes). f 3rd alkylation reaction: main peak corresponds to tri-alkylated peptide 3 with the observed mass 1733.0 Da + 0.4 Da, calcd 1733.6 Da (average isotopes). Red sphere: acetylglycine-ethy|
+ester, green sphere: acetylalanine-methyl ester, purple sphere: acetamide
+second ligation with fragment CSP-1-3 was performed to give CSP-1-5. Finally, the three tags were removed using PdCl, for 1h to provide the native CSP-1 protein, which showed by circular dichroism (CD) the expected secondary structure (Fig. 4).
+Palladium-mediated chemical synthesis of H2AK119pj4Ub. Ubiquitin activity-based probes have found great utility in understanding the function and structure of deubiquitinases*”*°. We aimed to use the on-demand palladium chemistry to prepare
+NATURE COMMUNICATIONS | (2018)9:3154 | DOI: 10.1038/s41467-018-05628-0 | www.nature.com/naturecommunications 5
+ARTICLE
+NATURE COMMUNICATIONS | DOI: 10.1038/s41467-018-05628-0
+GEDPHAGHKMSHGAKYKALLDSSSHCVAVGEDCLRHCFEMLAMNDASMGACTKATYDLVA ACGALAKLAGTNSAFTPAFAKVVADVCAACKKECDKFPSIAECKACGEACQACAEECHKVAA
+meee
+O csp-1-2
+mueeet °
+HN: = —50) COSPaTI=5y > mmenbz
+CSP-1-3
+mary lS O3 wh?
+H NS
+H ioe
+‘ 1. 6 = a "N CosP(s2-89) ) 82) N \(espi(o1-122) ) ( CSP1(91-122) ] (91-122)
+4, CSP-1-1
+2) MgCl, [Pa(allyl)Cl]:GSH
+1) MPAA, TCEP, 6M Gn-HCl, pH 7.2 One-pot 3) DTT
+H ioee
+em ils % N (CSP1(62-89) } 89) Lea (CSP1(91-122) }
+CSP-1-4 \1) MPAA, TCEP, 6M Gn-HCl, pH 7.2
+hy?
+{ CSP1(1-50) } { CSP1(1-50) } A,
+J
+12,589 43H*
+11H+ 1 ' 10H*
+{10,000 12,500 Mass (Da)
+15,000
+750
+1200 1600
+20.0
+25.0 30.0 35.0
+t(min)
+Fig. 4 Total chemical synthesis of CSP-1. a The CSP-1 sequence where the two-|
+traces for purified CSP-1 with the observed mass 12589 + 1.1 Da, calcd 12590 MeNbz: N-acyl-N’-methylacylurea
+probes based on ubiquitinated proteins. We focused on probes that are based on ubiquitinated H2A at Lys119 (H2AK119Ub) where the ubiquitin carboxyl terminus is covalently linked to the e-amino group of lysine via an isopeptide bond. In this probe, Gly76 is replaced with DHA to trap the DUB catalytic Cys, as we previously reported for diubiquitin activity-based probes?. Ubi- quitination of H2A is a hallmark of heterochromatin, which is dynamically regulated by Calypso/ASX in Drosophila**, and plays an important role in cell cycle control, DNA damage response, and gene regulation‘. We anticipate that this type of chemistry
+SIO eel
+H ioee
+i =e CSP1(91-122)
+1) PdCl,, 6M Gn-HCl, pH 7.2 2) DTT
+( CSP1(52-89) } CSP-1-5
+"sy ° SH H,N-{ CSP1(1-50) SiO ( CSP1(52-89) } (CSPrG2 89) 2 Lo coral N(CSP1(91-122) } fe) CSP
+| Folding
+250 260 270
+Mal. ellipticity
+Wavelength (nm)
+ligation sites are underlined. b Synthesis of CSP-1, analytical HPLC and mass Da (average isotopes) and CD spectrum. R!: 3-Mercaptopropionate, N-
+could provide useful reagents that would assist in understanding the structural and functional mechanisms of Calypso/ASX DUB in chromatin context.
+For the total chemical synthesis of the HZAK119Ub probe, we prepared three peptide fragments based on the H2A sequence (H2A-1, H2A-2, and H2A-3) in addition to Ub(1-75)-thioester (Fig. 5)°4°, To enable ubiquitination through Lys119 and latent DHA formation, fragment H2A-1 was prepared bearing also Cys (t-butyl) on Lys119. This Cys, which replaces Gly76 of Ub would serve after H2A polypeptide assembly for the ligation with Ub
+NATURE COMMUNICATIONS | (2018)9:3154 | DOI: 10.1038/s41467-018-05628-0 | www.nature.com/naturecommunications
+NATURE COMMUNICATIONS | DOI: 10.1038/s41467-018-05628-0
+ARTICLE
+and DHA formation. Here we envisioned selective removal of the Thz for sequential backbone ligation in the presence of the orthogonally protected Cys. In this synthesis, Ala at positions 86 and 48 in H2A-2 and H2A-3 fragments were temporarily mutated to Cys to enable NCL. With this design in mind, we performed the first ligation between H2A-1 and H2A-2, followed by MgCl, treatment to enable Thz removal via [Pd(allyl)Cl]>. Subsequently, this enabled a second NCL step with fragment H2A-3 to provide H2A(1-129)K119-C(t-butyl). At this stage, we performed a desulfurization step in a one-pot operation without affecting the t-butyl protection to give the full-length H2A-5. The purified intermediate H2A-5 was dissolved in urea or Tris buffer at pH 7.5 and treated with PdCl, to unmask the Cys(t-butyl) to give H2A(1-129)K119Ub-Cys and was ligated with Ub(1-75)- thioester to furnish the ubiquitinated H2A-6. Subsequently, treatment with the bisamidel,4-dibromobutane*’ converted the Cys side chain at the ligation site to DHA to provide the desired H2AK119pyaUb probe (Fig. 5).
+Calypso/ASX DUB labeling with NCP-(H2A-Ubpna). Having the synthetic probe in hand, we sought to demonstrate that the reactive probe could crosslink with the deubiquitinating enzyme complex known to cleave ubiquitin from H2A, Calypso/ASX*4. We reconstituted the H2A-Ub probe, H2B, H3, H4 and the 146 base pair Widom 601 DNA sequence*® into nucleosome core particles (NCP) using standard methods‘?. Under these condi- tions, we observed negligible labeling with Calypso/ASX DUB, perhaps suggesting that chemical modification of the DHA moiety may be producing an inactive species. To test this, we then moved to examine the probe stability in the presence of several solution components present during NCP reconstitution, including different buffers (Tris and HEPES), additives (TCEP), and temperatures (4°C, room temperature and 37 °C). To study this, we synthesized a ubiquitinated C-terminal H2A peptide probe (H2A(116-129)K119pyaUb) (Supplementary Fig. 25). HPLC and mass analysis showed that under standard conditions, TCEP reacts with the DHA residue such that > 50% of the probe is deactivated within 24h, probably via the formation of a stable C-P bond (Supplementary Fig. 27-30)°°5!. We reasoned that excluding TCEP from the buffer would provide greater stability of the probe for several weeks.
+With the insight that TCEP inactivates DHA reactivity, we reconstituted the H2A-Ubpya probe together with recombinant Xenopus laevis histones H3, H4, H2B and the Widom 601 DNA sequence as described above, but in the absence of reducing agent. Histones were reconstituted into octamers and purified by size- exclusion chromatography to remove incorrectly folded histone complexes°?. The histone octamers were further reconstituted into NCPs by gradient salt dialysis in the presence of the Widom 601 DNA purified by standard methods to provide NCP(H2A- Ubpua) probe (Fig. 6a). The NCP(H2A-Ubpya) probe was incubated for 1h at 25 °C with Calypso/ASX at concentrations of 3M and 6uM, respectively. The resultant products were analyzed by electrophoretic mobility shift assay (EMSA), SDS- PAGE, and Western blot. Taken together, these results indicate the formation of a unique covalent complex was formed between Calypso/ASX and NCP-Ubpya. The EMSA experiment showed the formation of a band corresponding to nucleosomal DNA migrating at a higher apparent molecular weight than NCP- Ubpna alone. We also observed no dissociation of this complex after serial dilution of the reaction mix supporting the formation of enzyme stably bound to the nucleosome probe (Fig. 6b). In addition, an SDS-PAGE denaturing gel similarly showed the formation of a high-molecular-weight species appearing after Calypso/ASX was incubated with NCP(H2A-Ubpj;ja), consistent
+with the formation of Calypso/ASX-H2A-Ubpna complex (Fig. 6c). To further validate this band in Fig. 6c was, in fact, a reaction product resulting from labeling by the probe, we performed immunoblotting with an antibody against ubiquitin, which confirmed that the ubiquitin is migrating with an high molecular weight due to covalent cross-linking of NCP(H2A- Ubpua) to the Calypso/ASX DUB (Fig. 6d).
+Discussion
+In conclusion, we have introduced synthetic approaches to expand the chemical toolbox for synthesizing and modifying peptides and proteins. The reported approaches make possible on-demand palladium-mediated decaging of various Cys PGs to acilitate peptide modification and protein synthesis of complex targets. Remarkably, the selectivity has been achieved by simple variation of the additives and the solvent in the reaction mixture containing commercially available palladium complexes. The palladium tunability that has been achieved here should also initiate other research directions in aqueous-based chemistry of small molecules and trigger mechanistic studies. The synthesis of protein targets, such as the CSP-1 and the activity-based probes based on ubiquitinated H2A, pave the way for answering fun- damental questions related to these systems. Of particular interest is the Calypso/ASX-NCP(H2A-Ubpya) complex, which has opened up the opportunity for structural studies that would otherwise be very difficult to attempt.
+Methods
+Palladium prompted Thz removal in presence of Acm. 0.5 mg of peptide 1 (0.35 x 10-3 mmol, 2 mM) was dissolved at 175 uL, 6M Gn-HCl, 200 mM Na2HPO, buffer pH 6.5, and treated with 10 equiv. of [Pd(allyl)Cl], and GSH (1:1) and incubated at 37 °C for 45 min to observe complete Thz opening. Subsequent addition of extra 10 equiv. of [Pd(allyl)Cl], to the reaction mixture led to complete removal of the Acm within 5h.
+Palladium prompted Acm removal in presence of Thz. 0.5 mg of peptide 1 (0.35 x 10-3 mmol, 2 mM) was dissolved at 175 wL, H20, and treated with 10 equiv. of PdCl, and incubated at 37°C for 30 min to observe complete Acm deprotection. Subsequent addition of [Pd(allyl)Cl], and GSH (1:1) in 6 M Gn-HCl, 200 mM Na,HPO, buffer pH 6.5 to the reaction mixture at 37 °C led to complete Thz removal within 45 min.
+Sequential modification of peptide 3. 2 mg of peptide 3 (1.35 x 10-3 mmol,
+2.7 mM) was dissolved at 500 tL, 6 M Gn-HCl, 200 mM Na;HPO, buffer pH 8, and treated with 1 equiv. of N-(bromoacetyl)glycine-ethyl ester, which pre-dissolved as a stock solution in MeOH. 100 equiv. of Nal was added to accelerate the alkylation reaction. The reaction was monitored by HPLC-MS, which showed completion within 30 min. Then, the reaction mixture was treated with 10 equiv. of [Pd(allyl) Cl], and GSH (1:1) and incubated at 37° for 45 min to observe complete Thz removal. For the second alkylation, the solution mixture was treated with Cys- PEGA resin for 1h at 37°, followed by the addition of 1 equiv. of DIT. Subse- quently, 11 equiv. of the N-(bromoacetyl)alanine-methyl ester dissolved in MeOH and 100 equiv. Nal were added and incubated at 37°. The reaction was completed within 30 min. For Acm removal, 10 equiv. of PdCl, was added to the reaction mixture and incubated for 30 min at 37° for a complete Acm removal. Then the solution mixture was treated with 40 equiv. Cys-PEGA resin for 1h at 37° and 1 equiv. of DTT. Finally, 2 equiv. of iodoacetamide at 37 ° were added to give the tri- alkylated peptide 3.
+Total chemical synthesis of CSP-1. The peptides CSP-1-1 (3.5 mg, 8.5 x 1074 mmol) and CSP-1-2 (4.3 mg, 9.5 x 10~4 mmol) were dissolved in 6 M Gn-HCl, 200 mM Na;HPO, buffer, pH ~7.2 (400 uL, 2 mM) containing 20 equiv. of MPAA and 10 equiv. of TCEP. The reaction was incubated at 37 °C for 2h. Progress of the reaction was monitored by analytical HPLC using C4 analytical column and a gradient of 0-60% buffer B (Acetonitrile mixed with 0.1% TFA) over 30 min. After completion of the ligation reaction, the product was treated with 100 eq. of MgCl, dissolved in 100 uL of 6 M Gn-HCl, 200 mM Na,HPO, buffer, pH ~7.2 at 37 °C for 10 min. For Thz removal, [Pd(AllylCl)]2 (4.1 mg, 1.3 x 10~? mmol) and GSH
+(3.8 mg, 1.3 x 10-2 mmol) were dissolved in 100 ul of 6M Gn-HCl, 200 mM Na,HPO, buffer, pH ~7.2, and added to the reaction mixture, which was incubated at 37°C for 1.5 h. Progress of the reaction was monitored by analytical HPLC using C4 analytical column and a gradient of 0-60% B over 30 min. After completion of the reaction, 60 equiv. of DTT was added to quench and precipitate the palladium
+NATURE COMMUNICATIONS | (2018)9:3154 | DOI: 10.1038/s41467-018-05628-0 | www.nature.com/naturecommunications 7
+ARTICLE
+NATURE COMMUNICATIONS | DOI: 10.1038/s41467-018-05628-0
+SGRGKQGGKTRAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLTAEIL ELAGNAARDNKKTRIIPRHLQLAVRNDEELNKLLGRVTIAQGGVLPNIQSVLLPKKTESSKSAKSK
+b
+HS H2A(1-46) ‘N-MeNbz ‘ ryt ( H2A(48-85) } 48-85) HN H2A-3 vee) 2 °
+fo) | Heat 1) MPAA, TCEP, 6M Gn-HCl, pH 7.2 2) MgCl, [Pd(allyl)Cl],
+H, H why ( H2A(48-85) | LG
+reste 38) 4
+| 1) MPAA, roEr, 6M Gr-HCl, pH 7.2 5 DIT
+3) VA044, TCEP, BuSH
+° x J (Wor) sre ee hy! xem) Kit9 | Ub-thioester fe) Hence) } 5 1) PdCl,, 50mM Tistc, pH 7.2 2) MPAA, TCEP.
+Ciemar-ie5))
+i) a) 6 ye
+H,N Br Br = NH, 6M Gn-HCl, pH 8
+i N H fe) coat t corm y ae
+H2AK11 SDHAUD ee . 22,495 25H* etn fe) H N aa 27H" 19H Rs, | fo) 700 1050 1400 20,000 22,500 25,000
+Mass (Da)
+15.0 20.0 25.0 30.0 35.0 t (min)
+Fig. 5 Total chemical synthesis of H2AK119p4aUb. a The H2A sequence where the two-ligation sites are underlined. b Synthesis of HZAK119p4,,Ub and
+analytical HPLC and mass traces for purified H2AK119p4,Ub with the observed mass 22495 + 2.7 Da, calcd 22498 Da (average isotopes), H2A in green,
+ubiquitin in red. N-MeNbz: N-acyl-N-methylacylurea, Nbz N-acyl-benzimidazolinone, R2 3-Mercaptopropionate, VAOQ44 2,2'-Azobis[2-(2-imidazolin-2-yl) propane] Dihydrochloride
+NATURE COMMUNICATIONS | (2018)9:3154 | DOI: 10.1038/s41467-018-05628-0 | www.nature.com/naturecommunications
+NATURE COMMUNICATIONS | DOI: 10.1038/s41467-018-05628-0
+ARTICLE
+H2AK119,44Ub
+HS
+b c d ot + + gr + oh 3" & a Sh OM Sok ssh sot ” Calypso/Asx Fg F Rey S wr o& we °__#NCP-UbOMA wr Se x Calypso/ wy oor oi! H2A-UbDHA NG! 33 100 330 1000 [Complex] (nM) Hea a Calypso! ' fet] J crosstinked = a _ H2A-Ub?HA ' Calypso/Asx = — Calypso xlink ; 4NCP-UbOHA — — Asx H complexes ' ' bw be bee) —— NCP(HeA-Ub>H*) Hl = -UbDHA i —_— \ NCP(H2A-Ub?HA) ed — H2A-Ub! — H2A-Ub?HA ' cleavage products ume ‘ — H2A, H2B, H3 lad | | ree DNA — <= —H4 — Ub — => —w o-Ub
+Fig. 6 NCP(H2A-Ubpya) labeling with Calypso/ASX DUB. a Schematic of nucleosome probe generation and labeling with Calypso/ASX DUB. H2A in green, ubiquitin in light red, H4 in orange, H3 in blue, H2B in red and DNA in gray b EMSA analysis suggests the formation of a stable product, even in serial dilutions ¢ SDS-PAGE analysis of the labeling reaction between NCP(H2A-UbpHa) and Calypso/ASX DUB reveals the generation of a band with higher molecular weight, corresponding to a Calypso/ASX-H2A-Ubpya crosslinked species. d Western blot analysis of samples shown in (c) using ubiquitin antibody shows high-molecular-weight species, which contains ubiquitin formed upon reaction of Calypso/ASX with NCP(H2A-Ubpya)
+from the reaction mixture. After centrifugation, the supernatant solution was collected and purified using semi-preparative HPLC, C4 column and gradient of 20-60% B to give the desired product in ~45% yield (Supplementary Fig. 17). For the second ligation, the peptides CSP-1-4, (3.2 mg, 3.8 x 10-4 mmol) and CSP-1-3 (2.5 mg, 4.2 x 10-4 mmol) were dissolved in 100 pl of 6M Gn-HCl, 200 mM NajHPQ, buffer, pH ~7.2, containing 20 equiv. MPAA and 10 equiv. of TCEP at pH ~7.2 and incubated at 37 °C for 6 h. Progress of the reaction was monitored by analytical HPLC using C4 analytical column and a gradient of 0-60% B over 30 min. After completion of the ligation reaction, CSP1-5 was isolated using semi- preparative HPLC, C4 column and a gradient of 20-60% B to give the desired product in ~50% yield, (Supplementary Fig. 18A).
+Palladium-mediated tag removal. Stock solution of 10 eq. PdCl, was prepared in 6M Gn-HCl, 200 mM Na,HPO, buffer, pH~7.2. Subsequently, the palladium solution was added to the pre-dissolved CSP-1-S, (2.5 mg, 1.7 x 10-4 mmol) in 6 M Gn-HCl, 200 mM Na2HPO, buffer, pH~7.2 (180 pL, 1 mM) and incubated at 37 °C for 2h. Progress of the reaction was monitored by analytical HPLC using C4 analytical column with a gradient of 0-60% B over 60 min. After completion of the reaction, 40 equiv. of DIT was added to quench and precipitate the free palladium from the reaction mixture. After centrifugation of the reaction, the supernatant solution was collected purified using semi-preparative HPLC, C4 column and gradient of 20-60% B to give the desired product in ~50% yield, (Supplementary Fig. 18B).
+H2A-5 synthesis. H2A-1 (5 mg, 1.0 x 10-3 mmol) and H2A-2, (4.7 mg, 1.0 x 10-3 mmol), were dissolved in 6 M Gn-HCl, 200 mM Na,HPO, buffer, pH~7.2 (500 utL, 2mM) containing 20 equiv. of MPAA and 10 equiv. of TCEP. The reaction was incubated at 37 °C for 4h. Progress of the reaction was monitored by
+analytical HPLC using C4 analytical column and a gradient of 0-60% B over 30 min. After completion of the ligation reaction, the product was treated with 100 equiv. of MgCl, dissolved in 100 uL of 6 M Gn-HCl, 200 mM Na,HPO,, pH ~7.2 at 37°C for 10 min. For Thz removal [Pd(AllyICl)]2 (4.9 mg, 1.5 x 10~? mmol) was dissolved in 100 ul of 6 M Gn-HCl, 200 mM Na,HPO,, pH~7.2. and the reaction mixture was incubated at 37 °C for 1.5 h. Progress of the reaction was monitored by analytical HPLC using C4 analytical column and a gradient of 0-60% B over
+30 min. After completion of the reaction H2A-3 fragment (5.7 mg 1.1 x 1073 mmol), dissolved in 100 ul of 6 M Gn-HCl, 200 mM Na,HPO,, pH~7.2 containing 100 equiv. of MPAA and 50 equiv of TCEP was added to the reaction and incu- bated at 37°C for 8h. Progress of the reaction was monitored by analytical HPLC using C4 analytical column with a gradient of 0-60% B over 30 min. After com- pletion of the final ligation, 60 equiv. of DTT was added to quench and precipitate the palladium from the reaction mixture. After centrifugation of the reaction, the supernatant solution was collected and dialyzed 500 ml of 6 M Gn-HCl, 200 mM Na,HPO, buffer at pH~7.2, using Slide-A-Lyzer dialysis cassettes for 16h. After the dialysis, radical desulfurization reaction was performed by adding 70 mg of TCEP (0.25 M), 32 mg of VA-044 (50 equiv. per sulfur) and 100 ul of t-butyl thiol (10% of the total volume) to the reaction mixture and incubated in 42°C for 4h. Progress of the reaction was monitored by analytical HPLC using C4 analytical column with a gradient of 0-60% B over 30 min. After centrifugation, the super- natant solution was collected and isolated via semi-preparative HPLC, C4 column and a gradient of 20-60%B was used to isolate the product in ~17% yield, (Sup- plementary Fig. 22).
+t-Butyl removal followed by chemical ubiquitination of H2A. PdCl, (3 mg, 1.7 x 10-3 mmol) was dissolved in 100 pL H,O and 10 pl of this solution was added to the pre-dissolved H2A-5 (2.5 mg, 1.7 x 10-4 mmol) in 50 mM Tris buffer, pH 7.5 (190 pL, 2mM) and incubated at 37°C for 2h. Progress of the reaction was
+NATURE COMMUNICATIONS | (2018)9:3154 | DOI: 10.1038/s41467-018-05628-0 | www.nature.com/naturecommunications 9
+ARTICLE
+NATURE COMMUNICATIONS | DOI: 10.1038/s41467-018-05628-0
+monitored by analytical HPLC using C4 analytical column and a gradient of 0-60% B over 30 min. After completion of t-butyl removal, Ub(1-75)-thioester, (2.2 mg, 2.55 x 10-3 mmol), was dissolved in 100 tL of 6 M Gn-HCl, 200 mM Na,HPO, buffer containing 100 equiv. of MPAA and 50 equiv. of TCEP, pH ~7.2. The reaction was incubated at 37 °C for 4h. Progress of the reaction was monitored by analytical HPLC using C4 analytical column and a gradient of 0-60% B over 30 min. After completion of the final ligation reaction, 40 equiv. of DTT was added to quench and precipitate the palladium from the reaction mixture. After cen- trifugation, the supernatant solution was collected and isolated via semi- preparative HPLC, C4 column and a gradient of 20-60% B was used to isolate the product in ~45% yield, (Supplementary Fig. 23).
+H2A-6 conversion to (H2AK119p,,,Ub) probe. 100 equiv. of bisamidel,4- dibromobutane dissolved in DMF were added to H2A-6, (1.2 mg, 8.5 x 1075 mmol) dissolved in 6 M Gn-HCl, 200 mM Na,HPO, buffer, pH ~8 (85 pL, 1 mM) and the reaction mixture was incubated 1 h at room temperature, followed by 3 h at 37°C. Progress of the reaction was monitored by analytical HPLC using C4 ana- lytical column and a gradient of 0-60% buffer B over 30 min. After completion of elimination reaction, the product (H2AK119p;;,Ub) was purified using semi- preparative HPLC, C4 column and a gradient of 20-60% B was used to give the product in ~55% yield, (Supplementary Fig. 24).
+Nucleosome reconstitution. Histone octamers were reconstituted and purified as described previously>? from recombinant Xenopus Laevis histone sequences (H2AK119pHaUb, H2B, H3, and H4). The octamers bearing the H2AK119py4Ub were then reconstituted into nucleosomes with salt gradient dialysis and purified using a DEAE-5PW HPLC column (TOSOH). After purification, nucleosomes were dialyzed into NCP storage buffer (10 mM Tris-HCl pH 7.5, 50mM KCl) and stored at 4°C.
+Nucleosome labeling. Reaction of Calypso/ASX with the NCP-(H2A-Ubpya) probe was accomplished by reacting each component at concentrations of 6 uM and 3 uM, respectively. The reaction was done in the absence of reducing agent to avoid modification of the DHA group at 25°C for 1h in NCP storage buffer. Samples were then analyzed by EMSA (6% TBE gel stained with SYBR Gold), SDS- PAGE (NuPage 4-12% Bis-Tris gel stained with Sypro Ruby), and western blot (antiUb-p4d1 primary (Santa Cruz Biotech Cat # B1512) and anti-mouse IgG HRP-linked secondary (Cell Signaling Cat #: 7076) were diluted at 1:5000, (Sup- plementary Fig. 31).
+Antibodies. AntiUb p4d1 primary (Santa Cruz Biotech Cat # B1512) and anti- mouse IgG HRP-linked secondary (Cell Signaling Cat #: 7076) were diluted at 1:5000.
+Data availability. The authors declare that all data supporting the findings of this study are available within the article and its Supplementary Information Files, and from the corresponding author upon reasonable request.
+Received: 6 April 2018 Accepted: 16 July 2018 Published online: 08 August 2018
+References
+1. Bondalapati, $., Jbara, M. & Brik, A. Expanding the chemical toolbox for the synthesis of large and uniquely modified proteins. Nat. Chem. 8, 407-418 (2016).
+2. Spicer, C. D. & Davis, B. G. Selective chemical protein modification. Nat. Commun. 5, 4740-4754 (2014).
+3. Krall, N., da Cruz, F. P., Boutureira, O. & Bernardes, G. J. Site-selective protein-modification chemistry for basic biology and drug development. Nat. Chem. 8, 103-113 (2016).
+4, Vinogradova, E. V., Zhang, C., Spokoyny, A. M., Pentelute, B. L. & Buchwald, S. L. Organometallic palladium reagents for cysteine bioconjugation. Nature 526, 687-691 (2015).
+5, Zhang, C. et al. Pi-Clamp-mediated cysteine conjugation. Nat. Chem. 8, 120-128 (2016).
+6. Chalker, J. M., Bernardes, G. J. Lin, Y. A. & Davis, B. G. Chemical modification of proteins at cysteine: opportunities in chemistry and biology. Chem, Asian J. 4, 630-640 (2009).
+7. Wright, T. H. et al. Posttranslational mutagenesis: a chemical strategy for exploring protein side-chain diversity. Science 354, aagl465 (2016).
+8. Yang, A. et al. A chemical biology route to site-specific authentic protein modifications. Science 354, 623-626 (2016).
+9. Haj-Yahya, N. et al. Dehydroalanine-based diubiquitin activity probes. Org. Lett. 16, 540-543 (2014).
+20.
+21.
+22.
+23.
+24,
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+34,
+35.
+36.
+37.
+38.
+Muir, T. W. Semisynthesis of proteins by expressed protein ligation. Annu. Rev. Biochem. 72, 249-289 (2003).
+Malins, L. R. & Payne, R. J. Recent extensions to native chemical ligation for the chemical synthesis of peptides and proteins. Curr. Opin. Chem. Biol. 22, 70-78 (2014).
+Dawson, P. E., Muir, T. W., Clark-Lewis, I. & Kent, $. B. Synthesis of proteins by native chemical ligation. Science 266, 776-779 (1994).
+Canne, L. E., Bark, S. J. & Kent, $. B. H. Extending the applicability of native chemical ligation. J. Am. Chem. Soc. 118, 5891-5896 (1996).
+Offer, J., Boddy, C. N. & Dawson, P. E. Extending synthetic access to proteins with a removable acyl transfer auxiliary. J. Am. Chem. Soc. 124, 4642-4646 (2002).
+Loibl, S. F., Harpaz, Z. & Seitz, O. A type of auxiliary for native chemical peptide ligation beyond cysteine and glycine junctions. Angew. Chem. Int. Ed. 54, 15055-15059 (2015).
+Weller, C. E. et al. Aromatic thiol-mediated cleavage of N-O bonds enables chemical ubiquitylation of folded proteins. Nat. Commun. 7, 12979-12989 (2016).
+Isidro-Llobet, A., Alvarez, M. & Albericio, F. Amino acid-protecting groups. Chem. Rev. 109, 2455-2504 (2009).
+Wang, P. et al. Erythropoietin derived by chemical synthesis. Science 342, 1357-1360 (2013).
+Sato, K. et al. Chemical synthesis of biologically active monoglycosylated GM?2-activator protein analogue using N-sulfanylethylanilide peptide. Angew. Chem. Int. Ed. 52, 7855-7859 (2013).
+Seenaiah, M., Jbara, M., Mali, S. M. & Brik, A. Convergent versus sequential protein synthesis: the case of ubiquitinated and glycosylated H2B. Angew. Chem. Int. Ed. 54, 12374-12378 (2015).
+Mali, S. M., Singh, S. K., Eid, E. & Brik, A. Ubiquitin signaling: chemistry comes to the rescue. J. Am. Chem. Soc. 139, 4971-4986 (2017).
+Pham, G. H. & Strieter, E. R. Peeling away the layers of ubiquitin signaling complexities with synthetic ubiquitin-protein conjugates. Curr. Opin. Chem. Biol. 28, 57-65 (2015).
+Weller, C. E., Huang, W. & Chatterjee, C. Facile synthesis of native and protease-resistant ubiquitylated peptides. Chembiochem 15, 1263-1267 (2014). Liu, S., Pentelute, B. L. & Kent, $. B. Convergent chemical synthesis of [lysine (24,38,83)] human erythropoietin. Angew. Chem. Int. Ed. 51, 993-999 (2012). Murakami M., et al. Chemical synthesis of erythropoietin glycoforms for insights into the relationship between glycosylation pattern and bioactivity. Sci. Adv. 2, €1500678 (2016).
+Levengood, M. R. et al. Orthogonal cysteine protection enables homogeneous multi-drug antibody-drug conjugates. Angew. Chem. Int. Ed. 56, 733-737 (2017).
+Villain, M., Vizzavona, J. & Rose, K. Covalent capture: a new tool for the purification of synthetic and recombinant polypeptides. Chem. & Biol. 8, 673-679 (2001).
+Veber, D. F., Milkowski, J. D., Varga, S. L., Denkewalter, R. G. & Hirschmann, R. Acetamidomethyl. A novel thiol protecting group for cysteine. J. Am. Chem. Soc. 94, 5456-5461 (1972).
+Bang, D. & Kent, $. B. A one-pot total synthesis of crambin. Angew. Chem. Int. Ed. 43, 2534-2538 (2004).
+Pentelute, B. L., & Kent, S. B. Selective desulfurization of cysteine in the presence of Cys(Acm) in polypeptides obtained by native chemical ligation. Org. Lett 9, 687-690 (2007).
+Jbara, M., Maity, $. K., Seenaiah, M. & Brik, A. Palladium mediated rapid deprotection of n-terminal cysteine under native chemical ligation conditions for the efficient preparation of synthetically challenging proteins. J. Am. Chem. Soc. 138, 5069-5075 (2016).
+Jbara, M., Laps, S., Maity, $. K. & Brik, A. Palladium-assisted cleavage of peptides and proteins containing a backbone with thiazolidine linkage. Chem. Eur. J. 22, 14851-14855 (2016).
+Maity, S. K,, Jbara, M., Laps, S. & Brik, A. Efficient palladium-assisted one-pot deprotection of (acetamidomethyl)cysteine following native chemical ligation and/or desulfurization to expedite chemical protein synthesis. Angew. Chem. Int. Ed. 55, 8108-8112 (2016).
+Maity, S. K. et al. Palladium-assisted removal of a solubilizing tag from a cys side chain to facilitate peptide and protein synthesis. Org. Lett. 18, 3026-3029 (2016).
+Jbara, M., Maity, $. K. & Brik, A. Palladium in the chemical synthesis and modification of proteins. Angew. Chem. Int. Ed. 56, 10644-10655 (2017). Maity, S. K., Jbara, M., Mann, G., Kamnesky, G. & Brik, A. Total chemical synthesis of histones and their analogs, assisted by native chemical ligation and palladium complexes. Nat. Protoc. 12, 2293-2322 (2017).
+Li, S., Lin, Y., Cao, J. & Zhang, $. Guanidine/Pd(OAc)2-catalyzed room temperature Suzuki cross-coupling reaction in aqueous media under aerobic conditions. J. Org. Chem. 72, 4067-4072 (2007).
+Pastuszak, J. J. & Chimiak, A. Tert-butyl group as thiol protection in peptide- synthesis. J. Org. Chem. 46, 1868-1873 (1981).
+10 NATURE COMMUNICATIONS | (2018)9:3154 | DOI: 10.1038/s41467-018-05628-0 | www.nature.com/naturecommunications
+NATURE COMMUNICATIONS | DOI: 10.1038/s41467-018-05628-0
+ARTICLE
+39. Schroll, A. L., Hondal, R. J. & Flemer, S. Jr. 2,2’-Dithiobis(5-nitropyridine) (DTNP) as an effective and gentle deprotectant for common cysteine protecting groups. J. Pept. Sci. 18, 1-9 (2012).
+40. Vita, N. et al. A four-helix bundle stores copper for methane oxidation. Nature 525, 140-143 (2015).
+41. Bondalapati, S., Eid, E., Mali, $. M., Wolberger, C. & Brik, A. Total chemical synthesis of SUMO-2-Lys63-linked diubiquitin hybrid chains assisted by removable solubilizing tags. Chem. Sci. 8, 4027-4034 (2017).
+42. Ekkebus, R., Flierman, D., Geurink, P. P. & Ovaa, H. Catching a DUB in the act: novel ubiquitin-based active site directed probes. Curr. Opin. Chem. Bio. 23, 63-70 (2014).
+43. Hewings, D. S., Flygare, J. A., Wertz, I. E. & Bogyo, M. Activity-based probes for the multicatalytic proteasome. Febs. J. 284, 1540-1554 (2017).
+44, Scheuermann, J. C. et al. Histone H2A deubiquitinase activity of the polycomb repressive complex PR-DUB. Nature 465, 243-247 (2010).
+45. Cao, J. & Yan, Q. Histone ubiquitination and deubiquitination in transcription, DNA damage response, and cancer. Front. Oncol. 2, 26 (2012).
+46. Jbara, M., Maity, S. K., Morgan, M., Wolberger, C. & Brik, A. Chemical synthesis of phosphorylated histone H2A at Tyr57 reveals insight into the inhibition mode of the SAGA Deubiquitinating Module. Angew. Chem. Int. Ed. 55, 4972-4976 (2016).
+47. Chalker, J. M. et al. Methods for converting cysteine to dehydroalanine on peptides and proteins. Chem. Sci. 2, 1666-1676 (2011).
+48. Lowary, P. T. & Widom, J. New DNA sequence rules for high affinity binding to histone octamer and sequence-directed nucleosome positioning. J. Mol. Biol. 276, 19-42 (1998).
+49. Luger, K., Mader, A. W., Richmond, R. K., Sargent, D. F. & Richmond, T. J. Crystal structure of the nucleosome core particle at 2.8 A resolution. Nature 389, 251-260 (1997).
+50. Dadova, J. et al. Precise probing of residue roles by post-translational beta, gamma-C,N aza-Michael mutagenesis in enzyme active sites. ACS Cent. Sci. 3, 1168-1173 (2017).
+51. Fredy, A. M. et al. Chemoselective Installation of amine bonds on proteins through aza-Michael ligation. J. Am. Chem. Soc. 139, 18365-18375 (2017).
+52. Luger, K., Rechsteiner, T. J. & Richmond, T. J. Expression and purification of recombinant histones and nucleosome reconstitution. Methods Mol. Biol. 119, 1-16 (1999).
+Acknowledgements
+This study was partially supported by the United States-Israel Binational Science Foundation, BSF 2014029 (A.B. and C.W.). A.B. holds The Jordan and Irene Tark Academic Chair. M. J. thanks the Israel Council of Higher Education for a
+fellowship under the outstanding doctoral student’s program and BSF for a Rahamimoff travel grant.
+Author contributions
+MJ. and S.L. performed the palladium experiments, selective peptide modifications, CSP- 1 synthesis and H2AK120Ubpna probe synthesis, probe stability studies, and assisted in the preparation of manuscript and supporting information. M.M. was responsible for the nucleosome reconstitution and labeling with Calypso/ASX enzyme, assisted in the writing of the manuscript and supporting information. G.K. and G.M. assisted in the preparation of the peptide fragments. C.W. designed and supervised the nucleosome reconstitution and labeling and assisted in the writing of the manuscript and supporting information. A.B. designed and supervised the entire project, assisted in the writing of the manuscript and supporting information.
+Additional information Supplementary Information accompanies this paper at https://doi.org/10.1038/s41467- 018-05628-0.
+Competing interests: The authors declare no competing interests.
+Reprints and permission information is available online at http://npg.nature.com/ reprintsandpermissions/
+Publisher's note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/ licenses/by/4.0/.
+© The Author(s) 2018
+NATURE COMMUNICATIONS | (2018)9:3154 | DOI: 10.1038/s41467-018-05628-0 | www.nature.com/naturecommunications 11
