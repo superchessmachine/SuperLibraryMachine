@@ -3,6 +3,8 @@
 import sys
 from pathlib import Path
 
+from PyInstaller.utils.hooks import collect_submodules
+
 block_cipher = None
 
 _spec_path = Path(globals().get("__file__", sys.argv[0])).resolve()
@@ -21,12 +23,19 @@ if example_dbs.exists():
     datas.append((str(example_dbs), "exampleDBs"))
 
 
+hiddenimports = (
+    collect_submodules("flask")
+    + collect_submodules("werkzeug")
+    + ["web.rag_server"]
+)
+
+
 a = Analysis(
     [str(ROOT / "mac_app" / "launcher.py")],
     pathex=[str(ROOT)],
     binaries=[],
     datas=datas,
-    hiddenimports=["web.rag_server"],
+    hiddenimports=hiddenimports,
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],

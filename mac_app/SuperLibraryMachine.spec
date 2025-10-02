@@ -4,6 +4,8 @@ import sys
 import sysconfig
 from pathlib import Path
 
+from PyInstaller.utils.hooks import collect_submodules
+
 block_cipher = None
 
 _spec_path = Path(globals().get('__file__', sys.argv[0])).resolve()
@@ -28,13 +30,19 @@ binaries = []
 if libpython_path.exists():
     binaries.append((str(libpython_path), '.'))
 
+hiddenimports = (
+    collect_submodules("flask")
+    + collect_submodules("werkzeug")
+    + ["web.rag_server"]
+)
+
 
 a = Analysis(
     [str(ROOT / 'mac_app' / 'launcher.py')],
     pathex=[str(ROOT)],
-binaries=binaries,
+    binaries=binaries,
     datas=datas,
-    hiddenimports=['web.rag_server'],
+    hiddenimports=hiddenimports,
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],

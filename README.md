@@ -62,6 +62,11 @@ configuration directory (for example,
 The Windows bundle stores its configuration alongside other application data inside
 `%APPDATA%\SuperLibraryMachine` so API keys persist across launches.
 
+> Ensure your build environment also has the core web dependencies (Flask, OpenAI SDK,
+> etc.) installed—e.g. `pip install -r requirements-mac.txt` on macOS or install the
+> analogous packages individually on Windows—before running PyInstaller. Otherwise the
+> packaged bundle cannot import them at runtime and will exit with a `ModuleNotFoundError`.
+
 > If the build script reports `No module named PyInstaller`, reinstall the optional
 > desktop requirements (`pip install -r requirements-mac-desktop.txt` on macOS or
 > `pip install -r requirements-windows-desktop.txt` on Windows) inside the `rag`
