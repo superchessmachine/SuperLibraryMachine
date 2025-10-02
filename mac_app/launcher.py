@@ -13,10 +13,12 @@ from typing import Callable, Optional
 
 import webview
 
+SCRIPT_DIR = Path(__file__).resolve().parent
+
 if hasattr(sys, "_MEIPASS"):
     ROOT = Path(sys._MEIPASS)
 else:
-    ROOT = Path(__file__).resolve().parents[1]
+    ROOT = SCRIPT_DIR.parents[1]
 
 for candidate in (ROOT, ROOT / "web"):
     path_str = str(candidate)
@@ -27,8 +29,22 @@ from web.app import app
 from web.rag_server import reset_openai_client
 
 
-ENV_FILE = ROOT / "mac_app" / ".env"
-APP_SUPPORT_DIR = Path.home() / "Library" / "Application Support" / "SuperLibraryMachine"
+ENV_FILE = SCRIPT_DIR / ".env"
+
+
+def _compute_support_dir() -> Path:
+    if sys.platform == "darwin":
+        base = Path.home() / "Library" / "Application Support"
+    elif sys.platform.startswith("win"):
+        base_env = os.getenv("APPDATA")
+        base = Path(base_env) if base_env else Path.home() / "AppData" / "Roaming"
+    else:
+        base_env = os.getenv("XDG_CONFIG_HOME")
+        base = Path(base_env) if base_env else Path.home() / ".config"
+    return base / "SuperLibraryMachine"
+
+
+APP_SUPPORT_DIR = _compute_support_dir()
 CONFIG_PATH = APP_SUPPORT_DIR / "config.json"
 
 HOST = os.getenv("SLM_HOST", "127.0.0.1")

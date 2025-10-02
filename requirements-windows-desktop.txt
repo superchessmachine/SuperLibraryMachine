@@ -1,0 +1,2 @@
+pywebview[win32]>=4.4
+pyinstaller>=6.6

@@ -23,21 +23,26 @@ processed RAG database (i.e. a folder containing `faiss_index.idx` and
 If no databases are detected at startup, the UI will display guidance on where to place
 them.
 
-### Optional macOS shell
+### Optional desktop shell
 
 To run the site inside a lightweight desktop window instead of a browser:
 
 1. Ensure the web dependencies above are installed.
-2. Install the optional desktop extras: `pip install -r requirements-mac-desktop.txt`.
+2. Install the optional desktop extras:
+   - macOS: `pip install -r requirements-mac-desktop.txt`
+   - Windows: `pip install -r requirements-windows-desktop.txt`
 3. Launch the shell: `python mac_app/launcher.py`. The app works even without an API key;
    use the Settings menu (or floating button) whenever you are ready to add one.
 
-The script spins up the Flask app in the background and opens a macOS WebKit view that
-points at the local site. Set `SLM_HOST`/`SLM_PORT` to override the defaults. On systems
-where the native menu is unavailable, a small “Settings” button appears in the top-right
-corner of the window instead.
+The script spins up the Flask app in the background and opens a platform-native web view
+that points at the local site. Set `SLM_HOST`/`SLM_PORT` to override the defaults. On
+systems where the native menu is unavailable, a small “Settings” button appears in the
+top-right corner of the window instead. API keys are cached under the OS-appropriate
+configuration directory (for example,
+`~/Library/Application Support/SuperLibraryMachine/config.json` on macOS and
+`%APPDATA%\SuperLibraryMachine\config.json` on Windows).
 
-#### Turn it into a dockable macOS app
+#### Package for macOS (.app)
 
 1. Inside the `rag` environment run `pip install pyinstaller` (already included in
    `requirements-mac-desktop.txt`).
@@ -46,13 +51,21 @@ corner of the window instead.
 3. Move `dist/SuperLibraryMachine.app` into `/Applications` (or wherever you keep apps).
 4. Double-click the app once to trust it, then pin it to the Dock for one-click launches.
 
-The bundled app stores your key under
-`~/Library/Application Support/SuperLibraryMachine/config.json`, so it persists across
-launches and Dock usage.
+#### Package for Windows (.exe)
 
-> If the build script reports `No module named PyInstaller`, re-run
-> `pip install -r requirements-mac-desktop.txt` inside the `rag` environment to pull in
-> the optional packaging tools.
+1. From the same environment, install the desktop extras if you have not already:
+   `pip install -r requirements-windows-desktop.txt`.
+2. Open PowerShell in the project root and run `./windows_app/build_exe.ps1`.
+3. The distributable lives under `dist\SuperLibraryMachine\SuperLibraryMachine.exe`; copy
+   that folder anywhere you want to run the app.
+
+The Windows bundle stores its configuration alongside other application data inside
+`%APPDATA%\SuperLibraryMachine` so API keys persist across launches.
+
+> If the build script reports `No module named PyInstaller`, reinstall the optional
+> desktop requirements (`pip install -r requirements-mac-desktop.txt` on macOS or
+> `pip install -r requirements-windows-desktop.txt` on Windows) inside the `rag`
+> environment to pull in the packaging tools.
 
 > Need a signed bundle? After building, run
 > `codesign --force --deep --sign - --timestamp=none dist/SuperLibraryMachine.app`
