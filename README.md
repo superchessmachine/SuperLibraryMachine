@@ -20,6 +20,17 @@ processed RAG database (i.e. a folder containing `faiss_index.idx` and
 If no databases are detected at startup, the UI will display guidance on where to place
 them.
 
+### Optional macOS shell
+
+To run the site inside a lightweight desktop window instead of a browser:
+
+1. Ensure the web dependencies above are installed and your OpenAI key is exported.
+2. Install the optional desktop extras: `pip install -r requirements-mac-desktop.txt`.
+3. Launch the shell: `python mac_app/launcher.py`.
+
+The script spins up the Flask app in the background and opens a macOS WebKit view that
+points at the local site. Set `SLM_HOST`/`SLM_PORT` to override the defaults.
+
 > ℹ️  On Apple Silicon Macs, if `sentence-transformers` does not pull in a compatible
 > PyTorch wheel automatically, install it manually with
 > `pip install torch --index-url https://download.pytorch.org/whl/cpu` before rerunning
