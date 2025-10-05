@@ -4,7 +4,7 @@ import sys
 import sysconfig
 from pathlib import Path
 
-from PyInstaller.utils.hooks import collect_submodules
+from PyInstaller.utils.hooks import collect_all, collect_submodules
 
 block_cipher = None
 
@@ -35,6 +35,12 @@ hiddenimports = (
     + collect_submodules("werkzeug")
     + ["web.rag_server"]
 )
+
+
+faiss_datas, faiss_binaries, faiss_hiddenimports = collect_all("faiss")
+datas.extend(faiss_datas)
+binaries.extend(faiss_binaries)
+hiddenimports.extend(faiss_hiddenimports)
 
 
 a = Analysis(

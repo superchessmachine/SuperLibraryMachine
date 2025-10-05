@@ -3,7 +3,7 @@
 import sys
 from pathlib import Path
 
-from PyInstaller.utils.hooks import collect_submodules
+from PyInstaller.utils.hooks import collect_all, collect_submodules
 
 block_cipher = None
 
@@ -30,10 +30,16 @@ hiddenimports = (
 )
 
 
+faiss_datas, faiss_binaries, faiss_hiddenimports = collect_all("faiss")
+datas.extend(faiss_datas)
+binaries = list(faiss_binaries)
+hiddenimports.extend(faiss_hiddenimports)
+
+
 a = Analysis(
     [str(ROOT / "mac_app" / "launcher.py")],
     pathex=[str(ROOT)],
-    binaries=[],
+    binaries=binaries,
     datas=datas,
     hiddenimports=hiddenimports,
     hookspath=[],
