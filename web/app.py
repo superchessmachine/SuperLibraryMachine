@@ -1,7 +1,177 @@
-from flask import Flask, request, render_template
-from rag_server import DB_BASE_PATH, run_rag, list_databases
+import re
+import shutil
+import sys
+import threading
+from contextlib import redirect_stdout, redirect_stderr
+from io import StringIO
+from pathlib import Path
+
+from flask import Flask, jsonify, render_template, request
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+PIPELINE_ROOT = PROJECT_ROOT / "pipelinefiles"
+if PIPELINE_ROOT.exists() and str(PIPELINE_ROOT) not in sys.path:
+    sys.path.insert(0, str(PIPELINE_ROOT))
+
+from pipelinefiles.run_full_pipeline import parse_args as parse_pipeline_args, run_pipeline
+from rag_server import DB_BASE_PATH, list_databases, run_rag
 
 app = Flask(__name__)
+
+VALID_DB_NAME = re.compile(r"^[A-Za-z0-9._-]+$")
+BUILD_LOCK = threading.Lock()
+
+
+def _normalize_path(value: str | None) -> str | None:
+    if value is None:
+        return None
+    cleaned = value.strip()
+    return cleaned or None
+
+
+@app.get("/api/databases")
+def api_databases():
+    return jsonify({"databases": list_databases(), "db_root": str(DB_BASE_PATH)})
+
+
+@app.post("/build")
+def build_database():
+    payload = request.get_json(silent=True) or {}
+    db_name = _normalize_path(payload.get("dbName"))
+    papers_dir_raw = _normalize_path(payload.get("papersDir"))
+    options = payload.get("options") or {}
+
+    if not db_name:
+        return jsonify({"ok": False, "error": "Database name is required."}), 400
+    if not VALID_DB_NAME.match(db_name):
+        return jsonify({"ok": False, "error": "Database name may only contain letters, numbers, '.', '_', and '-'."}), 400
+    if not papers_dir_raw:
+        return jsonify({"ok": False, "error": "Path to the papers directory is required."}), 400
+
+    try:
+        papers_dir = Path(papers_dir_raw).expanduser().resolve(strict=True)
+    except FileNotFoundError:
+        return jsonify({"ok": False, "error": f"Papers directory '{papers_dir_raw}' does not exist."}), 400
+    if not papers_dir.is_dir():
+        return jsonify({"ok": False, "error": f"Papers directory '{papers_dir}' is not a directory."}), 400
+
+    recursive = bool(options.get("recursive"))
+    pdf_iter = papers_dir.rglob("*.pdf") if recursive else papers_dir.glob("*.pdf")
+    if next(pdf_iter, None) is None:
+        return jsonify({"ok": False, "error": f"No PDF files found in '{papers_dir}'."}), 400
+
+    target_dir = (DB_BASE_PATH / db_name).resolve()
+    try:
+        target_dir.relative_to(DB_BASE_PATH.resolve())
+    except ValueError:
+        # Should not happen, but guard against path traversal.
+        return jsonify({"ok": False, "error": "Invalid database path requested."}), 400
+
+    if target_dir.exists():
+        return jsonify({"ok": False, "error": f"Database '{db_name}' already exists."}), 409
+
+    DB_BASE_PATH.mkdir(parents=True, exist_ok=True)
+    target_dir.mkdir(parents=True, exist_ok=False)
+    created_dir = True
+
+    defaults = {
+        "pdfDir": str(target_dir / "pdf"),
+        "txtDir": str(target_dir / "txt"),
+        "metadataFile": str(target_dir / "metadata.csv"),
+        "chunkOutput": str(target_dir / "chunksatleast500.jsonl"),
+        "embeddingOutput": str(target_dir / "embedded_chunks_atleast500.jsonl"),
+        "embeddingShardDir": str(target_dir / "output_shards"),
+        "faissIndex": str(target_dir / "faiss_index.idx"),
+        "faissMetadata": str(target_dir / "faiss_metadata.pkl"),
+    }
+
+    boolean_flags = {
+        "recursive": "--recursive",
+        "skipCleanup": "--skip-cleanup",
+        "cleanupShallow": "--cleanup-shallow",
+        "skipOrganize": "--skip-organize",
+        "conversionNoOverwrite": "--conversion-no-overwrite",
+        "metadataIncludeRelPath": "--metadata-include-rel-path",
+        "normalizeEmbeddings": "--normalize-embeddings",
+    }
+
+    value_flags = {
+        "pdfDir": "--pdf-dir",
+        "txtDir": "--txt-dir",
+        "metadataFile": "--metadata-file",
+        "chunkOutput": "--chunk-output",
+        "embeddingOutput": "--embedding-output",
+        "embeddingShardDir": "--embedding-shard-dir",
+        "faissIndex": "--faiss-index",
+        "faissMetadata": "--faiss-metadata",
+        "conversionWorkers": "--conversion-workers",
+        "metadataEncoding": "--metadata-encoding",
+        "minTokens": "--min-tokens",
+        "chunkOverlap": "--chunk-overlap",
+        "tokenizer": "--tokenizer",
+        "chunkWorkers": "--chunk-workers",
+        "embeddingModel": "--embedding-model",
+        "embeddingBatchSize": "--embedding-batch-size",
+        "embeddingWorkers": "--embedding-workers",
+        "embeddingDevice": "--embedding-device",
+        "faissMetric": "--faiss-metric",
+    }
+
+    args_list = ["--papers-dir", str(papers_dir)]
+    # Default skip-organize to True unless explicitly disabled.
+    skip_organize = options.get("skipOrganize")
+    if skip_organize is None:
+        options["skipOrganize"] = True
+
+    for opt_key, flag in boolean_flags.items():
+        if options.get(opt_key):
+            args_list.append(flag)
+
+    for opt_key, flag in value_flags.items():
+        raw_value = options.get(opt_key)
+        normalized = _normalize_path(raw_value) or defaults.get(opt_key)
+        if normalized:
+            args_list.extend([flag, normalized])
+
+    logs_buffer = StringIO()
+    build_error = None
+
+    if not BUILD_LOCK.acquire(blocking=False):
+        return jsonify({"ok": False, "error": "Another build is already in progress. Try again shortly."}), 409
+
+    try:
+        with redirect_stdout(logs_buffer), redirect_stderr(logs_buffer):
+            try:
+                parsed_args = parse_pipeline_args(args_list)
+                run_pipeline(parsed_args)
+            except BaseException as exc:  # pragma: no cover - runtime pipeline failure
+                build_error = exc
+    finally:
+        BUILD_LOCK.release()
+
+    logs_output = logs_buffer.getvalue()
+
+    if build_error:
+        if created_dir:
+            shutil.rmtree(target_dir, ignore_errors=True)
+        logs_output += f"\n❌ Pipeline failed: {build_error}\n"
+        return (
+            jsonify({"ok": False, "error": str(build_error), "logs": logs_output}),
+            500,
+        )
+
+    return jsonify(
+        {
+            "ok": True,
+            "logs": logs_output,
+            "database": db_name,
+            "databases": list_databases(),
+            "db_path": str(target_dir),
+        }
+    )
+
 
 @app.route("/", methods=["GET", "POST"])
 def home():

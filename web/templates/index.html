@@ -103,7 +103,7 @@
       background-color: var(--card-bg);
     }
 
-    form {
+    footer form {
       max-width: 900px;
       margin: 0 auto;
       display: flex;
@@ -111,7 +111,7 @@
       flex-wrap: wrap;
     }
 
-    select, input[type="text"] {
+    select, input[type="text"], input[type="number"] {
       padding: 0.5rem;
       background-color: var(--input-bg);
       border: 1px solid var(--border-color);
@@ -124,11 +124,11 @@
       width: 200px;
     }
 
-    input[type="text"] {
+    input[type="text"], input[type="number"] {
       flex: 1;
     }
 
-    button[type="submit"] {
+    footer button[type="submit"] {
       padding: 0.6rem 1.2rem;
       font-size: 1rem;
       border: none;
@@ -136,6 +136,148 @@
       background-color: var(--accent-color);
       color: #000;
       cursor: pointer;
+    }
+
+    #builder-section {
+      padding: 1.25rem 1rem 1rem;
+      background: var(--card-bg);
+      border-bottom: 1px solid var(--border-color);
+      border-top: 1px solid var(--border-color);
+    }
+
+    #builder-section h2 {
+      margin: 0 auto 0.75rem;
+      max-width: 900px;
+      font-size: 1.4rem;
+      color: var(--accent-color);
+    }
+
+    #builder-section p {
+      max-width: 900px;
+      margin: 0 auto 1rem;
+      font-size: 0.95rem;
+      color: var(--text-color);
+    }
+
+    #builder-form {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      background: var(--card-bg);
+    }
+
+    .builder-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .builder-row label {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      font-size: 0.95rem;
+    }
+
+    .builder-checkboxes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      font-size: 0.95rem;
+    }
+
+    .builder-checkboxes label {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    details.builder-advanced {
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 0.25rem 0.75rem 0.75rem;
+      background: var(--bg-color);
+    }
+
+    details.builder-advanced summary {
+      cursor: pointer;
+      font-weight: 600;
+      color: var(--accent-color);
+      margin: 0.5rem 0;
+      outline: none;
+    }
+
+    .builder-advanced-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+
+    .builder-advanced-grid fieldset {
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 0.75rem;
+    }
+
+    .builder-advanced-grid legend {
+      padding: 0 0.5rem;
+      font-size: 0.9rem;
+      color: var(--accent-color);
+    }
+
+    .builder-advanced-grid label {
+      font-size: 0.9rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      margin-bottom: 0.65rem;
+    }
+
+    #build-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+    }
+
+    #build-submit {
+      padding: 0.6rem 1.2rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 6px;
+      background-color: var(--accent-color);
+      color: #000;
+      cursor: pointer;
+    }
+
+    #build-submit[disabled] {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    #build-status {
+      font-size: 0.95rem;
+    }
+
+    #build-log {
+      max-width: 900px;
+      margin: 0.5rem auto 0;
+      background: var(--input-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 0.75rem;
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-size: 0.85rem;
+      white-space: pre-wrap;
+      max-height: 260px;
+      overflow-y: auto;
+    }
+
+    #build-log.hidden {
+      display: none;
     }
 
     #spinner {
@@ -168,10 +310,152 @@
     <button id="clear-history">Clear History</button>
   </header>
 
+  <section id="builder-section">
+    <h2>Build a New Database</h2>
+    <p>Databases are stored under <code>{{ db_root }}</code>. Provide the folder containing your PDF papers and adjust any options below.</p>
+    <form id="builder-form">
+      <div class="builder-row">
+        <label for="db-name">
+          Database name
+          <input id="db-name" name="dbName" type="text" pattern="[A-Za-z0-9._-]+" placeholder="my_database" required>
+        </label>
+        <label for="papers-dir">
+          Folder with PDFs
+          <input id="papers-dir" name="papersDir" type="text" placeholder="/path/to/papers" required>
+        </label>
+      </div>
+
+      <div class="builder-checkboxes">
+        <label><input type="checkbox" name="recursive"> Search recursively</label>
+        <label><input type="checkbox" name="skipOrganize" checked> Skip organizing PDFs (keep originals in place)</label>
+      </div>
+
+      <details class="builder-advanced">
+        <summary>Advanced options</summary>
+        <div class="builder-advanced-grid">
+          <fieldset>
+            <legend>File &amp; path outputs</legend>
+            <label>
+              PDF output directory
+              <input type="text" name="pdfDir" data-default-suffix="pdf">
+            </label>
+            <label>
+              TXT output directory
+              <input type="text" name="txtDir" data-default-suffix="txt">
+            </label>
+            <label>
+              Metadata CSV file
+              <input type="text" name="metadataFile" data-default-suffix="metadata.csv">
+            </label>
+            <label>
+              Chunk JSONL output
+              <input type="text" name="chunkOutput" data-default-suffix="chunksatleast500.jsonl">
+            </label>
+            <label>
+              Embedding JSONL output
+              <input type="text" name="embeddingOutput" data-default-suffix="embedded_chunks_atleast500.jsonl">
+            </label>
+            <label>
+              Embedding shard directory
+              <input type="text" name="embeddingShardDir" data-default-suffix="output_shards">
+            </label>
+            <label>
+              FAISS index file
+              <input type="text" name="faissIndex" data-default-suffix="faiss_index.idx">
+            </label>
+            <label>
+              FAISS metadata file
+              <input type="text" name="faissMetadata" data-default-suffix="faiss_metadata.pkl">
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Conversion &amp; metadata</legend>
+            <label>
+              Conversion workers (number or "auto")
+              <input type="text" name="conversionWorkers" placeholder="auto">
+            </label>
+            <label><input type="checkbox" name="conversionNoOverwrite"> Do not overwrite existing TXT files</label>
+            <label><input type="checkbox" name="skipCleanup"> Skip macOS metadata cleanup</label>
+            <label><input type="checkbox" name="cleanupShallow"> Cleanup only top-level metadata files</label>
+            <label>
+              Metadata encoding
+              <input type="text" name="metadataEncoding" placeholder="utf-8">
+            </label>
+            <label><input type="checkbox" name="metadataIncludeRelPath"> Include relative TXT paths in metadata</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Chunking</legend>
+            <label>
+              Minimum tokens per chunk
+              <input type="number" name="minTokens" min="1" step="1" placeholder="500">
+            </label>
+            <label>
+              Chunk overlap
+              <input type="number" name="chunkOverlap" min="0" step="1" placeholder="1">
+            </label>
+            <label>
+              Tokenizer name
+              <input type="text" name="tokenizer" placeholder="cl100k_base">
+            </label>
+            <label>
+              Chunk workers (number or "auto")
+              <input type="text" name="chunkWorkers" placeholder="auto">
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Embedding</legend>
+            <label>
+              SentenceTransformer model
+              <input type="text" name="embeddingModel" placeholder="all-MiniLM-L6-v2">
+            </label>
+            <label>
+              Embedding batch size
+              <input type="number" name="embeddingBatchSize" min="1" step="1" placeholder="2048">
+            </label>
+            <label>
+              Embedding workers
+              <input type="number" name="embeddingWorkers" min="1" step="1" placeholder="4">
+            </label>
+            <label>
+              Embedding device
+              <select name="embeddingDevice">
+                <option value="">default (gpu)</option>
+                <option value="gpu">gpu</option>
+                <option value="cpu">cpu</option>
+              </select>
+            </label>
+            <label><input type="checkbox" name="normalizeEmbeddings"> Normalize embeddings</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>FAISS index</legend>
+            <label>
+              Similarity metric
+              <select name="faissMetric">
+                <option value="">l2 (default)</option>
+                <option value="l2">l2</option>
+                <option value="cosine">cosine</option>
+              </select>
+            </label>
+          </fieldset>
+        </div>
+      </details>
+
+      <div id="build-actions">
+        <button type="submit" id="build-submit">Build database</button>
+        <span id="build-status"></span>
+      </div>
+    </form>
+    <pre id="build-log" class="hidden"></pre>
+  </section>
+
   <div id="chat-log"></div>
 
   <footer>
-    <form method="POST" onsubmit="handleSubmit(event)">
+    <form id="query-form" method="POST" onsubmit="handleSubmit(event)">
       <select name="db" required {% if not databases %}disabled{% endif %}>
         {% if databases %}
           {% for db in databases %}
@@ -189,30 +473,49 @@
   </footer>
 
   <script>
-    const form = document.querySelector("form");
-    const input = form.querySelector('input[name="query"]');
+    const dbRoot = {{ db_root|tojson }};
+    let hasDatabases = {{ (databases|length > 0)|lower }};
+
+    const queryForm = document.getElementById("query-form");
+    const queryInput = queryForm ? queryForm.querySelector('input[name="query"]') : null;
     const spinner = document.getElementById("spinner");
     const submitBtn = document.getElementById("submit-button");
-    const hasDatabases = {{ (databases|length > 0)|lower }};
-    const dbRoot = {{ db_root|tojson }};
+    const dbSelect = document.querySelector('select[name="db"]');
 
-    function handleSubmit(e) {
-      spinner.style.display = "flex";
-      submitBtn.style.display = "none";
-      localStorage.setItem("lastQuery", input.value);
+    const builderForm = document.getElementById("builder-form");
+    const buildSubmit = document.getElementById("build-submit");
+    const buildStatus = document.getElementById("build-status");
+    const buildLog = document.getElementById("build-log");
+    const dbNameInput = document.getElementById("db-name");
+
+    const clearHistoryBtn = document.getElementById("clear-history");
+    const toggleThemeBtn = document.getElementById("toggle-theme");
+
+    function handleSubmit() {
+      if (spinner) spinner.style.display = "flex";
+      if (submitBtn) submitBtn.style.display = "none";
+      if (queryInput) {
+        localStorage.setItem("lastQuery", queryInput.value);
+      }
     }
 
-    document.getElementById("clear-history").onclick = () => {
-      localStorage.removeItem("chatHistory");
-      location.reload();
-    };
+    if (clearHistoryBtn) {
+      clearHistoryBtn.onclick = () => {
+        localStorage.removeItem("chatHistory");
+        location.reload();
+      };
+    }
 
-    document.getElementById("toggle-theme").onclick = () => {
-      document.body.classList.toggle("light");
-    };
+    if (toggleThemeBtn) {
+      toggleThemeBtn.onclick = () => {
+        document.body.classList.toggle("light");
+      };
+    }
 
     document.addEventListener("DOMContentLoaded", () => {
       const log = document.getElementById("chat-log");
+      if (!log) return;
+
       const raw = `{{ answer | e }}`;
       const query = localStorage.getItem("lastQuery") || "";
       const citeBox = `{% if citations %}<div class='chat-box citations'><strong>Citations:</strong><ul>{% for num, doi in citations|dictsort(true) %}<li>[{{ num }}]: {% if doi != "N/A" %}<a href="https://pubmed.ncbi.nlm.nih.gov/?term={{ doi | urlencode }}&sort=pubdate&size=200" target="_blank">{{ doi }}</a>{% else %}DOI not available{% endif %}</li>{% endfor %}</ul></div>{% endif %}`;
@@ -220,11 +523,11 @@
 
       if (raw.trim()) {
         const cleaned = raw
-          .replace(/^(\s*\*\s*(&nbsp;)?\s*)$/gm, '')
-          .replace(/^[ \t]*\*\s+/gm, '')
-          .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-          .replace(/\n{2,}/g, '<br><br>')
-          .replace(/\n/g, ' ');
+          .replace(/^(\s*\*\s*(&nbsp;)?\s*)$/gm, "")
+          .replace(/^[ \t]*\*\s+/gm, "")
+          .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+          .replace(/\n{2,}/g, "<br><br>")
+          .replace(/\n/g, " ");
 
         history.push({ q: query, a: cleaned, c: citeBox });
         localStorage.setItem("chatHistory", JSON.stringify(history));
@@ -235,6 +538,7 @@
 
       if (!hasDatabases && history.length === 0) {
         const notice = document.createElement("div");
+        notice.id = "db-notice";
         notice.className = "chat-box assistant";
         notice.style.borderLeftColor = "#f39c12";
         notice.innerHTML = `<strong>No databases detected.</strong><br>Place a processed RAG database inside <code>${dbRoot}</code> so the assistant can answer questions.`;
@@ -262,13 +566,222 @@
       log.scrollTop = log.scrollHeight;
     });
 
-    // Submit with Enter
-    input.addEventListener("keypress", function (e) {
-      if (e.key === "Enter") {
-        e.preventDefault();
-        form.requestSubmit();
+    if (queryInput && queryForm) {
+      queryInput.addEventListener("keypress", e => {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          queryForm.requestSubmit();
+        }
+      });
+    }
+
+    let pathInputs = [];
+
+    function sanitizeDbNameForPath(name) {
+      return name.replace(/[^\w.\-]/g, "_");
+    }
+
+    function updatePathDefaults(force = false) {
+      if (!builderForm || !dbNameInput || !pathInputs.length) return;
+
+      const rawName = dbNameInput.value.trim();
+      if (!rawName) {
+        pathInputs.forEach(input => {
+          if (force || input.dataset.dirty !== "true") {
+            input.value = "";
+          }
+        });
+        return;
       }
-    });
+
+      const safeName = sanitizeDbNameForPath(rawName);
+      const base = dbRoot.replace(/[\\/]+$/, "");
+
+      pathInputs.forEach(input => {
+        if (!force && input.dataset.dirty === "true") return;
+        const suffix = input.dataset.defaultSuffix || "";
+        input.value = `${base}/${safeName}${suffix ? `/${suffix}` : ""}`;
+      });
+    }
+
+    function refreshDatabaseOptions(databases, selectedDb) {
+      if (!dbSelect) return;
+
+      dbSelect.innerHTML = "";
+
+      if (!Array.isArray(databases) || databases.length === 0) {
+        const option = document.createElement("option");
+        option.value = "";
+        option.textContent = "No databases available";
+        option.disabled = true;
+        option.selected = true;
+        dbSelect.appendChild(option);
+        dbSelect.disabled = true;
+        if (queryInput) queryInput.disabled = true;
+        if (submitBtn) submitBtn.disabled = true;
+        return;
+      }
+
+      databases.forEach(name => {
+        const option = document.createElement("option");
+        option.value = name;
+        option.textContent = name;
+        if (name === selectedDb) option.selected = true;
+        dbSelect.appendChild(option);
+      });
+
+      dbSelect.disabled = false;
+      if (queryInput) queryInput.disabled = false;
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.style.display = "";
+      }
+    }
+
+    function toggleBuilderControls(disabled) {
+      if (!builderForm) return;
+      const controls = builderForm.querySelectorAll("input, select, button");
+      controls.forEach(control => {
+        control.disabled = disabled;
+      });
+      if (buildSubmit) buildSubmit.disabled = disabled;
+    }
+
+    if (builderForm) {
+      pathInputs = Array.from(builderForm.querySelectorAll("[data-default-suffix]"));
+      pathInputs.forEach(input => {
+        input.addEventListener("input", () => {
+          input.dataset.dirty = "true";
+        });
+      });
+
+      if (dbNameInput) {
+        dbNameInput.addEventListener("input", () => updatePathDefaults(false));
+      }
+
+      updatePathDefaults(true);
+
+      builderForm.addEventListener("submit", async event => {
+        event.preventDefault();
+        if (!buildSubmit || !buildStatus) return;
+
+        if (!builderForm.reportValidity()) {
+          return;
+        }
+
+        const formData = new FormData(builderForm);
+
+        buildStatus.textContent = "Starting build…";
+        buildLog.textContent = "";
+        buildLog.classList.add("hidden");
+
+        const payload = {
+          dbName: (formData.get("dbName") || "").toString().trim(),
+          papersDir: (formData.get("papersDir") || "").toString().trim(),
+          options: {},
+        };
+
+        const boolFields = [
+          "recursive",
+          "skipCleanup",
+          "cleanupShallow",
+          "skipOrganize",
+          "conversionNoOverwrite",
+          "metadataIncludeRelPath",
+          "normalizeEmbeddings",
+        ];
+
+        boolFields.forEach(key => {
+          payload.options[key] = formData.get(key) === "on";
+        });
+
+        const valueFields = [
+          "pdfDir",
+          "txtDir",
+          "metadataFile",
+          "chunkOutput",
+          "embeddingOutput",
+          "embeddingShardDir",
+          "faissIndex",
+          "faissMetadata",
+          "conversionWorkers",
+          "metadataEncoding",
+          "minTokens",
+          "chunkOverlap",
+          "tokenizer",
+          "chunkWorkers",
+          "embeddingModel",
+          "embeddingBatchSize",
+          "embeddingWorkers",
+          "embeddingDevice",
+          "faissMetric",
+        ];
+
+        valueFields.forEach(key => {
+          const raw = formData.get(key);
+          const cleaned = typeof raw === "string" ? raw.trim() : "";
+          payload.options[key] = cleaned || null;
+        });
+
+        let result = null;
+
+        toggleBuilderControls(true);
+
+        try {
+          const response = await fetch("/build", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload),
+          });
+          try {
+            result = await response.json();
+          } catch (jsonError) {
+            result = null;
+          }
+
+          if (!response.ok || !result || result.ok !== true) {
+            const message =
+              (result && result.error) ||
+              `Request failed${response.status ? ` (${response.status})` : ""}.`;
+            throw new Error(message);
+          }
+
+          const trimmedLogs = (result.logs || "").trim();
+          if (trimmedLogs) {
+            buildLog.textContent = trimmedLogs;
+            buildLog.classList.remove("hidden");
+            buildLog.scrollTop = buildLog.scrollHeight;
+          } else {
+            buildLog.classList.add("hidden");
+          }
+
+          buildStatus.textContent = `✅ Database '${result.database}' built successfully.`;
+          if (Array.isArray(result.databases)) {
+            refreshDatabaseOptions(result.databases, result.database);
+          }
+          hasDatabases = true;
+          const notice = document.getElementById("db-notice");
+          if (notice) notice.remove();
+
+          builderForm.reset();
+          pathInputs.forEach(input => {
+            delete input.dataset.dirty;
+          });
+          updatePathDefaults(true);
+        } catch (error) {
+          const message = error instanceof Error ? error.message : "Build failed.";
+          buildStatus.textContent = `❌ ${message}`;
+          const errorLogs = result && typeof result.logs === "string" ? result.logs.trim() : "";
+          if (errorLogs) {
+            buildLog.textContent = errorLogs;
+            buildLog.classList.remove("hidden");
+            buildLog.scrollTop = buildLog.scrollHeight;
+          }
+        } finally {
+          toggleBuilderControls(false);
+        }
+      });
+    }
   </script>
 </body>
 </html>
