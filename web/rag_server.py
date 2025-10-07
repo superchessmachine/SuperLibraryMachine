@@ -153,9 +153,10 @@ def run_rag(user_input, db_name):
         "citations": citation_dict
     }
 
-    os.makedirs("logs", exist_ok=True)
+    log_dir = Path(os.getenv("SLM_LOG_DIR", "logs")).expanduser()
+    log_dir.mkdir(parents=True, exist_ok=True)
     ts = datetime.now().strftime("%Y%m%d-%H%M%S")
-    with open(os.path.join("logs", f"log_{ts}.jsonl"), "w") as f:
+    with (log_dir / f"log_{ts}.jsonl").open("w", encoding="utf-8") as f:
         f.write(json.dumps(log_data) + "\n")
 
     return reply, citation_dict

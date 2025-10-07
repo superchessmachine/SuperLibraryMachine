@@ -8,28 +8,13 @@ import os
 import sys
 import threading
 import time
+import shutil
 from pathlib import Path
 from typing import Callable, Optional
 
 import webview
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-
-if hasattr(sys, "_MEIPASS"):
-    ROOT = Path(sys._MEIPASS)
-else:
-    ROOT = SCRIPT_DIR.parents[1]
-
-for candidate in (ROOT, ROOT / "web"):
-    path_str = str(candidate)
-    if path_str not in sys.path and Path(path_str).exists():
-        sys.path.insert(0, path_str)
-
-from web.app import app
-from web.rag_server import reset_openai_client
-
-
-ENV_FILE = SCRIPT_DIR / ".env"
 
 
 def _compute_support_dir() -> Path:
@@ -43,9 +28,53 @@ def _compute_support_dir() -> Path:
         base = Path(base_env) if base_env else Path.home() / ".config"
     return base / "SuperLibraryMachine"
 
-
 APP_SUPPORT_DIR = _compute_support_dir()
+DATABASE_ROOT = APP_SUPPORT_DIR / "databases"
+LOG_DIR = APP_SUPPORT_DIR / "logs"
 CONFIG_PATH = APP_SUPPORT_DIR / "config.json"
+
+for path in (APP_SUPPORT_DIR, DATABASE_ROOT, LOG_DIR):
+    path.mkdir(parents=True, exist_ok=True)
+
+os.environ.setdefault("SLM_CONFIG_PATH", str(CONFIG_PATH))
+os.environ.setdefault("RAG_DB_ROOT", str(DATABASE_ROOT))
+os.environ.setdefault("SLM_LOG_DIR", str(LOG_DIR))
+
+ROOT = SCRIPT_DIR.parent
+_web_exists = (ROOT / "web").exists()
+
+if not _web_exists and hasattr(sys, "_MEIPASS"):
+    _meipass_path = Path(sys._MEIPASS)
+    _bundle_root = _meipass_path.parent.parent
+    if (_bundle_root / "web").exists():
+        ROOT = _bundle_root
+        _web_exists = True
+
+APP_ICON = None
+for candidate in (
+    SCRIPT_DIR / "SuperLibraryMachine.icns",
+    ROOT / "SuperLibraryMachine.icns",
+    ROOT / "logo.jpeg",
+    SCRIPT_DIR / "logo.jpeg",
+    SCRIPT_DIR.parent / "logo.jpeg",
+):
+    if candidate.exists():
+        APP_ICON = candidate
+        break
+
+for candidate in (ROOT, ROOT / "web"):
+    path_str = str(candidate)
+    candidate_path = Path(path_str)
+    if not candidate_path.exists():
+        continue
+    if path_str not in sys.path:
+        sys.path.insert(0, path_str)
+
+from web.app import app
+from web.rag_server import reset_openai_client
+
+
+ENV_FILE = SCRIPT_DIR / ".env"
 
 HOST = os.getenv("SLM_HOST", "127.0.0.1")
 PORT = int(os.getenv("SLM_PORT", "7860"))
@@ -53,6 +82,22 @@ PORT = int(os.getenv("SLM_PORT", "7860"))
 SUPPORTS_MENU = all(
     hasattr(webview, attr) for attr in ("Menu", "MenuAction", "MenuSeparator")
 )
+
+
+def _bootstrap_databases() -> None:
+    source = (ROOT / "exampleDBs").resolve()
+    if not source.exists():
+        return
+    for entry in source.iterdir():
+        if not entry.is_dir():
+            continue
+        target = DATABASE_ROOT / entry.name
+        if target.exists():
+            continue
+        try:
+            shutil.copytree(entry, target)
+        except Exception as exc:  # pragma: no cover - best-effort copy
+            print(f"Warning: unable to copy bundled database '{entry.name}': {exc}")
 
 
 def _load_local_env() -> None:
@@ -199,40 +244,6 @@ SETTINGS_HTML = """
 </html>
 """
 
-SETTINGS_BUTTON_JS = """
-(function() {
-  if (window.__slmSettingsButtonInitialized) { return; }
-  window.__slmSettingsButtonInitialized = true;
-  const btn = document.createElement('button');
-  btn.id = '__slm_settings_button';
-  btn.textContent = 'Settings';
-  btn.style.position = 'fixed';
-  btn.style.top = '16px';
-  btn.style.right = '16px';
-  btn.style.zIndex = '2147483647';
-  btn.style.padding = '8px 14px';
-  btn.style.background = '#2563eb';
-  btn.style.color = '#fff';
-  btn.style.border = 'none';
-  btn.style.borderRadius = '18px';
-  btn.style.fontFamily = "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif";
-  btn.style.fontSize = '14px';
-  btn.style.cursor = 'pointer';
-  btn.style.boxShadow = '0 4px 12px rgba(37, 99, 235, 0.3)';
-  btn.onmouseenter = function() { btn.style.filter = 'brightness(1.05)'; };
-  btn.onmouseleave = function() { btn.style.filter = 'brightness(1.0)'; };
-  btn.onclick = function() {
-    if (window.pywebview && window.pywebview.api && window.pywebview.api.open_settings) {
-      window.pywebview.api.open_settings();
-    } else {
-      alert('Settings bridge unavailable.');
-    }
-  };
-  document.body.appendChild(btn);
-})();
-"""
-
-
 def _render_settings_html(initial_key: str, *, allow_cancel: bool) -> str:
     return SETTINGS_HTML.format(
         prefill=html.escape(initial_key or ""),
@@ -255,6 +266,25 @@ class SettingsBridge:
         return {"ok": True}
 
 
+def _open_settings_modal_via_js(window: Optional[webview.Window]) -> bool:
+    if window is None:
+        return False
+    script = """
+    (function() {
+        const button = document.getElementById('open-settings');
+        if (button) { button.click(); return true; }
+        const alt = document.querySelector('[data-open-settings]');
+        if (alt) { alt.click(); return true; }
+        return false;
+    })()
+    """
+    try:
+        result = window.evaluate_js(script)
+        return bool(result)
+    except Exception:
+        return False
+
+
 class AppBridge:
     def __init__(self):
         self.window: Optional[webview.Window] = None
@@ -264,7 +294,8 @@ class AppBridge:
 
     def open_settings(self) -> None:
         target = self.window or (webview.windows[0] if webview.windows else None)
-        _open_settings_menu(target)
+        if not _open_settings_modal_via_js(target):
+            _open_settings_menu(target)
 
 
 def _show_settings_window(initial_key: str, *, blocking: bool, parent: Optional[webview.Window] = None) -> Optional[str]:
@@ -339,10 +370,12 @@ def _ensure_api_key() -> bool:
 def _open_settings_menu(window: Optional[webview.Window] = None) -> None:
     current = os.getenv("OPENAI_API_KEY") or _get_saved_api_key() or ""
     target = window or (webview.windows[0] if webview.windows else None)
-    if target is None:
-        _show_settings_window(current, blocking=True)
-    else:
-        _prompt_for_key(target, current)
+    if target is not None:
+        if _open_settings_modal_via_js(target):
+            return
+        if _prompt_for_key(target, current):
+            return
+    _show_settings_window(current, blocking=True)
 
 
 def _build_menu() -> Optional[webview.Menu]:
@@ -362,6 +395,7 @@ def _run_server() -> None:
 
 def main() -> None:
     _load_local_env()
+    _bootstrap_databases()
 
     has_key = _ensure_api_key()
 
@@ -375,21 +409,36 @@ def main() -> None:
 
     app_bridge = AppBridge()
     js_api = None if SUPPORTS_MENU else app_bridge
-    main_window = webview.create_window(
-        "SuperLibraryMachine",
-        window_url,
-        menu=menu,
-        js_api=js_api,
-    )
+    create_kwargs = {
+        "menu": menu,
+        "js_api": js_api,
+    }
+    if APP_ICON:
+        create_kwargs["icon"] = str(APP_ICON)
+    try:
+        main_window = webview.create_window("SuperLibraryMachine", window_url, **create_kwargs)
+    except TypeError as exc:
+        if "icon" in create_kwargs:
+            print(f"Warning: window icon not supported by this pywebview build ({exc}).")
+            create_kwargs.pop("icon", None)
+            main_window = webview.create_window("SuperLibraryMachine", window_url, **create_kwargs)
+        else:
+            raise
     app_bridge.attach(main_window)
 
     def on_start() -> None:
-        if not SUPPORTS_MENU:
+        if not has_key:
             try:
-                main_window.evaluate_js(SETTINGS_BUTTON_JS)
+                main_window.evaluate_js(
+                    "setTimeout(function(){"
+                    "var btn=document.getElementById('open-settings');"
+                    "if(btn){btn.click();return;}"
+                    "var alt=document.querySelector('[data-open-settings]');"
+                    "if(alt){alt.click();}"
+                    "},400);"
+                )
             except Exception:
                 pass
-        if not has_key:
             print("⚠️  No OpenAI API key configured. Use Settings to add one when ready.")
 
     webview.start(on_start)

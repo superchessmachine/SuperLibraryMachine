@@ -113,6 +113,16 @@
       text-decoration: underline;
     }
 
+    .chat-box ul,
+    .chat-box ol {
+      margin: 0.5rem 0;
+      padding-left: 1.5rem;
+    }
+
+    .chat-box li + li {
+      margin-top: 0.25rem;
+    }
+
     footer {
       border-top: 1px solid var(--border-color);
       padding: 1rem;
@@ -635,6 +645,92 @@
     const settingsStatus = document.getElementById("settings-status");
     const clearApiKeyBtn = document.getElementById("clear-api-key");
 
+    function applyInlineFormatting(text) {
+      if (!text) return "";
+      return text
+        .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+        .replace(/__(.*?)__/g, "<strong>$1</strong>");
+    }
+
+    function formatAssistantText(raw) {
+      if (!raw) return "";
+      const normalized = raw
+        .replace(/\r\n/g, "\n")
+        .replace(/\t+/g, "    ")
+        .replace(/\s{2,}•/g, "\n•")
+        .replace(/\s{2,}(\d+\.)/g, "\n$1");
+      const lines = normalized.split("\n");
+      const parts = [];
+
+      let listType = null;
+      let paragraphBuffer = [];
+
+      const closeParagraph = () => {
+        if (!paragraphBuffer.length) return;
+        const paragraphText = paragraphBuffer.join(" ").trim();
+        if (paragraphText) {
+          parts.push(`<p>${applyInlineFormatting(paragraphText)}</p>`);
+        }
+        paragraphBuffer = [];
+      };
+
+      const closeList = () => {
+        if (!listType) return;
+        parts.push(`</${listType}>`);
+        listType = null;
+      };
+
+      const openList = (type, start = 1) => {
+        if (listType === type) return;
+        closeList();
+        if (type === "ol") {
+          parts.push(start !== 1 ? `<ol start="${start}">` : "<ol>");
+        } else {
+          parts.push("<ul>");
+        }
+        listType = type;
+      };
+
+      lines.forEach(line => {
+        const trimmed = line.trim();
+
+        if (!trimmed) {
+          closeParagraph();
+          closeList();
+          return;
+        }
+
+        const orderedMatch = trimmed.match(/^(\d+)\.\s+(.*)$/);
+        if (orderedMatch) {
+          closeParagraph();
+          const start = parseInt(orderedMatch[1], 10) || 1;
+          if (listType !== "ol") {
+            openList("ol", start);
+          }
+          parts.push(`<li>${applyInlineFormatting(orderedMatch[2])}</li>`);
+          return;
+        }
+
+        const bulletMatch = trimmed.match(/^[\u2022\*\-]\s+(.*)$/);
+        if (bulletMatch) {
+          closeParagraph();
+          if (listType !== "ul") {
+            openList("ul");
+          }
+          parts.push(`<li>${applyInlineFormatting(bulletMatch[1])}</li>`);
+          return;
+        }
+
+        closeList();
+        paragraphBuffer.push(trimmed);
+      });
+
+      closeParagraph();
+      closeList();
+
+      return parts.join("").replace(/(<br>){3,}/g, "<br><br>");
+    }
+
     function handleSubmit(event) {
       if (spinner) spinner.style.display = "flex";
       if (submitBtn) submitBtn.style.display = "none";
@@ -745,12 +841,7 @@
       const history = JSON.parse(localStorage.getItem("chatHistory") || "[]");
 
       if (raw.trim()) {
-        const cleaned = raw
-          .replace(/^(\s*\*\s*(&nbsp;)?\s*)$/gm, "")
-          .replace(/^[ \t]*\*\s+/gm, "")
-          .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
-          .replace(/\n{2,}/g, "<br><br>")
-          .replace(/\n/g, " ");
+        const cleaned = formatAssistantText(raw);
 
         history.push({ q: query, a: cleaned, c: citeBox });
         localStorage.setItem("chatHistory", JSON.stringify(history));

@@ -1,3 +1,4 @@
+import json
 import os
 import re
 import shutil
@@ -17,12 +18,18 @@ if PIPELINE_ROOT.exists() and str(PIPELINE_ROOT) not in sys.path:
     sys.path.insert(0, str(PIPELINE_ROOT))
 
 from pipelinefiles.run_full_pipeline import parse_args as parse_pipeline_args, run_pipeline
-from rag_server import DB_BASE_PATH, list_databases, reset_openai_client, run_rag
+
+try:  # pragma: no cover - package-relative import for bundled app
+    from .rag_server import DB_BASE_PATH, list_databases, reset_openai_client, run_rag
+except ImportError:  # pragma: no cover - fallback for running as a script
+    from rag_server import DB_BASE_PATH, list_databases, reset_openai_client, run_rag
 
 app = Flask(__name__)
 
 VALID_DB_NAME = re.compile(r"^[A-Za-z0-9._-]+$")
 BUILD_LOCK = threading.Lock()
+CONFIG_PATH_ENV = os.getenv("SLM_CONFIG_PATH")
+CONFIG_PATH = Path(CONFIG_PATH_ENV).expanduser() if CONFIG_PATH_ENV else None
 
 
 def _normalize_path(value: str | None) -> str | None:
@@ -30,6 +37,29 @@ def _normalize_path(value: str | None) -> str | None:
         return None
     cleaned = value.strip()
     return cleaned or None
+
+
+def _persist_api_key_to_config(api_key: str | None) -> bool:
+    if CONFIG_PATH is None:
+        return False
+    try:
+        CONFIG_PATH.parent.mkdir(parents=True, exist_ok=True)
+        if CONFIG_PATH.exists():
+            try:
+                data = json.loads(CONFIG_PATH.read_text())
+            except json.JSONDecodeError:
+                data = {}
+        else:
+            data = {}
+        if api_key:
+            data["openai_api_key"] = api_key
+        else:
+            data.pop("openai_api_key", None)
+        CONFIG_PATH.write_text(json.dumps(data, indent=2))
+        return True
+    except Exception as exc:  # pragma: no cover - persistence is best-effort
+        print(f"Warning: unable to persist API key: {exc}")
+        return False
 
 
 @app.get("/api/databases")
@@ -46,11 +76,19 @@ def update_api_key():
     if api_key:
         os.environ["OPENAI_API_KEY"] = api_key
         reset_openai_client()
-        return jsonify({"ok": True, "message": "API key saved for this session."})
+        persisted = _persist_api_key_to_config(api_key)
+        message = "API key saved for this session."
+        if persisted:
+            message = "API key saved."
+        return jsonify({"ok": True, "message": message, "persisted": persisted})
 
     os.environ.pop("OPENAI_API_KEY", None)
     reset_openai_client()
-    return jsonify({"ok": True, "message": "API key cleared."})
+    persisted = _persist_api_key_to_config(None)
+    message = "API key cleared."
+    if persisted:
+        message = "API key cleared and removed from storage."
+    return jsonify({"ok": True, "message": message, "persisted": persisted})
 
 
 @app.post("/build")

@@ -2,6 +2,7 @@
 
 import sys
 import sysconfig
+import importlib.util
 from pathlib import Path
 
 from PyInstaller.utils.hooks import collect_all, collect_submodules
@@ -17,6 +18,14 @@ datas = [
     (str(ROOT / "web" / "app.py"), "web"),
     (str(ROOT / "web" / "rag_server.py"), "web"),
 ]
+
+icon_file = ROOT / "mac_app" / "SuperLibraryMachine.icns"
+spec = importlib.util.find_spec("unstructured")
+if spec and spec.origin:
+    unstructured_root = Path(spec.origin).resolve().parent
+    words_file = unstructured_root / "nlp" / "english-words.txt"
+    if words_file.exists():
+        datas.append((str(words_file), "unstructured/nlp"))
 
 example_dbs = ROOT / "exampleDBs"
 if example_dbs.exists():
@@ -35,6 +44,8 @@ hiddenimports = (
     + collect_submodules("werkzeug")
     + ["web.rag_server"]
 )
+
+hiddenimports += collect_submodules("pipelinefiles")
 
 
 faiss_datas, faiss_binaries, faiss_hiddenimports = collect_all("faiss")
@@ -92,6 +103,6 @@ coll = COLLECT(
 app = BUNDLE(
     coll,
     name='SuperLibraryMachine.app',
-    icon=None,
+    icon=str(icon_file) if icon_file.exists() else None,
     bundle_identifier='com.superlibrarymachine.app',
 )

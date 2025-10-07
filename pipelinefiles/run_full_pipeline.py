@@ -5,11 +5,18 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable, Optional
 
-from extract_doi import extract_dois
-from upgraded_convertingtotxt import convert_pdfs
-from chunker_updated import chunk_texts
-from embed_chunks_multigpu import embed_chunks
-from build_faiss_index import build_faiss_index
+try:  # pragma: no cover - import resolution depends on packaging context
+    from .extract_doi import extract_dois
+    from .upgraded_convertingtotxt import convert_pdfs
+    from .chunker_updated import chunk_texts
+    from .embed_chunks_multigpu import embed_chunks
+    from .build_faiss_index import build_faiss_index
+except ImportError:  # pragma: no cover - fallback for direct script execution
+    from extract_doi import extract_dois
+    from upgraded_convertingtotxt import convert_pdfs
+    from chunker_updated import chunk_texts
+    from embed_chunks_multigpu import embed_chunks
+    from build_faiss_index import build_faiss_index
 
 
 @dataclass(frozen=True)
