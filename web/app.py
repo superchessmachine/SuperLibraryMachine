@@ -62,6 +62,31 @@ def _persist_api_key_to_config(api_key: str | None) -> bool:
         return False
 
 
+def _read_saved_api_key() -> str | None:
+    if CONFIG_PATH is None or not CONFIG_PATH.exists():
+        return None
+    try:
+        data = json.loads(CONFIG_PATH.read_text())
+    except json.JSONDecodeError:
+        return None
+    return data.get("openai_api_key")
+
+
+def _load_saved_api_key() -> str | None:
+    saved_key = _read_saved_api_key()
+    current = os.getenv("OPENAI_API_KEY")
+    if saved_key and saved_key != current:
+        os.environ["OPENAI_API_KEY"] = saved_key
+        reset_openai_client()
+    return saved_key
+
+
+if os.getenv("OPENAI_API_KEY"):
+    _persist_api_key_to_config(os.getenv("OPENAI_API_KEY"))
+else:
+    _load_saved_api_key()
+
+
 @app.get("/api/databases")
 def api_databases():
     return jsonify({"databases": list_databases(), "db_root": str(DB_BASE_PATH)})
@@ -89,6 +114,22 @@ def update_api_key():
     if persisted:
         message = "API key cleared and removed from storage."
     return jsonify({"ok": True, "message": message, "persisted": persisted})
+
+
+@app.get("/settings/api-key")
+def read_api_key():
+    has_env_key = bool(os.getenv("OPENAI_API_KEY"))
+    persisted_key = _read_saved_api_key()
+    has_persisted = bool(persisted_key)
+    message = "API key is set." if has_env_key or has_persisted else "No API key stored."
+    return jsonify(
+        {
+            "ok": True,
+            "has_key": has_env_key or has_persisted,
+            "persisted": has_persisted,
+            "message": message,
+        }
+    )
 
 
 @app.post("/build")

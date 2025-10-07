@@ -775,6 +775,27 @@
       updateBodyModalState();
     }
 
+    async function refreshSettingsStatus() {
+      if (!settingsStatus) return;
+      try {
+        const response = await fetch("/settings/api-key");
+        const data = await response.json();
+        if (!response.ok || !data.ok) {
+          settingsStatus.textContent = "Unable to determine API key status.";
+          return;
+        }
+        if (data.has_key) {
+          settingsStatus.textContent = data.persisted
+            ? "✅ API key saved for future launches."
+            : "✅ API key is active for this session.";
+        } else {
+          settingsStatus.textContent = "No API key stored yet.";
+        }
+      } catch (error) {
+        settingsStatus.textContent = "Unable to determine API key status.";
+      }
+    }
+
     if (openBuilderBtn && builderModal) {
       openBuilderBtn.onclick = () => {
         updatePathDefaults(false);
@@ -793,7 +814,7 @@
 
     if (openSettingsBtn && settingsModal) {
       openSettingsBtn.onclick = () => {
-        if (settingsStatus) settingsStatus.textContent = "";
+        refreshSettingsStatus();
         openModal(settingsModal);
       };
     }
@@ -801,7 +822,7 @@
     if (closeSettingsBtn && settingsModal) {
       closeSettingsBtn.onclick = () => {
         closeModal(settingsModal);
-        if (settingsStatus) settingsStatus.textContent = "";
+        refreshSettingsStatus();
       };
     }
 
@@ -809,8 +830,8 @@
       if (!modal) return;
       modal.addEventListener("click", event => {
         if (event.target === modal) {
-          if (modal === settingsModal && settingsStatus) {
-            settingsStatus.textContent = "";
+          if (modal === settingsModal) {
+            refreshSettingsStatus();
           }
           closeModal(modal);
         }
@@ -834,6 +855,7 @@
     document.addEventListener("DOMContentLoaded", () => {
       const log = document.getElementById("chat-log");
       if (!log) return;
+      refreshSettingsStatus();
 
       const raw = `{{ answer | e }}`;
       const query = localStorage.getItem("lastQuery") || "";
@@ -986,6 +1008,7 @@
           const successMessage = result.message || "✅ API key saved for this session.";
           settingsStatus.textContent = successMessage;
           if (apiKeyInput) apiKeyInput.value = "";
+          refreshSettingsStatus();
         } catch (error) {
           const message = error instanceof Error ? error.message : "Failed to save API key.";
           settingsStatus.textContent = `❌ ${message}`;
@@ -1001,6 +1024,7 @@
           const result = await submitApiKey(null);
           settingsStatus.textContent = result.message || "✅ API key cleared.";
           if (apiKeyInput) apiKeyInput.value = "";
+          refreshSettingsStatus();
         } catch (error) {
           const message = error instanceof Error ? error.message : "Failed to clear API key.";
           settingsStatus.textContent = `❌ ${message}`;
