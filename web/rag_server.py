@@ -96,10 +96,10 @@ def run_rag(user_input, db_name):
 
     # Step 1: Rewrite
     rewrite_prompt = (
-        "You are assisting in biomedical literature retrieval. "
-        "Given a user query, rewrite it into a more specific and detailed question that would return the most precise results "
-        "when searching through full-text scientific papers focused on structural biology. Include biological context, specify interaction types, "
-        "experimental methods, or molecular pathways where applicable. Do not answer the question — only rewrite it.\n\n"
+        "You are assisting with analytical research across any subject area. "
+        "Given an initial query, produce a more precise and detailed version that highlights the key entities, relationships, "
+        "methods, metrics, or timeframes that would lead to the most relevant evidence in a knowledge base. "
+        "Keep the tone neutral, avoid assumptions, and do not answer the question—only rewrite it.\n\n"
         f"User query:\n{user_input}"
     )
     refined_prompt = call_openai_chat(rewrite_prompt, model=REWRITE_MODEL) or user_input
@@ -120,8 +120,9 @@ def run_rag(user_input, db_name):
     # Step 3: Answer prompt
     context_block = "\n\n".join(retrieved_chunks)
     answer_prompt = (
-        "You are an expert assistant answering questions based on the context below.\n"
-        "Use bracketed citations like [1], [2, 5] to support your answer. Only cite chunks provided.\n\n"
+        "You are an analytical assistant who must respond using only the supplied context.\n"
+        "Deliver concise, well-structured reasoning and highlight implications or comparisons when helpful. "
+        "Use bracketed citations like [1], [2, 5] to support your answer, and only cite chunks provided.\n\n"
         f"Context:\n{context_block}\n\n"
         f"User question: {refined_prompt}"
     )
