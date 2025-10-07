@@ -34,31 +34,47 @@
 
     header {
       padding: 1rem;
-      text-align: center;
       background: var(--card-bg);
       border-bottom: 1px solid var(--border-color);
-      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
     }
 
-    h1 {
+    header h1 {
+      flex: 1;
       margin: 0;
       font-size: 1.8rem;
       color: var(--accent-color);
+      text-align: center;
     }
 
-    #toggle-theme, #clear-history {
-      position: absolute;
-      top: 1rem;
-      padding: 0.3rem 0.8rem;
-      border: 1px solid var(--accent-color);
-      color: var(--accent-color);
-      background: none;
+    .header-group {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    header button {
+      padding: 0.35rem 0.85rem;
       border-radius: 6px;
       cursor: pointer;
+      font-size: 0.95rem;
+      transition: background 0.2s ease, color 0.2s ease;
     }
 
-    #toggle-theme { right: 1rem; }
-    #clear-history { left: 1rem; }
+    .header-secondary {
+      border: 1px solid var(--accent-color);
+      background: none;
+      color: var(--accent-color);
+    }
+
+    .header-primary {
+      border: none;
+      background: var(--accent-color);
+      color: #000;
+    }
 
     #chat-log {
       flex: 1;
@@ -138,34 +154,68 @@
       cursor: pointer;
     }
 
-    #builder-section {
-      padding: 1.25rem 1rem 1rem;
+    .modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      z-index: 1000;
+    }
+
+    .modal.hidden {
+      display: none;
+    }
+
+    .modal-content {
+      position: relative;
+      width: min(980px, 95vw);
+      max-height: 90vh;
+      overflow-y: auto;
       background: var(--card-bg);
-      border-bottom: 1px solid var(--border-color);
-      border-top: 1px solid var(--border-color);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 0.75rem;
+      right: 0.75rem;
+      border: none;
+      background: none;
+      color: var(--text-color);
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    body.modal-open {
+      overflow: hidden;
+    }
+
+    #builder-section {
+      padding: 0.5rem 0 0;
     }
 
     #builder-section h2 {
-      margin: 0 auto 0.75rem;
-      max-width: 900px;
+      margin: 0 0 0.75rem;
       font-size: 1.4rem;
       color: var(--accent-color);
     }
 
     #builder-section p {
-      max-width: 900px;
-      margin: 0 auto 1rem;
+      margin: 0 0 1rem;
       font-size: 0.95rem;
       color: var(--text-color);
     }
 
     #builder-form {
-      max-width: 900px;
-      margin: 0 auto;
       display: flex;
       flex-direction: column;
       gap: 1rem;
-      background: var(--card-bg);
     }
 
     .builder-row {
@@ -263,8 +313,8 @@
     }
 
     #build-log {
-      max-width: 900px;
-      margin: 0.5rem auto 0;
+      max-width: 100%;
+      margin: 0.5rem 0 0;
       background: var(--input-bg);
       border: 1px solid var(--border-color);
       border-radius: 6px;
@@ -278,6 +328,59 @@
 
     #build-log.hidden {
       display: none;
+    }
+
+    #settings-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    #settings-form label {
+      font-size: 0.95rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    #settings-form input[type="password"],
+    #settings-form input[type="text"] {
+      padding: 0.6rem;
+      background-color: var(--input-bg);
+      border: 1px solid var(--border-color);
+      color: var(--text-color);
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+
+    #settings-actions {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    #settings-actions button {
+      padding: 0.55rem 1.1rem;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      font-size: 0.95rem;
+    }
+
+    #save-api-key {
+      background: var(--accent-color);
+      color: #000;
+    }
+
+    #clear-api-key {
+      background: none;
+      border: 1px solid var(--accent-color);
+      color: var(--accent-color);
+    }
+
+    #settings-status {
+      font-size: 0.95rem;
     }
 
     #spinner {
@@ -305,15 +408,24 @@
 </head>
 <body>
   <header>
+    <div class="header-group">
+      <button id="clear-history" class="header-secondary">Clear History</button>
+      <button id="open-builder" class="header-primary">Build Database</button>
+    </div>
     <h1>SuperLibraryMachine RAG</h1>
-    <button id="toggle-theme">Toggle Theme</button>
-    <button id="clear-history">Clear History</button>
+    <div class="header-group">
+      <button id="toggle-theme" class="header-secondary">Toggle Theme</button>
+      <button id="open-settings" class="header-secondary">Settings</button>
+    </div>
   </header>
 
-  <section id="builder-section">
-    <h2>Build a New Database</h2>
-    <p>Databases are stored under <code>{{ db_root }}</code>. Provide the folder containing your PDF papers and adjust any options below.</p>
-    <form id="builder-form">
+  <div id="builder-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="builder-title">
+    <div class="modal-content">
+      <button type="button" class="modal-close" id="close-builder" aria-label="Close builder dialog">&times;</button>
+      <section id="builder-section">
+        <h2 id="builder-title">Build a New Database</h2>
+        <p>Databases are stored under <code>{{ db_root }}</code>. Provide the folder containing your PDF papers and adjust any options below.</p>
+        <form id="builder-form">
       <div class="builder-row">
         <label for="db-name">
           Database name
@@ -451,6 +563,27 @@
     </form>
     <pre id="build-log" class="hidden"></pre>
   </section>
+    </div>
+  </div>
+
+  <div id="settings-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+    <div class="modal-content">
+      <button type="button" class="modal-close" id="close-settings" aria-label="Close settings dialog">&times;</button>
+      <h2 id="settings-title">Settings</h2>
+      <p>Provide your API key so the server can call OpenAI models. The key is stored only for the current server process.</p>
+      <form id="settings-form">
+        <label for="api-key-input">
+          OpenAI API key
+          <input id="api-key-input" name="apiKey" type="password" placeholder="sk-..." autocomplete="off">
+        </label>
+        <div id="settings-actions">
+          <button type="submit" id="save-api-key">Save key</button>
+          <button type="button" id="clear-api-key">Clear key</button>
+        </div>
+        <span id="settings-status"></span>
+      </form>
+    </div>
+  </div>
 
   <div id="chat-log"></div>
 
@@ -482,6 +615,13 @@
     const submitBtn = document.getElementById("submit-button");
     const dbSelect = document.querySelector('select[name="db"]');
 
+    const builderModal = document.getElementById("builder-modal");
+    const openBuilderBtn = document.getElementById("open-builder");
+    const closeBuilderBtn = document.getElementById("close-builder");
+    const settingsModal = document.getElementById("settings-modal");
+    const openSettingsBtn = document.getElementById("open-settings");
+    const closeSettingsBtn = document.getElementById("close-settings");
+
     const builderForm = document.getElementById("builder-form");
     const buildSubmit = document.getElementById("build-submit");
     const buildStatus = document.getElementById("build-status");
@@ -490,8 +630,12 @@
 
     const clearHistoryBtn = document.getElementById("clear-history");
     const toggleThemeBtn = document.getElementById("toggle-theme");
+    const settingsForm = document.getElementById("settings-form");
+    const apiKeyInput = document.getElementById("api-key-input");
+    const settingsStatus = document.getElementById("settings-status");
+    const clearApiKeyBtn = document.getElementById("clear-api-key");
 
-    function handleSubmit() {
+    function handleSubmit(event) {
       if (spinner) spinner.style.display = "flex";
       if (submitBtn) submitBtn.style.display = "none";
       if (queryInput) {
@@ -511,6 +655,85 @@
         document.body.classList.toggle("light");
       };
     }
+
+    function updateBodyModalState() {
+      const anyOpen = document.querySelector(".modal:not(.hidden)") !== null;
+      document.body.classList.toggle("modal-open", anyOpen);
+    }
+
+    function openModal(modal) {
+      if (!modal) return;
+      modal.classList.remove("hidden");
+      updateBodyModalState();
+      const focusTarget =
+        modal.querySelector("form input, form select, form textarea") ||
+        modal.querySelector("button, [href], input, select, textarea");
+      if (focusTarget) {
+        setTimeout(() => focusTarget.focus(), 0);
+      }
+    }
+
+    function closeModal(modal) {
+      if (!modal) return;
+      modal.classList.add("hidden");
+      updateBodyModalState();
+    }
+
+    if (openBuilderBtn && builderModal) {
+      openBuilderBtn.onclick = () => {
+        updatePathDefaults(false);
+        if (buildStatus) buildStatus.textContent = "";
+        if (buildLog) {
+          buildLog.textContent = "";
+          buildLog.classList.add("hidden");
+        }
+        openModal(builderModal);
+      };
+    }
+
+    if (closeBuilderBtn && builderModal) {
+      closeBuilderBtn.onclick = () => closeModal(builderModal);
+    }
+
+    if (openSettingsBtn && settingsModal) {
+      openSettingsBtn.onclick = () => {
+        if (settingsStatus) settingsStatus.textContent = "";
+        openModal(settingsModal);
+      };
+    }
+
+    if (closeSettingsBtn && settingsModal) {
+      closeSettingsBtn.onclick = () => {
+        closeModal(settingsModal);
+        if (settingsStatus) settingsStatus.textContent = "";
+      };
+    }
+
+    [builderModal, settingsModal].forEach(modal => {
+      if (!modal) return;
+      modal.addEventListener("click", event => {
+        if (event.target === modal) {
+          if (modal === settingsModal && settingsStatus) {
+            settingsStatus.textContent = "";
+          }
+          closeModal(modal);
+        }
+      });
+    });
+
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") {
+        if (builderModal && !builderModal.classList.contains("hidden")) {
+          closeModal(builderModal);
+          event.preventDefault();
+          return;
+        }
+        if (settingsModal && !settingsModal.classList.contains("hidden")) {
+          closeModal(settingsModal);
+          event.preventDefault();
+        }
+      }
+    });
 
     document.addEventListener("DOMContentLoaded", () => {
       const log = document.getElementById("chat-log");
@@ -645,6 +868,53 @@
         control.disabled = disabled;
       });
       if (buildSubmit) buildSubmit.disabled = disabled;
+    }
+
+    async function submitApiKey(apiKeyValue) {
+      const response = await fetch("/settings/api-key", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ apiKey: apiKeyValue }),
+      });
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok || data.ok !== true) {
+        const errorMessage = data.error || `Request failed${response.status ? ` (${response.status})` : ""}.`;
+        throw new Error(errorMessage);
+      }
+      return data;
+    }
+
+    if (settingsForm) {
+      settingsForm.addEventListener("submit", async event => {
+        event.preventDefault();
+        if (!settingsStatus) return;
+        const value = apiKeyInput ? apiKeyInput.value.trim() : "";
+        settingsStatus.textContent = "Saving key…";
+        try {
+          const result = await submitApiKey(value || null);
+          const successMessage = result.message || "✅ API key saved for this session.";
+          settingsStatus.textContent = successMessage;
+          if (apiKeyInput) apiKeyInput.value = "";
+        } catch (error) {
+          const message = error instanceof Error ? error.message : "Failed to save API key.";
+          settingsStatus.textContent = `❌ ${message}`;
+        }
+      });
+    }
+
+    if (clearApiKeyBtn) {
+      clearApiKeyBtn.addEventListener("click", async () => {
+        if (!settingsStatus) return;
+        settingsStatus.textContent = "Clearing key…";
+        try {
+          const result = await submitApiKey(null);
+          settingsStatus.textContent = result.message || "✅ API key cleared.";
+          if (apiKeyInput) apiKeyInput.value = "";
+        } catch (error) {
+          const message = error instanceof Error ? error.message : "Failed to clear API key.";
+          settingsStatus.textContent = `❌ ${message}`;
+        }
+      });
     }
 
     if (builderForm) {

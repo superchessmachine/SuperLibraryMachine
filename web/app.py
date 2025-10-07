@@ -1,3 +1,4 @@
+import os
 import re
 import shutil
 import sys
@@ -16,7 +17,7 @@ if PIPELINE_ROOT.exists() and str(PIPELINE_ROOT) not in sys.path:
     sys.path.insert(0, str(PIPELINE_ROOT))
 
 from pipelinefiles.run_full_pipeline import parse_args as parse_pipeline_args, run_pipeline
-from rag_server import DB_BASE_PATH, list_databases, run_rag
+from rag_server import DB_BASE_PATH, list_databases, reset_openai_client, run_rag
 
 app = Flask(__name__)
 
@@ -34,6 +35,22 @@ def _normalize_path(value: str | None) -> str | None:
 @app.get("/api/databases")
 def api_databases():
     return jsonify({"databases": list_databases(), "db_root": str(DB_BASE_PATH)})
+
+
+@app.post("/settings/api-key")
+def update_api_key():
+    payload = request.get_json(silent=True) or {}
+    api_key_raw = payload.get("apiKey")
+    api_key = api_key_raw.strip() if isinstance(api_key_raw, str) else None
+
+    if api_key:
+        os.environ["OPENAI_API_KEY"] = api_key
+        reset_openai_client()
+        return jsonify({"ok": True, "message": "API key saved for this session."})
+
+    os.environ.pop("OPENAI_API_KEY", None)
+    reset_openai_client()
+    return jsonify({"ok": True, "message": "API key cleared."})
 
 
 @app.post("/build")
