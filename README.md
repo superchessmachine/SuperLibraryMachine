@@ -76,11 +76,11 @@ The Windows bundle stores its configuration alongside other application data ins
 > `codesign --force --deep --sign - --timestamp=none dist/SuperLibraryMachine.app`
 > (or use a real signing identity) before moving it into `/Applications`.
 
-> ℹ️  On Apple Silicon Macs, if `sentence-transformers` does not pull in a compatible
+> On Apple Silicon Macs, if `sentence-transformers` does not pull in a compatible
 > PyTorch wheel automatically, install it manually with
 > `pip install torch --index-url https://download.pytorch.org/whl/cpu` before rerunning
 > `pip install -r requirements-mac.txt`.
 
-> ℹ️  `faiss-cpu` wheels ship per-architecture. If pip still complains that no matching
+> `faiss-cpu` wheels ship per-architecture. If pip still complains that no matching
 > distribution is found, upgrade pip inside the environment (`pip install --upgrade pip`)
 > and retry.
