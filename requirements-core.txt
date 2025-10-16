@@ -7,6 +7,8 @@ sentence-transformers>=2.7.0
 faiss-cpu>=1.11,<1.13
 # pin numpy below v2 to avoid AttributeError: module 'numpy' has no attribute '_ARRAY_API'
 numpy>=1.24,<2.0
+# recent onnx wheels depend on ml-dtypes>=0.5.0 for float4 support
+ml-dtypes>=0.5.0
 
 # Pipeline utilities
 pandas>=2.0
