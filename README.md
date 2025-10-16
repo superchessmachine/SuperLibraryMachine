@@ -1,88 +1,56 @@
-# SuperLibraryMachine
-An easy to use pipeline for setting up retrieval augmented generation of scientific text.
+# SuperLibraryMachine (Experimental)
 
-## Web Interface
+This codebase is experimental. The steps below have been validated only on macOS 13/14 with Apple Silicon and assume a clean machine without Homebrew or pyenv.
 
-The repository now bundles a simple Flask web app that can answer questions over any
-processed RAG database (i.e. a folder containing `faiss_index.idx` and
-`faiss_metadata.pkl`). A sample database, `Paper_DB_Sample`, is provided under
-`exampleDBs/` and is used by default.
+## Quick Start (Web Server)
 
-1. Create and activate a virtual environment (recommended). Use Python 3.10–3.12; Python 3.13 currently requires
-   `numpy>=2.1` which is incompatible with the published `faiss-cpu` wheels.
-2. Install dependencies: `pip install --upgrade pip && pip install -r requirements.txt` (tested on macOS
-   13+/Apple Silicon and Intel). The core requirements pin `numpy<2.0` so `faiss-cpu` avoids the
-   `AttributeError: module 'numpy' has no attribute '_ARRAY_API'` crash seen with newer wheels.
-3. Provide your OpenAI API key:
-   - Command line: `export OPENAI_API_KEY=sk-...` before running the server, or
-   - Desktop shell: launch it once and paste the key into the built-in Settings
-     window (it is stored locally and reused).
-4. (Optional) Point the app at a different database root:
-   `export RAG_DB_ROOT=/path/to/your/databases`.
-5. Start the server from the project root: `python web/app.py`.
-6. Visit `http://localhost:7860`—the interface is open locally once the server starts.
+Run each command exactly as shown from the project root.
 
-If no databases are detected at startup, the UI will display guidance on where to place
-them.
+1. Install Python 3.12 using the official package:
+   ```zsh
+   curl -LO https://www.python.org/ftp/python/3.12.7/python-3.12.7-macos11.pkg
+   sudo installer -pkg python-3.12.7-macos11.pkg -target /
+   ```
+2. Create a virtual environment with that interpreter:
+   ```zsh
+   /Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12 -m venv .venv
+   ```
+3. Activate the environment and upgrade pip:
+   ```zsh
+   source .venv/bin/activate
+   python -m pip install --upgrade pip
+   ```
+4. Install project dependencies:
+   ```zsh
+   python -m pip install -r requirements.txt
+   ```
+5. Provide your OpenAI API key (optional now, required before the first query):
+   ```zsh
+   export OPENAI_API_KEY=sk-your-key-here
+   ```
+6. Start the web server:
+   ```zsh
+   python web/app.py
+   ```
+7. Open `http://localhost:7860` in a browser. If you did not export the key, use the Settings panel in the UI to save it.
 
-### Optional desktop shell
+## Optional Desktop Shell
 
-To run the site inside a lightweight desktop window instead of a browser:
+Use the same virtual environment created above (keep `.venv` activated).
 
-1. Install the core dependencies if you have not already: `pip install -r requirements.txt`.
-2. Install the optional desktop extras:
-   - macOS: `pip install -r requirements-mac-desktop.txt`
-   - Windows: `pip install -r requirements-windows-desktop.txt`
-3. Launch the shell: `python mac_app/launcher.py`. The app works even without an API key;
-   use the Settings menu (or floating button) whenever you are ready to add one.
+1. Install desktop-specific dependencies:
+   ```zsh
+   python -m pip install -r requirements-mac-desktop.txt
+   ```
+2. Launch the desktop shell:
+   ```zsh
+   python mac_app/launcher.py
+   ```
 
-The script spins up the Flask app in the background and opens a platform-native web view
-that points at the local site. Set `SLM_HOST`/`SLM_PORT` to override the defaults. On
-systems where the native menu is unavailable, a small “Settings” button appears in the
-top-right corner of the window instead. API keys are cached under the OS-appropriate
-configuration directory (for example,
-`~/Library/Application Support/SuperLibraryMachine/config.json` on macOS and
-`%APPDATA%\SuperLibraryMachine\config.json` on Windows).
+The launcher wraps the Flask app in a native window and stores configuration under `~/Library/Application Support/SuperLibraryMachine/`.
 
-#### Package for macOS (.app)
+## Additional Notes
 
-1. Inside the `rag` environment run `pip install pyinstaller` (already included in
-   `requirements-mac-desktop.txt`).
-2. Execute `bash mac_app/build_app.sh` from the project root (the script sets
-   `PYINSTALLER_NO_CODESIGN=1` so PyInstaller skips its auto-sign step).
-3. Move `dist/SuperLibraryMachine.app` into `/Applications` (or wherever you keep apps).
-4. Double-click the app once to trust it, then pin it to the Dock for one-click launches.
-
-#### Package for Windows (.exe)
-
-1. From the same environment, install the desktop extras if you have not already:
-   `pip install -r requirements-windows-desktop.txt`.
-2. Open PowerShell in the project root and run `./windows_app/build_exe.ps1`.
-3. The distributable lives under `dist\SuperLibraryMachine\SuperLibraryMachine.exe`; copy
-   that folder anywhere you want to run the app.
-
-The Windows bundle stores its configuration alongside other application data inside
-`%APPDATA%\SuperLibraryMachine` so API keys persist across launches.
-
-> Ensure your build environment also has the core web dependencies (Flask, OpenAI SDK,
-> etc.) installed—e.g. `pip install -r requirements.txt`—before running PyInstaller. Otherwise the
-> analogous packages individually on Windows—before running PyInstaller. Otherwise the
-> packaged bundle cannot import them at runtime and will exit with a `ModuleNotFoundError`.
-
-> If the build script reports `No module named PyInstaller`, reinstall the optional
-> desktop requirements (`pip install -r requirements-mac-desktop.txt` on macOS or
-> `pip install -r requirements-windows-desktop.txt` on Windows) inside the `rag`
-> environment to pull in the packaging tools.
-
-> Need a signed bundle? After building, run
-> `codesign --force --deep --sign - --timestamp=none dist/SuperLibraryMachine.app`
-> (or use a real signing identity) before moving it into `/Applications`.
-
-> On Apple Silicon Macs, if `sentence-transformers` does not pull in a compatible
-> PyTorch wheel automatically, install it manually with
-> `pip install torch --index-url https://download.pytorch.org/whl/cpu` before rerunning
-> `pip install -r requirements.txt`.
-
-> `faiss-cpu` wheels ship per-architecture. If pip still complains that no matching
-> distribution is found, upgrade pip inside the environment (`pip install --upgrade pip`)
-> and retry.
+- Python 3.13 and newer are not supported because the current `faiss-cpu` wheels depend on `numpy<2.0`.
+- Set `RAG_DB_ROOT=/path/to/databases` before launching if you need to point at a different database directory.
+- Desktop packaging scripts (`mac_app/build_app.sh`, `windows_app/build_exe.ps1`) assume you already followed the commands above and are using the same environment.
