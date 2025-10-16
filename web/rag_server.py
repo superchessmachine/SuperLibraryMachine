@@ -5,7 +5,13 @@ import time
 from datetime import datetime
 from pathlib import Path
 
-import faiss
+try:
+    import faiss
+except ModuleNotFoundError as exc:  # pragma: no cover - runtime guard
+    raise ModuleNotFoundError(
+        "Faiss is not installed. Install the core dependencies with 'pip install -r requirements.txt' or run "
+        "'pip install \"faiss-cpu>=1.11,<1.13\"' before launching SuperLibraryMachine."
+    ) from exc
 import numpy as np
 import pickle
 from sentence_transformers import SentenceTransformer

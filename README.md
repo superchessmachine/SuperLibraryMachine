@@ -9,8 +9,8 @@ processed RAG database (i.e. a folder containing `faiss_index.idx` and
 `exampleDBs/` and is used by default.
 
 1. Create and activate a virtual environment (recommended).
-2. Install dependencies: `pip install --upgrade pip && pip install -r requirements-mac.txt` (tested on macOS
-   13+/Apple Silicon and Intel). The requirements file pins `numpy<2.0` so `faiss-cpu` avoids the
+2. Install dependencies: `pip install --upgrade pip && pip install -r requirements.txt` (tested on macOS
+   13+/Apple Silicon and Intel). The core requirements pin `numpy<2.0` so `faiss-cpu` avoids the
    `AttributeError: module 'numpy' has no attribute '_ARRAY_API'` crash seen with newer wheels.
 3. Provide your OpenAI API key:
    - Command line: `export OPENAI_API_KEY=sk-...` before running the server, or
@@ -28,7 +28,7 @@ them.
 
 To run the site inside a lightweight desktop window instead of a browser:
 
-1. Ensure the web dependencies above are installed (or let the desktop bundle pull them in automatically).
+1. Install the core dependencies if you have not already: `pip install -r requirements.txt`.
 2. Install the optional desktop extras:
    - macOS: `pip install -r requirements-mac-desktop.txt`
    - Windows: `pip install -r requirements-windows-desktop.txt`
@@ -64,7 +64,7 @@ The Windows bundle stores its configuration alongside other application data ins
 `%APPDATA%\SuperLibraryMachine` so API keys persist across launches.
 
 > Ensure your build environment also has the core web dependencies (Flask, OpenAI SDK,
-> etc.) installed—e.g. `pip install -r requirements-mac.txt` on macOS or install the
+> etc.) installed—e.g. `pip install -r requirements.txt`—before running PyInstaller. Otherwise the
 > analogous packages individually on Windows—before running PyInstaller. Otherwise the
 > packaged bundle cannot import them at runtime and will exit with a `ModuleNotFoundError`.
 
@@ -80,7 +80,7 @@ The Windows bundle stores its configuration alongside other application data ins
 > On Apple Silicon Macs, if `sentence-transformers` does not pull in a compatible
 > PyTorch wheel automatically, install it manually with
 > `pip install torch --index-url https://download.pytorch.org/whl/cpu` before rerunning
-> `pip install -r requirements-mac.txt`.
+> `pip install -r requirements.txt`.
 
 > `faiss-cpu` wheels ship per-architecture. If pip still complains that no matching
 > distribution is found, upgrade pip inside the environment (`pip install --upgrade pip`)

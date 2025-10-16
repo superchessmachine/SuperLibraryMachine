@@ -1,0 +1,2 @@
+# Install the full SuperLibraryMachine dependency set
+-r requirements-core.txt
