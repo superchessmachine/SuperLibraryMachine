@@ -10,7 +10,8 @@ processed RAG database (i.e. a folder containing `faiss_index.idx` and
 
 1. Create and activate a virtual environment (recommended).
 2. Install dependencies: `pip install --upgrade pip && pip install -r requirements-mac.txt` (tested on macOS
-   13+/Apple Silicon and Intel).
+   13+/Apple Silicon and Intel). The requirements file pins `numpy<2.0` so `faiss-cpu` avoids the
+   `AttributeError: module 'numpy' has no attribute '_ARRAY_API'` crash seen with newer wheels.
 3. Provide your OpenAI API key:
    - Command line: `export OPENAI_API_KEY=sk-...` before running the server, or
    - Desktop shell: launch it once and paste the key into the built-in Settings
@@ -27,7 +28,7 @@ them.
 
 To run the site inside a lightweight desktop window instead of a browser:
 
-1. Ensure the web dependencies above are installed.
+1. Ensure the web dependencies above are installed (or let the desktop bundle pull them in automatically).
 2. Install the optional desktop extras:
    - macOS: `pip install -r requirements-mac-desktop.txt`
    - Windows: `pip install -r requirements-windows-desktop.txt`

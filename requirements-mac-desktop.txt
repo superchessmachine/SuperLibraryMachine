@@ -1,3 +1,5 @@
+-r requirements-mac.txt
+
 pywebview>=4.4
 pyobjc-framework-WebKit>=9.0
 

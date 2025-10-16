@@ -29,7 +29,28 @@ app = Flask(__name__)
 VALID_DB_NAME = re.compile(r"^[A-Za-z0-9._-]+$")
 BUILD_LOCK = threading.Lock()
 CONFIG_PATH_ENV = os.getenv("SLM_CONFIG_PATH")
-CONFIG_PATH = Path(CONFIG_PATH_ENV).expanduser() if CONFIG_PATH_ENV else None
+def _compute_default_config_path() -> Path | None:
+    if CONFIG_PATH_ENV:
+        return Path(CONFIG_PATH_ENV).expanduser()
+
+    try:
+        home = Path.home()
+    except Exception:
+        return None
+
+    if sys.platform == "darwin":
+        base = home / "Library" / "Application Support"
+    elif sys.platform.startswith("win"):
+        base_env = os.getenv("APPDATA")
+        base = Path(base_env).expanduser() if base_env else home / "AppData" / "Roaming"
+    else:
+        base_env = os.getenv("XDG_CONFIG_HOME")
+        base = Path(base_env).expanduser() if base_env else home / ".config"
+
+    return base / "SuperLibraryMachine" / "config.json"
+
+
+CONFIG_PATH = _compute_default_config_path()
 
 
 def _normalize_path(value: str | None) -> str | None:

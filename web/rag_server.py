@@ -11,6 +11,19 @@ import pickle
 from sentence_transformers import SentenceTransformer
 from openai import OpenAI
 
+# guard against numpy 2.x until faiss exposes wheels that support it
+_NUMPY_VERSION_PARTS = []
+for raw_part in np.__version__.split(".")[:2]:
+    match = re.match(r"(\d+)", raw_part)
+    _NUMPY_VERSION_PARTS.append(int(match.group(1)) if match else 0)
+while len(_NUMPY_VERSION_PARTS) < 2:
+    _NUMPY_VERSION_PARTS.append(0)
+if tuple(_NUMPY_VERSION_PARTS) >= (2, 0):
+    raise RuntimeError(
+        "SuperLibraryMachine currently requires numpy<2.0 because faiss-cpu depends on the private numpy._ARRAY_API symbol. "
+        "Install with 'pip install \"numpy<2.0\"' before launching the app."
+    )
+
 # ----------------------------
 # Configuration
 # ----------------------------
