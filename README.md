@@ -1,6 +1,6 @@
 # SuperLibraryMachine (Experimental)
 
-This codebase is experimental. The steps below have been validated only on macOS 13/14 with Apple Silicon and assume a clean machine without Homebrew or pyenv.
+This codebase is experimental. The steps below have been validated only on macOS 26 with Apple Silicon and assume a clean machine without Homebrew or pyenv.
 
 ## Quick Start (Web Server)
 
