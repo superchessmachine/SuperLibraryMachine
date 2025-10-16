@@ -8,7 +8,8 @@ processed RAG database (i.e. a folder containing `faiss_index.idx` and
 `faiss_metadata.pkl`). A sample database, `Paper_DB_Sample`, is provided under
 `exampleDBs/` and is used by default.
 
-1. Create and activate a virtual environment (recommended).
+1. Create and activate a virtual environment (recommended). Use Python 3.10–3.12; Python 3.13 currently requires
+   `numpy>=2.1` which is incompatible with the published `faiss-cpu` wheels.
 2. Install dependencies: `pip install --upgrade pip && pip install -r requirements.txt` (tested on macOS
    13+/Apple Silicon and Intel). The core requirements pin `numpy<2.0` so `faiss-cpu` avoids the
    `AttributeError: module 'numpy' has no attribute '_ARRAY_API'` crash seen with newer wheels.

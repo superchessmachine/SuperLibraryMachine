@@ -3,12 +3,12 @@ Flask>=2.3,<3.0
 openai>=1.40.0
 sentence-transformers>=2.7.0
 
-# Vector search dependencies
-faiss-cpu>=1.11,<1.13
+# Vector search dependencies (requires Python <3.13)
+faiss-cpu>=1.11,<1.13; python_version < "3.13"
 # pin numpy below v2 to avoid AttributeError: module 'numpy' has no attribute '_ARRAY_API'
-numpy>=1.24,<2.0
+numpy>=1.24,<2.0; python_version < "3.13"
 # recent onnx wheels depend on ml-dtypes>=0.5.0 for float4 support
-ml-dtypes>=0.5.0
+ml-dtypes>=0.5.0; python_version < "3.13"
 
 # Pipeline utilities
 pandas>=2.0
